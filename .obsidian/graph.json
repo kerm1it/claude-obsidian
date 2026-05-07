@@ -8,6 +8,62 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:wiki/goals",
+      "color": {
+        "a": 1,
+        "rgb": 14474410
+      }
+    },
+    {
+      "query": "path:wiki/learning",
+      "color": {
+        "a": 1,
+        "rgb": 5227007
+      }
+    },
+    {
+      "query": "path:wiki/projects",
+      "color": {
+        "a": 1,
+        "rgb": 13724009
+      }
+    },
+    {
+      "query": "path:wiki/areas",
+      "color": {
+        "a": 1,
+        "rgb": 6986069
+      }
+    },
+    {
+      "query": "path:wiki/resources",
+      "color": {
+        "a": 1,
+        "rgb": 12945088
+      }
+    },
+    {
+      "query": "path:wiki/people",
+      "color": {
+        "a": 1,
+        "rgb": 12945088
+      }
+    },
+    {
+      "query": "path:wiki/decisions",
+      "color": {
+        "a": 1,
+        "rgb": 13724009
+      }
+    },
+    {
+      "query": "path:wiki/reflections",
+      "color": {
+        "a": 1,
+        "rgb": 5676246
+      }
+    },
+    {
       "query": "path:wiki/entities",
       "color": {
         "a": 1,
@@ -43,6 +99,13 @@
       }
     },
     {
+      "query": "path:wiki/domains",
+      "color": {
+        "a": 1,
+        "rgb": 5227007
+      }
+    },
+    {
       "query": "path:wiki/meta",
       "color": {
         "a": 1,
@@ -53,20 +116,20 @@
       "query": "path:wiki",
       "color": {
         "a": 1,
-        "rgb": 4473924
+        "rgb": 5676246
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 2,
-  "lineSizeMultiplier": 0.8,
-  "collapse-forces": false,
-  "centerStrength": 0.25,
+  "nodeSizeMultiplier": 1.8,
+  "lineSizeMultiplier": 1.2,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 80,
-  "scale": 0.5191098990818888,
-  "close": true
+  "linkDistance": 120,
+  "scale": 1,
+  "close": false
 }
