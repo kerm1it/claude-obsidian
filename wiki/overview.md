@@ -1,70 +1,31 @@
 ---
 type: overview
-title: "Wiki Overview"
-created: 2026-04-07
-updated: 2026-04-07
+title: "总览"
+created: 2026-05-05
+updated: 2026-05-05
 tags:
-  - meta
+  - wiki
   - overview
-status: developing
-related:
-  - "[[index]]"
-  - "[[hot]]"
-  - "[[log]]"
-  - "[[dashboard]]"
-  - "[[LLM Wiki Pattern]]"
-sources:
+status: active
 ---
 
-# Wiki Overview
+# 总览
 
-Navigation: [[index]] | [[hot]] | [[log]] | [[dashboard]]
+这是一个个人知识库。它会围绕你的素材、目标、学习、人际关系、项目、决策和复盘持续生长。
 
----
+把原始素材放进 `.raw/`，然后让 agent 消化它们。知识库会生成素材摘要、概念、实体、交叉引用，并持续更新索引和热缓存。
 
-## Purpose
+## 核心区域
 
-This is the claude-obsidian demo vault. It demonstrates the [[LLM Wiki Pattern]] — a system for building persistent, compounding knowledge bases using Claude and Obsidian.
+- [[goals/_index|目标]]：目标、进展、里程碑和复盘结果
+- [[learning/_index|学习]]：正在学习和练习的东西
+- [[people/_index|人物]]：关系背景和后续跟进
+- [[areas/_index|领域]]：持续经营的生活领域
+- [[resources/_index|资源]]：书、文章、课程、工具和参考资料
+- [[projects/_index|项目]]：当前个人或职业项目
+- [[decisions/_index|决策]]：决策和理由
+- [[reflections/_index|复盘]]：日记综合、回顾和反复出现的模式
 
-Run `/wiki` to scaffold this vault for your own domain and replace this overview.
+## 消化方式
 
----
-
-## Current Seed Content
-
-
-**Concepts seeded:**
-- [[LLM Wiki Pattern]] — the core architecture
-- [[Hot Cache]] — session context mechanism
-- [[Compounding Knowledge]] — why the pattern works
-
-**Entities seeded:**
-- [[Andrej Karpathy]] — originated the pattern
-
-**Sources seeded:**
-- [[claude-obsidian-ecosystem-research]] — 16+ projects, 13 cherry-picks identified (2026-04-08)
-
----
-
-## Current State
-
-- Sources ingested: 2
-- Wiki pages: 26
-- Last activity: 2026-04-08 (v1.4.1 shipped, release session filed)
-
----
-
-## Canvases
-
-- [[claude-obsidian-presentation]] — Full presentation: hero, overview, skills, architecture, Wiki vs RAG, visual demos (2026-04-07)
-- [[AI Marketing Hub Cover Images Canvas]] — Cover image library for AI Marketing Hub brand assets
-
----
-
-## Key Themes
-
-**Knowledge compounds.** Unlike RAG, the wiki pre-compiles synthesis. Cross-references are already there. Contradictions are flagged. Every ingest enriches existing pages rather than adding isolated chunks.
-
-**The hot cache is the force multiplier.** A ~500-word file captures recent context. New sessions start with full context at minimal token cost.
-
-**Obsidian is the IDE, Claude is the programmer.** The graph view shows what's connected. The human curates sources and asks questions. Claude writes and maintains everything else.
+原始素材留在 `.raw/`。消化后的知识进入 `wiki/`。agent 应保留来源，把长期有价值的内容放进最相关的个人区域，并保持 [[index]]、[[log]] 和 [[hot]] 更新。

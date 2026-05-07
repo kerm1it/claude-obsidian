@@ -29,6 +29,28 @@ Run `/wiki` to scaffold a new vault or check setup status.
 
 Run "lint the wiki" every 10-15 ingests to catch orphans and gaps.
 
+## Personal Wiki Conventions
+
+This vault is being used as a personal knowledge base. Keep folder names in English for tool compatibility, but write page titles and body content in Chinese when the user's material is Chinese.
+
+### Todo and Goal Linking
+
+Todos should live in the page that owns their context:
+
+- Learning tasks go in `wiki/learning/`
+- Project tasks go in `wiki/projects/`
+- Long-term outcomes go in `wiki/goals/`
+- Ongoing life-maintenance tasks go in `wiki/areas/`
+- Decisions go in `wiki/decisions/`
+- Completed reviews and patterns go in `wiki/reflections/`
+
+When a todo supports a goal, link both directions:
+
+1. In the task-owning page, add `目标：[[goals/Goal Page]]` near the top, or a `## 关联目标` section if there are multiple goals.
+2. In the goal page, maintain a `## 关联任务` section that links back to the learning/project/area page and lists the next actions that matter for the goal.
+3. Do not duplicate every tiny checkbox everywhere. The detailed checklist stays in the owning page; the goal page keeps the goal-level view.
+4. When the user says "todo" without specifying a goal, classify it first. If a likely goal exists, link it. If not, leave it in the owning page and add it to `wiki/hot.md` as an open thread when it is currently important.
+
 ## Cross-Project Access
 
 To reference this wiki from another Claude Code project, add to that project's CLAUDE.md:

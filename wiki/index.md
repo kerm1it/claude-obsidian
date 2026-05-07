@@ -1,93 +1,63 @@
 ---
-type: meta
-title: "Wiki Index"
-updated: 2026-04-07
+type: index
+title: "知识库索引"
+created: 2026-05-05
+updated: 2026-05-05
 tags:
-  - meta
+  - wiki
   - index
-status: evergreen
-related:
-  - "[[overview]]"
-  - "[[log]]"
-  - "[[hot]]"
-  - "[[dashboard]]"
-  - "[[Wiki Map]]"
-  - "[[concepts/_index]]"
-  - "[[entities/_index]]"
-  - "[[sources/_index]]"
-  - "[[LLM Wiki Pattern]]"
-  - "[[Hot Cache]]"
-  - "[[Compounding Knowledge]]"
-  - "[[Andrej Karpathy]]"
+status: active
 ---
 
-# Wiki Index
+# 知识库索引
 
-Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
+这是一个个人知识库，用来沉淀素材、目标、学习、人际关系、项目、决策和复盘。
 
-Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
+## 导航
 
----
+- [[overview]]
+- [[hot]]
+- [[log]]
+- [[sources/_index|素材]]
+- [[goals/_index|目标]]
+- [[learning/_index|学习]]
+- [[people/_index|人物]]
+- [[areas/_index|领域]]
+- [[resources/_index|资源]]
+- [[projects/_index|项目]]
+- [[decisions/_index|决策]]
+- [[reflections/_index|复盘]]
+- [[entities/_index|实体]]
+- [[concepts/_index|概念]]
+- [[domains/_index|主题]]
 
-## Concepts
+## 个人知识
 
-- [[LLM Wiki Pattern]] — the pattern for building persistent, compounding knowledge bases using LLMs (status: mature)
-- [[Hot Cache]] — ~500-word session context file, updated after every ingest and session (status: mature)
-- [[Compounding Knowledge]] — why wiki knowledge grows more valuable over time, unlike RAG (status: mature)
-- [[cherry-picks]] — prioritized feature backlog from ecosystem research; 13 features to add to claude-obsidian (status: current)
-- [[SVG Diagram Style Guide]] — canonical visual style for all diagrams: Space Grotesk, #0A0A0A dark theme, #E07850 accent, full design tokens (status: evergreen)
-- [[Pro Hub Challenge]] — community challenge pattern for building claude-seo/claude-blog extensions; first challenge produced 6 submissions, 5 integrated in v1.9.0 (status: evergreen)
-- [[Semantic Topic Clustering]] — SERP-based keyword grouping replacing paid tools; hub-spoke architecture with interactive visualization (status: evergreen)
-- [[Search Experience Optimization]] — "read SERPs backwards" methodology for page-type mismatch detection and persona scoring (status: evergreen)
-- [[SEO Drift Monitoring]] — "git for SEO" baseline/diff/track with 17 comparison rules and SQLite persistence (status: evergreen)
-- [[DragonScale Memory]] — memory-layer spec inspired by the Heighway dragon curve; fold operator, deterministic page addresses, semantic tiling, boundary-first autoresearch (status: shipped v0.4, all four mechanisms opt-in)
-- [[Persistent Wiki Artifact]]: durable Markdown page as the LLM's memory object, distinct from ephemeral chat turns (status: developing)
-- [[Source-First Synthesis]]: provenance discipline; raw sources stay immutable while the wiki layer is synthesized and cited (status: developing)
-- [[Query-Time Retrieval]]: wiki query path synthesizes with citations; complementary to Obsidian's in-vault search (status: developing)
+- [[goals/_index|目标]]：个人和职业目标、进展、里程碑
+- [[learning/_index|学习]]：技能、课程、书籍、概念和练习
+- [[people/_index|人物]]：关系背景、协作上下文、后续跟进
+- [[areas/_index|领域]]：健康、职业、财务、关系、创作等长期生活领域
+- [[resources/_index|资源]]：文章、书、工具、课程、播客和可复用参考
+- [[projects/_index|项目]]：正在推进的事情、结果、约束和里程碑
+- [[decisions/_index|决策]]：重要决定、理由、备选方案和回看
+- [[reflections/_index|复盘]]：日记综合、周期回顾、长期模式
 
----
+## Todo 归属规则
 
-## Entities
+待办事项放在最贴近上下文的页面里：学习待办进 `learning/`，项目待办进 `projects/`，长期目标进 `goals/`，生活领域维护进 `areas/`。如果待办服务于某个目标，就在所属页面写 `目标：[[goals/目标页面]]`，并在目标页的 `## 关联任务` 区块链接回来。
 
-- [[Andrej Karpathy]] — AI researcher, creator of the LLM Wiki pattern, former Tesla AI director (status: developing)
-- [[Ar9av-obsidian-wiki]] — multi-agent compatible LLM Wiki plugin; delta tracking manifest (status: current)
-- [[Nexus-claudesidian-mcp]] — native Obsidian plugin + MCP bridge; workspace memory, task management (status: current)
-- [[ballred-obsidian-claude-pkm]] — goal cascade PKM; auto-commit hooks, /adopt command (status: current)
-- [[rvk7895-llm-knowledge-bases]] — 3-depth query system, Marp slides, parallel deep research (status: current)
-- [[kepano-obsidian-skills]] — official skills from Obsidian creator; defuddle, obsidian-bases (status: current)
-- [[Claudian-YishenTu]] — native Obsidian plugin embedding Claude Code; plan mode, @mention (status: current)
-- [[Claude SEO]] — Tier 4 Claude Code skill for SEO analysis; 23 skills, 17 agents, 30 scripts at v1.9.0 (status: evergreen)
+## 素材
 
----
+还没有消化素材。
 
-## Sources
+## 实体
 
-- [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
+还没有整理实体。
 
----
+## 概念
 
-## Questions
+还没有整理概念。
 
-- [[How does the LLM Wiki pattern work]] — how the pattern works and why it outperforms RAG at human scale (status: developing)
+## 问题
 
----
-
-## Comparisons
-
-- [[Wiki vs RAG]] — when to use a wiki knowledge base versus RAG; verdict: wiki wins at <1000 pages
-- [[claude-obsidian-ecosystem]] — feature matrix of 16+ Claude+Obsidian projects; where claude-obsidian wins and gaps
-
----
-
-## Decisions
-
-- [[2026-04-14-community-cta-rollout]] - Skool community CTA footer added to 6 skill repos with per-tool frequency rules (status: active)
-- [[2026-04-15-slides-and-release-session]] - Claude SEO v1.9.0 slides (15-slide HTML deck) + GitHub release v1.9.0 with PDF asset (status: complete)
-- [[2026-04-15-release-report-session]] - Claude SEO v1.9.0 Release Report PDF: dark theme, 13 pages, WeasyPrint layout fixes, Challenge v2 added (status: complete)
-- [[2026-04-14-claude-seo-v190-session]] - Claude SEO v1.9.0 Pro Hub Challenge integration: 5 submissions, 4 new skills, 4 review rounds, cybersecurity audit (status: complete)
-
----
-
-## Domains
-
-<!-- Add domain entries here after scaffold -->
+还没有保存问题。

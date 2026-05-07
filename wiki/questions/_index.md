@@ -1,14 +1,14 @@
 ---
 type: index
-title: "实体索引"
+title: "问题索引"
 created: 2026-05-05
 updated: 2026-05-05
 tags:
   - wiki
-  - entities
+  - questions
 status: active
 ---
 
-# 实体
+# 问题
 
-还没有实体。
+还没有问题。

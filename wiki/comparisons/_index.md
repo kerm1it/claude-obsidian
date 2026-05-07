@@ -1,14 +1,14 @@
 ---
 type: index
-title: "实体索引"
+title: "对比索引"
 created: 2026-05-05
 updated: 2026-05-05
 tags:
   - wiki
-  - entities
+  - comparisons
 status: active
 ---
 
-# 实体
+# 对比
 
-还没有实体。
+还没有对比。
