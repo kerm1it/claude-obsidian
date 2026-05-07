@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "f2f9adc963e4bfca",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "1523a2ed5e0b7079",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/goals/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -99,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "反向链接"
             }
           },
           {
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "wiki/goals/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "_index 的出链列表"
             }
           },
           {
@@ -168,24 +173,64 @@
               "title": "calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a31de1b302cdc5cf",
-  "lastOpenFiles": []
+  "active": "1523a2ed5e0b7079",
+  "lastOpenFiles": [
+    "WIKI.md",
+    "wiki/concepts/_index.md",
+    "未命名.canvas",
+    "wiki/index.md",
+    "wiki/goals/_index.md",
+    "wiki/canvases",
+    "wiki/folds",
+    "wiki/meta/dashboard.base",
+    "wiki/meta",
+    "wiki/domains/_index.md",
+    "wiki/domains",
+    "wiki/comparisons/_index.md",
+    "wiki/comparisons",
+    "wiki/questions/_index.md",
+    "wiki/questions",
+    "wiki/entities/_index.md",
+    "wiki/entities",
+    "wiki/concepts",
+    "wiki/sources/_index.md",
+    "wiki/sources",
+    "wiki/reflections/_index.md",
+    "wiki/decisions/_index.md",
+    "wiki/projects/_index.md",
+    "wiki/resources/_index.md",
+    "wiki/areas/_index.md",
+    "wiki/people/_index.md",
+    "wiki/learning/_index.md",
+    "wiki/主题/_index.md",
+    "wiki/对比/_index.md",
+    "wiki/问题/_index.md",
+    "wiki/实体/_index.md",
+    "wiki/概念/_index.md",
+    "wiki/素材/_index.md",
+    "wiki/复盘/_index.md",
+    "wiki/决策/_index.md",
+    "wiki/项目/_index.md",
+    "wiki/资源/_index.md"
+  ]
 }
