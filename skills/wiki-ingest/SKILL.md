@@ -54,7 +54,10 @@ Trigger: user passes a URL starting with `https://`.
 
 Steps:
 
-1. **Special-case WeChat public-account articles**: if the URL host is `mp.weixin.qq.com`, load `references/wechat-article.md` and run that sub-processor first. If it fails to extract a non-empty body, fall back to step 2.
+1. **Special-case platform articles**:
+   - If the URL host is `mp.weixin.qq.com`, load `references/wechat-article.md` and run that sub-processor first.
+   - If the URL host is `twitter.com`, `www.twitter.com`, `x.com`, or `www.x.com` and the path matches `/.../status/...`, load `references/twitter.md` and run that sub-processor first.
+   - If a platform sub-processor fails to extract a non-empty body, fall back to step 2.
 2. **Fetch** the page using WebFetch.
 3. **Clean** (optional): if `defuddle` is available (`which defuddle 2>/dev/null`), run `defuddle [url]` to strip ads, nav, and clutter. Typically saves 40-60% tokens. Fall back to raw WebFetch output if not installed.
 4. **Derive slug** from the URL path (last segment, lowercased, spaces→hyphens, strip query strings).
@@ -66,6 +69,12 @@ Steps:
    ---
    ```
 6. Proceed with **Single Source Ingest** starting at step 2 (file is now in `.raw/`).
+
+## Shared Asset Storage
+
+Downloaded assets that source Markdown depends on live under `.raw/assets/`.
+
+Use per-source subfolders such as `.raw/assets/wechat/[slug]/` or `.raw/assets/twitter/[tweet-id]/`. Markdown source files should link assets with paths relative to the Markdown file that contains the link. Record downloaded asset paths in source frontmatter when useful. Treat downloaded assets as source-adjacent evidence: do not rewrite or delete them during later wiki-page updates unless the user explicitly asks for cleanup.
 
 ## Image / Vision Ingestion
 
