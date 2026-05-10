@@ -162,7 +162,7 @@ Steps:
     git commit -m "ingest: [source title]"
     ```
 
-    Commit message format: `ingest: [source title]`. Keep it one line. Do not include `Co-Authored-By` unless the user has asked for it globally. Do not commit `.obsidian/workspace.json` or other editor state files.
+    Commit message format: `ingest: [source title]`. Keep it one line. Do not include `Co-Authored-By` unless the user has asked for it globally. Use `git add -A` to include all modified and untracked files under the vault.
 
 ## Post-Ingest Delivery Artifact
 
