@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-10T21:30:00Z",
+  "items": [
+    {
+      "id": "notebooklm-20260510-quanchenghuifang1",
+      "original_source": "/Users/kermit/Downloads/全程回放1DemoD_20260505185557.mp4",
+      "source_hash": "53130afce42c3128742812ab4fe611ec",
+      "source_kind": "video",
+      "created_at": "2026-05-10T21:00:00Z",
+      "updated_at": "2026-05-10T21:30:00Z",
+      "status": "ingested",
+      "notebook_id": "4f13ba54-49bc-4a0a-b00b-a28ef337f5a6",
+      "source_id": "78f5c134-00b6-4057-b53e-08be31b2ff43",
+      "notebook_title": "Ingest: 全程回放1DemoD_20260505",
+      "source_title": "全程回放1DemoD_20260505185557.mp4",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-10T21:05:00Z",
+      "target_raw_path": ".raw/notebooklm/quanchenghuifang1-2026-05-10.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "125MB MP4 video recorded 2026-05-05"
+    }
+  ]
+}

@@ -16,3 +16,8 @@ status: active
 ## 人物
 
 - [[people/Thariq|Thariq（@trq212）]] — Claude Code 团队，Anthropic
+- [[people/Zara]] — AI Agent 深度用户，分享会主持人
+- [[people/Sparks]] — Midas 创始人，AI 量化交易
+- [[people/Brandon|Brandon（春宇）]] — Instant 创始人，即时通讯应用
+- [[people/Siqi|Siqi（私奇）]] — Pika VP of Product，AI 数字分身实践者
+- [[people/Haoran|Haoran（浩然）]] — MX 联合创始人

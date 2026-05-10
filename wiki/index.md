@@ -49,18 +49,21 @@ status: active
 ## 素材
 
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]]
+- [[sources/quanchenghuifang1-2026-05-10|AI Agent 实践分享会全程回放（2026-05-05）]]
 
 ## 实体
 
-- [[entities/Anthropic]]
+- [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]
 
 ## 人物
 
-- [[people/Thariq]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]
 
 ## 概念
 
 - [[concepts/HTML作为AI输出格式]]
+- [[concepts/Claude-Code接入飞书]]
+- [[concepts/聊天记录复盘与AI成长]]
 
 ## 工具领域
 

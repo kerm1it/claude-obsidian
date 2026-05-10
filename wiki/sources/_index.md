@@ -14,3 +14,7 @@ status: active
 ## 推文 / X Article
 
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]] · @trq212 · 2026-05-08
+
+## 视频
+
+- [[sources/quanchenghuifang1-2026-05-10|AI Agent 实践分享会全程回放]] · Zara 主持 · 2026-05-05（5 位嘉宾）

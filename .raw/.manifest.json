@@ -16,6 +16,33 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/notebooklm/quanchenghuifang1-2026-05-10.md": {
+      "hash": "notebooklm-53130afce42c3128742812ab4fe611ec",
+      "ingested_at": "2026-05-10",
+      "pages_created": [
+        "wiki/sources/quanchenghuifang1-2026-05-10.md",
+        "wiki/people/Zara.md",
+        "wiki/people/Sparks.md",
+        "wiki/people/Brandon.md",
+        "wiki/people/Siqi.md",
+        "wiki/people/Haoran.md",
+        "wiki/entities/Midas.md",
+        "wiki/entities/Pika.md",
+        "wiki/entities/MX.md",
+        "wiki/entities/Instant.md",
+        "wiki/concepts/Claude-Code接入飞书.md",
+        "wiki/concepts/聊天记录复盘与AI成长.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -23,6 +50,18 @@
     "wiki/people/Thariq.md": "c-000002",
     "wiki/entities/Anthropic.md": "c-000003",
     "wiki/concepts/HTML作为AI输出格式.md": "c-000004",
-    "wiki/domains/Claude-Code.md": "c-000005"
+    "wiki/domains/Claude-Code.md": "c-000005",
+    "wiki/sources/quanchenghuifang1-2026-05-10.md": "c-000006",
+    "wiki/people/Zara.md": "c-000007",
+    "wiki/people/Sparks.md": "c-000008",
+    "wiki/people/Brandon.md": "c-000009",
+    "wiki/people/Siqi.md": "c-000010",
+    "wiki/people/Haoran.md": "c-000011",
+    "wiki/entities/Midas.md": "c-000012",
+    "wiki/entities/Pika.md": "c-000013",
+    "wiki/entities/MX.md": "c-000014",
+    "wiki/entities/Instant.md": "c-000015",
+    "wiki/concepts/Claude-Code接入飞书.md": "c-000016",
+    "wiki/concepts/聊天记录复盘与AI成长.md": "c-000017"
   }
 }

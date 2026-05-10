@@ -17,21 +17,31 @@ related:
 
 ## 最近更新
 
-2026-05-10。消化了第一条素材：[[people/Thariq]]（@trq212，Claude Code 团队）于 2026-05-08 发布的 X Article，主张用 HTML 替代 Markdown 作为 Claude Code 的首选输出格式。
+2026-05-10。消化了两条素材：
+
+1. **@trq212 X Article**：Claude Code 团队 Thariq 主张用 HTML 替代 Markdown 作为 AI 输出格式
+2. **AI Agent 实践分享会**（2026-05-05 录像，125MB MP4，NotebookLM 转录）：5 位嘉宾分享内部 AI Agent 工作流
 
 ## 关键事实
 
-- **首条素材**：[[sources/twitter-2052809885763747935|HTML 的非凡效能]] — 790万浏览，来自 Anthropic Claude Code 团队内部视角
-- **核心论点**：HTML 在信息密度、交互性和分享便利上优于 Markdown，代价是生成慢 2–4 倍
-- **新建页面**：source、人物（Thariq）、实体（Anthropic）、概念（HTML作为AI输出格式）、领域（Claude-Code）
-- **DragonScale 地址**：c-000001 至 c-000005 已分配，计数器已推进至 6
+### 来自分享会（最新）
 
-## 最近变化
+- **[[people/Zara]]**：Claude Code 接入飞书 → 替代 terminal，聊天记录永久留存，文档自动变飞书文档
+- **[[people/Sparks]]**（[[entities/Midas]]）：双层 Agent 量化交易——收集去噪 → 认知层推演 → 图文输出
+- **[[people/Brandon]]**（[[entities/Instant]]）：聊天记录复盘发现 70% 决策可被 AI 替代；"宁可浪费 Token，也不浪费时间"
+- **[[people/Siqi]]**（[[entities/Pika]]）：AI 数字分身"47"有手机号、加入会议、管 Linear ticket
+- **[[people/Haoran]]**（[[entities/MX]]）：AI 原生团队工作空间，50 个 agent，文档默认 AI 起草
 
-- 新增：[[sources/twitter-2052809885763747935]]、[[people/Thariq]]、[[entities/Anthropic]]、[[concepts/HTML作为AI输出格式]]、[[domains/Claude-Code]]
-- 更新：[[sources/_index]]、[[index]]、[[log]]
+### 来自 @trq212
+
+- HTML > Markdown：信息密度、交互性、分享便利；代价是生成慢 2-4 倍，git diff 噪声大
 
 ## 当前线索
 
-- 可继续消化更多 Claude Code / AI 工作流相关素材
-- 可探索"HTML 输出"在自己项目中的实际应用
+- [[concepts/Claude-Code接入飞书]] 可以深入研究实现方案
+- [[concepts/聊天记录复盘与AI成长]] 中的 PRD 工作流值得尝试
+- [[entities/MX]] 产品值得关注
+
+## DragonScale
+
+- 地址计数器：18（c-000001 至 c-000017 已分配）
