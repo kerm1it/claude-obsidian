@@ -171,8 +171,6 @@ When a new complex source arrives:
 ### Step 1 — Try subtitles via yt-dlp (fastest)
 
 ```bash
-# Install if missing (use uv tool, not pip)
-which yt-dlp 2>/dev/null || uv tool install yt-dlp
 YT=yt-dlp
 
 # List available subtitles
@@ -208,7 +206,7 @@ Then continue with the normal wait → fulltext flow.
 ### Notes
 
 - `WebFetch` on a YouTube URL returns only footer HTML — useless for content extraction. Do not attempt.
-- Install yt-dlp with `uv tool install yt-dlp` (not pip). This puts the binary at `~/.local/bin/yt-dlp` and adds it to PATH automatically.
+- yt-dlp is installed via `uv tool install yt-dlp` at `~/.local/bin/yt-dlp`.
 - Audio file can be deleted from `/tmp/` after NotebookLM confirms source ready.
 
 ---
