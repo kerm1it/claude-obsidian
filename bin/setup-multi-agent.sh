@@ -19,6 +19,9 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SKILLS_DIR="$REPO_ROOT/skills"
+COMMANDS_DIR="$REPO_ROOT/commands"
+AGENTS_DIR="$REPO_ROOT/agents"
+
 
 if [ ! -d "$SKILLS_DIR" ]; then
   echo "ERROR: $SKILLS_DIR does not exist. Are you running this from the claude-obsidian repo?"
@@ -61,20 +64,15 @@ echo "claude-obsidian: multi-agent skill installer"
 echo "Repo: $REPO_ROOT"
 echo
 
+# Claude Code
+
+link_if_missing "$SKILLS_DIR" "$REPO_ROOT/.claude/skills" "Claude Code"
+link_if_missing "$COMMANDS_DIR" "$REPO_ROOT/.claude/commands" "Claude Code"
+link_if_missing "$AGENTS_DIR" "$REPO_ROOT/.claude/agents" "Claude Code"
+
+
 # Codex CLI
 link_if_missing "$SKILLS_DIR" "$HOME/.codex/skills/claude-obsidian" "Codex CLI"
-
-# OpenCode
-link_if_missing "$SKILLS_DIR" "$HOME/.opencode/skills/claude-obsidian" "OpenCode"
-
-# Gemini CLI
-link_if_missing "$SKILLS_DIR" "$HOME/.gemini/skills/claude-obsidian" "Gemini CLI"
-
-# Cursor (workspace-local)
-link_if_missing "$SKILLS_DIR" "$REPO_ROOT/.cursor/skills" "Cursor"
-
-# Windsurf (workspace-local)
-link_if_missing "$SKILLS_DIR" "$REPO_ROOT/.windsurf/skills" "Windsurf"
 
 echo
 echo -e "${GREEN}Done.${NC} Bootstrap files (AGENTS.md, GEMINI.md, .cursor/rules/, .windsurf/rules/, .github/copilot-instructions.md) are already in this repo."
