@@ -54,19 +54,18 @@ Trigger: user passes a URL starting with `https://`.
 
 Steps:
 
-1. **Fetch** the page using WebFetch.
-2. **Clean** (optional): if `defuddle` is available (`which defuddle 2>/dev/null`), run `defuddle [url]` to strip ads, nav, and clutter. Typically saves 40-60% tokens. Fall back to raw WebFetch output if not installed.
-3. **Derive slug** from the URL path (last segment, lowercased, spaces→hyphens, strip query strings).
-4. **Save** to `.raw/articles/[slug]-[YYYY-MM-DD].md` with a frontmatter header:
+1. **Special-case WeChat public-account articles**: if the URL host is `mp.weixin.qq.com`, load `references/wechat-article.md` and run that sub-processor first. If it fails to extract a non-empty body, fall back to step 2.
+2. **Fetch** the page using WebFetch.
+3. **Clean** (optional): if `defuddle` is available (`which defuddle 2>/dev/null`), run `defuddle [url]` to strip ads, nav, and clutter. Typically saves 40-60% tokens. Fall back to raw WebFetch output if not installed.
+4. **Derive slug** from the URL path (last segment, lowercased, spaces→hyphens, strip query strings).
+5. **Save** to `.raw/articles/[slug]-[YYYY-MM-DD].md` with a frontmatter header:
    ```markdown
    ---
    source_url: [url]
    fetched: [YYYY-MM-DD]
    ---
    ```
-5. Proceed with **Single Source Ingest** starting at step 2 (file is now in `.raw/`).
-
----
+6. Proceed with **Single Source Ingest** starting at step 2 (file is now in `.raw/`).
 
 ## Image / Vision Ingestion
 
