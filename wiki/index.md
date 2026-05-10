@@ -48,15 +48,23 @@ status: active
 
 ## 素材
 
-还没有消化素材。
+- [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]]
 
 ## 实体
 
-还没有整理实体。
+- [[entities/Anthropic]]
+
+## 人物
+
+- [[people/Thariq]]
 
 ## 概念
 
-还没有整理概念。
+- [[concepts/HTML作为AI输出格式]]
+
+## 工具领域
+
+- [[domains/Claude-Code]]
 
 ## 问题
 

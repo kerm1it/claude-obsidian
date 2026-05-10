@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-05T00:00:00
+updated: 2026-05-10T00:00:00
 tags:
   - meta
   - hot-cache
@@ -17,19 +17,21 @@ related:
 
 ## 最近更新
 
-2026-05-05。已清空自带演示内容，并将 vault 调整为中文个人知识库。
+2026-05-10。消化了第一条素材：[[people/Thariq]]（@trq212，Claude Code 团队）于 2026-05-08 发布的 X Article，主张用 HTML 替代 Markdown 作为 Claude Code 的首选输出格式。
 
 ## 关键事实
 
-- 知识库目前是空的，已经准备好接收个人素材。
-- 个人知识区域包括：目标、学习、人物、领域、资源、项目、决策、复盘。
-- 目前还没有消化用户自己的素材。
+- **首条素材**：[[sources/twitter-2052809885763747935|HTML 的非凡效能]] — 790万浏览，来自 Anthropic Claude Code 团队内部视角
+- **核心论点**：HTML 在信息密度、交互性和分享便利上优于 Markdown，代价是生成慢 2–4 倍
+- **新建页面**：source、人物（Thariq）、实体（Anthropic）、概念（HTML作为AI输出格式）、领域（Claude-Code）
+- **DragonScale 地址**：c-000001 至 c-000005 已分配，计数器已推进至 6
 
 ## 最近变化
 
-- 重置：[[index]]、[[log]]、[[overview]]、[[hot]]
-- 目录名保持英文以兼容工具链，索引内容保持中文：[[goals/_index|目标]]、[[learning/_index|学习]]、[[people/_index|人物]]、[[areas/_index|领域]]、[[resources/_index|资源]]、[[projects/_index|项目]]、[[decisions/_index|决策]]、[[reflections/_index|复盘]]
+- 新增：[[sources/twitter-2052809885763747935]]、[[people/Thariq]]、[[entities/Anthropic]]、[[concepts/HTML作为AI输出格式]]、[[domains/Claude-Code]]
+- 更新：[[sources/_index]]、[[index]]、[[log]]
 
 ## 当前线索
 
-- 下一步：把个人素材放进 `.raw/`，然后让 agent 消化。
+- 可继续消化更多 Claude Code / AI 工作流相关素材
+- 可探索"HTML 输出"在自己项目中的实际应用

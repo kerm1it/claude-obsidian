@@ -69,15 +69,45 @@ Body:
 
 ## Fetch Strategy
 
-Extract `screen_name` and `tweet_id` from the original URL, then request:
+Extract `screen_name` and `tweet_id` from the original URL.
 
-```text
-https://api.fxtwitter.com/[screen_name]/status/[tweet_id]
+> [!WARNING] **Always use `curl` via Bash — never `WebFetch`**
+>
+> `WebFetch` passes the HTTP response through a summarization model before returning it. For a JSON API this destroys all structured data: you get a prose summary instead of the raw fields. The FXTwitter response is 50–100 KB of structured JSON; `WebFetch` will silently discard most of it.
+
+Use `curl` with a desktop browser `User-Agent`:
+
+```bash
+curl -s \
+  -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+  "https://api.fxtwitter.com/[screen_name]/status/[tweet_id]" \
+  | python3 -m json.tool
 ```
 
-Use a desktop browser `User-Agent`. Parse the JSON response and use the top-level `tweet` object.
+Parse the JSON response and use the top-level `tweet` object.
 
-Do not rely on scraped Twitter/X HTML as the primary path; it is frequently incomplete, login-gated, or script-heavy.
+Do not rely on scraped Twitter/X HTML as the primary path; it is frequently incomplete, login-gated, or script-heavy. `x.com` URLs often return HTTP 402 when fetched without auth.
+
+---
+
+## entityMap Parsing Gotcha
+
+FXTwitter returns `entityMap` as a **list** of `{key, value}` objects, not a dict:
+
+```json
+[
+  {"key": "4", "value": {"type": "LINK", "data": {"url": "https://..."}, ...}},
+  {"key": "8", "value": {"type": "MEDIA", "data": {"mediaItems": [...]}, ...}}
+]
+```
+
+Before processing block `entityRanges`, convert the list to a lookup dict:
+
+```python
+entity_map = {str(item['key']): item['value'] for item in entity_map_list}
+```
+
+Then look up `str(er['key'])` for each entity range in a block.
 
 ---
 
@@ -169,6 +199,18 @@ Save as:
 ```text
 .raw/articles/twitter-[tweet-id]-[YYYY-MM-DD].md
 ```
+
+---
+
+## Raw File Language Rule
+
+The body of `.raw/articles/twitter-[tweet-id]-[date].md` **must be in the original source language**, verbatim or near-verbatim.
+
+- If the article is in English → write English in the raw file.
+- Do **not** paraphrase or translate inside `.raw/articles/`.
+- Chinese (or any other) translation goes exclusively in `.raw/deliverables/[slug]/source.zh.md`.
+
+Violating this rule means the "immutable source record" contains a translation artifact instead of the original, which breaks reproducibility and makes future re-ingestion unreliable.
 
 ---
 

@@ -1,4 +1,28 @@
 {
-  "sources": {},
-  "address_map": {}
+  "sources": {
+    ".raw/articles/twitter-2052809885763747935-2026-05-10.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-05-10",
+      "pages_created": [
+        "wiki/sources/twitter-2052809885763747935.md",
+        "wiki/people/Thariq.md",
+        "wiki/entities/Anthropic.md",
+        "wiki/concepts/HTML作为AI输出格式.md",
+        "wiki/domains/Claude-Code.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    }
+  },
+  "address_map": {
+    "wiki/sources/twitter-2052809885763747935.md": "c-000001",
+    "wiki/people/Thariq.md": "c-000002",
+    "wiki/entities/Anthropic.md": "c-000003",
+    "wiki/concepts/HTML作为AI输出格式.md": "c-000004",
+    "wiki/domains/Claude-Code.md": "c-000005"
+  }
 }

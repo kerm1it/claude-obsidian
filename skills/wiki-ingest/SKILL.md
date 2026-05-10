@@ -156,36 +156,13 @@ Steps:
 
 ## Post-Ingest Delivery Artifact
 
-After any source finishes Single Source Ingest, create a user-facing delivery artifact from the source Markdown.
+After Single Source Ingest completes, return the path to the wiki source summary page:
 
-Steps:
+```text
+wiki/sources/[slug].md
+```
 
-1. Detect the source language from the saved source Markdown.
-2. If the source is already primarily Chinese, skip translation and render the source Markdown directly.
-3. If the source is not primarily Chinese, create a faithful Chinese translation Markdown. Preserve headings, lists, code blocks, tables, links, image links, source URLs, names, and technical terms where translation would reduce clarity.
-4. Save delivery files under:
-
-   ```text
-   .raw/deliverables/[source-slug]/
-   ```
-
-5. Use these filenames:
-
-   ```text
-   source.zh.md      # only when translation was needed
-   source.html       # always created
-   ```
-
-6. Render the Chinese Markdown if translated, otherwise render the original source Markdown, into `source.html`.
-7. Return the absolute `source.html` path to the user in the final response.
-
-Rules:
-
-- Do not overwrite or rewrite the original source file under `.raw/articles/`, `.raw/notebooklm/`, `.raw/images/`, or other source folders.
-- Do not translate code blocks, command output, file paths, URLs, IDs, frontmatter keys, or proper nouns unless there is a well-established Chinese name.
-- Preserve Markdown image links so downloaded assets under `.raw/assets/` still resolve from the rendered HTML.
-- If rendering fails, still save the Chinese Markdown when applicable and report the failure.
-- If the user explicitly asks not to generate a delivery artifact, skip this section for that ingest.
+No HTML files, no deliverables folder, no asset copying. The wiki source page is the delivery artifact.
 
 ---
 
@@ -291,6 +268,19 @@ ADDR=$(./scripts/allocate-address.sh)
 ```
 
 **CRITICAL**: never use the Write or Edit tool on `.vault-meta/address-counter.txt`. That would fire the PostToolUse hook, which runs `git add wiki/ .raw/` and can accidentally commit unrelated pending wiki changes under a generic message. Counter mutation is **only** permitted through the helper script (Bash tool).
+
+#### macOS: `flock` not available
+
+`flock` is a Linux utility. On macOS it is not installed by default, so `./scripts/allocate-address.sh` will fail with `flock: command not found`.
+
+**Workaround (single-writer sessions only):**
+
+1. Read the current counter with Bash: `cat .vault-meta/address-counter.txt`
+2. Decide how many addresses you need (N pages = N addresses).
+3. Reserve a block in one Bash command: `echo "$((current + N))" > .vault-meta/address-counter.txt`
+4. Use `c-$(printf '%06d' $current)` through `c-$(printf '%06d' $((current + N - 1)))` as your addresses.
+
+This is safe because ingest runs as a single writer. Do not use this workaround if parallel agent sessions are running simultaneously.
 
 ### Helper modes
 
