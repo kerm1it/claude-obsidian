@@ -136,9 +136,9 @@ Steps:
 1. **Read** the source completely. Do not skim.
 2. **Discuss** key takeaways with the user. Ask: "What should I emphasize? How granular?" Skip this if the user says "just ingest it."
 3. **Create** source summary in `wiki/sources/`. Use the source frontmatter schema from `references/frontmatter.md`. Assign an address per the **Address Assignment** section below.
-4. **Create or update** entity pages for every person, org, product, and repo mentioned. One page per entity. Assign addresses to new entity pages.
-5. **Create or update** concept pages for significant ideas and frameworks. Assign addresses to new concept pages.
-6. **Update** relevant domain page(s) and their `_index.md` sub-indexes.
+4. **Create or update** entity pages for every person, org, product, and repo mentioned. One page per entity. Assign addresses to new entity pages. **Update the `_index.md` of every directory that received a new page** (e.g. `wiki/people/_index.md`, `wiki/entities/_index.md`).
+5. **Create or update** concept pages for significant ideas and frameworks. Assign addresses to new concept pages. **Update `wiki/concepts/_index.md`** with each new concept.
+6. **Update** relevant domain page(s) and their `_index.md` sub-indexes. **Update `wiki/domains/_index.md`** with each new domain page.
 7. **Update** `wiki/overview.md` if the big picture changed.
 8. **Update** `wiki/index.md`. Add entries for all new pages.
 9. **Update** `wiki/hot.md` with this ingest's context.

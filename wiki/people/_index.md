@@ -2,7 +2,7 @@
 type: index
 title: "人物索引"
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-10
 tags:
   - wiki
   - people
@@ -15,4 +15,4 @@ status: active
 
 ## 人物
 
-还没有人物。
+- [[people/Thariq|Thariq（@trq212）]] — Claude Code 团队，Anthropic
