@@ -162,6 +162,60 @@ When a new complex source arrives:
 
 ---
 
+## YouTube URL Fallback
+
+**Known issue**: `notebooklm source add "[youtube_url]" --type youtube` may return `"API returned no data for URL"` even for public videos. This is an API limitation, not an auth problem.
+
+**Fallback order** (stop at first success):
+
+### Step 1 — Try subtitles via yt-dlp (fastest)
+
+```bash
+# Locate yt-dlp (may not be in PATH)
+YT=$(which yt-dlp 2>/dev/null || find ~/.local -name yt-dlp 2>/dev/null | head -1)
+
+# Install if missing
+[ -z "$YT" ] && pip install yt-dlp -q --break-system-packages
+YT=$(find ~/.local -name yt-dlp 2>/dev/null | head -1)
+
+# List available subtitles
+$YT --list-subs "[url]" 2>&1
+```
+
+If subtitles exist (`--write-subs --sub-langs en --skip-download`), download them and use as the raw source. This avoids a large audio download entirely.
+
+### Step 2 — Download audio and submit as file
+
+If no subtitles available:
+
+```bash
+# Get video metadata (title, description, duration)
+curl -s "https://www.youtube.com/oembed?url=[url]&format=json"
+
+# Download audio only (30-70MB for a 30-min video)
+$YT -x --audio-format m4a --audio-quality 0 \
+  -o "/tmp/[slug].%(ext)s" "[url]"
+
+# Submit to NotebookLM as a file (not a URL)
+notebooklm source add "/tmp/[slug].m4a" \
+  --notebook "[notebook_id]" --type file --json
+```
+
+Then continue with the normal wait → fulltext flow.
+
+**Record the workaround** in the queue item's `last_error` field:
+```
+"Direct YouTube URL rejected by NotebookLM API; audio downloaded via yt-dlp and submitted as file"
+```
+
+### Notes
+
+- `WebFetch` on a YouTube URL returns only footer HTML — useless for content extraction. Do not attempt.
+- yt-dlp binary may land at `~/.local/share/uv/python/.../bin/yt-dlp` if installed via pip in a uv-managed environment. Use `find ~/.local -name yt-dlp` to locate it.
+- Audio file can be deleted from `/tmp/` after NotebookLM confirms source ready.
+
+---
+
 ## Queue Check Flow
 
 For each `submitted` or `processing` item:
