@@ -2,7 +2,7 @@
 type: index
 title: "人物索引"
 created: 2026-05-05
-updated: 2026-05-10
+updated: 2026-05-10T02:00:00
 tags:
   - wiki
   - people
@@ -21,3 +21,6 @@ status: active
 - [[people/Brandon|Brandon（春宇）]] — Instant 创始人，即时通讯应用
 - [[people/Siqi|Siqi（私奇）]] — Pika VP of Product，AI 数字分身实践者
 - [[people/Haoran|Haoran（浩然）]] — MX 联合创始人
+- [[people/DarioAmodei|Dario Amodei]] — Anthropic 联合创始人 & CEO
+- [[people/DanielaAmodei|Daniela Amodei]] — Anthropic 联合创始人 & President
+- [[people/AmiVora|Ami Vora]] — Anthropic 首席产品官（CPO）

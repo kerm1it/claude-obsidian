@@ -43,6 +43,31 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/notebooklm/dario-daniela-amodei-2026-05-10.md": {
+      "hash": "notebooklm-youtube-7xco5Qd2Oo8",
+      "ingested_at": "2026-05-10",
+      "pages_created": [
+        "wiki/sources/dario-daniela-amodei-conversation-2026-05-10.md",
+        "wiki/people/DarioAmodei.md",
+        "wiki/people/DanielaAmodei.md",
+        "wiki/people/AmiVora.md",
+        "wiki/entities/CodeWithClaude.md",
+        "wiki/concepts/ScalingLaws.md",
+        "wiki/concepts/国家级天才数据中心.md",
+        "wiki/concepts/HoldLightAndShade.md",
+        "wiki/concepts/AmdahlsLawInAI.md",
+        "wiki/concepts/单人十亿美金公司.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -62,6 +87,16 @@
     "wiki/entities/MX.md": "c-000014",
     "wiki/entities/Instant.md": "c-000015",
     "wiki/concepts/Claude-Code接入飞书.md": "c-000016",
-    "wiki/concepts/聊天记录复盘与AI成长.md": "c-000017"
+    "wiki/concepts/聊天记录复盘与AI成长.md": "c-000017",
+    "wiki/sources/dario-daniela-amodei-conversation-2026-05-10.md": "c-000018",
+    "wiki/people/DarioAmodei.md": "c-000019",
+    "wiki/people/DanielaAmodei.md": "c-000020",
+    "wiki/people/AmiVora.md": "c-000021",
+    "wiki/entities/CodeWithClaude.md": "c-000022",
+    "wiki/concepts/ScalingLaws.md": "c-000023",
+    "wiki/concepts/国家级天才数据中心.md": "c-000024",
+    "wiki/concepts/HoldLightAndShade.md": "c-000025",
+    "wiki/concepts/AmdahlsLawInAI.md": "c-000026",
+    "wiki/concepts/单人十亿美金公司.md": "c-000027"
   }
 }

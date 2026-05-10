@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-10 ingest | Dario & Daniela Amodei 对谈 —— Code with Claude 开发者大会
+
+- Source: `.raw/notebooklm/dario-daniela-amodei-2026-05-10.md`（NotebookLM ASR，原始 YouTube 64MB m4a，33:10）
+- Summary: [[sources/dario-daniela-amodei-conversation-2026-05-10]]
+- Pages created: [[sources/dario-daniela-amodei-conversation-2026-05-10]], [[people/DarioAmodei]], [[people/DanielaAmodei]], [[people/AmiVora]], [[entities/CodeWithClaude]], [[concepts/ScalingLaws]], [[concepts/国家级天才数据中心]], [[concepts/HoldLightAndShade]], [[concepts/AmdahlsLawInAI]], [[concepts/单人十亿美金公司]]
+- Pages updated: [[people/_index]], [[entities/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Q1 2026 年化增长 80x；Dario 预测 2026 年出现单人十亿美金公司；多 Agent 终极愿景是"数据中心里的天才国家"；Amdahl 定律提醒：AI 加速代码后，安全/验证/架构将成为新瓶颈。
+
 ## 2026-05-10 ingest | AI Agent 实践分享会全程回放（2026-05-05）
 
 - Source: `.raw/notebooklm/quanchenghuifang1-2026-05-10.md`（NotebookLM fulltext，原始 MP4 125MB）

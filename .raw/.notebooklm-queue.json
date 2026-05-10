@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-10T21:30:00Z",
+  "updated_at": "2026-05-10T02:00:00Z",
   "items": [
     {
       "id": "notebooklm-20260510-quanchenghuifang1",
@@ -21,6 +21,26 @@
       "extraction_method": "fulltext",
       "retention": "retained",
       "notes": "125MB MP4 video recorded 2026-05-05"
+    },
+    {
+      "id": "notebooklm-20260510-dario-daniela",
+      "original_source": "https://www.youtube.com/watch?v=7xco5Qd2Oo8",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-10T02:00:00Z",
+      "updated_at": "2026-05-10T02:00:00Z",
+      "status": "ingested",
+      "notebook_id": "11052db7-917e-4e69-b792-61f0ce6d07f5",
+      "source_id": "a3104ca6-6983-44d3-9870-df977b1d4d24",
+      "notebook_title": "Ingest: YouTube 7xco5Qd2Oo8",
+      "source_title": "A conversation with Dario Amodei & Daniela Amodei",
+      "attempts": 2,
+      "last_error": "Direct YouTube URL rejected by NotebookLM API; workaround: downloaded audio via yt-dlp (64MB m4a) and submitted as file",
+      "last_checked_at": "2026-05-10T02:00:00Z",
+      "target_raw_path": ".raw/notebooklm/dario-daniela-amodei-2026-05-10.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube 33:10, Code with Claude conference 2026-05-06; YouTube URL rejected, audio downloaded with yt-dlp then submitted to NotebookLM as file"
     }
   ]
 }
