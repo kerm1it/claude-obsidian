@@ -153,6 +153,16 @@ Steps:
     ```
 11. **Create delivery artifact** using the **Post-Ingest Delivery Artifact** section below.
 12. **Check for contradictions.** If new info conflicts with existing pages, add `> [!contradiction]` callouts on both pages.
+13. **Auto-commit** all files created or updated in this ingest run:
+
+    ```bash
+    git add [all created/updated wiki pages] [raw source file] [assets] \
+            .raw/.manifest.json .raw/.notebooklm-queue.json \
+            .vault-meta/address-counter.txt
+    git commit -m "ingest: [source title]"
+    ```
+
+    Commit message format: `ingest: [source title]`. Keep it one line. Do not include `Co-Authored-By` unless the user has asked for it globally. Do not commit `.obsidian/workspace.json` or other editor state files.
 
 ## Post-Ingest Delivery Artifact
 
@@ -173,9 +183,9 @@ Trigger: user drops multiple files or says "ingest all of these."
 Steps:
 
 1. List all files to process. Confirm with user before starting.
-2. Process each source following the single ingest flow. Defer cross-referencing between sources until step 3.
+2. Process each source following the single ingest flow. Defer cross-referencing between sources until step 3. **Auto-commit after each source** (step 13 of Single Source Ingest).
 3. After all sources: do a cross-reference pass. Look for connections between the newly ingested sources.
-4. Update index, hot cache, and log once at the end (not per-source).
+4. Update index, hot cache, and log once at the end (not per-source). Commit this final pass as a separate commit: `ingest: cross-reference pass ([N] sources)`.
 5. Report: "Processed N sources. Created X pages, updated Y pages. Here are the key connections I found."
 
 Batch ingest is less interactive. For 30+ sources, expect significant processing time. Check in with the user after every 10 sources.
