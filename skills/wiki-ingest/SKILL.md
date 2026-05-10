@@ -11,6 +11,19 @@ Read the source. Write the wiki. Cross-reference everything. A single source typ
 
 ---
 
+## Ingest Preflight
+
+Before ingesting any new source, check for pending NotebookLM-assisted sources:
+
+1. If `.raw/.notebooklm-queue.json` exists, load `references/notebooklm.md` and run its **Ingest Preflight**.
+2. If the queue has ready or extracted items, ask the user whether to process the queue before the new source.
+3. If the user agrees, process queue items first, then return to the requested ingest.
+4. If the queue has failed or decision-needed items, summarize them and ask what to do. Do not delete NotebookLM resources automatically.
+
+Skip this preflight only when the user explicitly says to ignore the NotebookLM queue for this run.
+
+---
+
 ## Delta Tracking
 
 Before ingesting any file, check `.raw/.manifest.json` to avoid re-processing unchanged sources.
@@ -70,6 +83,18 @@ Steps:
    ```
 6. Proceed with **Single Source Ingest** starting at step 2 (file is now in `.raw/`).
 
+## Complex Format / NotebookLM-Assisted Ingestion
+
+Trigger: user provides a complex source that the agent cannot reliably read directly, such as large PDFs, audio/video, YouTube links, slide decks, EPUBs, scanned/image-heavy documents, or a URL/file whose local extraction fails.
+
+Steps:
+
+1. Load `references/notebooklm.md` and run that sub-processor.
+2. Submit the source to NotebookLM, write/update `.raw/.notebooklm-queue.json`, and wait synchronously for at most 5 minutes.
+3. If ready within the wait window, extract to `.raw/notebooklm/` and proceed with **Single Source Ingest**.
+4. If still processing, leave it queued and stop this sub-processor for now.
+5. If failed, mark it `needs-user-decision`; do not delete NotebookLM resources automatically.
+
 ## Shared Asset Storage
 
 Downloaded assets that source Markdown depends on live under `.raw/assets/`.
@@ -126,7 +151,41 @@ Steps:
     - Pages updated: [[Page 3]], [[Page 4]]
     - Key insight: One sentence on what is new.
     ```
-11. **Check for contradictions.** If new info conflicts with existing pages, add `> [!contradiction]` callouts on both pages.
+11. **Create delivery artifact** using the **Post-Ingest Delivery Artifact** section below.
+12. **Check for contradictions.** If new info conflicts with existing pages, add `> [!contradiction]` callouts on both pages.
+
+## Post-Ingest Delivery Artifact
+
+After any source finishes Single Source Ingest, create a user-facing delivery artifact from the source Markdown.
+
+Steps:
+
+1. Detect the source language from the saved source Markdown.
+2. If the source is already primarily Chinese, skip translation and render the source Markdown directly.
+3. If the source is not primarily Chinese, create a faithful Chinese translation Markdown. Preserve headings, lists, code blocks, tables, links, image links, source URLs, names, and technical terms where translation would reduce clarity.
+4. Save delivery files under:
+
+   ```text
+   .raw/deliverables/[source-slug]/
+   ```
+
+5. Use these filenames:
+
+   ```text
+   source.zh.md      # only when translation was needed
+   source.html       # always created
+   ```
+
+6. Render the Chinese Markdown if translated, otherwise render the original source Markdown, into `source.html`.
+7. Return the absolute `source.html` path to the user in the final response.
+
+Rules:
+
+- Do not overwrite or rewrite the original source file under `.raw/articles/`, `.raw/notebooklm/`, `.raw/images/`, or other source folders.
+- Do not translate code blocks, command output, file paths, URLs, IDs, frontmatter keys, or proper nouns unless there is a well-established Chinese name.
+- Preserve Markdown image links so downloaded assets under `.raw/assets/` still resolve from the rendered HTML.
+- If rendering fails, still save the Chinese Markdown when applicable and report the failure.
+- If the user explicitly asks not to generate a delivery artifact, skip this section for that ingest.
 
 ---
 
