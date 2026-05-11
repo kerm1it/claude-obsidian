@@ -162,33 +162,30 @@ When a new complex source arrives:
 
 ---
 
-## YouTube URL Fallback
+## YouTube URL Processing
 
-**Known issue**: `notebooklm source add "[youtube_url]" --type youtube` may return `"API returned no data for URL"` even for public videos. This is an API limitation, not an auth problem.
+**Priority order** (stop at first success):
 
-**Fallback order** (stop at first success):
-
-### Step 1 — Try subtitles via yt-dlp (fastest)
+### Step 1 — Submit URL directly to NotebookLM (preferred)
 
 ```bash
-YT=yt-dlp
-
-# List available subtitles
-$YT --list-subs "[url]" 2>&1
+notebooklm source add "[youtube_url]" --notebook "[notebook_id]" --type youtube --json
 ```
 
-If subtitles exist (`--write-subs --sub-langs en --skip-download`), download them and use as the raw source. This avoids a large audio download entirely.
+If accepted, continue with the normal wait → fulltext flow.
 
-### Step 2 — Download audio and submit as file
+**Known issue**: The API may return `"API returned no data for URL"` even for public videos. This is an API limitation, not an auth problem. If rejected, proceed to Step 2.
 
-If no subtitles available:
+### Step 2 — Download audio and submit as file (fallback)
+
+If the YouTube URL is rejected by NotebookLM:
 
 ```bash
 # Get video metadata (title, description, duration)
 curl -s "https://www.youtube.com/oembed?url=[url]&format=json"
 
 # Download audio only (30-70MB for a 30-min video)
-$YT -x --audio-format m4a --audio-quality 0 \
+~/.local/bin/yt-dlp -x --audio-format m4a --audio-quality 0 \
   -o "/tmp/[slug].%(ext)s" "[url]"
 
 # Submit to NotebookLM as a file (not a URL)
@@ -202,6 +199,16 @@ Then continue with the normal wait → fulltext flow.
 ```
 "Direct YouTube URL rejected by NotebookLM API; audio downloaded via yt-dlp and submitted as file"
 ```
+
+### Step 3 — Subtitles via yt-dlp (last resort)
+
+Only use this if both Step 1 and Step 2 fail (e.g. NotebookLM auth expired or service unavailable):
+
+```bash
+~/.local/bin/yt-dlp --list-subs "[url]" 2>&1
+```
+
+If subtitles exist, download `en-orig` or `en` and use as the raw source.
 
 ### Notes
 
