@@ -7,6 +7,11 @@ description: "Ingest sources into the Obsidian wiki vault. Reads a source, extra
 
 Read the source. Write the wiki. Cross-reference everything. A single source typically touches 8-15 wiki pages.
 
+## User Preferences
+
+- **静默执行**：摄入过程中不向用户播报中间节点（检查队列、下载字幕、预留地址、写文件等步骤一律静默）。
+- **完成后输出原文**：摄入完成后，将 `wiki/sources/` 对应摘要页的 **Markdown 正文**（去掉 frontmatter）完整贴出，不自行另写总结。
+
 **Syntax standard**: Write all Obsidian Markdown using proper Obsidian Flavored Markdown. Wikilinks as `[[Note Name]]`, callouts as `> [!type] Title`, embeds as `![[file]]`, properties as YAML frontmatter. If the kepano/obsidian-skills plugin is installed, prefer its canonical obsidian-markdown skill for Obsidian syntax reference. Otherwise, follow the guidance in this skill.
 
 ---
@@ -166,13 +171,9 @@ Steps:
 
 ## Post-Ingest Delivery Artifact
 
-After Single Source Ingest completes, return the path to the wiki source summary page:
+After Single Source Ingest completes, output the **full Markdown body** of the wiki source summary page (omit the YAML frontmatter block; include everything after the closing `---`). Do not write a separate summary or commentary — the page content is the delivery artifact.
 
-```text
-wiki/sources/[slug].md
-```
-
-No HTML files, no deliverables folder, no asset copying. The wiki source page is the delivery artifact.
+No HTML files, no deliverables folder, no asset copying.
 
 ---
 
