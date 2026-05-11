@@ -44,6 +44,31 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/gbrain-2026-05-11.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-05-11",
+      "pages_created": [
+        "wiki/sources/gbrain-2026-05-11.md",
+        "wiki/people/GarryTan.md",
+        "wiki/entities/GBrain.md",
+        "wiki/entities/YCombinator.md",
+        "wiki/entities/OpenClaw.md",
+        "wiki/concepts/CompiledTruth时间线模式.md",
+        "wiki/concepts/DreamCycle.md",
+        "wiki/concepts/Skillify.md",
+        "wiki/concepts/混合检索RRF.md",
+        "wiki/concepts/Minions任务队列.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/dario-daniela-amodei-2026-05-10.md": {
       "hash": "notebooklm-youtube-7xco5Qd2Oo8",
       "ingested_at": "2026-05-10",
@@ -97,6 +122,16 @@
     "wiki/concepts/国家级天才数据中心.md": "c-000024",
     "wiki/concepts/HoldLightAndShade.md": "c-000025",
     "wiki/concepts/AmdahlsLawInAI.md": "c-000026",
-    "wiki/concepts/单人十亿美金公司.md": "c-000027"
+    "wiki/concepts/单人十亿美金公司.md": "c-000027",
+    "wiki/sources/gbrain-2026-05-11.md": "c-000028",
+    "wiki/people/GarryTan.md": "c-000029",
+    "wiki/entities/GBrain.md": "c-000030",
+    "wiki/entities/YCombinator.md": "c-000031",
+    "wiki/entities/OpenClaw.md": "c-000032",
+    "wiki/concepts/CompiledTruth时间线模式.md": "c-000033",
+    "wiki/concepts/DreamCycle.md": "c-000034",
+    "wiki/concepts/Skillify.md": "c-000035",
+    "wiki/concepts/混合检索RRF.md": "c-000036",
+    "wiki/concepts/Minions任务队列.md": "c-000037"
   }
 }

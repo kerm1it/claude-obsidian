@@ -2,7 +2,7 @@
 type: index
 title: "人物索引"
 created: 2026-05-05
-updated: 2026-05-10T02:00:00
+updated: 2026-05-11
 tags:
   - wiki
   - people
@@ -24,3 +24,4 @@ status: active
 - [[people/DarioAmodei|Dario Amodei]] — Anthropic 联合创始人 & CEO
 - [[people/DanielaAmodei|Daniela Amodei]] — Anthropic 联合创始人 & President
 - [[people/AmiVora|Ami Vora]] — Anthropic 首席产品官（CPO）
+- [[people/GarryTan|Garry Tan]] — Y Combinator 总裁 & CEO，GBrain 作者

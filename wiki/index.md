@@ -51,14 +51,16 @@ status: active
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]]
 - [[sources/quanchenghuifang1-2026-05-10|AI Agent 实践分享会全程回放（2026-05-05）]]
 - [[sources/dario-daniela-amodei-conversation-2026-05-10|Dario & Daniela Amodei 对谈 —— Code with Claude（2026-05-06）]]
+- [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
+- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]
 
 ## 概念
 
@@ -66,6 +68,7 @@ status: active
 - [[concepts/Claude-Code接入飞书]]
 - [[concepts/聊天记录复盘与AI成长]]
 - [[concepts/ScalingLaws]]、[[concepts/国家级天才数据中心]]、[[concepts/HoldLightAndShade]]、[[concepts/AmdahlsLawInAI]]、[[concepts/单人十亿美金公司]]
+- [[concepts/CompiledTruth时间线模式]]、[[concepts/DreamCycle]]、[[concepts/Skillify]]、[[concepts/混合检索RRF]]、[[concepts/Minions任务队列]]
 
 ## 工具领域
 

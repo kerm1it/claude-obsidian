@@ -2,7 +2,7 @@
 type: index
 title: "素材索引"
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-11
 tags:
   - wiki
   - sources
@@ -10,6 +10,10 @@ status: active
 ---
 
 # 素材
+
+## GitHub 仓库
+
+- [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]] · Garry Tan · 14.6K ⭐ · 2026-05-11
 
 ## 推文 / X Article
 

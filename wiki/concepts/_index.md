@@ -2,7 +2,7 @@
 type: index
 title: "概念索引"
 created: 2026-05-05
-updated: 2026-05-10T02:00:00
+updated: 2026-05-11
 tags:
   - wiki
   - concepts
@@ -16,6 +16,14 @@ status: active
 - [[concepts/HTML作为AI输出格式|HTML 作为 AI 输出格式]] — 用 HTML 替代 Markdown 作为 Claude 生成产出物的首选格式
 - [[concepts/Claude-Code接入飞书]] — 用飞书替代 terminal，获得持久化、富文本和多 session 管理
 - [[concepts/聊天记录复盘与AI成长]] — 用公司聊天记录做时间分析、决策复盘和 PRD 工作流
+
+## Agent 记忆与系统设计
+
+- [[concepts/CompiledTruth时间线模式|Compiled Truth + Timeline 模式]] — 知识页面双区结构：编译事实区（覆写）+ 时间线区（追加）
+- [[concepts/DreamCycle|Dream Cycle（梦境循环）]] — 夜间自动维护：蒸馏、模式检测、反向链接修复
+- [[concepts/Skillify]] — 将一次性 fix 固化为可路由、可测试的 fat-markdown skill
+- [[concepts/混合检索RRF|混合检索 + RRF 融合]] — 向量 + 关键词 + RRF，P@5 提升 +31.4 pts
+- [[concepts/Minions任务队列|Minions 任务队列]] — 确定性后台 job queue，不阻塞 Agent 主会话
 
 ## AI 研究与产品理论
 

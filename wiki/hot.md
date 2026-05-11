@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-10T02:00:00
+updated: 2026-05-11
 tags:
   - meta
   - hot-cache
@@ -16,6 +16,12 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-05-11。消化了一条素材：
+
+1. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
+
+---
 
 2026-05-10。消化了三条素材：
 
@@ -49,6 +55,9 @@ related:
 
 ## 当前线索
 
+- [[entities/GBrain]] — 开源 Agent 记忆系统，架构可深入研究（Compiled Truth、Minions、Dream Cycle）
+- [[concepts/Skillify]] — fat-markdown skill 模式与本 vault skills/ 同构，可互相借鉴
+- [[concepts/混合检索RRF]] — RRF 融合检索，可应用于本 vault 的 wiki-query 改进
 - [[concepts/单人十亿美金公司]] — 2026 年底截止，值得持续关注
 - [[concepts/国家级天才数据中心]] — 多 Agent 架构演进方向
 - [[concepts/AmdahlsLawInAI]] — 在自己的 AI 工作流中找新瓶颈
@@ -57,4 +66,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：28（c-000001 至 c-000027 已分配）
+- 地址计数器：38（c-000001 至 c-000037 已分配）

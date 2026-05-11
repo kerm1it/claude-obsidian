@@ -1,0 +1,76 @@
+---
+type: entity
+address: c-000030
+title: "GBrain"
+created: 2026-05-11
+updated: 2026-05-11
+tags:
+  - ai-agent
+  - memory
+  - knowledge-graph
+  - open-source
+status: active
+related:
+  - "[[people/GarryTan]]"
+  - "[[entities/YCombinator]]"
+  - "[[entities/OpenClaw]]"
+  - "[[concepts/CompiledTruth时间线模式]]"
+  - "[[concepts/DreamCycle]]"
+  - "[[concepts/Skillify]]"
+  - "[[concepts/混合检索RRF]]"
+  - "[[concepts/Minions任务队列]]"
+  - "[[sources/gbrain-2026-05-11]]"
+---
+
+# GBrain
+
+**类型**：开源 AI Agent 记忆管理系统  
+**作者**：[[people/GarryTan]]  
+**GitHub**：https://github.com/garrytan/gbrain  
+**许可**：MIT | **语言**：TypeScript (98%) | ⭐ 14.6K
+
+---
+
+## 核心定位
+
+> "聪明但健忘的 AI Agent 的大脑"
+
+GBrain 为 AI Agent 提供持久的、可搜索的结构化记忆。它不是向量数据库的封装，而是一个完整的知识操作系统：摄入 → 结构化 → 混合检索 → 自动维护。
+
+## 规模（生产）
+
+| 指标 | 数值 |
+|------|------|
+| 管理页面 | 17,888 |
+| 人物 | 4,383 |
+| 公司 | 723 |
+| 自主 cron 任务 | 21 |
+
+## 核心机制
+
+- **[[concepts/CompiledTruth时间线模式]]** — 所有页面 = 编译事实区 + 时间线追加区
+- **[[concepts/混合检索RRF]]** — 向量 + 关键词 + RRF 融合，P@5 +31.4 pts vs. 向量 baseline
+- **[[concepts/Skillify]]** — 34 个 skill，fat markdown 文档驱动，可路由
+- **[[concepts/Minions任务队列]]** — 确定性后台 job queue
+- **[[concepts/DreamCycle]]** — 夜间自动维护（综合、模式检测、反向链接修复）
+
+## 技术栈
+
+- **运行时**：Bun
+- **存储**：PGLite（本地）/ Supabase（生产）
+- **向量**：pgvector + HNSW
+- **嵌入**：OpenAI Embeddings API
+
+## 集成
+
+- MCP 服务器（Claude、Cursor、Windsurf、远程 OAuth）
+- 摄入：Gmail、Calendar、X/Twitter、Twilio Voice、PDF、文章
+
+## 实际部署
+
+- [[entities/OpenClaw]] — Garry 的 AI Agent 平台
+- Hermes Agent（Nous Research）
+
+## 来源
+
+- [[sources/gbrain-2026-05-11]]

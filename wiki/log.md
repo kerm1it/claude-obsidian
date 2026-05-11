@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-11 ingest | GBrain — AI Agent 记忆与知识管理系统
+
+- Source: `.raw/articles/gbrain-2026-05-11.md`（GitHub repo，garrytan/gbrain）
+- Summary: [[sources/gbrain-2026-05-11]]
+- Pages created: [[sources/gbrain-2026-05-11]], [[people/GarryTan]], [[entities/GBrain]], [[entities/YCombinator]], [[entities/OpenClaw]], [[concepts/CompiledTruth时间线模式]], [[concepts/DreamCycle]], [[concepts/Skillify]], [[concepts/混合检索RRF]], [[concepts/Minions任务队列]]
+- Pages updated: [[people/_index]], [[entities/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: GBrain 是"给 AI Agent 的大脑"，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF，在 BrainBench 上 P@5 比向量 baseline 高 +31.4 pts；Skillify 模式（fat-markdown skill）与本 vault 的 skills/ 高度同构。
+
 ## 2026-05-10 ingest | Dario & Daniela Amodei 对谈 —— Code with Claude 开发者大会
 
 - Source: `.raw/notebooklm/dario-daniela-amodei-2026-05-10.md`（NotebookLM ASR，原始 YouTube 64MB m4a，33:10）
