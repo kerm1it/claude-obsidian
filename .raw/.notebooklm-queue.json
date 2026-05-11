@@ -62,5 +62,26 @@
       "retention": "retained",
       "notes": "YouTube URL accepted directly by NotebookLM API; 23,279 chars extracted; Anthropic PM Mahesh介绍 Memory API 和 Dreaming 功能发布"
     }
+  ,
+    {
+      "id": "notebooklm-20260511-thinking-lever",
+      "original_source": "https://www.youtube.com/watch?v=OXJO4LldSnc",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-11T00:00:00Z",
+      "updated_at": "2026-05-11T00:00:00Z",
+      "status": "ingested",
+      "notebook_id": "c96bbeca-6f23-450b-a9a7-29928f986081",
+      "source_id": "5e415756-1d21-452b-83cc-849e7b20c659",
+      "notebook_title": "Ingest: The thinking lever",
+      "source_title": "The thinking lever",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-11T00:00:00Z",
+      "target_raw_path": ".raw/notebooklm/the-thinking-lever-2026-05-11.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube URL accepted directly; 21,308 chars; Matt Bleifer (Anthropic Research PM) 介绍 test-time compute、Adaptive Thinking、Effort 拨盘、Task Budgets"
+    }
   ]
 }

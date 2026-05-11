@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-11 ingest | The Thinking Lever — Matt Bleifer（Anthropic）
+
+- Source: `.raw/notebooklm/the-thinking-lever-2026-05-11.md`（YouTube，NotebookLM fulltext，21,308 chars）
+- Summary: [[sources/the-thinking-lever-2026-05-11]]
+- Pages created: [[sources/the-thinking-lever-2026-05-11]], [[people/MattBleifer]], [[concepts/TestTimeCompute]], [[concepts/AdaptiveThinking]], [[concepts/EffortDial]], [[concepts/TaskBudgets]]
+- Pages updated: [[index]], [[hot]], [[log]]
+- Key insight: Test-time compute 是第二条智能扩展路径；三类 token（thinking/tool/text）；Adaptive Thinking 自 Opus 4.6 起为默认；Effort 优于思考开关；extra high 是大多数 coding 场景最佳默认值；低 effort ≠ 低智能（Pokémon 速通实验）。
+
 ## 2026-05-11 ingest | 工程技术：在智能体优先的世界中利用 Codex — Ryan Lopopolo（OpenAI）
 
 - Source: `.raw/articles/harness-engineering-openai-2026-02-11.md`（Playwright headless Chrome 抓取，Cloudflare 保护绕过）

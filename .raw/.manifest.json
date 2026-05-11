@@ -114,6 +114,23 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/the-thinking-lever-2026-05-11.md": {
+      "hash": "notebooklm-youtube-OXJO4LldSnc",
+      "ingested_at": "2026-05-11",
+      "pages_created": [
+        "wiki/sources/the-thinking-lever-2026-05-11.md",
+        "wiki/people/MattBleifer.md",
+        "wiki/concepts/TestTimeCompute.md",
+        "wiki/concepts/AdaptiveThinking.md",
+        "wiki/concepts/EffortDial.md",
+        "wiki/concepts/TaskBudgets.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/harness-engineering-openai-2026-02-11.md": {
       "hash": "playwright-fetch-2026-05-11",
       "ingested_at": "2026-05-11",
@@ -201,6 +218,12 @@
     "wiki/people/RyanLopopolo.md": "c-000049",
     "wiki/concepts/智能体优先工程.md": "c-000050",
     "wiki/concepts/代码仓库即记录系统.md": "c-000051",
-    "wiki/concepts/智能体GC.md": "c-000052"
+    "wiki/concepts/智能体GC.md": "c-000052",
+    "wiki/sources/the-thinking-lever-2026-05-11.md": "c-000053",
+    "wiki/people/MattBleifer.md": "c-000054",
+    "wiki/concepts/TestTimeCompute.md": "c-000055",
+    "wiki/concepts/AdaptiveThinking.md": "c-000056",
+    "wiki/concepts/EffortDial.md": "c-000057",
+    "wiki/concepts/TaskBudgets.md": "c-000058"
   }
 }
