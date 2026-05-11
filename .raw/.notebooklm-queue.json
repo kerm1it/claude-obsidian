@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-10T02:00:00Z",
+  "updated_at": "2026-05-11T00:00:00Z",
   "items": [
     {
       "id": "notebooklm-20260510-quanchenghuifang1",
@@ -41,6 +41,26 @@
       "extraction_method": "fulltext",
       "retention": "retained",
       "notes": "YouTube 33:10, Code with Claude conference 2026-05-06; YouTube URL rejected, audio downloaded with yt-dlp then submitted to NotebookLM as file"
+    },
+    {
+      "id": "notebooklm-20260511-memory-dreaming",
+      "original_source": "https://www.youtube.com/watch?v=RtywqDFBYnQ",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-11T00:00:00Z",
+      "updated_at": "2026-05-11T00:00:00Z",
+      "status": "ingested",
+      "notebook_id": "7587bb66-2732-4553-95f8-996d674af36c",
+      "source_id": "6b654630-6614-4827-83fd-84c616a44b8e",
+      "notebook_title": "Ingest: Memory and dreaming for self-learning agents",
+      "source_title": "Memory and dreaming for self-learning agents",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-11T00:00:00Z",
+      "target_raw_path": ".raw/notebooklm/memory-dreaming-self-learning-agents-2026-05-11.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube URL accepted directly by NotebookLM API; 23,279 chars extracted; Anthropic PM Mahesh介绍 Memory API 和 Dreaming 功能发布"
     }
   ]
 }

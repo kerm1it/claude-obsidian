@@ -53,6 +53,7 @@ status: active
 - [[sources/dario-daniela-amodei-conversation-2026-05-10|Dario & Daniela Amodei 对谈 —— Code with Claude（2026-05-06）]]
 - [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]]
 - [[sources/fiona-fung-ai-native-engineering-2026-05-11|Running an AI-native engineering org — Fiona Fung（Code with Claude 2026）]]
+- [[sources/memory-dreaming-self-learning-agents-2026-05-11|Memory and Dreaming for Self-Learning Agents — Mahesh（Anthropic 2026-05-11）]]
 
 ## 实体
 
@@ -61,7 +62,7 @@ status: active
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]
 
 ## 概念
 
@@ -71,6 +72,7 @@ status: active
 - [[concepts/ScalingLaws]]、[[concepts/国家级天才数据中心]]、[[concepts/HoldLightAndShade]]、[[concepts/AmdahlsLawInAI]]、[[concepts/单人十亿美金公司]]
 - [[concepts/CompiledTruth时间线模式]]、[[concepts/DreamCycle]]、[[concepts/Skillify]]、[[concepts/混合检索RRF]]、[[concepts/Minions任务队列]]
 - [[concepts/AI原生工程组织]]、[[concepts/瓶颈转移论]]、[[concepts/JIT规划]]
+- [[concepts/AnthropicDreaming]]、[[concepts/AgentMemoryAPI]]、[[concepts/乐观并发]]
 
 ## 工具领域
 

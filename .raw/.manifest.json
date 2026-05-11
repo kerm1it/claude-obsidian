@@ -113,6 +113,23 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/notebooklm/memory-dreaming-self-learning-agents-2026-05-11.md": {
+      "hash": "notebooklm-youtube-RtywqDFBYnQ",
+      "ingested_at": "2026-05-11",
+      "pages_created": [
+        "wiki/sources/memory-dreaming-self-learning-agents-2026-05-11.md",
+        "wiki/people/Mahesh.md",
+        "wiki/concepts/AnthropicDreaming.md",
+        "wiki/concepts/AgentMemoryAPI.md",
+        "wiki/concepts/乐观并发.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/DreamCycle.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -157,6 +174,11 @@
     "wiki/people/FionaFung.md": "c-000039",
     "wiki/concepts/AI原生工程组织.md": "c-000040",
     "wiki/concepts/JIT规划.md": "c-000041",
-    "wiki/concepts/瓶颈转移论.md": "c-000042"
+    "wiki/concepts/瓶颈转移论.md": "c-000042",
+    "wiki/sources/memory-dreaming-self-learning-agents-2026-05-11.md": "c-000043",
+    "wiki/people/Mahesh.md": "c-000044",
+    "wiki/concepts/AnthropicDreaming.md": "c-000045",
+    "wiki/concepts/AgentMemoryAPI.md": "c-000046",
+    "wiki/concepts/乐观并发.md": "c-000047"
   }
 }

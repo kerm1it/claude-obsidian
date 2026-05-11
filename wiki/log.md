@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-11 ingest | Memory and Dreaming for Self-Learning Agents — Mahesh（Anthropic）
+
+- Source: `.raw/notebooklm/memory-dreaming-self-learning-agents-2026-05-11.md`（YouTube，NotebookLM fulltext，23,279 chars）
+- Summary: [[sources/memory-dreaming-self-learning-agents-2026-05-11]]
+- Pages created: [[sources/memory-dreaming-self-learning-agents-2026-05-11]], [[people/Mahesh]], [[concepts/AnthropicDreaming]], [[concepts/AgentMemoryAPI]], [[concepts/乐观并发]]
+- Pages updated: [[concepts/DreamCycle]], [[index]], [[hot]], [[log]]
+- Key insight: Anthropic 正式发布 Memory API（公测）和 Dreaming（研究预览）。Memory 把记忆建模为文件系统；Dreaming 是离线批处理过程，跨多 Agent transcript 提取模式，与 GBrain DreamCycle 高度同构但独立实现。Harvey 部署后任务完成率 ↑ 6×。
+
 ## 2026-05-11 ingest | Running an AI-native engineering org — Fiona Fung（Code with Claude 2026）
 
 - Source: `.raw/articles/ai-native-engineering-org-2026-05-11.md`（YouTube 字幕，yt-dlp auto-captions，约 30 分钟）

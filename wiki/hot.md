@@ -17,11 +17,13 @@ related:
 
 ## 最近更新
 
-2026-05-11。消化了两条素材：
+2026-05-11。消化了三条素材：
 
 1. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
 
 2. **Fiona Fung — Running an AI-native engineering org**（Code with Claude 2026-05-06，YouTube ~30 分钟）：Claude Code 工程负责人 Fiona Fung 分享 AI 原生工程组织的五大主题。
+
+3. **Mahesh — Memory and Dreaming for Self-Learning Agents**（Anthropic 官方，2026-05-11）：Anthropic 平台 PM 发布 Memory API（公测）和 Dreaming（研究预览），Agent 记忆体系进入正式产品化阶段。
 
 ---
 
@@ -33,7 +35,15 @@ related:
 
 ## 关键事实
 
-### 来自 Fiona Fung（最新，2026-05-11 摄入）
+### 来自 Mahesh — Anthropic Memory + Dreaming（最新，2026-05-11 摄入）
+
+- **[[concepts/AgentMemoryAPI]]**：文件系统式记忆（Claude 自主用 Bash/Grep 管理），Claude Opus 4.7 SOTA
+- **[[concepts/AnthropicDreaming]]**：离线批处理，跨多 Agent transcript，提取共同错误/成功策略，生成 memory diff；Harvey 任务完成率 ↑ 6×；Rockutin 首次犯错率 ↓ 90%
+- **关键收敛**：[[concepts/DreamCycle]]（GBrain）与 Dreaming（Anthropic）独立实现同一模式 → 异步记忆维护是 Agent 系统的通用过程层原语
+- **[[concepts/乐观并发]]**：content hash 校验，多 Agent 并发写保护
+- **[[people/Mahesh]]**：新增人物页
+
+### 来自 Fiona Fung（2026-05-11 摄入）
 
 - **瓶颈已转移**：编码吞吐量不再稀缺 → 验证/安全/跨职能协作成为新瓶颈 → [[concepts/瓶颈转移论]]
 - **JIT 规划**：六个月路线图三个月就过时；改为即时规划，idea → prototype → PR → [[concepts/JIT规划]]
@@ -68,6 +78,8 @@ related:
 
 ## 当前线索
 
+- [[concepts/AnthropicDreaming]] — Anthropic 官方 Dreaming，研究预览，值得深入跟踪应用效果
+- [[concepts/AgentMemoryAPI]] — 尝试在自己的 Agent 项目中接入 Memory API
 - [[concepts/AI原生工程组织]] — Fiona 的整体框架，自己团队可对照检视哪些规范值得借鉴
 - [[concepts/瓶颈转移论]] — 与 [[concepts/AmdahlsLawInAI]] 互相印证，值得深入思考
 - [[concepts/JIT规划]] — 在自己的项目中实践即时规划
@@ -81,4 +93,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：43（c-000001 至 c-000042 已分配）
+- 地址计数器：48（c-000001 至 c-000047 已分配）
