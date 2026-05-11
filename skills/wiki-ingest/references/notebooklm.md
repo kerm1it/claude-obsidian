@@ -176,19 +176,34 @@ If accepted, continue with the normal wait → fulltext flow.
 
 **Known issue**: The API may return `"API returned no data for URL"` even for public videos. This is an API limitation, not an auth problem. If rejected, proceed to Step 2.
 
-### Step 2 — Download audio and submit as file (fallback)
+### Step 2 — Subtitles via yt-dlp (fallback)
 
 If the YouTube URL is rejected by NotebookLM:
 
 ```bash
-# Get video metadata (title, description, duration)
+~/.local/bin/yt-dlp --list-subs "[url]" 2>&1
+```
+
+If subtitles exist (`en-orig` preferred, then `en`), download and use as the raw source:
+
+```bash
+~/.local/bin/yt-dlp --write-auto-subs --sub-langs "en-orig" --skip-download \
+  -o "/tmp/[slug].%(ext)s" "[url]"
+```
+
+### Step 3 — Download audio and submit to NotebookLM as file (last resort)
+
+Only if Step 1 and Step 2 both fail (URL rejected AND no subtitles available):
+
+```bash
+# Get video metadata
 curl -s "https://www.youtube.com/oembed?url=[url]&format=json"
 
 # Download audio only (30-70MB for a 30-min video)
 ~/.local/bin/yt-dlp -x --audio-format m4a --audio-quality 0 \
   -o "/tmp/[slug].%(ext)s" "[url]"
 
-# Submit to NotebookLM as a file (not a URL)
+# Submit to NotebookLM as a file
 notebooklm source add "/tmp/[slug].m4a" \
   --notebook "[notebook_id]" --type file --json
 ```
@@ -197,18 +212,8 @@ Then continue with the normal wait → fulltext flow.
 
 **Record the workaround** in the queue item's `last_error` field:
 ```
-"Direct YouTube URL rejected by NotebookLM API; audio downloaded via yt-dlp and submitted as file"
+"Direct YouTube URL rejected by NotebookLM API; no subtitles available; audio downloaded via yt-dlp and submitted as file"
 ```
-
-### Step 3 — Subtitles via yt-dlp (last resort)
-
-Only use this if both Step 1 and Step 2 fail (e.g. NotebookLM auth expired or service unavailable):
-
-```bash
-~/.local/bin/yt-dlp --list-subs "[url]" 2>&1
-```
-
-If subtitles exist, download `en-orig` or `en` and use as the raw source.
 
 ### Notes
 
