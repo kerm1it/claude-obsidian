@@ -38,3 +38,16 @@ status: active
 - [[concepts/HoldLightAndShade|Hold Light and Shade]] — Anthropic 核心文化价值观，同时持有技术的光明潜力与潜在阴影
 - [[concepts/AmdahlsLawInAI|Amdahl 定律在 AI 中的应用]] — AI 加速代码后，安全/验证/架构成为新瓶颈
 - [[concepts/单人十亿美金公司]] — Dario 预测 2026 年将出现单人十亿美金公司
+
+## Claude 模型能力扩展（Expanding Toolkit）
+
+- [[concepts/ExpandingToolkit|Expanding Toolkit（扩展工具箱）]] — 去年要自己搭的脚手架今天已随模型出货；补偿模型不可靠性的代码半衰期只有几个月
+- [[concepts/CodeExecution|Code Execution Tool（代码执行）]] — Claude 服务端托管沙箱；write-run-fix 循环在单个 API turn 内完成
+- [[concepts/NativeResolutionComputerUse|Native Resolution Computer Use]] — Opus 4.7 原生支持 1440p 截图，返回 1:1 像素坐标；OSWorld 78%
+
+## 模型推理与效率
+
+- [[concepts/TestTimeCompute|Test-time Compute]] — 推理时动态分配计算资源，不同任务用不同算力
+- [[concepts/AdaptiveThinking|Adaptive Thinking]] — Claude 自主决定"思考多少"；Opus 4.6 起为默认
+- [[concepts/EffortDial|Effort Dial（努力拨盘）]] — 显式控制推理深度；extra high 是 coding 最佳默认
+- [[concepts/TaskBudgets|Task Budgets]] — 按任务分配 token 预算，细粒度控制推理成本

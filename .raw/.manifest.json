@@ -148,6 +148,26 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/the-expanding-toolkit-2026-05-12.md": {
+      "hash": "notebooklm-youtube-KLCuxMDZSDg",
+      "ingested_at": "2026-05-12",
+      "pages_created": [
+        "wiki/sources/the-expanding-toolkit-2026-05-12.md",
+        "wiki/people/Lucas.md",
+        "wiki/concepts/ExpandingToolkit.md",
+        "wiki/concepts/CodeExecution.md",
+        "wiki/concepts/NativeResolutionComputerUse.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/CodeWithClaude.md",
+        "wiki/domains/Claude-Code.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/memory-dreaming-self-learning-agents-2026-05-11.md": {
       "hash": "notebooklm-youtube-RtywqDFBYnQ",
       "ingested_at": "2026-05-11",
@@ -224,6 +244,11 @@
     "wiki/concepts/TestTimeCompute.md": "c-000055",
     "wiki/concepts/AdaptiveThinking.md": "c-000056",
     "wiki/concepts/EffortDial.md": "c-000057",
-    "wiki/concepts/TaskBudgets.md": "c-000058"
+    "wiki/concepts/TaskBudgets.md": "c-000058",
+    "wiki/sources/the-expanding-toolkit-2026-05-12.md": "c-000059",
+    "wiki/people/Lucas.md": "c-000060",
+    "wiki/concepts/ExpandingToolkit.md": "c-000061",
+    "wiki/concepts/CodeExecution.md": "c-000062",
+    "wiki/concepts/NativeResolutionComputerUse.md": "c-000063"
   }
 }

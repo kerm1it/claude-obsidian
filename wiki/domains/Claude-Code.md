@@ -38,12 +38,29 @@ status: active
 
 参见 [[concepts/AI原生工程组织]]
 
+## Expanding Toolkit（来自 Lucas，2026-05-06）
+
+核心主张：**补偿模型不可靠性的脚手架已随模型出货** → [[concepts/ExpandingToolkit]]
+
+- **Tool Use**：模型自主选工具 + 自动重试；路由器/预过滤通常让事情更差
+  - Tip：在工具描述中声明**输出 schema**（返回字段）→ 节省 harness 往返
+  - Claude Code Tip：pre/post tool use hooks（`settings.json`）
+- **Context Management**：1M context + server-side compaction + context editing
+  - Tip：每 N 轮**清除 stale tool results** → 只保留决策，大幅省 token
+  - Claude Code Tip：`/context` → 实时可视化上下文占用分布
+- **Code Execution**：服务端托管沙箱，write-run-fix 循环在**单个 API turn** 内完成 → [[concepts/CodeExecution]]
+  - Claude Code Tip：`/schedule` → cron 定时触发自主迭代
+- **Computer Use**：Opus 4.7 原生 1440p 坐标，缩放数学消失；OSWorld 78% → [[concepts/NativeResolutionComputerUse]]
+  - Claude Code Tip：Claude in Chrome（`claude.ai/chrome`）→ 操控真实浏览器会话
+
 ## 关联人物
 
 - [[people/Thariq]]（Claude Code 团队成员）
 - [[people/FionaFung]]（Claude Code & Cowie 工程与产品负责人）
+- [[people/Lucas]]（Anthropic Research PM，Expanding Toolkit 演讲人）
 
 ## 关联来源
 
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]]
 - [[sources/fiona-fung-ai-native-engineering-2026-05-11|Running an AI-native engineering org（Fiona Fung，2026-05-06）]]
+- [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（2026-05-06）]]

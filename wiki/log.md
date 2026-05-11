@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-12 ingest | The Expanding Toolkit — Lucas（Anthropic，Code with Claude）
+
+- Source: `.raw/notebooklm/the-expanding-toolkit-2026-05-12.md`（YouTube，NotebookLM fulltext，17,207 chars）
+- Summary: [[sources/the-expanding-toolkit-2026-05-12]]
+- Pages created: [[sources/the-expanding-toolkit-2026-05-12]], [[people/Lucas]], [[concepts/ExpandingToolkit]], [[concepts/CodeExecution]], [[concepts/NativeResolutionComputerUse]]
+- Pages updated: [[entities/CodeWithClaude]], [[domains/Claude-Code]], [[people/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: 脚手架已随模型出货；补偿模型不可靠性的代码半衰期只有几个月；Opus 4.7 在 OSWorld 达 78%，原生支持 1440p 无需缩放；Code Execution Tool 让 write-run-fix 循环在单个 API turn 内完成。
+
 ## 2026-05-11 ingest | The Thinking Lever — Matt Bleifer（Anthropic）
 
 - Source: `.raw/notebooklm/the-thinking-lever-2026-05-11.md`（YouTube，NotebookLM fulltext，21,308 chars）

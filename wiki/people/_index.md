@@ -26,3 +26,7 @@ status: active
 - [[people/AmiVora|Ami Vora]] — Anthropic 首席产品官（CPO）
 - [[people/GarryTan|Garry Tan]] — Y Combinator 总裁 & CEO，GBrain 作者
 - [[people/FionaFung|Fiona Fung]] — Anthropic Claude Code & Cowie 工程与产品负责人
+- [[people/Mahesh|Mahesh]] — Anthropic 平台 PM，Memory API & Dreaming 发布者
+- [[people/MattBleifer|Matt Bleifer]] — Anthropic Research PM，The Thinking Lever 演讲人
+- [[people/RyanLopopolo|Ryan Lopopolo]] — OpenAI Staff Engineer，Codex CLI 工程实践分享
+- [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人

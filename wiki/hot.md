@@ -17,6 +17,20 @@ related:
 
 ## 最近更新
 
+2026-05-12。消化了一条素材：
+
+**Lucas — The Expanding Toolkit**（Anthropic，YouTube，Code with Claude 2026-05-06）：模型能力扩展工具箱框架。
+
+- **核心论点**：去年要自己搭的脚手架今天已随模型出货 → [[concepts/ExpandingToolkit]]
+- **Tool Use**：模型自主选工具 + 自动重试；路由器/预过滤通常反而更差。Tip：在工具 description 里声明**输出 schema** → 省一次 harness 往返
+- **Context Management**：1M context + server-side compaction + context editing；Tip：每 N 轮清除 stale tool results
+- **Code Execution**：服务端托管沙箱，整个 write-run-fix 在**单个 API turn** 完成 → [[concepts/CodeExecution]]；Claude Code `/schedule` 可定时触发自主循环
+- **Computer Use**：Opus 4.7 原生 1440p 坐标，缩放数学消失 → [[concepts/NativeResolutionComputerUse]]；OSWorld 78%；Claude in Chrome（`claude.ai/chrome`）可操控真实浏览器
+- **指导原则**：补偿模型不可靠性的代码 → 交给 Anthropic（半衰期几个月）；连接模型与你的世界的代码 → 专注投入（持续增值）
+- **新人物**：[[people/Lucas]]
+
+---
+
 2026-05-11。消化了五条素材：
 
 1. **Matt Bleifer — The Thinking Lever**（Anthropic，YouTube）：Test-time compute 设计哲学。三类 token（thinking/tool/text）；Adaptive Thinking 自 Opus 4.6 为默认；Effort 优于思考开关；extra high 是 coding 最佳默认；低 effort ≠ 低智能（Pokémon 速通实验）；Task Budgets 新功能。
@@ -100,4 +114,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：58（c-000001 至 c-000057 已分配）
+- 地址计数器：63（c-000001 至 c-000063 已分配）

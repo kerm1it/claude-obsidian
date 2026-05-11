@@ -56,6 +56,7 @@ status: active
 - [[sources/memory-dreaming-self-learning-agents-2026-05-11|Memory and Dreaming for Self-Learning Agents — Mahesh（Anthropic 2026-05-11）]]
 - [[sources/harness-engineering-openai-2026-02-11|工程技术：在智能体优先的世界中利用 Codex — Ryan Lopopolo（OpenAI 2026-02-11）]]
 - [[sources/the-thinking-lever-2026-05-11|The Thinking Lever — Matt Bleifer（Anthropic 2026-05-11）]]
+- [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（Anthropic，Code with Claude 2026-05-12）]]
 
 ## 实体
 
@@ -64,7 +65,7 @@ status: active
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]
 
 ## 概念
 
@@ -77,6 +78,7 @@ status: active
 - [[concepts/AnthropicDreaming]]、[[concepts/AgentMemoryAPI]]、[[concepts/乐观并发]]
 - [[concepts/智能体优先工程]]、[[concepts/代码仓库即记录系统]]、[[concepts/智能体GC]]
 - [[concepts/TestTimeCompute]]、[[concepts/AdaptiveThinking]]、[[concepts/EffortDial]]、[[concepts/TaskBudgets]]
+- [[concepts/ExpandingToolkit]]、[[concepts/CodeExecution]]、[[concepts/NativeResolutionComputerUse]]
 
 ## 工具领域
 
