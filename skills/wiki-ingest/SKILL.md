@@ -9,8 +9,10 @@ Read the source. Write the wiki. Cross-reference everything. A single source typ
 
 ## User Preferences
 
-- **静默执行**：摄入过程中不向用户播报中间节点（检查队列、下载字幕、预留地址、写文件等步骤一律静默）。
+- **过程零输出**：从收到摄入指令到贴出最终摘要页，中间一个字都不输出。不含任何过渡句、状态说明、"正在处理"等短语。工具调用之间不写文字。
 - **完成后输出原文**：摄入完成后，将 `wiki/sources/` 对应摘要页的 **Markdown 正文**（去掉 frontmatter）完整贴出，不自行另写总结。
+
+> 执行判断标准：输出任何文字前问自己——**这是最终摘要页正文吗？** 不是 → 不输出。没有例外。
 
 **Syntax standard**: Write all Obsidian Markdown using proper Obsidian Flavored Markdown. Wikilinks as `[[Note Name]]`, callouts as `> [!type] Title`, embeds as `![[file]]`, properties as YAML frontmatter. If the kepano/obsidian-skills plugin is installed, prefer its canonical obsidian-markdown skill for Obsidian syntax reference. Otherwise, follow the guidance in this skill.
 
