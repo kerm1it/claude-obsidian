@@ -12,7 +12,14 @@ Read the source. Write the wiki. Cross-reference everything. A single source typ
 - **过程零输出**：从收到摄入指令到贴出最终摘要页，中间一个字都不输出。不含任何过渡句、状态说明、"正在处理"等短语。工具调用之间不写文字。
 - **完成后输出原文**：摄入完成后，将 `wiki/sources/` 对应摘要页的 **Markdown 正文**（去掉 frontmatter）完整贴出，不自行另写总结。
 
-> 执行判断标准：输出任何文字前问自己——**这是最终摘要页正文吗？** 不是 → 不输出。没有例外。
+> 执行判断标准：输出任何文字前问自己——**这是最终摘要页正文吗？** 不是 → 不输出。
+>
+> 例外（允许打破静默）：
+> - **需要用户决策**：遇到 `needs-user-decision` 状态、队列冲突、来源歧义等，说清楚问题和选项，等待用户指示。
+> - **致命错误无法继续**：摄入完全中止，说明原因。
+>
+> 不算例外（静默处理）：
+> - 可自行恢复的失败（如 URL 被拒自动回退 yt-dlp）→ 静默执行，在最终摘要的 Extraction Notes 里注明。
 
 **Syntax standard**: Write all Obsidian Markdown using proper Obsidian Flavored Markdown. Wikilinks as `[[Note Name]]`, callouts as `> [!type] Title`, embeds as `![[file]]`, properties as YAML frontmatter. If the kepano/obsidian-skills plugin is installed, prefer its canonical obsidian-markdown skill for Obsidian syntax reference. Otherwise, follow the guidance in this skill.
 
