@@ -17,9 +17,11 @@ related:
 
 ## 最近更新
 
-2026-05-11。消化了三条素材：
+2026-05-11。消化了四条素材：
 
-1. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
+1. **Ryan Lopopolo — 工程技术：在智能体优先的世界中利用 Codex**（OpenAI，2026-02-11）：3 名工程师，5 个月，100 万行代码，零人工编码，效率 10×。AGENTS.md 是目录；仓库即记录系统；黄金原则 + 后台 GC 对抗代码熵；智能体 GC ≈ GBrain DreamCycle ≈ Anthropic Dreaming，三者独立收敛。
+
+2. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
 
 2. **Fiona Fung — Running an AI-native engineering org**（Code with Claude 2026-05-06，YouTube ~30 分钟）：Claude Code 工程负责人 Fiona Fung 分享 AI 原生工程组织的五大主题。
 
@@ -78,6 +80,9 @@ related:
 
 ## 当前线索
 
+- [[concepts/智能体优先工程]] — OpenAI 实战验证框架，与 Fiona Fung 框架高度同构，可合并为统一视角
+- [[concepts/代码仓库即记录系统]] — 直接适用于本 vault 和自己的项目：仓库/vault 即记忆
+- [[concepts/智能体GC]] — 三方独立收敛（OpenAI / GBrain / Anthropic），异步离线维护是 Agent 系统通用原语
 - [[concepts/AnthropicDreaming]] — Anthropic 官方 Dreaming，研究预览，值得深入跟踪应用效果
 - [[concepts/AgentMemoryAPI]] — 尝试在自己的 Agent 项目中接入 Memory API
 - [[concepts/AI原生工程组织]] — Fiona 的整体框架，自己团队可对照检视哪些规范值得借鉴
@@ -93,4 +98,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：48（c-000001 至 c-000047 已分配）
+- 地址计数器：53（c-000001 至 c-000052 已分配）

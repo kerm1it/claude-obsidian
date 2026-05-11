@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-11 ingest | 工程技术：在智能体优先的世界中利用 Codex — Ryan Lopopolo（OpenAI）
+
+- Source: `.raw/articles/harness-engineering-openai-2026-02-11.md`（Playwright headless Chrome 抓取，Cloudflare 保护绕过）
+- Summary: [[sources/harness-engineering-openai-2026-02-11]]
+- Pages created: [[sources/harness-engineering-openai-2026-02-11]], [[people/RyanLopopolo]], [[entities/OpenAI]], [[concepts/智能体优先工程]], [[concepts/代码仓库即记录系统]], [[concepts/智能体GC]]
+- Pages updated: [[index]], [[hot]], [[log]]
+- Key insight: OpenAI 3 名工程师 5 个月 100 万行代码零人工编码，核心经验：AGENTS.md 是目录不是百科全书；仓库即记录系统；机械强制架构约束；黄金原则+后台 GC 对抗代码熵。与 Fiona Fung 框架和 GBrain DreamCycle 高度同构。
+
 ## 2026-05-11 ingest | Memory and Dreaming for Self-Learning Agents — Mahesh（Anthropic）
 
 - Source: `.raw/notebooklm/memory-dreaming-self-learning-agents-2026-05-11.md`（YouTube，NotebookLM fulltext，23,279 chars）
