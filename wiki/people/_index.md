@@ -25,3 +25,4 @@ status: active
 - [[people/DanielaAmodei|Daniela Amodei]] — Anthropic 联合创始人 & President
 - [[people/AmiVora|Ami Vora]] — Anthropic 首席产品官（CPO）
 - [[people/GarryTan|Garry Tan]] — Y Combinator 总裁 & CEO，GBrain 作者
+- [[people/FionaFung|Fiona Fung]] — Anthropic Claude Code & Cowie 工程与产品负责人

@@ -17,9 +17,11 @@ related:
 
 ## 最近更新
 
-2026-05-11。消化了一条素材：
+2026-05-11。消化了两条素材：
 
 1. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
+
+2. **Fiona Fung — Running an AI-native engineering org**（Code with Claude 2026-05-06，YouTube ~30 分钟）：Claude Code 工程负责人 Fiona Fung 分享 AI 原生工程组织的五大主题。
 
 ---
 
@@ -31,7 +33,18 @@ related:
 
 ## 关键事实
 
-### 来自 Dario & Daniela 对谈（最新）
+### 来自 Fiona Fung（最新，2026-05-11 摄入）
+
+- **瓶颈已转移**：编码吞吐量不再稀缺 → 验证/安全/跨职能协作成为新瓶颈 → [[concepts/瓶颈转移论]]
+- **JIT 规划**：六个月路线图三个月就过时；改为即时规划，idea → prototype → PR → [[concepts/JIT规划]]
+- **技术争论新范式**：生成三个 PR 对比，代码赢，不去白板
+- **Claude Code 审查策略**：Claude 负责 style/lint/bug；人类保留法务/安全/产品品位
+- **管理者先做 IC**：重狗粮，建立团队信任；org 尽量扁平
+- **三大核心原则**：全员用 Claude Code；Claudify 一切；明确许可干掉旧流程
+- **效果信号**：onboarding 上手时间 ↓；PR 周期 ↓；Claude 辅助提交率趋近 100%
+- **[[people/FionaFung]]**：新增人物页
+
+### 来自 Dario & Daniela 对谈
 
 - **Q1 2026 年化增长 80x**（预期 10x）→ SpaceX 算力合作公告
 - **Dario**：预测 **2026 年出现单人十亿美金公司**，目前已有 2 人团队 10 亿、单人数亿
@@ -55,15 +68,17 @@ related:
 
 ## 当前线索
 
+- [[concepts/AI原生工程组织]] — Fiona 的整体框架，自己团队可对照检视哪些规范值得借鉴
+- [[concepts/瓶颈转移论]] — 与 [[concepts/AmdahlsLawInAI]] 互相印证，值得深入思考
+- [[concepts/JIT规划]] — 在自己的项目中实践即时规划
 - [[entities/GBrain]] — 开源 Agent 记忆系统，架构可深入研究（Compiled Truth、Minions、Dream Cycle）
 - [[concepts/Skillify]] — fat-markdown skill 模式与本 vault skills/ 同构，可互相借鉴
 - [[concepts/混合检索RRF]] — RRF 融合检索，可应用于本 vault 的 wiki-query 改进
 - [[concepts/单人十亿美金公司]] — 2026 年底截止，值得持续关注
 - [[concepts/国家级天才数据中心]] — 多 Agent 架构演进方向
-- [[concepts/AmdahlsLawInAI]] — 在自己的 AI 工作流中找新瓶颈
 - [[concepts/Claude-Code接入飞书]] — 可以深入研究实现方案
 - [[entities/MX]] — 产品值得关注
 
 ## DragonScale
 
-- 地址计数器：38（c-000001 至 c-000037 已分配）
+- 地址计数器：43（c-000001 至 c-000042 已分配）

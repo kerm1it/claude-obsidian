@@ -93,6 +93,26 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/ai-native-engineering-org-2026-05-11.md": {
+      "hash": "f347e6b968319126a3d58018db43da2e",
+      "ingested_at": "2026-05-11",
+      "pages_created": [
+        "wiki/sources/fiona-fung-ai-native-engineering-2026-05-11.md",
+        "wiki/people/FionaFung.md",
+        "wiki/concepts/AI原生工程组织.md",
+        "wiki/concepts/JIT规划.md",
+        "wiki/concepts/瓶颈转移论.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/CodeWithClaude.md",
+        "wiki/domains/Claude-Code.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -132,6 +152,11 @@
     "wiki/concepts/DreamCycle.md": "c-000034",
     "wiki/concepts/Skillify.md": "c-000035",
     "wiki/concepts/混合检索RRF.md": "c-000036",
-    "wiki/concepts/Minions任务队列.md": "c-000037"
+    "wiki/concepts/Minions任务队列.md": "c-000037",
+    "wiki/sources/fiona-fung-ai-native-engineering-2026-05-11.md": "c-000038",
+    "wiki/people/FionaFung.md": "c-000039",
+    "wiki/concepts/AI原生工程组织.md": "c-000040",
+    "wiki/concepts/JIT规划.md": "c-000041",
+    "wiki/concepts/瓶颈转移论.md": "c-000042"
   }
 }

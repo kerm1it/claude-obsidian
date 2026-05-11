@@ -25,6 +25,12 @@ status: active
 - [[concepts/混合检索RRF|混合检索 + RRF 融合]] — 向量 + 关键词 + RRF，P@5 提升 +31.4 pts
 - [[concepts/Minions任务队列|Minions 任务队列]] — 确定性后台 job queue，不阻塞 Agent 主会话
 
+## AI 原生工程组织
+
+- [[concepts/AI原生工程组织|AI 原生工程组织]] — 当 AI 成为基础设施后，团队规范、组织形态和文化的系统性重写框架
+- [[concepts/瓶颈转移论|瓶颈转移论]] — 编码不再是瓶颈；验证/安全/跨职能协作成为新稀缺资源
+- [[concepts/JIT规划|JIT 规划（Just-In-Time Planning）]] — 高变化率 + 低原型成本环境下，只在需要时做足够的规划
+
 ## AI 研究与产品理论
 
 - [[concepts/ScalingLaws|规模律（Scaling Laws）]] — 模型能力随算力/数据/参数的幂律增长，Dario 等 10 年前的预测全部兑现

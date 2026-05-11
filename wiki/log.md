@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-11 ingest | Running an AI-native engineering org — Fiona Fung（Code with Claude 2026）
+
+- Source: `.raw/articles/ai-native-engineering-org-2026-05-11.md`（YouTube 字幕，yt-dlp auto-captions，约 30 分钟）
+- Summary: [[sources/fiona-fung-ai-native-engineering-2026-05-11]]
+- Pages created: [[sources/fiona-fung-ai-native-engineering-2026-05-11]], [[people/FionaFung]], [[concepts/AI原生工程组织]], [[concepts/JIT规划]], [[concepts/瓶颈转移论]]
+- Pages updated: [[entities/CodeWithClaude]], [[domains/Claude-Code]], [[people/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Fiona Fung（Claude Code 工程负责人）的核心论点：编码吞吐量不再是瓶颈，验证/安全/跨职能协作才是新稀缺资源；团队需要主动重写规范（JIT 规划、代码赢技术争论、扁平 org、管理者先做 IC、明确许可干掉旧流程）。
+
 ## 2026-05-11 ingest | GBrain — AI Agent 记忆与知识管理系统
 
 - Source: `.raw/articles/gbrain-2026-05-11.md`（GitHub repo，garrytan/gbrain）
