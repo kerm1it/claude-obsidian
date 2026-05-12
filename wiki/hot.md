@@ -17,7 +17,20 @@ related:
 
 ## 最近更新
 
-2026-05-12。消化了一条素材：
+2026-05-12。消化了两条素材：
+
+**Boris Cherny — Why Coding Is Solved, and What Comes Next**（Sequoia Capital，YouTube）：Claude Code 创始人的访谈。
+
+- **[[concepts/ProductOverhang]]**：Claude Code 诞生逻辑——模型能力已存在，产品尚未捕捉；提前建造等待模型赶上；头六个月不好用是预期中的
+- **指数增长始于 Opus 4**（2026 年 5 月），此后每个模型版本都有新拐点
+- **个人工作流**：从手机工作；5-10 session，几百 Agent 并行，每晚几千 Agent 深度工作
+- **[[concepts/Loop机制]]**：`/loop` = cron 调度重复任务（PR 保姆、CI 健康、Twitter 反馈聚类）；Routines 是服务端版本；Boris 称"Loop 是最重要功能"；4.7 会主动提议启动 Loop
+- **SaaS 护城河**：削弱——切换成本、流程力量；保留——网络效应、规模经济、稀缺资源；创业最佳时机
+- **[[concepts/软件民主化]]**：印刷机类比；领域专家 > 通用工程师；所有人都会编程但专业工程师仍存在
+- **Anthropic 内部**：零手写代码，SQL 也由模型生成；Claude 实例通过 Slack 互相通信；领先之处是组织流程，不是模型
+- **新人物**：[[people/BorisCherny]]；新实体：[[entities/SequoiaCapital]]
+
+---
 
 **Lucas — The Expanding Toolkit**（Anthropic，YouTube，Code with Claude 2026-05-06）：模型能力扩展工具箱框架。
 
@@ -114,4 +127,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：63（c-000001 至 c-000063 已分配）
+- 地址计数器：69（c-000001 至 c-000069 已分配）

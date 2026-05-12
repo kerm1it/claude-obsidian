@@ -39,6 +39,12 @@ status: active
 - [[concepts/AmdahlsLawInAI|Amdahl 定律在 AI 中的应用]] — AI 加速代码后，安全/验证/架构成为新瓶颈
 - [[concepts/单人十亿美金公司]] — Dario 预测 2026 年将出现单人十亿美金公司
 
+## Claude Code 产品策略与未来
+
+- [[concepts/ProductOverhang|Product Overhang（产品过剩）]] — 模型能力已存在但产品尚未捕捉；提前建造等待模型赶上；Claude Code 的诞生逻辑
+- [[concepts/Loop机制|Loop 机制]] — cron 调度重复 Agent 任务；Boris Cherny 每晚几千 Agent；/loop + Routines
+- [[concepts/软件民主化|软件民主化（印刷机类比）]] — 编程将像读写一样成为大众技能；领域专家是最佳软件作者
+
 ## Claude 模型能力扩展（Expanding Toolkit）
 
 - [[concepts/ExpandingToolkit|Expanding Toolkit（扩展工具箱）]] — 去年要自己搭的脚手架今天已随模型出货；补偿模型不可靠性的代码半衰期只有几个月

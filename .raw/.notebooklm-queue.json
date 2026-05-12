@@ -85,6 +85,27 @@
     }
   ,
     {
+      "id": "notebooklm-20260512-boris-cherny-coding-solved",
+      "original_source": "https://www.youtube.com/watch?v=SlGRN8jh2RI",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-12T00:00:00Z",
+      "updated_at": "2026-05-12T00:00:00Z",
+      "status": "ingested",
+      "notebook_id": "1409fd13-f6f1-49a6-9a49-32179f378e26",
+      "source_id": "33f65719-6e8b-48c4-acc9-0d2b44cd67d6",
+      "notebook_title": "Ingest: Boris Cherny - Why Coding Is Solved",
+      "source_title": "Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-12T00:00:00Z",
+      "target_raw_path": ".raw/notebooklm/boris-cherny-coding-solved-2026-05-12.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube URL accepted directly; 26,862 chars; Sequoia Capital 访谈 Boris Cherny（Claude Code 创始人）：Product Overhang、Loop 机制、软件民主化、编码已解决"
+    }
+  ,
+    {
       "id": "notebooklm-20260512-expanding-toolkit",
       "original_source": "https://www.youtube.com/watch?v=KLCuxMDZSDg",
       "source_hash": "",

@@ -53,14 +53,24 @@ status: active
 - **Computer Use**：Opus 4.7 原生 1440p 坐标，缩放数学消失；OSWorld 78% → [[concepts/NativeResolutionComputerUse]]
   - Claude Code Tip：Claude in Chrome（`claude.ai/chrome`）→ 操控真实浏览器会话
 
+## Loop 机制（来自 Boris Cherny）
+
+> "Loop 是我目前认为最重要的功能。最简单但最有效的东西。"
+
+- `/loop`：让 Claude 用 cron 调度重复任务（PR 保姆、CI 维护、反馈聚类等）→ [[concepts/Loop机制]]
+- **Routines**：Loop 的服务端版本，关机后继续运行
+- Boris 个人：每晚几千个 Agent 并行做深度工作；每天几十-150 个 PR
+
 ## 关联人物
 
 - [[people/Thariq]]（Claude Code 团队成员）
 - [[people/FionaFung]]（Claude Code & Cowie 工程与产品负责人）
 - [[people/Lucas]]（Anthropic Research PM，Expanding Toolkit 演讲人）
+- [[people/BorisCherny]]（Claude Code 创始人）
 
 ## 关联来源
 
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]]
 - [[sources/fiona-fung-ai-native-engineering-2026-05-11|Running an AI-native engineering org（Fiona Fung，2026-05-06）]]
 - [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（2026-05-06）]]
+- [[sources/boris-cherny-coding-solved-2026-05-12|Why Coding Is Solved — Boris Cherny（Sequoia，2026-05-12）]]

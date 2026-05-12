@@ -30,3 +30,4 @@ status: active
 - [[people/MattBleifer|Matt Bleifer]] — Anthropic Research PM，The Thinking Lever 演讲人
 - [[people/RyanLopopolo|Ryan Lopopolo]] — OpenAI Staff Engineer，Codex CLI 工程实践分享
 - [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人
+- [[people/BorisCherny|Boris Cherny]] — Anthropic，Claude Code 创始人

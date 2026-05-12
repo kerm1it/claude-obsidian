@@ -22,3 +22,5 @@ status: active
 - [[entities/GBrain]] — AI Agent 记忆与知识管理系统，Garry Tan 开源，14.6K ⭐
 - [[entities/YCombinator|Y Combinator (YC)]] — 全球顶级创业加速器
 - [[entities/OpenClaw]] — Garry Tan 的 AI Agent 平台，GBrain 驱动
+- [[entities/OpenAI]] — AI 研究公司，GPT 系列模型开发者
+- [[entities/SequoiaCapital]] — 顶级风险投资机构，Anthropic 投资方

@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-12 ingest | Why Coding Is Solved — Boris Cherny（Sequoia Capital）
+
+- Source: `.raw/notebooklm/boris-cherny-coding-solved-2026-05-12.md`（YouTube，NotebookLM fulltext，26,862 chars）
+- Summary: [[sources/boris-cherny-coding-solved-2026-05-12]]
+- Pages created: [[sources/boris-cherny-coding-solved-2026-05-12]], [[people/BorisCherny]], [[entities/SequoiaCapital]], [[concepts/软件民主化]], [[concepts/ProductOverhang]], [[concepts/Loop机制]]
+- Pages updated: [[domains/Claude-Code]], [[entities/_index]], [[people/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Claude Code 的诞生逻辑是 Product Overhang；Boris 个人 100% 由模型写代码，每晚几千 Agent 并行；/loop 是最重要功能；编程将像读写一样民主化；最懂领域的人将是最好的软件作者。
+
 ## 2026-05-12 ingest | The Expanding Toolkit — Lucas（Anthropic，Code with Claude）
 
 - Source: `.raw/notebooklm/the-expanding-toolkit-2026-05-12.md`（YouTube，NotebookLM fulltext，17,207 chars）

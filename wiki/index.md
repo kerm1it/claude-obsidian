@@ -57,15 +57,16 @@ status: active
 - [[sources/harness-engineering-openai-2026-02-11|工程技术：在智能体优先的世界中利用 Codex — Ryan Lopopolo（OpenAI 2026-02-11）]]
 - [[sources/the-thinking-lever-2026-05-11|The Thinking Lever — Matt Bleifer（Anthropic 2026-05-11）]]
 - [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（Anthropic，Code with Claude 2026-05-12）]]
+- [[sources/boris-cherny-coding-solved-2026-05-12|Why Coding Is Solved — Boris Cherny（Sequoia Capital，2026-05-12）]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
-- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]
+- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]
 
 ## 概念
 
@@ -79,6 +80,7 @@ status: active
 - [[concepts/智能体优先工程]]、[[concepts/代码仓库即记录系统]]、[[concepts/智能体GC]]
 - [[concepts/TestTimeCompute]]、[[concepts/AdaptiveThinking]]、[[concepts/EffortDial]]、[[concepts/TaskBudgets]]
 - [[concepts/ExpandingToolkit]]、[[concepts/CodeExecution]]、[[concepts/NativeResolutionComputerUse]]
+- [[concepts/ProductOverhang]]、[[concepts/Loop机制]]、[[concepts/软件民主化]]
 
 ## 工具领域
 

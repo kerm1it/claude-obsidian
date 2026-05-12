@@ -148,6 +148,27 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/boris-cherny-coding-solved-2026-05-12.md": {
+      "hash": "notebooklm-youtube-SlGRN8jh2RI",
+      "ingested_at": "2026-05-12",
+      "pages_created": [
+        "wiki/sources/boris-cherny-coding-solved-2026-05-12.md",
+        "wiki/people/BorisCherny.md",
+        "wiki/entities/SequoiaCapital.md",
+        "wiki/concepts/软件民主化.md",
+        "wiki/concepts/ProductOverhang.md",
+        "wiki/concepts/Loop机制.md"
+      ],
+      "pages_updated": [
+        "wiki/domains/Claude-Code.md",
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/the-expanding-toolkit-2026-05-12.md": {
       "hash": "notebooklm-youtube-KLCuxMDZSDg",
       "ingested_at": "2026-05-12",
@@ -249,6 +270,12 @@
     "wiki/people/Lucas.md": "c-000060",
     "wiki/concepts/ExpandingToolkit.md": "c-000061",
     "wiki/concepts/CodeExecution.md": "c-000062",
-    "wiki/concepts/NativeResolutionComputerUse.md": "c-000063"
+    "wiki/concepts/NativeResolutionComputerUse.md": "c-000063",
+    "wiki/sources/boris-cherny-coding-solved-2026-05-12.md": "c-000064",
+    "wiki/people/BorisCherny.md": "c-000065",
+    "wiki/entities/SequoiaCapital.md": "c-000066",
+    "wiki/concepts/软件民主化.md": "c-000067",
+    "wiki/concepts/ProductOverhang.md": "c-000068",
+    "wiki/concepts/Loop机制.md": "c-000069"
   }
 }
