@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-12 ingest | AI Agents Run My Business and Life — Andrew Wilkinson（Greg Isenberg）
+
+- Source: `.raw/notebooklm/andrew-wilkinson-ai-agents-2026-05-12.md`（YouTube，NotebookLM fulltext，43,289 chars）
+- Summary: [[sources/andrew-wilkinson-ai-agents-2026-05-12]]
+- Pages created: [[sources/andrew-wilkinson-ai-agents-2026-05-12]], [[people/AndrewWilkinson]], [[entities/Tiny]], [[concepts/自主商业运营]], [[concepts/软件护城河侵蚀]]
+- Pages updated: [[entities/GBrain]], [[entities/OpenClaw]], [[entities/_index]], [[people/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Andrew Wilkinson 用 Agent 运营完整 SaaS 业务（support/marketing/dev）和 family office（$4 万/月 Claude 账单替代薪资和 SaaS 费用）；软件护城河正在瓦解，纯功能性 SaaS 定价权崩塌；GBrain + OpenClaw 实战印证。
+
 ## 2026-05-12 ingest | Why Coding Is Solved — Boris Cherny（Sequoia Capital）
 
 - Source: `.raw/notebooklm/boris-cherny-coding-solved-2026-05-12.md`（YouTube，NotebookLM fulltext，26,862 chars）

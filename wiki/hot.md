@@ -17,7 +17,20 @@ related:
 
 ## 最近更新
 
-2026-05-12。消化了两条素材：
+2026-05-12。消化了三条素材：
+
+**Andrew Wilkinson — AI Agents Run My Business and Life**（Greg Isenberg，YouTube，录制于 2026-04-29）：Tiny 创始人分享 AI Agent 完整运营业务实践。
+
+- **[[concepts/自主商业运营]]**：Deep Personality（SaaS）完全由 Agent 运营（Support/Dev/Marketing），营收 $2 万；Harbor 是工具
+- **Family Office 替换 Addepar**：CFO 零代码背景，两周替换 $5-10 万/年 SaaS；月 Claude 账单 $4 万
+- **个人 AI 栈**：OpenClaw Agent（邮件→Telegram 多选题）+ GBrain（会议/邮件/生活录音）+ Hearsay（全天录音）+ 个性化播客（Gemini Voice）+ 健康 Agent（Apple Watch + 8 专家子 Agent）
+- **[[concepts/软件护城河侵蚀]]**："软件现在是个更差的生意"；殡仪馆类比；投 TSMC/数据中心
+- **与 Boris Cherny 收敛**：两人独立得出"纯功能性 SaaS 护城河瓦解"
+- **提示技巧**：让 Claude 采访你来构建 prompt；总是用 8 个子 Agent 团队
+- **新人物**：[[people/AndrewWilkinson]]；新实体：[[entities/Tiny]]
+- **GBrain/OpenClaw 更新**：Andrew 是 Garry Tan 朋友，实际生产用户，补充了两个 wiki 页面
+
+---
 
 **Boris Cherny — Why Coding Is Solved, and What Comes Next**（Sequoia Capital，YouTube）：Claude Code 创始人的访谈。
 
@@ -127,4 +140,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：69（c-000001 至 c-000069 已分配）
+- 地址计数器：74（c-000001 至 c-000074 已分配）

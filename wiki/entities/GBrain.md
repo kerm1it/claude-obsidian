@@ -71,6 +71,12 @@ GBrain 为 AI Agent 提供持久的、可搜索的结构化记忆。它不是向
 - [[entities/OpenClaw]] — Garry 的 AI Agent 平台
 - Hermes Agent（Nous Research）
 
+## 已知使用者
+
+- [[people/GarryTan]] — 作者，在 OpenClaw 平台上使用
+- [[people/AndrewWilkinson]]（[[entities/Tiny]] 创始人）：摄入全部会议记录 + 邮件 + Hearsay 生活录音；构建关系 CRM；驱动 family office 查询
+
 ## 来源
 
 - [[sources/gbrain-2026-05-11]]
+- [[sources/andrew-wilkinson-ai-agents-2026-05-12]] — Andrew Wilkinson 实际生产使用案例

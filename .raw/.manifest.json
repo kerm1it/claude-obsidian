@@ -148,6 +148,27 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/andrew-wilkinson-ai-agents-2026-05-12.md": {
+      "hash": "notebooklm-youtube-65IAqRUxg3c",
+      "ingested_at": "2026-05-12",
+      "pages_created": [
+        "wiki/sources/andrew-wilkinson-ai-agents-2026-05-12.md",
+        "wiki/people/AndrewWilkinson.md",
+        "wiki/entities/Tiny.md",
+        "wiki/concepts/自主商业运营.md",
+        "wiki/concepts/软件护城河侵蚀.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/GBrain.md",
+        "wiki/entities/OpenClaw.md",
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/boris-cherny-coding-solved-2026-05-12.md": {
       "hash": "notebooklm-youtube-SlGRN8jh2RI",
       "ingested_at": "2026-05-12",
@@ -276,6 +297,11 @@
     "wiki/entities/SequoiaCapital.md": "c-000066",
     "wiki/concepts/软件民主化.md": "c-000067",
     "wiki/concepts/ProductOverhang.md": "c-000068",
-    "wiki/concepts/Loop机制.md": "c-000069"
+    "wiki/concepts/Loop机制.md": "c-000069",
+    "wiki/sources/andrew-wilkinson-ai-agents-2026-05-12.md": "c-000070",
+    "wiki/people/AndrewWilkinson.md": "c-000071",
+    "wiki/entities/Tiny.md": "c-000072",
+    "wiki/concepts/自主商业运营.md": "c-000073",
+    "wiki/concepts/软件护城河侵蚀.md": "c-000074"
   }
 }

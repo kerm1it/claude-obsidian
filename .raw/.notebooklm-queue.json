@@ -85,6 +85,27 @@
     }
   ,
     {
+      "id": "notebooklm-20260512-andrew-wilkinson-ai-agents",
+      "original_source": "https://www.youtube.com/watch?v=65IAqRUxg3c",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-12T00:00:00Z",
+      "updated_at": "2026-05-12T00:00:00Z",
+      "status": "ingested",
+      "notebook_id": "c58760fc-be97-4541-8519-bde95885e13c",
+      "source_id": "18359800-3be2-4796-b703-018c9fa81959",
+      "notebook_title": "Ingest: AI Agents run my business and life",
+      "source_title": "AI Agents run my business and life",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-12T00:00:00Z",
+      "target_raw_path": ".raw/notebooklm/andrew-wilkinson-ai-agents-2026-05-12.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube URL accepted directly; 43,289 chars; Greg Isenberg 访谈 Andrew Wilkinson（Tiny 创始人）：AI Agent 运营完整 SaaS 业务、family office AI、软件护城河侵蚀"
+    }
+  ,
+    {
       "id": "notebooklm-20260512-boris-cherny-coding-solved",
       "original_source": "https://www.youtube.com/watch?v=SlGRN8jh2RI",
       "source_hash": "",

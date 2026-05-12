@@ -24,3 +24,4 @@ status: active
 - [[entities/OpenClaw]] — Garry Tan 的 AI Agent 平台，GBrain 驱动
 - [[entities/OpenAI]] — AI 研究公司，GPT 系列模型开发者
 - [[entities/SequoiaCapital]] — 顶级风险投资机构，Anthropic 投资方
+- [[entities/Tiny]] — Andrew Wilkinson 的加拿大企业集团，约 24 家业务

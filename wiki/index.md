@@ -58,15 +58,16 @@ status: active
 - [[sources/the-thinking-lever-2026-05-11|The Thinking Lever — Matt Bleifer（Anthropic 2026-05-11）]]
 - [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（Anthropic，Code with Claude 2026-05-12）]]
 - [[sources/boris-cherny-coding-solved-2026-05-12|Why Coding Is Solved — Boris Cherny（Sequoia Capital，2026-05-12）]]
+- [[sources/andrew-wilkinson-ai-agents-2026-05-12|AI Agents Run My Business and Life — Andrew Wilkinson（Greg Isenberg，2026-05-12）]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
-- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]
+- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]
 
 ## 概念
 
@@ -81,6 +82,7 @@ status: active
 - [[concepts/TestTimeCompute]]、[[concepts/AdaptiveThinking]]、[[concepts/EffortDial]]、[[concepts/TaskBudgets]]
 - [[concepts/ExpandingToolkit]]、[[concepts/CodeExecution]]、[[concepts/NativeResolutionComputerUse]]
 - [[concepts/ProductOverhang]]、[[concepts/Loop机制]]、[[concepts/软件民主化]]
+- [[concepts/自主商业运营]]、[[concepts/软件护城河侵蚀]]
 
 ## 工具领域
 

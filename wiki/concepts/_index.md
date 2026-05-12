@@ -42,6 +42,8 @@ status: active
 ## Claude Code 产品策略与未来
 
 - [[concepts/ProductOverhang|Product Overhang（产品过剩）]] — 模型能力已存在但产品尚未捕捉；提前建造等待模型赶上；Claude Code 的诞生逻辑
+- [[concepts/自主商业运营|自主商业运营]] — AI Agent 运营完整业务（support/marketing/dev/family office）；3-6 个月内基础 SaaS 可完全交给 AI
+- [[concepts/软件护城河侵蚀|软件护城河侵蚀]] — 软件开发成本趋零，纯功能性 SaaS 护城河瓦解；殡仪馆类比
 - [[concepts/Loop机制|Loop 机制]] — cron 调度重复 Agent 任务；Boris Cherny 每晚几千 Agent；/loop + Routines
 - [[concepts/软件民主化|软件民主化（印刷机类比）]] — 编程将像读写一样成为大众技能；领域专家是最佳软件作者
 
