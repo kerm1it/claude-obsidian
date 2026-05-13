@@ -17,6 +17,21 @@ related:
 
 ## 最近更新
 
+2026-05-13。消化了一条素材：
+
+**claude-mem**（thedotmack/claude-mem，GitHub，⭐ 75,423）：目前最流行的 Claude Code 跨会话记忆插件。
+
+- **[[entities/ClaudeMem]]**：一条命令安装（`npx claude-mem install`）；TypeScript；Apache 2.0
+- **架构**：5 种生命周期钩子 + SQLite（observations）+ Chroma（向量）+ Worker（port 37777）
+- **[[concepts/渐进式上下文注入]]**：3 层 MCP 工作流（search → timeline → get_observations），节省约 10x tokens
+- **与 GBrain 对比**：claude-mem 更轻量（实时捕获会话），GBrain 更完整（Compiled Truth + Dream Cycle）
+- **与 AgentMemoryAPI 对比**：本地插件 vs 云端 API，互补
+- **OpenClaw 集成**：一条 curl 命令接入 OpenClaw Gateway
+- **Endless Mode（Beta）**：仿生记忆架构，超长会话专用
+- **更新**：GBrain 和 AgentMemoryAPI wiki 页面已补充与 claude-mem 的对比
+
+---
+
 2026-05-12。消化了三条素材：
 
 **Andrew Wilkinson — AI Agents Run My Business and Life**（Greg Isenberg，YouTube，录制于 2026-04-29）：Tiny 创始人分享 AI Agent 完整运营业务实践。
@@ -140,4 +155,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：74（c-000001 至 c-000074 已分配）
+- 地址计数器：77（c-000001 至 c-000077 已分配）

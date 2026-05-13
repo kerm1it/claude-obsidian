@@ -17,6 +17,10 @@ status: active
 - [[concepts/Claude-Code接入飞书]] — 用飞书替代 terminal，获得持久化、富文本和多 session 管理
 - [[concepts/聊天记录复盘与AI成长]] — 用公司聊天记录做时间分析、决策复盘和 PRD 工作流
 
+## Agent 记忆取用策略
+
+- [[concepts/渐进式上下文注入|渐进式上下文注入（Progressive Disclosure）]] — 分层取用历史记忆（索引→时间线→详情），节省约 10x tokens；claude-mem 核心模式
+
 ## Agent 记忆与系统设计
 
 - [[concepts/CompiledTruth时间线模式|Compiled Truth + Timeline 模式]] — 知识页面双区结构：编译事实区（覆写）+ 时间线区（追加）

@@ -25,3 +25,4 @@ status: active
 - [[entities/OpenAI]] — AI 研究公司，GPT 系列模型开发者
 - [[entities/SequoiaCapital]] — 顶级风险投资机构，Anthropic 投资方
 - [[entities/Tiny]] — Andrew Wilkinson 的加拿大企业集团，约 24 家业务
+- [[entities/ClaudeMem]] — 开源 Agent 跨会话记忆插件，75K ⭐，TypeScript，渐进式上下文注入

@@ -108,4 +108,6 @@ CLAUDE.md（早期，手动，受限）
 
 - [[concepts/DreamCycle]] — GBrain 的同构开源实现
 - [[entities/GBrain]] — 开源 Agent 记忆管理系统
+- [[entities/ClaudeMem]] — 轻量插件方案（75K ⭐），本地 SQLite + Chroma，实时会话捕获与注入；与 Memory API 互补（本地 vs 云端）
+- [[concepts/渐进式上下文注入]] — claude-mem 的核心取用策略，与 Memory API 的注入设计可互相参考
 - [[concepts/乐观并发]] — 并发写保护

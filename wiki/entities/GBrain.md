@@ -71,6 +71,10 @@ GBrain 为 AI Agent 提供持久的、可搜索的结构化记忆。它不是向
 - [[entities/OpenClaw]] — Garry 的 AI Agent 平台
 - Hermes Agent（Nous Research）
 
+## 同类对比
+
+- [[entities/ClaudeMem]]（75K ⭐）：更轻量，一条命令安装；捕获工具调用级 observations；Chroma 向量检索；侧重实时会话注入。GBrain 更完整（Compiled Truth + Dream Cycle + RRF），适合重型知识库。
+
 ## 已知使用者
 
 - [[people/GarryTan]] — 作者，在 OpenClaw 平台上使用

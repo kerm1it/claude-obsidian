@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-13 ingest | claude-mem — 跨会话持久记忆系统（thedotmack）
+
+- Source: `.raw/articles/claude-mem-2026-05-13.md`（GitHub repo，README + package.json）
+- Summary: [[sources/claude-mem-2026-05-13]]
+- Pages created: [[sources/claude-mem-2026-05-13]], [[entities/ClaudeMem]], [[concepts/渐进式上下文注入]]
+- Pages updated: [[entities/GBrain]], [[concepts/AgentMemoryAPI]], [[entities/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: claude-mem（75K ⭐）是目前最流行的 Claude Code 记忆插件；核心创新是渐进式上下文注入（3 层 MCP 工作流，节省 10x tokens）；与 GBrain 互补——轻量易装 vs 重型知识库。
+
 ## 2026-05-12 ingest | AI Agents Run My Business and Life — Andrew Wilkinson（Greg Isenberg）
 
 - Source: `.raw/notebooklm/andrew-wilkinson-ai-agents-2026-05-12.md`（YouTube，NotebookLM fulltext，43,289 chars）

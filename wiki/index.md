@@ -59,11 +59,12 @@ status: active
 - [[sources/the-expanding-toolkit-2026-05-12|The Expanding Toolkit — Lucas（Anthropic，Code with Claude 2026-05-12）]]
 - [[sources/boris-cherny-coding-solved-2026-05-12|Why Coding Is Solved — Boris Cherny（Sequoia Capital，2026-05-12）]]
 - [[sources/andrew-wilkinson-ai-agents-2026-05-12|AI Agents Run My Business and Life — Andrew Wilkinson（Greg Isenberg，2026-05-12）]]
+- [[sources/claude-mem-2026-05-13|claude-mem — 跨会话持久记忆系统（thedotmack，2026-05-13）]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
-- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]
+- [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]、[[entities/ClaudeMem]]
 
 ## 人物
 
@@ -83,6 +84,7 @@ status: active
 - [[concepts/ExpandingToolkit]]、[[concepts/CodeExecution]]、[[concepts/NativeResolutionComputerUse]]
 - [[concepts/ProductOverhang]]、[[concepts/Loop机制]]、[[concepts/软件民主化]]
 - [[concepts/自主商业运营]]、[[concepts/软件护城河侵蚀]]
+- [[concepts/渐进式上下文注入]]
 
 ## 工具领域
 
