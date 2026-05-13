@@ -74,6 +74,7 @@ GBrain 为 AI Agent 提供持久的、可搜索的结构化记忆。它不是向
 ## 同类对比
 
 - [[entities/ClaudeMem]]（75K ⭐）：更轻量，一条命令安装；捕获工具调用级 observations；Chroma 向量检索；侧重实时会话注入。GBrain 更完整（Compiled Truth + Dream Cycle + RRF），适合重型知识库。
+- [[entities/AgentMemory]]（7.1K ⭐，rohitg00）：4 层记忆整合（Working/Episodic/Semantic/Procedural）+ BM25+Vector+Graph RRF；R@5 95.2%；agentmemory 更工程化（827 tests，51 MCP tools，0 外部 DB）；GBrain 侧重知识库管理，agentmemory 侧重自动捕获和高精度检索。两者的 RRF 检索和异步记忆巩固独立收敛。
 
 ## 已知使用者
 

@@ -244,6 +244,24 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/agentmemory-2026-05-13.md": {
+      "hash": "github-rohitg00-agentmemory-7121stars",
+      "ingested_at": "2026-05-14",
+      "pages_created": [
+        "wiki/sources/agentmemory-2026-05-13.md",
+        "wiki/entities/AgentMemory.md",
+        "wiki/concepts/四层记忆整合.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/GBrain.md",
+        "wiki/entities/ClaudeMem.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -323,6 +341,9 @@
     "wiki/concepts/软件护城河侵蚀.md": "c-000074",
     "wiki/sources/claude-mem-2026-05-13.md": "c-000075",
     "wiki/entities/ClaudeMem.md": "c-000076",
-    "wiki/concepts/渐进式上下文注入.md": "c-000077"
+    "wiki/concepts/渐进式上下文注入.md": "c-000077",
+    "wiki/sources/agentmemory-2026-05-13.md": "c-000078",
+    "wiki/entities/AgentMemory.md": "c-000079",
+    "wiki/concepts/四层记忆整合.md": "c-000080"
   }
 }

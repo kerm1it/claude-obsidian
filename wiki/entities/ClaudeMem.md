@@ -45,15 +45,17 @@ related:
 
 ---
 
-## 与 GBrain 对比
+## 与同类对比
 
-| 维度 | claude-mem | [[entities/GBrain]] |
-|---|---|---|
-| 安装复杂度 | 一条命令 | 需要配置 |
-| 记忆粒度 | 工具调用级别（observations） | 知识页面级别（Compiled Truth） |
-| 维护机制 | 实时捕获 | 夜间 Dream Cycle |
-| 检索 | 混合（Chroma） | 混合 RRF |
-| 适用场景 | 轻量、快速接入 | 重型知识库管理 |
+| 维度 | claude-mem | [[entities/GBrain]] | [[entities/AgentMemory]] |
+|---|---|---|---|
+| 安装复杂度 | 一条命令 | 需要配置 | 中（需 iii engine） |
+| 记忆粒度 | 工具调用（observations） | 知识页面（Compiled Truth） | 4 层（Working→Procedural） |
+| 维护机制 | 实时捕获 | 夜间 Dream Cycle | Ebbinghaus 衰减 + 自动驱逐 |
+| 检索 | 混合（Chroma） | 混合 RRF | BM25+Vector+Graph RRF |
+| 知识图谱 | ✗ | 部分 | ✓ |
+| Stars | 75K | 14.6K | 7.1K |
+| 适用场景 | 轻量、快速接入 | 重型知识库管理 | 高精度、多 agent 共享 |
 
 ---
 

@@ -17,6 +17,21 @@ related:
 
 ## 最近更新
 
+2026-05-14。消化了一条素材：
+
+**agentmemory**（rohitg00/agentmemory，GitHub，⭐ 7,121）：自称 "#1 Persistent memory for AI coding agents"，基于 iii engine，与 LLM Wiki pattern 同源。
+
+- **[[entities/AgentMemory]]**：`npx @agentmemory/agentmemory`；TypeScript；Apache 2.0；0 外部 DB
+- **性能**：R@5 95.2%（LongMemEval-S），92% token 节省，51 MCP tools，12 hooks，827 tests
+- **[[concepts/四层记忆整合]]**：Working → Episodic → Semantic → Procedural，Ebbinghaus 衰减 + 矛盾检测 + 自动驱逐
+- **三流检索**：BM25 + Vector + Graph，RRF 融合——与 [[concepts/混合检索RRF]]（GBrain）独立收敛
+- **与 claude-mem 对比**：agentmemory 更工程化（4 层架构、知识图谱、团队记忆），claude-mem 更轻量（75K ⭐，1 条命令）
+- **三方独立收敛**：agentmemory 4 层整合 ≈ GBrain Dream Cycle ≈ Anthropic Dreaming——异步离线记忆巩固是 Agent 系统通用原语
+- **与 Karpathy 关系**：作者的设计文档（Gist，⭐ 1200）显式扩展了 Karpathy LLM Wiki pattern，agentmemory 是实现
+- **更新**：GBrain、ClaudeMem wiki 页面已补充与 agentmemory 的对比
+
+---
+
 2026-05-13。消化了一条素材：
 
 **claude-mem**（thedotmack/claude-mem，GitHub，⭐ 75,423）：目前最流行的 Claude Code 跨会话记忆插件。
@@ -155,4 +170,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：77（c-000001 至 c-000077 已分配）
+- 地址计数器：80（c-000001 至 c-000080 已分配）

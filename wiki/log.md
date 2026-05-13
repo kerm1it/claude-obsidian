@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-14 ingest | agentmemory — AI 编码智能体持久记忆引擎（rohitg00）
+
+- Source: `.raw/articles/agentmemory-2026-05-13.md`（GitHub repo，README，rohitg00/agentmemory，⭐ 7,121）
+- Summary: [[sources/agentmemory-2026-05-13]]
+- Pages created: [[sources/agentmemory-2026-05-13]], [[entities/AgentMemory]], [[concepts/四层记忆整合]]
+- Pages updated: [[entities/GBrain]], [[entities/ClaudeMem]], [[entities/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: agentmemory（rohitg00）是重型 Agent 记忆引擎；核心创新是四层记忆整合（Working/Episodic/Semantic/Procedural）+ 三流检索 RRF（BM25+Vector+Graph），R@5 95.2%，92% token 节省，0 外部 DB；与 claude-mem（75K ⭐）互补：高精度 vs 轻量安装；四层整合与 GBrain Dream Cycle 和 Anthropic Dreaming 三方独立收敛。
+
 ## 2026-05-13 ingest | claude-mem — 跨会话持久记忆系统（thedotmack）
 
 - Source: `.raw/articles/claude-mem-2026-05-13.md`（GitHub repo，README + package.json）

@@ -23,6 +23,7 @@ status: active
 
 ## Agent 记忆与系统设计
 
+- [[concepts/四层记忆整合|四层记忆整合（Working/Episodic/Semantic/Procedural）]] — agentmemory 核心架构；Ebbinghaus 衰减；三套系统独立收敛于异步记忆巩固原语
 - [[concepts/CompiledTruth时间线模式|Compiled Truth + Timeline 模式]] — 知识页面双区结构：编译事实区（覆写）+ 时间线区（追加）
 - [[concepts/DreamCycle|Dream Cycle（梦境循环）]] — 夜间自动维护：蒸馏、模式检测、反向链接修复
 - [[concepts/Skillify]] — 将一次性 fix 固化为可路由、可测试的 fat-markdown skill
