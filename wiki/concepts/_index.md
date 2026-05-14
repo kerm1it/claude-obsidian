@@ -58,6 +58,11 @@ status: active
 - [[concepts/CodeExecution|Code Execution Tool（代码执行）]] — Claude 服务端托管沙箱；write-run-fix 循环在单个 API turn 内完成
 - [[concepts/NativeResolutionComputerUse|Native Resolution Computer Use]] — Opus 4.7 原生支持 1440p 截图，返回 1:1 像素坐标；OSWorld 78%
 
+## 语音 AI
+
+- [[concepts/下一令牌扩散|下一令牌扩散（Next-Token Diffusion）]] — LLM（语义上下文）+ 扩散头（声学保真度）混合架构；VibeVoice 核心创新
+- [[concepts/长音频单遍处理]] — 64K token 单次推理处理 60 分钟音频；结构化输出 Who/When/What；说话人分离无需后处理
+
 ## 模型推理与效率
 
 - [[concepts/TestTimeCompute|Test-time Compute]] — 推理时动态分配计算资源，不同任务用不同算力

@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-14 ingest | VibeVoice — 开源前沿语音 AI 模型族（Microsoft）
+
+- Source: `.raw/articles/vibevoice-2026-05-14.md`（GitHub repo，microsoft/VibeVoice，⭐ 47,087）
+- Summary: [[sources/vibevoice-2026-05-14]]
+- Pages created: [[sources/vibevoice-2026-05-14]], [[entities/VibeVoice]], [[entities/Microsoft]], [[concepts/下一令牌扩散]], [[concepts/长音频单遍处理]]
+- Pages updated: [[entities/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: VibeVoice 是 Microsoft Research 的开源语音 AI 家族；核心创新是 7.5 Hz 超低帧率连续语音令牌化 + Next-Token Diffusion（LLM+扩散头混合架构），支持 60-90 分钟长音频单遍处理；TTS 代码因深度伪造滥用主动下架，是高质量开源语音合成伦理困境的典型案例；ASR 已集成 HuggingFace Transformers。
+
 ## 2026-05-14 ingest | agentmemory — AI 编码智能体持久记忆引擎（rohitg00）
 
 - Source: `.raw/articles/agentmemory-2026-05-13.md`（GitHub repo，README，rohitg00/agentmemory，⭐ 7,121）

@@ -27,3 +27,5 @@ status: active
 - [[entities/Tiny]] — Andrew Wilkinson 的加拿大企业集团，约 24 家业务
 - [[entities/ClaudeMem]] — 开源 Agent 跨会话记忆插件，75K ⭐，TypeScript，渐进式上下文注入
 - [[entities/AgentMemory]] — 持久记忆引擎，7.1K ⭐，R@5 95.2%，四层记忆整合，0 外部 DB
+- [[entities/Microsoft]] — 科技巨头，AI 研究和产品双线布局
+- [[entities/VibeVoice]] — Microsoft 开源语音 AI 模型族，47K ⭐，TTS + ASR

@@ -17,7 +17,17 @@ related:
 
 ## 最近更新
 
-2026-05-14。消化了一条素材：
+2026-05-14。消化了两条素材：
+
+**VibeVoice**（microsoft/VibeVoice，GitHub，⭐ 47,087）：Microsoft Research 开源语音 AI 模型族。
+
+- **[[entities/VibeVoice]]**：三款模型——ASR-7B（60分钟）、TTS-1.5B（90分钟，代码已下架）、Realtime-0.5B（~300ms）
+- **[[concepts/下一令牌扩散]]**：LLM（Qwen2.5）理解上下文 + 扩散头生成声学细节；arxiv.org/abs/2412.08635
+- **[[concepts/长音频单遍处理]]**：7.5 Hz 超低帧率令牌化 → 64K context → 60 分钟单遍；Who+When+What 联合输出
+- **值得关注**：ASR 已集成 HuggingFace Transformers，可替代 NotebookLM 做有说话人分离的长会议转录
+- **伦理警示**：TTS 代码因 deepfake 滥用主动下架——高质量语音合成的开源风险典型案例
+
+---
 
 **agentmemory**（rohitg00/agentmemory，GitHub，⭐ 7,121）：自称 "#1 Persistent memory for AI coding agents"，基于 iii engine，与 LLM Wiki pattern 同源。
 
@@ -170,4 +180,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：80（c-000001 至 c-000080 已分配）
+- 地址计数器：85（c-000001 至 c-000085 已分配）

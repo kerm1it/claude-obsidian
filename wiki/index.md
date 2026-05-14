@@ -61,11 +61,13 @@ status: active
 - [[sources/andrew-wilkinson-ai-agents-2026-05-12|AI Agents Run My Business and Life — Andrew Wilkinson（Greg Isenberg，2026-05-12）]]
 - [[sources/claude-mem-2026-05-13|claude-mem — 跨会话持久记忆系统（thedotmack，2026-05-13）]]
 - [[sources/agentmemory-2026-05-13|agentmemory — AI 编码智能体持久记忆引擎（rohitg00，2026-05-13）]]
+- [[sources/vibevoice-2026-05-14|VibeVoice — 开源前沿语音 AI 模型族（Microsoft，2026-05-14）]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
 - [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]、[[entities/ClaudeMem]]、[[entities/AgentMemory]]
+- [[entities/Microsoft]]、[[entities/VibeVoice]]
 
 ## 人物
 
@@ -87,6 +89,7 @@ status: active
 - [[concepts/自主商业运营]]、[[concepts/软件护城河侵蚀]]
 - [[concepts/渐进式上下文注入]]
 - [[concepts/四层记忆整合]]
+- [[concepts/下一令牌扩散]]、[[concepts/长音频单遍处理]]
 
 ## 工具领域
 

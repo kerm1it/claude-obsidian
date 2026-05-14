@@ -262,6 +262,24 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/vibevoice-2026-05-14.md": {
+      "hash": "github-microsoft-vibevoice-47087stars",
+      "ingested_at": "2026-05-14",
+      "pages_created": [
+        "wiki/sources/vibevoice-2026-05-14.md",
+        "wiki/entities/VibeVoice.md",
+        "wiki/entities/Microsoft.md",
+        "wiki/concepts/下一令牌扩散.md",
+        "wiki/concepts/长音频单遍处理.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -344,6 +362,11 @@
     "wiki/concepts/渐进式上下文注入.md": "c-000077",
     "wiki/sources/agentmemory-2026-05-13.md": "c-000078",
     "wiki/entities/AgentMemory.md": "c-000079",
-    "wiki/concepts/四层记忆整合.md": "c-000080"
+    "wiki/concepts/四层记忆整合.md": "c-000080",
+    "wiki/sources/vibevoice-2026-05-14.md": "c-000081",
+    "wiki/entities/VibeVoice.md": "c-000082",
+    "wiki/entities/Microsoft.md": "c-000083",
+    "wiki/concepts/下一令牌扩散.md": "c-000084",
+    "wiki/concepts/长音频单遍处理.md": "c-000085"
   }
 }
