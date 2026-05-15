@@ -280,6 +280,23 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/mattpocock-skills-2026-05-15.md": {
+      "hash": "github-mattpocock-skills-82759stars",
+      "ingested_at": "2026-05-15",
+      "pages_created": [
+        "wiki/sources/mattpocock-skills-2026-05-15.md",
+        "wiki/people/MattPocock.md",
+        "wiki/concepts/共享领域语言.md",
+        "wiki/concepts/Grilling模式.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -367,6 +384,10 @@
     "wiki/entities/VibeVoice.md": "c-000082",
     "wiki/entities/Microsoft.md": "c-000083",
     "wiki/concepts/下一令牌扩散.md": "c-000084",
-    "wiki/concepts/长音频单遍处理.md": "c-000085"
+    "wiki/concepts/长音频单遍处理.md": "c-000085",
+    "wiki/sources/mattpocock-skills-2026-05-15.md": "c-000086",
+    "wiki/people/MattPocock.md": "c-000087",
+    "wiki/concepts/共享领域语言.md": "c-000088",
+    "wiki/concepts/Grilling模式.md": "c-000089"
   }
 }

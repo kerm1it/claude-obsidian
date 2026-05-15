@@ -11,6 +11,11 @@ status: active
 
 # 概念
 
+## AI 辅助工程实践（Matt Pocock）
+
+- [[concepts/共享领域语言|共享领域语言（CONTEXT.md）]] — 为 AI agent 建立项目统一术语文档；解决啰嗦/命名不一致问题；Token 效率提升
+- [[concepts/Grilling模式|Grilling 模式（任务前对齐审讯）]] — 任务开始前让 agent 用详细问题"审讯"你；穷举决策分支；解决最常见的对齐失败
+
 ## AI 工作流
 
 - [[concepts/HTML作为AI输出格式|HTML 作为 AI 输出格式]] — 用 HTML 替代 Markdown 作为 Claude 生成产出物的首选格式

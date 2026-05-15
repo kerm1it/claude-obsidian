@@ -17,6 +17,18 @@ related:
 
 ## 最近更新
 
+2026-05-15。消化了一条素材：
+
+**mattpocock/skills**（GitHub，⭐ 82,759）：Matt Pocock（Total TypeScript）的 Claude Code skills 合集，定位"反 vibe coding"，为真正的工程师设计。
+
+- **[[people/MattPocock]]**：TypeScript 教育者，AI Hero newsletter ~60K 订阅
+- **AI 辅助开发四大失败模式框架**：①对齐失败 → [[concepts/Grilling模式]]；②术语鸿沟 → [[concepts/共享领域语言]]；③缺反馈 → TDD；④软件熵 → 架构意识
+- **[[concepts/共享领域语言]]**（CONTEXT.md）：为 agent 建立项目统一术语；Before/After 示例令人信服；命名一致 + Token 效率；由 `/grill-with-docs` 构建
+- **[[concepts/Grilling模式]]**：任务前"审讯"会话，穷举决策分支；每次变更必用；与 JIT 规划、瓶颈转移论收敛于同一认知——AI 时代瓶颈在对齐，不在代码生成
+- **收敛**：Grilling + CONTEXT.md + 代码仓库即记录系统，三者共同指向"agent 需要显式上下文才能做好工作"
+
+---
+
 2026-05-14。消化了两条素材：
 
 **VibeVoice**（microsoft/VibeVoice，GitHub，⭐ 47,087）：Microsoft Research 开源语音 AI 模型族。
@@ -180,4 +192,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：85（c-000001 至 c-000085 已分配）
+- 地址计数器：89（c-000001 至 c-000089 已分配）

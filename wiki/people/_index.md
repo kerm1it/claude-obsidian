@@ -32,3 +32,4 @@ status: active
 - [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人
 - [[people/BorisCherny|Boris Cherny]] — Anthropic，Claude Code 创始人
 - [[people/AndrewWilkinson|Andrew Wilkinson]] — Tiny 创始人，AI Agent 运营实践者
+- [[people/MattPocock|Matt Pocock]] — TypeScript 教育者，Total TypeScript；AI 辅助工程四大失败模式提出者

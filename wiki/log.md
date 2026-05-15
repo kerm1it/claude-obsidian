@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-15 ingest | Skills For Real Engineers — mattpocock/skills
+
+- Source: `.raw/articles/mattpocock-skills-2026-05-15.md`（GitHub repo，mattpocock/skills，⭐ 82,759）
+- Summary: [[sources/mattpocock-skills-2026-05-15]]
+- Pages created: [[sources/mattpocock-skills-2026-05-15]], [[people/MattPocock]], [[concepts/共享领域语言]], [[concepts/Grilling模式]]
+- Pages updated: [[people/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Matt Pocock 提出 AI 辅助开发四大失败模式（对齐失败/术语鸿沟/缺反馈/软件熵），对应修复：Grilling 模式（任务前审讯对齐）、共享领域语言 CONTEXT.md、TDD 红绿重构、架构意识；三者与 JIT 规划、瓶颈转移论、代码仓库即记录系统独立收敛：AI 时代的瓶颈在于人机对齐，不在代码生成速度。
+
 ## 2026-05-14 ingest | VibeVoice — 开源前沿语音 AI 模型族（Microsoft）
 
 - Source: `.raw/articles/vibevoice-2026-05-14.md`（GitHub repo，microsoft/VibeVoice，⭐ 47,087）

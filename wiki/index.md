@@ -62,6 +62,7 @@ status: active
 - [[sources/claude-mem-2026-05-13|claude-mem — 跨会话持久记忆系统（thedotmack，2026-05-13）]]
 - [[sources/agentmemory-2026-05-13|agentmemory — AI 编码智能体持久记忆引擎（rohitg00，2026-05-13）]]
 - [[sources/vibevoice-2026-05-14|VibeVoice — 开源前沿语音 AI 模型族（Microsoft，2026-05-14）]]
+- [[sources/mattpocock-skills-2026-05-15|Skills For Real Engineers — mattpocock/skills（2026-05-15）]]
 
 ## 实体
 
@@ -71,7 +72,7 @@ status: active
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]
 
 ## 概念
 
@@ -90,6 +91,7 @@ status: active
 - [[concepts/渐进式上下文注入]]
 - [[concepts/四层记忆整合]]
 - [[concepts/下一令牌扩散]]、[[concepts/长音频单遍处理]]
+- [[concepts/共享领域语言]]、[[concepts/Grilling模式]]
 
 ## 工具领域
 
