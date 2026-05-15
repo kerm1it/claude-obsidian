@@ -15,6 +15,8 @@ status: active
 
 - [[concepts/共享领域语言|共享领域语言（CONTEXT.md）]] — 为 AI agent 建立项目统一术语文档；解决啰嗦/命名不一致问题；Token 效率提升
 - [[concepts/Grilling模式|Grilling 模式（任务前对齐审讯）]] — 任务开始前让 agent 用详细问题"审讯"你；穷举决策分支；解决最常见的对齐失败
+- [[concepts/设计概念|设计概念（Design Concept）]] — Brooks：多人设计时的不可见共同理论；你与 AI 缺乏设计概念是对齐失败的根本原因
+- [[concepts/深模块架构|深模块架构（Deep Module Architecture）]] — Ousterhout：深模块（简单接口+隐藏复杂度）是 AI 友好代码库的结构特征；AI=战术，你=战略
 
 ## AI 工作流
 

@@ -17,6 +17,19 @@ related:
 
 ## 最近更新
 
+2026-05-15。摄入了 Matt Pocock 在 AI Engineer 会议的演讲，并建立了跨来源 Skills 分类体系。
+
+**Software Fundamentals Matter More Than Ever**（Matt Pocock，AI Engineer 会议，18:26）：
+
+- **核心论点**："代码不便宜。坏代码是有史以来最贵的。" AI 在好代码库里表现优秀 → 软件基本功比以前更重要
+- **[[concepts/设计概念]]**：Frederick P. Brooks——设计者之间的"不可见共同理论"；你与 AI 缺乏设计概念是对齐失败的根本原因；比 Claude Code Plan Mode 更好的方式是先建立设计概念
+- **[[concepts/深模块架构]]**：Ousterhout——AI 天然产生浅模块代码库（难以导航和测试）；深模块（简单接口+隐藏复杂度）让 AI=战术、你=战略的分工成为可能
+- **Specs-to-code 批判**：GSD/BMAD/Spec-Kit 每次迭代代码变更差——本质是"另一个名字的 vibe coding"；不投资设计 = 软件熵加速
+- **跨来源收敛**：设计概念（Brooks）+ 瓶颈转移论（Fiona/Dario）+ Amdahl 定律在 AI 中的应用，三者独立指向：AI 时代对齐/理解是真正稀缺资源
+- **参考书目**：Ousterhout / Pragmatic Programmer / Frederick P. Brooks / DDD / Kent Beck——Matt 的 skills 每一个都有经典出处
+
+---
+
 2026-05-15。建立了跨来源 Skills 分类体系，并完整摄入 mattpocock/skills 所有 skill 内容。
 
 **Skills 体系**（[[skills/_index]]）：
@@ -203,4 +216,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：93（c-000001 至 c-000093 已分配）
+- 地址计数器：96（c-000001 至 c-000096 已分配）

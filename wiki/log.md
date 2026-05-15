@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-15 ingest | Software Fundamentals Matter More Than Ever — Matt Pocock（AI Engineer）
+
+- Source: `.raw/articles/mattpocock-software-fundamentals-2026-05-15.md`（YouTube，yt-dlp auto-captions，18:26）
+- Summary: [[sources/mattpocock-software-fundamentals-2026-05-15]]
+- Pages created: [[sources/mattpocock-software-fundamentals-2026-05-15]], [[concepts/设计概念]], [[concepts/深模块架构]]
+- Pages updated: [[people/MattPocock]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: "代码不便宜，坏代码是有史以来最贵的"；AI 在好代码库里表现极好，所以软件基本功比以前更重要；设计概念（Brooks）解释 AI 对齐失败的根本原因；深模块架构（Ousterhout）是 AI 友好代码库的结构特征；与瓶颈转移论/AmdahlsLawInAI 三方独立收敛。
+
 ## 2026-05-15 skills | 建立跨来源 Skills 分类体系
 
 - Summary: [[skills/_index]]
