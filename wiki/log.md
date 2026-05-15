@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-05-15 skills | 建立跨来源 Skills 分类体系
+
+- Summary: [[skills/_index]]
+- Pages created: [[skills/_index]], [[skills/mattpocock-collection]], [[skills/claude-obsidian-collection]]
+- Pages updated: [[index]], [[hot]], [[log]]
+- Key insight: 首次建立统一 skills 分类体系（7 类），整合 mattpocock/skills（18 skills + deprecated）和 claude-obsidian（11 skills）；发现 Matt 也用 Obsidian（个人扁平 vault）；deprecated `ubiquitous-language` 的"示例对话"格式值得借鉴；三项跨来源收敛——对齐/上下文显式化/异步维护。
+
 ## 2026-05-15 ingest | Skills For Real Engineers — mattpocock/skills
 
 - Source: `.raw/articles/mattpocock-skills-2026-05-15.md`（GitHub repo，mattpocock/skills，⭐ 82,759）

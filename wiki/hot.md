@@ -17,6 +17,17 @@ related:
 
 ## 最近更新
 
+2026-05-15。建立了跨来源 Skills 分类体系，并完整摄入 mattpocock/skills 所有 skill 内容。
+
+**Skills 体系**（[[skills/_index]]）：
+- 7 个分类：对齐与规划 / 代码质量与架构 / 知识管理 / 内容与可视化 / Agent 通信 / 项目设置 / 元工具
+- 来源：[[skills/mattpocock-collection]]（18 skills + 4 deprecated）、[[skills/claude-obsidian-collection]]（11 skills）
+- 关键发现：Matt 也用 Obsidian（personal/obsidian-vault skill，扁平结构）；deprecated `ubiquitous-language` 比现在的 CONTEXT.md 更形式化，包含**示例对话**（领域专家对话格式）
+- 跨来源收敛：对齐问题 / 上下文显式化 / 异步维护——三个独立角度指向同一结论
+- 体系可扩展：下次摄入新 skill 来源，直接加到 `skills/_index.md` 对应分类
+
+---
+
 2026-05-15。消化了一条素材：
 
 **mattpocock/skills**（GitHub，⭐ 82,759）：Matt Pocock（Total TypeScript）的 Claude Code skills 合集，定位"反 vibe coding"，为真正的工程师设计。
@@ -192,4 +203,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：89（c-000001 至 c-000089 已分配）
+- 地址计数器：93（c-000001 至 c-000093 已分配）

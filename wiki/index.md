@@ -28,6 +28,7 @@ status: active
 - [[decisions/_index|决策]]
 - [[reflections/_index|复盘]]
 - [[entities/_index|实体]]
+- [[skills/_index|Skills 体系]]
 - [[concepts/_index|概念]]
 - [[domains/_index|主题]]
 
@@ -92,6 +93,12 @@ status: active
 - [[concepts/四层记忆整合]]
 - [[concepts/下一令牌扩散]]、[[concepts/长音频单遍处理]]
 - [[concepts/共享领域语言]]、[[concepts/Grilling模式]]
+
+## Skills 体系
+
+- [[skills/_index|Skills 分类体系]]
+- [[skills/mattpocock-collection|mattpocock/skills 工程师技能集]]
+- [[skills/claude-obsidian-collection|claude-obsidian 知识管理技能集]]
 
 ## 工具领域
 
