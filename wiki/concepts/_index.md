@@ -73,6 +73,12 @@ status: active
 - [[concepts/数据飞轮复利|数据飞轮复利（Compounding User Data）]] — 行为信号驱动产品改进循环，时间锁定，不可复制
 - [[concepts/工作流锁定|工作流锁定（Workflow Lock-in）]] — 深度集成让切换从产品决策变为运营项目
 
+## AI Agent 记忆与知识图谱
+
+- [[concepts/MemoryTree|Memory Tree（层级摘要树）]] — OpenHuman：连接数据→≤3k-token Markdown 块→SQLite+Obsidian vault；Karpathy 模式的自动化扩展
+- [[concepts/记忆自动拉取|记忆自动拉取（Auto-fetch）]] — 每 20 分钟遍历所有 OAuth 连接，被动积累 agent 上下文；OpenHuman 冷启动解法
+- [[concepts/TokenJuice|TokenJuice（智能 Token 压缩）]] — HTML→MD、URL 缩短、非 ASCII 移除；成本/延迟最多降 80%；OpenHuman 内置预处理层
+
 ## 语音 AI
 
 - [[concepts/下一令牌扩散|下一令牌扩散（Next-Token Diffusion）]] — LLM（语义上下文）+ 扩散头（声学保真度）混合架构；VibeVoice 核心创新

@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-16 ingest | OpenHuman — GitHub README
+
+- Source: `.raw/articles/openhuman-2026-05-16.md`（GitHub README，tinyhumansai/openhuman，10,137 ⭐）
+- Summary: [[sources/openhuman-2026-05-16]]
+- Pages created: [[sources/openhuman-2026-05-16]]（c-000104）, [[entities/OpenHuman]]（c-000105）, [[entities/TinyHumansAI]]（c-000106）, [[people/Senamakel]]（c-000107）, [[concepts/TokenJuice]]（c-000108）, [[concepts/记忆自动拉取]]（c-000109）, [[concepts/MemoryTree]]（c-000110）
+- Pages updated: [[entities/_index]], [[sources/_index]], [[concepts/_index]], [[people/_index]], [[index]], [[hot]], [[log]]
+- Key insight: OpenHuman 将 Karpathy 的 obsidian-wiki workflow 自动化——Auto-fetch 每 20 分钟拉取 118+ OAuth 连接数据，经 TokenJuice 压缩后存入本地 SQLite + Obsidian vault；解决 agent harness 冷启动问题，同时可选接入 AgentMemory 与 Claude Code/Cursor 共享记忆。
+
 ## 2026-05-16 ingest | The Founder's Playbook — Anthropic
 
 - Source: `.raw/articles/founders-playbook-2026-05-16.md`（PDF，35 页，465 KB，pdf2txt.py 提取）

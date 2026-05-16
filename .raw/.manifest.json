@@ -334,6 +334,28 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/openhuman-2026-05-16.md": {
+      "hash": "3f9a36404c31678147f17f25d1f756c6",
+      "ingested_at": "2026-05-16",
+      "pages_created": [
+        "wiki/sources/openhuman-2026-05-16.md",
+        "wiki/entities/OpenHuman.md",
+        "wiki/entities/TinyHumansAI.md",
+        "wiki/people/Senamakel.md",
+        "wiki/concepts/TokenJuice.md",
+        "wiki/concepts/记忆自动拉取.md",
+        "wiki/concepts/MemoryTree.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/people/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -438,6 +460,13 @@
     "wiki/concepts/智能体技术债.md": "c-000100",
     "wiki/concepts/创始人编排者角色.md": "c-000101",
     "wiki/concepts/数据飞轮复利.md": "c-000102",
-    "wiki/concepts/工作流锁定.md": "c-000103"
+    "wiki/concepts/工作流锁定.md": "c-000103",
+    "wiki/sources/openhuman-2026-05-16.md": "c-000104",
+    "wiki/entities/OpenHuman.md": "c-000105",
+    "wiki/entities/TinyHumansAI.md": "c-000106",
+    "wiki/people/Senamakel.md": "c-000107",
+    "wiki/concepts/TokenJuice.md": "c-000108",
+    "wiki/concepts/记忆自动拉取.md": "c-000109",
+    "wiki/concepts/MemoryTree.md": "c-000110"
   }
 }

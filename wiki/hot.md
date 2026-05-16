@@ -17,6 +17,20 @@ related:
 
 ## 最近更新
 
+2026-05-16。摄入 OpenHuman GitHub README。开源桌面 AI 助理，10,137 ⭐，Rust + Tauri，GPL-3.0，Early Beta。
+
+**OpenHuman**（tinyhumansai/openhuman）：
+- **核心主张**：让 agent 在几分钟内了解你，而不是几周。灵感：Karpathy obsidian-wiki workflow
+- **[[concepts/MemoryTree]]**：连接数据 → ≤3k-token MD 块 → 层级摘要树 → SQLite + Obsidian vault（本机加密）
+- **[[concepts/记忆自动拉取]]（Auto-fetch）**：每 20 分钟遍历 118+ OAuth 连接，被动积累上下文，无需用户触发
+- **[[concepts/TokenJuice]]**：Token 预处理压缩层，HTML→MD、URL 缩短、非 ASCII 移除，成本/延迟最多 -80%
+- **桌面 Mascot**：有脸的 AI，ElevenLabs TTS，可加入 Google Meet 作为真实参与者
+- **[[entities/AgentMemory]] 后端**：可选接入，`memory.backend = "agentmemory"`，与 Claude Code/Cursor/Codex 共享记忆
+- **竞品定位**：Claude Cowork（运营平台）、OpenClaw（工具链）、Hermes Agent（自学习），OpenHuman 主打本地记忆 + 自动同步
+- **创作者**：[[people/Senamakel]]（@senamakel），[[entities/TinyHumansAI]] 出品
+
+---
+
 2026-05-16。完成摄入 Anthropic《The Founder's Playbook》（35 页 PDF），建立 AI 原生创业完整知识框架。
 
 **The Founder's Playbook**（Anthropic，2026-05-06）：
@@ -230,4 +244,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：103（c-000001 至 c-000103 已分配）
+- 地址计数器：110（c-000001 至 c-000110 已分配）
