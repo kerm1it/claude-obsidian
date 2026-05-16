@@ -65,6 +65,14 @@ status: active
 - [[concepts/CodeExecution|Code Execution Tool（代码执行）]] — Claude 服务端托管沙箱；write-run-fix 循环在单个 API turn 内完成
 - [[concepts/NativeResolutionComputerUse|Native Resolution Computer Use]] — Opus 4.7 原生支持 1440p 截图，返回 1:1 像素坐标；OSWorld 78%
 
+## AI 原生创业（Anthropic Founders Playbook）
+
+- [[concepts/AI原生创业生命周期|AI 原生创业生命周期（Idea→MVP→Launch→Scale）]] — Anthropic 四阶段框架，AI 把季度压缩成周
+- [[concepts/智能体技术债|智能体技术债（Agentic Technical Debt）]] — AI 生成速度掩盖代码质量问题；CLAUDE.md 是核心防线
+- [[concepts/创始人编排者角色|创始人编排者角色（Founder as Orchestrator）]] — 从构建者转变为智能编排者；领域知识→AI 上下文
+- [[concepts/数据飞轮复利|数据飞轮复利（Compounding User Data）]] — 行为信号驱动产品改进循环，时间锁定，不可复制
+- [[concepts/工作流锁定|工作流锁定（Workflow Lock-in）]] — 深度集成让切换从产品决策变为运营项目
+
 ## 语音 AI
 
 - [[concepts/下一令牌扩散|下一令牌扩散（Next-Token Diffusion）]] — LLM（语义上下文）+ 扩散头（声学保真度）混合架构；VibeVoice 核心创新

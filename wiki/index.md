@@ -65,12 +65,13 @@ status: active
 - [[sources/vibevoice-2026-05-14|VibeVoice — 开源前沿语音 AI 模型族（Microsoft，2026-05-14）]]
 - [[sources/mattpocock-skills-2026-05-15|Skills For Real Engineers — mattpocock/skills（2026-05-15）]]
 - [[sources/mattpocock-software-fundamentals-2026-05-15|Software Fundamentals Matter More Than Ever — Matt Pocock（AI Engineer，2026-05-15）]]
+- [[sources/founders-playbook-2026-05-16|The Founder's Playbook — Anthropic（2026-05-16）]]
 
 ## 实体
 
 - [[entities/Anthropic]]、[[entities/Midas]]、[[entities/Pika]]、[[entities/MX]]、[[entities/Instant]]、[[entities/CodeWithClaude]]
 - [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]、[[entities/ClaudeMem]]、[[entities/AgentMemory]]
-- [[entities/Microsoft]]、[[entities/VibeVoice]]
+- [[entities/Microsoft]]、[[entities/VibeVoice]]、[[entities/ClaudeCowork]]
 
 ## 人物
 
@@ -94,6 +95,7 @@ status: active
 - [[concepts/四层记忆整合]]
 - [[concepts/下一令牌扩散]]、[[concepts/长音频单遍处理]]
 - [[concepts/共享领域语言]]、[[concepts/Grilling模式]]、[[concepts/设计概念]]、[[concepts/深模块架构]]
+- [[concepts/AI原生创业生命周期]]、[[concepts/智能体技术债]]、[[concepts/创始人编排者角色]]、[[concepts/数据飞轮复利]]、[[concepts/工作流锁定]]
 
 ## Skills 体系
 

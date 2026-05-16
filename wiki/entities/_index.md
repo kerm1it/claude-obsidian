@@ -29,3 +29,4 @@ status: active
 - [[entities/AgentMemory]] — 持久记忆引擎，7.1K ⭐，R@5 95.2%，四层记忆整合，0 外部 DB
 - [[entities/Microsoft]] — 科技巨头，AI 研究和产品双线布局
 - [[entities/VibeVoice]] — Microsoft 开源语音 AI 模型族，47K ⭐，TTS + ASR
+- [[entities/ClaudeCowork]] — Anthropic 运营自动化产品，AI 智能体团队，与 Claude + Claude Code 互补

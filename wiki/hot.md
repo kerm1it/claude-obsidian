@@ -17,6 +17,20 @@ related:
 
 ## 最近更新
 
+2026-05-16。完成摄入 Anthropic《The Founder's Playbook》（35 页 PDF），建立 AI 原生创业完整知识框架。
+
+**The Founder's Playbook**（Anthropic，2026-05-06）：
+- **四阶段框架**：[[concepts/AI原生创业生命周期]]（Idea→MVP→Launch→Scale），AI 把季度压缩成周
+- **Claude Cowork**：[[entities/ClaudeCowork]] — Anthropic 新产品，AI 智能体团队，运营自动化层（补充 Claude + Claude Code）
+- **[[concepts/智能体技术债]]**：AI 生成速度掩盖代码质量问题；CLAUDE.md 是核心防线；每 PR 补测试
+- **[[concepts/创始人编排者角色]]**：从构建者→编排者；把领域知识编码化为 AI 可执行上下文；保留清单（产品叙事/董事会/大客户）
+- **[[concepts/数据飞轮复利]]**：行为信号→产品改进循环，时间锁定不可复制，"测试套件即护城河地图"
+- **[[concepts/工作流锁定]]**：深度集成让切换从产品决策变为运营项目；API/Webhook/SDK 让客户在产品上构建
+- **核心结论**："The bottlenecks are no longer what you can build, but what you choose to build."
+- **Scale 退出条件**：可持续盈利 OR IPO 就绪 OR 被收购（+系统性增长+可审计性+运营成熟度）
+
+---
+
 2026-05-15。摄入了 Matt Pocock 在 AI Engineer 会议的演讲，并建立了跨来源 Skills 分类体系。
 
 **Software Fundamentals Matter More Than Ever**（Matt Pocock，AI Engineer 会议，18:26）：
@@ -216,4 +230,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：96（c-000001 至 c-000096 已分配）
+- 地址计数器：103（c-000001 至 c-000103 已分配）

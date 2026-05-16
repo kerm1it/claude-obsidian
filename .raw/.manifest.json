@@ -313,6 +313,27 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/founders-playbook-2026-05-16.md": {
+      "hash": "anthropic-founders-playbook-pdf-2026-05-06",
+      "ingested_at": "2026-05-16",
+      "pages_created": [
+        "wiki/sources/founders-playbook-2026-05-16.md",
+        "wiki/entities/ClaudeCowork.md",
+        "wiki/concepts/AI原生创业生命周期.md",
+        "wiki/concepts/智能体技术债.md",
+        "wiki/concepts/创始人编排者角色.md",
+        "wiki/concepts/数据飞轮复利.md",
+        "wiki/concepts/工作流锁定.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -410,6 +431,13 @@
     "wiki/skills/claude-obsidian-collection.md": "c-000092",
     "wiki/sources/mattpocock-software-fundamentals-2026-05-15.md": "c-000094",
     "wiki/concepts/设计概念.md": "c-000095",
-    "wiki/concepts/深模块架构.md": "c-000096"
+    "wiki/concepts/深模块架构.md": "c-000096",
+    "wiki/sources/founders-playbook-2026-05-16.md": "c-000097",
+    "wiki/entities/ClaudeCowork.md": "c-000098",
+    "wiki/concepts/AI原生创业生命周期.md": "c-000099",
+    "wiki/concepts/智能体技术债.md": "c-000100",
+    "wiki/concepts/创始人编排者角色.md": "c-000101",
+    "wiki/concepts/数据飞轮复利.md": "c-000102",
+    "wiki/concepts/工作流锁定.md": "c-000103"
   }
 }

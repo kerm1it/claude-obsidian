@@ -11,6 +11,15 @@ status: active
 
 # 知识库日志
 
+## 2026-05-16 ingest | The Founder's Playbook — Anthropic
+
+- Source: `.raw/articles/founders-playbook-2026-05-16.md`（PDF，35 页，465 KB，pdf2txt.py 提取）
+- Summary: [[sources/founders-playbook-2026-05-16]]
+- Pages created: [[sources/founders-playbook-2026-05-16]]（c-000097）, [[entities/ClaudeCowork]]（c-000098）, [[concepts/AI原生创业生命周期]]（c-000099）, [[concepts/智能体技术债]]（c-000100）, [[concepts/创始人编排者角色]]（c-000101）, [[concepts/数据飞轮复利]]（c-000102）, [[concepts/工作流锁定]]（c-000103）
+- Pages updated: [[entities/_index]], [[sources/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: AI 原生创业四阶段框架（Idea→MVP→Launch→Scale），每阶段有明确退出条件；Claude Cowork 是 Anthropic 新产品（运营自动化层）；智能体技术债是 MVP 阶段核心风险（CLAUDE.md 是防线）；Scale 阶段护城河双支柱：数据飞轮（不可复制）+ 工作流锁定（不可离开）；"瓶颈不再是能构建什么，而是选择构建什么"。
+- Addresses: c-000097 ~ c-000103
+
 ## 2026-05-15 ingest | Software Fundamentals Matter More Than Ever — Matt Pocock（AI Engineer）
 
 - Source: `.raw/articles/mattpocock-software-fundamentals-2026-05-15.md`（YouTube，yt-dlp auto-captions，18:26）
