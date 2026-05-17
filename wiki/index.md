@@ -67,6 +67,7 @@ status: active
 - [[sources/mattpocock-software-fundamentals-2026-05-15|Software Fundamentals Matter More Than Ever — Matt Pocock（AI Engineer，2026-05-15）]]
 - [[sources/founders-playbook-2026-05-16|The Founder's Playbook — Anthropic（2026-05-16）]]
 - [[sources/openhuman-2026-05-16|OpenHuman — 开源桌面 AI 超级智能（2026-05-16）]]
+- [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills（2026-05-17）]]
 
 ## 实体
 
@@ -74,6 +75,7 @@ status: active
 - [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]、[[entities/ClaudeMem]]、[[entities/AgentMemory]]
 - [[entities/Microsoft]]、[[entities/VibeVoice]]、[[entities/ClaudeCowork]]
 - [[entities/OpenHuman]]、[[entities/TinyHumansAI]]
+- [[entities/ScientificAgentSkills]]、[[entities/KDenseAI]]
 
 ## 人物
 
@@ -99,6 +101,7 @@ status: active
 - [[concepts/共享领域语言]]、[[concepts/Grilling模式]]、[[concepts/设计概念]]、[[concepts/深模块架构]]
 - [[concepts/AI原生创业生命周期]]、[[concepts/智能体技术债]]、[[concepts/创始人编排者角色]]、[[concepts/数据飞轮复利]]、[[concepts/工作流锁定]]
 - [[concepts/MemoryTree]]、[[concepts/记忆自动拉取]]、[[concepts/TokenJuice]]
+- [[concepts/AgentSkillsStandard]]
 
 ## Skills 体系
 

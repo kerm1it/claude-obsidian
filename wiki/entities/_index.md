@@ -32,3 +32,5 @@ status: active
 - [[entities/ClaudeCowork]] — Anthropic 运营自动化产品，AI 智能体团队，与 Claude + Claude Code 互补
 - [[entities/OpenHuman]] — 开源桌面 AI 超级智能，10K+ ⭐，Rust+Tauri，Memory Tree + 118+ OAuth，GPL-3.0
 - [[entities/TinyHumansAI]] — OpenHuman 出品方，Senamakel 创立
+- [[entities/ScientificAgentSkills]] — 135 科学研究 Agent Skills，23K+ ⭐，K-Dense AI 出品，MIT
+- [[entities/KDenseAI]] — Scientific Agent Skills 出品方，含 K-Dense Web 云平台

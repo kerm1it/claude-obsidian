@@ -26,6 +26,7 @@ related:
 |---|---|---|---|
 | [[skills/mattpocock-collection\|mattpocock/skills]] | Matt Pocock | 18（+4 deprecated） | 工程实践，反 vibe coding |
 | [[skills/claude-obsidian-collection\|claude-obsidian]] | kepano / 社区 | 11 | 知识管理，wiki 体系 |
+| [[skills/scientific-agent-skills-collection\|Scientific Agent Skills]] | K-Dense AI | 135 | 科学研究，AI 科学家，100+ 数据库 |
 
 ## 分类体系
 

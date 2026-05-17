@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-17 ingest | Scientific Agent Skills — GitHub README
+
+- Source: `.raw/articles/scientific-agent-skills-2026-05-17.md`（GitHub README，K-Dense-AI/scientific-agent-skills，23,247 ⭐）
+- Summary: [[sources/scientific-agent-skills-2026-05-17]]
+- Pages created: [[sources/scientific-agent-skills-2026-05-17]]（c-000111）, [[entities/KDenseAI]]（c-000112）, [[entities/ScientificAgentSkills]]（c-000113）, [[concepts/AgentSkillsStandard]]（c-000114）, [[skills/scientific-agent-skills-collection]]（c-000115）
+- Pages updated: [[skills/_index]], [[entities/_index]], [[sources/_index]], [[concepts/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Scientific Agent Skills 是目前最大的开放科学研究 Agent Skill 集合（135 skills，100+ 数据库），遵循跨平台 Agent Skills 标准；标志着 agent skill 生态从单一平台（Claude Code）向开放标准迁移；BGPT Paper Search、Open Notebook、GeoMaster、Consciousness Council 是值得关注的差异化 skill。
+
 ## 2026-05-16 ingest | OpenHuman — GitHub README
 
 - Source: `.raw/articles/openhuman-2026-05-16.md`（GitHub README，tinyhumansai/openhuman，10,137 ⭐）

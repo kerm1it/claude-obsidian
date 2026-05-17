@@ -73,6 +73,10 @@ status: active
 - [[concepts/数据飞轮复利|数据飞轮复利（Compounding User Data）]] — 行为信号驱动产品改进循环，时间锁定，不可复制
 - [[concepts/工作流锁定|工作流锁定（Workflow Lock-in）]] — 深度集成让切换从产品决策变为运营项目
 
+## Agent Skills 生态
+
+- [[concepts/AgentSkillsStandard|Agent Skills 标准（agentskills.io）]] — 开放跨平台 skill 规范；npx skills add / gh skill install；兼容 Cursor、Claude Code、Codex、Gemini CLI
+
 ## AI Agent 记忆与知识图谱
 
 - [[concepts/MemoryTree|Memory Tree（层级摘要树）]] — OpenHuman：连接数据→≤3k-token Markdown 块→SQLite+Obsidian vault；Karpathy 模式的自动化扩展

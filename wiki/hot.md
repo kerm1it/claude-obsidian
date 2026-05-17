@@ -17,6 +17,17 @@ related:
 
 ## 最近更新
 
+2026-05-17。摄入 Scientific Agent Skills GitHub README。135 个科学研究 Agent Skills，23,247 ⭐，K-Dense AI 出品。
+
+**Scientific Agent Skills**（K-Dense-AI/scientific-agent-skills）：
+- **规模**：135 skills，100+ 科学数据库，70+ 优化 Python 包，17 科学领域分类
+- **标准**：遵循开放 [[concepts/AgentSkillsStandard|Agent Skills 标准]]（agentskills.io），兼容 Claude Code / Cursor / Codex / Gemini CLI
+- **亮点 skills**：BGPT Paper Search（25+ 结构化字段，来自全文）、Open Notebook（NotebookLM 替代品）、GeoMaster（500+ 遥感示例）、Hugging Science（17 科学领域 HF 目录）、What-If Oracle / Consciousness Council / DHDNA Profiler
+- **伴侣产品**：K-Dense BYOK（免费开源桌面，40+ 模型，自带密钥）、K-Dense Web（云端，200+ skills，零配置）
+- **安全**：每周 Cisco AI Defense 扫描；各 skill 有独立 license
+
+---
+
 2026-05-16。摄入 OpenHuman GitHub README。开源桌面 AI 助理，10,137 ⭐，Rust + Tauri，GPL-3.0，Early Beta。
 
 **OpenHuman**（tinyhumansai/openhuman）：
@@ -244,4 +255,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：110（c-000001 至 c-000110 已分配）
+- 地址计数器：115（c-000001 至 c-000115 已分配）

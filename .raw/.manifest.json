@@ -356,6 +356,26 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/scientific-agent-skills-2026-05-17.md": {
+      "hash": "1c6a89904acf46fc8f16e02c136941dd",
+      "ingested_at": "2026-05-17",
+      "pages_created": [
+        "wiki/sources/scientific-agent-skills-2026-05-17.md",
+        "wiki/entities/KDenseAI.md",
+        "wiki/entities/ScientificAgentSkills.md",
+        "wiki/concepts/AgentSkillsStandard.md",
+        "wiki/skills/scientific-agent-skills-collection.md"
+      ],
+      "pages_updated": [
+        "wiki/skills/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -467,6 +487,11 @@
     "wiki/people/Senamakel.md": "c-000107",
     "wiki/concepts/TokenJuice.md": "c-000108",
     "wiki/concepts/记忆自动拉取.md": "c-000109",
-    "wiki/concepts/MemoryTree.md": "c-000110"
+    "wiki/concepts/MemoryTree.md": "c-000110",
+    "wiki/sources/scientific-agent-skills-2026-05-17.md": "c-000111",
+    "wiki/entities/KDenseAI.md": "c-000112",
+    "wiki/entities/ScientificAgentSkills.md": "c-000113",
+    "wiki/concepts/AgentSkillsStandard.md": "c-000114",
+    "wiki/skills/scientific-agent-skills-collection.md": "c-000115"
   }
 }
