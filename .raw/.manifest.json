@@ -376,6 +376,31 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/ruview-2026-05-19.md": {
+      "hash": "github-ruvnet-ruview-59973stars",
+      "ingested_at": "2026-05-19",
+      "pages_created": [
+        "wiki/sources/ruview-2026-05-19.md",
+        "wiki/entities/RuView.md",
+        "wiki/people/ruvnet.md",
+        "wiki/entities/CognitumSeed.md",
+        "wiki/entities/RuVector.md",
+        "wiki/concepts/WiFiDensePose.md",
+        "wiki/concepts/CSI感知.md",
+        "wiki/concepts/WiFi生命体征监测.md",
+        "wiki/concepts/WASM边缘模块.md",
+        "wiki/concepts/自监督WiFi学习.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -492,6 +517,16 @@
     "wiki/entities/KDenseAI.md": "c-000112",
     "wiki/entities/ScientificAgentSkills.md": "c-000113",
     "wiki/concepts/AgentSkillsStandard.md": "c-000114",
-    "wiki/skills/scientific-agent-skills-collection.md": "c-000115"
+    "wiki/skills/scientific-agent-skills-collection.md": "c-000115",
+    "wiki/sources/ruview-2026-05-19.md": "c-000116",
+    "wiki/entities/RuView.md": "c-000117",
+    "wiki/people/ruvnet.md": "c-000118",
+    "wiki/entities/CognitumSeed.md": "c-000119",
+    "wiki/entities/RuVector.md": "c-000120",
+    "wiki/concepts/WiFiDensePose.md": "c-000121",
+    "wiki/concepts/CSI感知.md": "c-000122",
+    "wiki/concepts/WiFi生命体征监测.md": "c-000123",
+    "wiki/concepts/WASM边缘模块.md": "c-000124",
+    "wiki/concepts/自监督WiFi学习.md": "c-000125"
   }
 }

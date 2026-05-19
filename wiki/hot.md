@@ -17,6 +17,21 @@ related:
 
 ## 最近更新
 
+2026-05-19。摄入 RuView GitHub README（ruvnet/RuView，59,973 ⭐）。
+
+**RuView（WiFi DensePose）**（ruvnet/RuView，Rust，MIT）：
+- **核心主张**：普通 WiFi + $9 ESP32-S3 → 穿墙存在检测 + 呼吸/心率监测 + 17 关键点姿态估计，全程无摄像头
+- **[[concepts/CSI感知]]**：56 子载波 CSI（幅度+相位）是比 RSSI 高得多的信号；0.1-0.5 Hz 提取呼吸，0.8-2.0 Hz 提取心率
+- **[[concepts/WiFiDensePose]]**：WiFlow 架构（Transformer + GNN），双头输出姿态 + 128 维环境指纹；无摄像头 PCK@20 ≈ 2.5%（代理标签），摄像头监督版目标 35%+（ADR-079 待完成）
+- **[[concepts/WASM边缘模块]]**：65 个 no_std Rust 模块编译为 WASM32，通过 WASM3 在 ESP32 上运行；覆盖医疗/安防/零售/工业/实验 13 类场景，1,463 测试通过
+- **[[concepts/自监督WiFi学习]]**：对比学习无需标签，~55KB 模型在 ESP32 上运行；MicroLoRA 适配器（1,792 参数/房间），30 秒适应新环境；84 秒无摄像头训练（M4 Pro）
+- **[[entities/CognitumSeed]]**：$140 硬件伴侣，持久向量存储（RVF）+ kNN 搜索 + Ed25519 见证链 + MCP 代理
+- **[[entities/RuVector]]**：AI 骨干库，Transformer+GNN 信号处理；crates.io `wifi-densepose-ruvector`
+- **Claude Code 插件**：`plugins/ruview/`，9 skills，7 条 `/ruview-*` 命令，3 个 Agent；含 Codex 镜像
+- **创作者**：[[people/ruvnet]]（@rUv），GitHub 开源项目系列
+
+---
+
 2026-05-17。摄入 Scientific Agent Skills GitHub README。135 个科学研究 Agent Skills，23,247 ⭐，K-Dense AI 出品。
 
 **Scientific Agent Skills**（K-Dense-AI/scientific-agent-skills）：
@@ -255,4 +270,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：115（c-000001 至 c-000115 已分配）
+- 地址计数器：125（c-000001 至 c-000125 已分配）

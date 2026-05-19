@@ -68,6 +68,7 @@ status: active
 - [[sources/founders-playbook-2026-05-16|The Founder's Playbook — Anthropic（2026-05-16）]]
 - [[sources/openhuman-2026-05-16|OpenHuman — 开源桌面 AI 超级智能（2026-05-16）]]
 - [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills（2026-05-17）]]
+- [[sources/ruview-2026-05-19|RuView — WiFi DensePose：用 WiFi 信号实现空间智能（ruvnet，2026-05-19）]]
 
 ## 实体
 
@@ -76,10 +77,11 @@ status: active
 - [[entities/Microsoft]]、[[entities/VibeVoice]]、[[entities/ClaudeCowork]]
 - [[entities/OpenHuman]]、[[entities/TinyHumansAI]]
 - [[entities/ScientificAgentSkills]]、[[entities/KDenseAI]]
+- [[entities/RuView]]、[[entities/CognitumSeed]]、[[entities/RuVector]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]
 
 ## 概念
 
@@ -102,6 +104,7 @@ status: active
 - [[concepts/AI原生创业生命周期]]、[[concepts/智能体技术债]]、[[concepts/创始人编排者角色]]、[[concepts/数据飞轮复利]]、[[concepts/工作流锁定]]
 - [[concepts/MemoryTree]]、[[concepts/记忆自动拉取]]、[[concepts/TokenJuice]]
 - [[concepts/AgentSkillsStandard]]
+- [[concepts/WiFiDensePose]]、[[concepts/CSI感知]]、[[concepts/WiFi生命体征监测]]、[[concepts/WASM边缘模块]]、[[concepts/自监督WiFi学习]]
 
 ## Skills 体系
 

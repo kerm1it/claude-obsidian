@@ -94,3 +94,11 @@ status: active
 - [[concepts/AdaptiveThinking|Adaptive Thinking]] — Claude 自主决定"思考多少"；Opus 4.6 起为默认
 - [[concepts/EffortDial|Effort Dial（努力拨盘）]] — 显式控制推理深度；extra high 是 coding 最佳默认
 - [[concepts/TaskBudgets|Task Budgets]] — 按任务分配 token 预算，细粒度控制推理成本
+
+## WiFi 空间感知（RuView）
+
+- [[concepts/WiFiDensePose|WiFi DensePose（无摄像头人体姿态估计）]] — 用 CSI 信号估计 17 个 COCO 关键点；无摄像头、穿墙、$9 硬件；基于 CMU 研究
+- [[concepts/CSI感知|CSI 感知（Channel State Information）]] — WiFi 物理层 56 子载波幅度/相位数据；人体运动留下可测量扰动
+- [[concepts/WiFi生命体征监测|WiFi 生命体征监测]] — 带通滤波提取呼吸（0.1-0.5 Hz）和心率（0.8-2.0 Hz）；非接触，隔墙可测
+- [[concepts/WASM边缘模块|WASM 边缘模块（no_std Rust on ESP32）]] — 65 个 no_std Rust 模块编译为 WASM32，通过 WASM3 在 ESP32 上运行；1,463 测试通过
+- [[concepts/自监督WiFi学习|自监督 WiFi 学习（对比 CSI 嵌入模型）]] — 对比学习无需标签；~55KB 模型在 ESP32 上运行；MicroLoRA 适配器 30 秒适应新房间

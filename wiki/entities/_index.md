@@ -34,3 +34,6 @@ status: active
 - [[entities/TinyHumansAI]] — OpenHuman 出品方，Senamakel 创立
 - [[entities/ScientificAgentSkills]] — 135 科学研究 Agent Skills，23K+ ⭐，K-Dense AI 出品，MIT
 - [[entities/KDenseAI]] — Scientific Agent Skills 出品方，含 K-Dense Web 云平台
+- [[entities/RuView]] — WiFi DensePose 空间感知平台，59K+ ⭐，Rust，无摄像头姿态估计 + 生命体征监测
+- [[entities/CognitumSeed]] — RuView 硬件伴侣（$140 BOM），持久向量存储 + kNN + Ed25519 见证链 + MCP 代理
+- [[entities/RuVector]] — RuView AI 骨干库，Transformer+GNN 信号处理 + 对比学习嵌入

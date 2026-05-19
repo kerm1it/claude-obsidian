@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-19 ingest | RuView — WiFi DensePose
+
+- Source: `.raw/articles/ruview-2026-05-19.md`（GitHub README，ruvnet/RuView，59,973 ⭐，Rust，MIT）
+- Summary: [[sources/ruview-2026-05-19]]（c-000116）
+- Pages created: [[sources/ruview-2026-05-19]]（c-000116）, [[entities/RuView]]（c-000117）, [[people/ruvnet]]（c-000118）, [[entities/CognitumSeed]]（c-000119）, [[entities/RuVector]]（c-000120）, [[concepts/WiFiDensePose]]（c-000121）, [[concepts/CSI感知]]（c-000122）, [[concepts/WiFi生命体征监测]]（c-000123）, [[concepts/WASM边缘模块]]（c-000124）, [[concepts/自监督WiFi学习]]（c-000125）
+- Pages updated: [[entities/_index]], [[people/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: RuView 用 $9 ESP32-S3 传感器 + Channel State Information 实现无摄像头穿墙感知，65 个 no_std Rust WASM 边缘模块覆盖从医疗到工业的完整场景；对比自监督学习让 ~55KB 模型在 ESP32 上 30 秒适应新房间，是边缘 AI 与 WiFi 感知结合的完整工程实践。
+
 ## 2026-05-17 ingest | Scientific Agent Skills — GitHub README
 
 - Source: `.raw/articles/scientific-agent-skills-2026-05-17.md`（GitHub README，K-Dense-AI/scientific-agent-skills，23,247 ⭐）
