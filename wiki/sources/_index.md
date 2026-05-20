@@ -13,6 +13,7 @@ status: active
 
 ## GitHub 仓库
 
+- [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环]] · Andrej Karpathy · 82.2K ⭐ · 2026-05-20
 - [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]] · Garry Tan · 14.6K ⭐ · 2026-05-11
 - [[sources/openhuman-2026-05-16|OpenHuman — 开源桌面 AI 超级智能]] · TinyHumans AI · 10.1K ⭐ · 2026-05-16
 - [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills]] · K-Dense AI · 23.2K ⭐ · 2026-05-17

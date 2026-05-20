@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-20 ingest | autoresearch — Karpathy 自主 ML 研究循环
+
+- Source: `.raw/articles/autoresearch-2026-05-20.md`（GitHub karpathy/autoresearch，82.2K ⭐，Python+Jupyter）
+- Summary: [[sources/autoresearch-2026-05-20]]（c-000126）
+- Pages created: [[sources/autoresearch-2026-05-20]]（c-000126）, [[entities/Autoresearch]]（c-000127）, [[people/AndrejKarpathy]]（c-000128）, [[concepts/自主ML研究循环]]（c-000129）, [[concepts/程序驱动研究]]（c-000130）, [[concepts/固定时间窗实验]]（c-000131）
+- Pages updated: [[entities/_index]], [[people/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: program.md 作为研究接口与本 vault 的 skill 文件结构完全同构；固定 5 分钟时间窗让 agent 过夜自主跑约 100 次实验，val_bpb 指标与词表大小无关，是 Karpathy 极简主义（one GPU, one file, one metric）在自主研究场景的完整实现。
+
 ## 2026-05-19 ingest | RuView — WiFi DensePose
 
 - Source: `.raw/articles/ruview-2026-05-19.md`（GitHub README，ruvnet/RuView，59,973 ⭐，Rust，MIT）

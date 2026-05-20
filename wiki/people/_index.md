@@ -35,3 +35,4 @@ status: active
 - [[people/MattPocock|Matt Pocock]] — TypeScript 教育者，Total TypeScript；AI 辅助工程四大失败模式提出者
 - [[people/Senamakel|Senamakel（@senamakel）]] — TinyHumans AI 创始人，OpenHuman 创作者
 - [[people/ruvnet|ruvnet（@rUv）]] — 开源开发者，RuView / RuVector / Cognitum Seed 作者
+- [[people/AndrejKarpathy|Andrej Karpathy]] — ML 研究员，前 OpenAI/特斯拉，nanoGPT / autoresearch / LLM Wiki 模式作者

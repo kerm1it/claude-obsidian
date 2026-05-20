@@ -69,6 +69,7 @@ status: active
 - [[sources/openhuman-2026-05-16|OpenHuman — 开源桌面 AI 超级智能（2026-05-16）]]
 - [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills（2026-05-17）]]
 - [[sources/ruview-2026-05-19|RuView — WiFi DensePose：用 WiFi 信号实现空间智能（ruvnet，2026-05-19）]]
+- [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环（2026-05-20）]]
 
 ## 实体
 
@@ -78,10 +79,11 @@ status: active
 - [[entities/OpenHuman]]、[[entities/TinyHumansAI]]
 - [[entities/ScientificAgentSkills]]、[[entities/KDenseAI]]
 - [[entities/RuView]]、[[entities/CognitumSeed]]、[[entities/RuVector]]
+- [[entities/Autoresearch]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]、[[people/AndrejKarpathy]]
 
 ## 概念
 
@@ -105,6 +107,7 @@ status: active
 - [[concepts/MemoryTree]]、[[concepts/记忆自动拉取]]、[[concepts/TokenJuice]]
 - [[concepts/AgentSkillsStandard]]
 - [[concepts/WiFiDensePose]]、[[concepts/CSI感知]]、[[concepts/WiFi生命体征监测]]、[[concepts/WASM边缘模块]]、[[concepts/自监督WiFi学习]]
+- [[concepts/自主ML研究循环]]、[[concepts/程序驱动研究]]、[[concepts/固定时间窗实验]]
 
 ## Skills 体系
 

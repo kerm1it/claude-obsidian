@@ -95,6 +95,12 @@ status: active
 - [[concepts/EffortDial|Effort Dial（努力拨盘）]] — 显式控制推理深度；extra high 是 coding 最佳默认
 - [[concepts/TaskBudgets|Task Budgets]] — 按任务分配 token 预算，细粒度控制推理成本
 
+## 自主 ML 研究（Karpathy autoresearch）
+
+- [[concepts/自主ML研究循环|自主 ML 研究循环]] — agent 过夜改代码→5分钟训练→评估 val_bpb→迭代，约 100 次实验；karpathy/autoresearch 参考实现
+- [[concepts/程序驱动研究|程序驱动研究（program.md 模式）]] — 用 Markdown 文件替代代码配置作为研究员与 agent 的接口；与 Agent Skills skill 文件同构
+- [[concepts/固定时间窗实验|固定时间窗实验]] — 5 分钟 wall clock budget 保证跨架构实验可比；val_bpb 指标与词表大小无关
+
 ## WiFi 空间感知（RuView）
 
 - [[concepts/WiFiDensePose|WiFi DensePose（无摄像头人体姿态估计）]] — 用 CSI 信号估计 17 个 COCO 关键点；无摄像头、穿墙、$9 硬件；基于 CMU 研究

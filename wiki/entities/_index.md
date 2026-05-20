@@ -37,3 +37,4 @@ status: active
 - [[entities/RuView]] — WiFi DensePose 空间感知平台，59K+ ⭐，Rust，无摄像头姿态估计 + 生命体征监测
 - [[entities/CognitumSeed]] — RuView 硬件伴侣（$140 BOM），持久向量存储 + kNN + Ed25519 见证链 + MCP 代理
 - [[entities/RuVector]] — RuView AI 骨干库，Transformer+GNN 信号处理 + 对比学习嵌入
+- [[entities/Autoresearch]] — Karpathy 自主 ML 研究循环，82.2K ⭐，Python，agent 过夜改代码→5分钟训练→迭代

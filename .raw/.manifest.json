@@ -401,6 +401,27 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/autoresearch-2026-05-20.md": {
+      "hash": "url-fetch",
+      "ingested_at": "2026-05-20",
+      "pages_created": [
+        "wiki/sources/autoresearch-2026-05-20.md",
+        "wiki/entities/Autoresearch.md",
+        "wiki/people/AndrejKarpathy.md",
+        "wiki/concepts/自主ML研究循环.md",
+        "wiki/concepts/程序驱动研究.md",
+        "wiki/concepts/固定时间窗实验.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -527,6 +548,12 @@
     "wiki/concepts/CSI感知.md": "c-000122",
     "wiki/concepts/WiFi生命体征监测.md": "c-000123",
     "wiki/concepts/WASM边缘模块.md": "c-000124",
-    "wiki/concepts/自监督WiFi学习.md": "c-000125"
+    "wiki/concepts/自监督WiFi学习.md": "c-000125",
+    "wiki/sources/autoresearch-2026-05-20.md": "c-000126",
+    "wiki/entities/Autoresearch.md": "c-000127",
+    "wiki/people/AndrejKarpathy.md": "c-000128",
+    "wiki/concepts/自主ML研究循环.md": "c-000129",
+    "wiki/concepts/程序驱动研究.md": "c-000130",
+    "wiki/concepts/固定时间窗实验.md": "c-000131"
   }
 }

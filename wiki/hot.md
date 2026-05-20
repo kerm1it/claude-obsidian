@@ -17,6 +17,20 @@ related:
 
 ## 最近更新
 
+2026-05-20。摄入 karpathy/autoresearch GitHub 仓库（82.2K ⭐）。
+
+**autoresearch（Andrej Karpathy）**（82.2K ⭐，Python+Jupyter，MIT）：
+- **核心主张**：AI agent 过夜自主跑 ML 实验——改 `train.py` → 5 分钟固定时间窗训练 → 读 val_bpb → 决策下一步，循环约 100 次
+- **三文件架构**：`prepare.py`（人类写，只读）/ `train.py`（agent 编辑：GPT 模型 + Muon/AdamW 优化器）/ `program.md`（人类写指令，"超轻量 skill"）
+- **[[concepts/固定时间窗实验]]**：5 分钟 wall clock，约 12 次/小时；val_bpb（bits-per-byte）与词表大小无关，跨架构可比
+- **[[concepts/程序驱动研究]]**：研究员不写 Python，写 `program.md`；与 Agent Skills skill 文件（包括本 vault 的 skills/）在结构上完全同构
+- **[[concepts/自主ML研究循环]]**：闭环：指令 → 代码修改 → 训练 → 评估 → 迭代；是 [[concepts/Loop机制]] 在 ML 研究场景的具体实例
+- **[[people/AndrejKarpathy]]**：前 OpenAI/特斯拉，nanoGPT / micrograd / llm.c 系列；本 vault 灵感来源（LLM Wiki pattern）
+- **设计哲学**："One GPU, one file, one metric." 极简，无分布式，单 H100
+- 社区 fork 已支持 MacOS / Windows / AMD
+
+---
+
 2026-05-19。摄入 RuView GitHub README（ruvnet/RuView，59,973 ⭐）。
 
 **RuView（WiFi DensePose）**（ruvnet/RuView，Rust，MIT）：
