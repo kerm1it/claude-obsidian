@@ -29,5 +29,6 @@ status: active
 
 ## 视频
 
+- [[sources/alex-albert-building-next-claude-2026-05-21|Inside How Anthropic Is Building the Next Claude — Alex Albert]] · Peter Yang · 2026-05-21（YouTube，~50 分钟）
 - [[sources/quanchenghuifang1-2026-05-10|AI Agent 实践分享会全程回放]] · Zara 主持 · 2026-05-05（5 位嘉宾）
 - [[sources/dario-daniela-amodei-conversation-2026-05-10|Dario & Daniela Amodei 对谈]] · Code with Claude · 2026-05-06（YouTube，33:10）

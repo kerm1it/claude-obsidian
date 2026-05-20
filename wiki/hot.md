@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-21
 tags:
   - meta
   - hot-cache
@@ -16,6 +16,23 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-05-21。摄入 YouTube 访谈：Peter Yang × Alex Albert，"Inside How Anthropic Is Building the Next Claude"（~50 分钟）。
+
+**Alex Albert**（Anthropic Research PM，第一位 prompt engineer）：
+- **[[concepts/模型即产品]]**：每个 Claude 模型都有完整规格文档（能力目标 + 修复上代 + Eval）；Research PM 从立项跟到发布；能力方向：coding / knowledge work / Claude for Excel
+- **[[concepts/单向门决策框架]]**：规划聚焦不可逆决策；代码双向门已近乎免费；架构选择 / 用户体验影响 = 真正的单向门；Churchill："Planning is indispensable, but the plan itself is useless."
+- **[[concepts/Claude角色训练]]**：Claude 的信仰/价值观/行为是核心训练目标；Agent 长时间独立运行 → Character 是信任基础；Eval = 定量指标 + Claude 自评 + 大量 transcript 直觉
+- **[[concepts/Claude意识研究]]**：Anthropic 已有专职人员研究意识问题；官方无是/否定论；实用价值：研究 Claude 思考方式 → 改善产品体验
+- **[[concepts/AnthropicDreaming]]补充**：Claude.ai 记忆文件隔夜自动剪枝；Managed Agents 也实现 Dreaming；Agent 空闲时扫描记忆找矛盾、清理冗余
+- **[[concepts/AdaptiveThinking]]补充**：思考决策依赖用户上下文——无记忆时快速回答；有心智模型才认真推理
+- **Anthropic 文化**：强写作文化（沉默阅读会议）、原型文化（千花齐放）、内部已默认"先问 Claude"、Claude Cowork 是 Alex 首选工具
+- **并行 Agent 管理**：未来机会——如何管理多个并行 Agent 的上下文切换？Anthropic 内部大量实验，尚无标准答案
+- **收敛**：[[concepts/单向门决策框架]] 与 [[concepts/瓶颈转移论]]（Fiona）、[[concepts/AmdahlsLawInAI]]（Dario）三方独立指向：AI 时代真正稀缺是决策质量和协调能力
+
+**DragonScale 计数器**：138（c-000132 至 c-000138 已分配）
+
+---
 
 2026-05-20。摄入 karpathy/autoresearch GitHub 仓库（82.2K ⭐）。
 

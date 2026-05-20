@@ -68,7 +68,19 @@ Adaptive Thinking 是机制，Effort 是控制旋钮：
 
 ---
 
+## PM 反馈循环（来自 Alex Albert）
+
+[[people/AlexAlbert]] 补充了 Research PM 如何调优 Adaptive Thinking 的视角：
+- 用 Claude 聚类大量用户反馈（是否在正确场景触发思考？）
+- 关键洞察：**思考决策依赖用户上下文**——模型没有用户记忆时会快速回答；建立了用户心智模型才会认真推理
+- 每个模型版本持续"tweaking and dialing"，没有终点
+
+来源：[[sources/alex-albert-building-next-claude-2026-05-21]]
+
+---
+
 ## 关联
 
 - [[concepts/TestTimeCompute]] — 上层框架
 - [[concepts/EffortDial]] — 用户控制接口
+- [[concepts/AgentMemoryAPI]] — 记忆积累是"正确触发思考"的前提

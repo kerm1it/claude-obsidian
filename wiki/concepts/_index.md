@@ -42,6 +42,13 @@ status: active
 - [[concepts/AI原生工程组织|AI 原生工程组织]] — 当 AI 成为基础设施后，团队规范、组织形态和文化的系统性重写框架
 - [[concepts/瓶颈转移论|瓶颈转移论]] — 编码不再是瓶颈；验证/安全/跨职能协作成为新稀缺资源
 - [[concepts/JIT规划|JIT 规划（Just-In-Time Planning）]] — 高变化率 + 低原型成本环境下，只在需要时做足够的规划
+- [[concepts/单向门决策框架|单向门决策框架（One-Way Door Framework）]] — 规划聚焦不可逆决策；代码已近乎免费；Churchill 原则
+
+## Anthropic 模型开发与文化
+
+- [[concepts/模型即产品|模型即产品（Model as a Product）]] — 每个 Claude 模型都有完整规格文档；Research PM 从立项跟到发布
+- [[concepts/Claude角色训练|Claude 角色训练（Character Training）]] — Claude 信仰/价值观/行为训练；Agent 时代的信任基础
+- [[concepts/Claude意识研究|Claude 意识研究（Consciousness Research）]] — Anthropic 专职研究；无官方定论；通过研究思考方式改善产品
 
 ## AI 研究与产品理论
 

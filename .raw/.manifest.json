@@ -402,6 +402,28 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/alex-albert-building-next-claude-2026-05-21.md": {
+      "hash": "notebooklm-youtube-T4ieZPIEmd8",
+      "ingested_at": "2026-05-21",
+      "pages_created": [
+        "wiki/sources/alex-albert-building-next-claude-2026-05-21.md",
+        "wiki/people/AlexAlbert.md",
+        "wiki/people/PeterYang.md",
+        "wiki/concepts/模型即产品.md",
+        "wiki/concepts/单向门决策框架.md",
+        "wiki/concepts/Claude角色训练.md",
+        "wiki/concepts/Claude意识研究.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/AdaptiveThinking.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/autoresearch-2026-05-20.md": {
       "hash": "url-fetch",
       "ingested_at": "2026-05-20",
@@ -554,6 +576,13 @@
     "wiki/people/AndrejKarpathy.md": "c-000128",
     "wiki/concepts/自主ML研究循环.md": "c-000129",
     "wiki/concepts/程序驱动研究.md": "c-000130",
-    "wiki/concepts/固定时间窗实验.md": "c-000131"
+    "wiki/concepts/固定时间窗实验.md": "c-000131",
+    "wiki/sources/alex-albert-building-next-claude-2026-05-21.md": "c-000132",
+    "wiki/people/AlexAlbert.md": "c-000133",
+    "wiki/people/PeterYang.md": "c-000134",
+    "wiki/concepts/模型即产品.md": "c-000135",
+    "wiki/concepts/单向门决策框架.md": "c-000136",
+    "wiki/concepts/Claude角色训练.md": "c-000137",
+    "wiki/concepts/Claude意识研究.md": "c-000138"
   }
 }

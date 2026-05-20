@@ -36,3 +36,5 @@ status: active
 - [[people/Senamakel|Senamakel（@senamakel）]] — TinyHumans AI 创始人，OpenHuman 创作者
 - [[people/ruvnet|ruvnet（@rUv）]] — 开源开发者，RuView / RuVector / Cognitum Seed 作者
 - [[people/AndrejKarpathy|Andrej Karpathy]] — ML 研究员，前 OpenAI/特斯拉，nanoGPT / autoresearch / LLM Wiki 模式作者
+- [[people/AlexAlbert|Alex Albert]] — Anthropic Research PM，前 Head of Developer Relations，第一位 prompt engineer
+- [[people/PeterYang|Peter Yang]] — 播客主持人，Creators.com，AI 原生产品专题

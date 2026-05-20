@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-21 ingest | Inside How Anthropic Is Building the Next Claude — Alex Albert
+
+- Source: `.raw/notebooklm/alex-albert-building-next-claude-2026-05-21.md`（YouTube T4ieZPIEmd8，Peter Yang，38,880 字符）
+- Summary: [[sources/alex-albert-building-next-claude-2026-05-21]]（c-000132）
+- Pages created: [[sources/alex-albert-building-next-claude-2026-05-21]]（c-000132）, [[people/AlexAlbert]]（c-000133）, [[people/PeterYang]]（c-000134）, [[concepts/模型即产品]]（c-000135）, [[concepts/单向门决策框架]]（c-000136）, [[concepts/Claude角色训练]]（c-000137）, [[concepts/Claude意识研究]]（c-000138）
+- Pages updated: [[concepts/AdaptiveThinking]], [[people/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Alex Albert（第一位 prompt engineer）揭示 Anthropic 把每个模型当产品管理；"单向门框架"与瓶颈转移论独立收敛；Claude Character 在 Agent 时代变得极其重要——长时间自主运行需要价值观支撑判断。
+
 ## 2026-05-20 ingest | autoresearch — Karpathy 自主 ML 研究循环
 
 - Source: `.raw/articles/autoresearch-2026-05-20.md`（GitHub karpathy/autoresearch，82.2K ⭐，Python+Jupyter）
