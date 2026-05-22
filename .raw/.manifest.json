@@ -402,6 +402,24 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/yc-root-access-self-improving-company-2026-05-22.md": {
+      "hash": "notebooklm-youtube-t-G67yKAHBQ",
+      "ingested_at": "2026-05-22",
+      "pages_created": [
+        "wiki/sources/yc-root-access-self-improving-company-2026-05-22.md",
+        "wiki/concepts/自我改进AI循环.md",
+        "wiki/concepts/软件即临时物.md",
+        "wiki/concepts/公司大脑.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Token最大化.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/yc-diana-ai-company-ground-up-2026-05-22.md": {
       "hash": "notebooklm-youtube-EN7frwQIbKc",
       "ingested_at": "2026-05-22",
@@ -611,6 +629,10 @@
     "wiki/concepts/可查询组织.md": "c-000142",
     "wiki/concepts/软件工厂.md": "c-000143",
     "wiki/concepts/Token最大化.md": "c-000144",
-    "wiki/concepts/三种员工原型.md": "c-000145"
+    "wiki/concepts/三种员工原型.md": "c-000145",
+    "wiki/sources/yc-root-access-self-improving-company-2026-05-22.md": "c-000146",
+    "wiki/concepts/自我改进AI循环.md": "c-000147",
+    "wiki/concepts/软件即临时物.md": "c-000148",
+    "wiki/concepts/公司大脑.md": "c-000149"
   }
 }

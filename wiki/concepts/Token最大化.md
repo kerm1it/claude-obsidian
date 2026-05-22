@@ -46,6 +46,14 @@ AI 时代的核心资源从**人头数**变为**Token 用量**。
 
 ---
 
+## YC 实证数据
+
+> "We are seeing companies get to demo day with about 5x more revenue per employee than they did 18 months ago." — YC 合伙人（[[sources/yc-root-access-self-improving-company-2026-05-22]]）
+
+- Demo Day 收入/人效在 18 个月内提升 5x
+- 预计延续到 A 轮、B 轮
+- 约束将从人头数 → Token 用量
+
 ## 实践含义
 
 - 工程、设计、HR、行政团队大幅精简

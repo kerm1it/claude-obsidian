@@ -17,6 +17,21 @@ related:
 
 ## 最近更新
 
+2026-05-22。摄入两个 YC 视频：Diana + YC Root Access，AI 原生公司构建系列。
+
+**YC Root Access — How to Build a Self-Improving Company with AI**（配套 Diana 演讲）：
+- **[[concepts/自我改进AI循环]]**：公司 = 递归自我改进 AI 循环集合；五层架构：感知层（客户邮件/遥测）→ 策略层（规则）→ 工具层（确定性 API）→ 质量门（验证/人工审核）→ 学习机制（发现失败→改进→部署）→ 循环
+- **YC 内部案例**：监控 Agent 观察所有员工查询 → 发现失败 → 隔夜写代码 → agent review → 合并 → 部署；第二天同样查询成功 → 系统在睡觉时自我改进
+- **Haj 用户手册再生**：2,000 小时 office hours 录音 → 一个周末生成 150 页 YC 用户手册（比原版好得多）→ 每月自动更新；16 位 YC 合伙人的综合智慧接入 Agent
+- **[[concepts/软件即临时物]]**：数据/上下文/skills 永久保存；软件一次性可丢弃 → 模型更强时重新生成
+- **[[concepts/公司大脑]]**：中心 = 数据+emails+DMs+skills+knowhow；人类在边缘与现实接触（高风险/高情绪/新颖情境/销售）
+- **Token 最大化补充**：YC 实证数据 — Demo Day 公司收入/人效 18 个月内提升 5x
+- **四方收敛**：YC 自我改进循环 ↔ [[concepts/AnthropicDreaming]] ↔ [[concepts/DreamCycle]]（GBrain）↔ [[concepts/智能体GC]]（OpenAI）→ 异步离线自我改进是 AI 系统通用原语
+
+**DragonScale 计数器**：149（c-000146 至 c-000149 已分配）
+
+---
+
 2026-05-22。摄入 YC YouTube：Diana，"How To Build A Company With AI From The Ground Up"（~10 分钟）。
 
 **Diana（YC 合伙人）**：

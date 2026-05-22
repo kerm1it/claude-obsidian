@@ -49,8 +49,11 @@ status: active
 - [[concepts/封闭循环公司|封闭循环公司（Closed Loop Company）]] — 每个重要流程是自我调节的智能闭环；开环 → 闭环是核心转变
 - [[concepts/可查询组织|可查询组织（Queryable Organization）]] — 整个公司对 AI 透明可查；每个动作产生可学习 artifact
 - [[concepts/软件工厂|软件工厂（AI Software Factory）]] — 人写 spec+测试，AI 生成代码迭代直到通过；零手写代码
-- [[concepts/Token最大化|Token 最大化（Token Maximization）]] — 以 Token 用量替代人头数；主动承受高 API 账单
+- [[concepts/Token最大化|Token 最大化（Token Maximization）]] — 以 Token 用量替代人头数；主动承受高 API 账单；YC Demo Day 5x revenue/employee
 - [[concepts/三种员工原型|三种员工原型]] — IC（构建者）/ DRRI（直接责任人）/ AI Founder（以身作则）
+- [[concepts/自我改进AI循环|自我改进 AI 循环]] — 五层架构（感知/策略/工具/质量门/学习）；递归闭环；隔夜自主修复
+- [[concepts/软件即临时物|软件即临时物（Ephemeral Software）]] — 数据和上下文永久保存；软件随时可丢弃重生
+- [[concepts/公司大脑|公司大脑（Company Brain）]] — 数据+emails+skills+knowhow 的中心；人类在边缘与现实世界接触
 
 ## Anthropic 模型开发与文化
 

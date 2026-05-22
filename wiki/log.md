@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-22 ingest | How to Build a Self-Improving Company with AI — YC Root Access
+
+- Source: `.raw/notebooklm/yc-root-access-self-improving-company-2026-05-22.md`（YouTube t-G67yKAHBQ，YC Root Access，14,669 字符）
+- Summary: [[sources/yc-root-access-self-improving-company-2026-05-22]]（c-000146）
+- Pages created: [[sources/yc-root-access-self-improving-company-2026-05-22]]（c-000146）, [[concepts/自我改进AI循环]]（c-000147）, [[concepts/软件即临时物]]（c-000148）, [[concepts/公司大脑]]（c-000149）
+- Pages updated: [[concepts/Token最大化]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: 五层 AI 循环架构（感知→策略→工具→质量门→学习）是封闭循环公司的技术化详解；YC 内部案例：监控 Agent 隔夜自动修复查询、Haj 用 2000 小时录音再生用户手册；"软件即临时物"与数据/上下文永久是重要哲学分割；四方（YC/GBrain/Anthropic/OpenAI）独立收敛到异步自我改进原语。
+
 ## 2026-05-22 ingest | How To Build A Company With AI From The Ground Up — Diana (YC)
 
 - Source: `.raw/notebooklm/yc-diana-ai-company-ground-up-2026-05-22.md`（YouTube EN7frwQIbKc，Y Combinator，9,389 字符）
