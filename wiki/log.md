@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-22 ingest | How To Build A Company With AI From The Ground Up — Diana (YC)
+
+- Source: `.raw/notebooklm/yc-diana-ai-company-ground-up-2026-05-22.md`（YouTube EN7frwQIbKc，Y Combinator，9,389 字符）
+- Summary: [[sources/yc-diana-ai-company-ground-up-2026-05-22]]（c-000139）
+- Pages created: [[sources/yc-diana-ai-company-ground-up-2026-05-22]]（c-000139）, [[people/Diana]]（c-000140）, [[concepts/封闭循环公司]]（c-000141）, [[concepts/可查询组织]]（c-000142）, [[concepts/软件工厂]]（c-000143）, [[concepts/Token最大化]]（c-000144）, [[concepts/三种员工原型]]（c-000145）
+- Pages updated: [[people/_index]], [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Diana（YC）将公司架构从"生产力工具"升级为"操作系统"视角；封闭循环 + 可查询组织 + 软件工厂三框架与 Fiona Fung / Dario / Ryan Lopopolo 框架多点收敛；Token 最大化是 AI 时代的新核心指标。
+
 ## 2026-05-21 ingest | Inside How Anthropic Is Building the Next Claude — Alex Albert
 
 - Source: `.raw/notebooklm/alex-albert-building-next-claude-2026-05-21.md`（YouTube T4ieZPIEmd8，Peter Yang，38,880 字符）

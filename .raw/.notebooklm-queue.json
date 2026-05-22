@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "updated_at": "2026-05-21T00:00:00Z",
+  "updated_at": "2026-05-22T00:00:00Z",
   "items": [
+    {
+      "id": "notebooklm-20260522-yc-diana-ai-company",
+      "original_source": "https://www.youtube.com/watch?v=EN7frwQIbKc",
+      "source_hash": "",
+      "source_kind": "youtube",
+      "created_at": "2026-05-22T00:00:00Z",
+      "updated_at": "2026-05-22T00:00:00Z",
+      "status": "ingested",
+      "notebook_id": "df753e32-5fe1-45e3-a477-dbc5eb510eb3",
+      "source_id": "520c62ff-bb49-4d33-9b24-1fee555a3ed5",
+      "notebook_title": "Ingest: How To Build A Company With AI From The Ground Up",
+      "source_title": "How To Build A Company With AI From The Ground Up",
+      "attempts": 1,
+      "last_error": "",
+      "last_checked_at": "2026-05-22T00:00:00Z",
+      "target_raw_path": ".raw/notebooklm/yc-diana-ai-company-ground-up-2026-05-22.md",
+      "extraction_method": "fulltext",
+      "retention": "retained",
+      "notes": "YouTube URL accepted directly; 9,389 chars; YC 合伙人 Diana：封闭循环公司、可查询组织、软件工厂、Token 最大化、三种员工原型（Jack Dorsey）"
+    },
     {
       "id": "notebooklm-20260521-alex-albert-next-claude",
       "original_source": "https://www.youtube.com/watch?v=T4ieZPIEmd8",

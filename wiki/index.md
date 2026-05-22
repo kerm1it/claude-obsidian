@@ -70,6 +70,7 @@ status: active
 - [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills（2026-05-17）]]
 - [[sources/ruview-2026-05-19|RuView — WiFi DensePose：用 WiFi 信号实现空间智能（ruvnet，2026-05-19）]]
 - [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环（2026-05-20）]]
+- [[sources/yc-diana-ai-company-ground-up-2026-05-22|How To Build A Company With AI From The Ground Up — Diana（YC，2026-05-22）]]
 - [[sources/alex-albert-building-next-claude-2026-05-21|Inside How Anthropic Is Building the Next Claude — Alex Albert（2026-05-21）]]
 
 ## 实体
@@ -84,7 +85,7 @@ status: active
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]、[[people/AndrejKarpathy]]、[[people/AlexAlbert]]、[[people/PeterYang]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]、[[people/AndrejKarpathy]]、[[people/AlexAlbert]]、[[people/PeterYang]]、[[people/Diana]]
 
 ## 概念
 
@@ -110,6 +111,7 @@ status: active
 - [[concepts/WiFiDensePose]]、[[concepts/CSI感知]]、[[concepts/WiFi生命体征监测]]、[[concepts/WASM边缘模块]]、[[concepts/自监督WiFi学习]]
 - [[concepts/自主ML研究循环]]、[[concepts/程序驱动研究]]、[[concepts/固定时间窗实验]]
 - [[concepts/模型即产品]]、[[concepts/Claude角色训练]]、[[concepts/Claude意识研究]]、[[concepts/单向门决策框架]]
+- [[concepts/封闭循环公司]]、[[concepts/可查询组织]]、[[concepts/软件工厂]]、[[concepts/Token最大化]]、[[concepts/三种员工原型]]
 
 ## Skills 体系
 

@@ -38,3 +38,4 @@ status: active
 - [[people/AndrejKarpathy|Andrej Karpathy]] — ML 研究员，前 OpenAI/特斯拉，nanoGPT / autoresearch / LLM Wiki 模式作者
 - [[people/AlexAlbert|Alex Albert]] — Anthropic Research PM，前 Head of Developer Relations，第一位 prompt engineer
 - [[people/PeterYang|Peter Yang]] — 播客主持人，Creators.com，AI 原生产品专题
+- [[people/Diana|Diana]] — YC 合伙人，封闭循环公司 / 可查询组织 / 软件工厂框架提出者

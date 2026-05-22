@@ -402,6 +402,27 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/yc-diana-ai-company-ground-up-2026-05-22.md": {
+      "hash": "notebooklm-youtube-EN7frwQIbKc",
+      "ingested_at": "2026-05-22",
+      "pages_created": [
+        "wiki/sources/yc-diana-ai-company-ground-up-2026-05-22.md",
+        "wiki/people/Diana.md",
+        "wiki/concepts/封闭循环公司.md",
+        "wiki/concepts/可查询组织.md",
+        "wiki/concepts/软件工厂.md",
+        "wiki/concepts/Token最大化.md",
+        "wiki/concepts/三种员工原型.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/alex-albert-building-next-claude-2026-05-21.md": {
       "hash": "notebooklm-youtube-T4ieZPIEmd8",
       "ingested_at": "2026-05-21",
@@ -583,6 +604,13 @@
     "wiki/concepts/模型即产品.md": "c-000135",
     "wiki/concepts/单向门决策框架.md": "c-000136",
     "wiki/concepts/Claude角色训练.md": "c-000137",
-    "wiki/concepts/Claude意识研究.md": "c-000138"
+    "wiki/concepts/Claude意识研究.md": "c-000138",
+    "wiki/sources/yc-diana-ai-company-ground-up-2026-05-22.md": "c-000139",
+    "wiki/people/Diana.md": "c-000140",
+    "wiki/concepts/封闭循环公司.md": "c-000141",
+    "wiki/concepts/可查询组织.md": "c-000142",
+    "wiki/concepts/软件工厂.md": "c-000143",
+    "wiki/concepts/Token最大化.md": "c-000144",
+    "wiki/concepts/三种员工原型.md": "c-000145"
   }
 }

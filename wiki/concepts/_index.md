@@ -44,6 +44,14 @@ status: active
 - [[concepts/JIT规划|JIT 规划（Just-In-Time Planning）]] — 高变化率 + 低原型成本环境下，只在需要时做足够的规划
 - [[concepts/单向门决策框架|单向门决策框架（One-Way Door Framework）]] — 规划聚焦不可逆决策；代码已近乎免费；Churchill 原则
 
+## AI 原生公司架构（YC / Diana）
+
+- [[concepts/封闭循环公司|封闭循环公司（Closed Loop Company）]] — 每个重要流程是自我调节的智能闭环；开环 → 闭环是核心转变
+- [[concepts/可查询组织|可查询组织（Queryable Organization）]] — 整个公司对 AI 透明可查；每个动作产生可学习 artifact
+- [[concepts/软件工厂|软件工厂（AI Software Factory）]] — 人写 spec+测试，AI 生成代码迭代直到通过；零手写代码
+- [[concepts/Token最大化|Token 最大化（Token Maximization）]] — 以 Token 用量替代人头数；主动承受高 API 账单
+- [[concepts/三种员工原型|三种员工原型]] — IC（构建者）/ DRRI（直接责任人）/ AI Founder（以身作则）
+
 ## Anthropic 模型开发与文化
 
 - [[concepts/模型即产品|模型即产品（Model as a Product）]] — 每个 Claude 模型都有完整规格文档；Research PM 从立项跟到发布

@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-21
+updated: 2026-05-22
 tags:
   - meta
   - hot-cache
@@ -16,6 +16,21 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-05-22。摄入 YC YouTube：Diana，"How To Build A Company With AI From The Ground Up"（~10 分钟）。
+
+**Diana（YC 合伙人）**：
+- **[[concepts/封闭循环公司]]**：开环（旧）→ 闭环（AI 时代）；工程管理示例：Agent 接入 Linear+Slack+GitHub+客户反馈+站会录音 → 自动分析 sprint + 提出下一 sprint；sprint 时间减半、产出 ~10x
+- **[[concepts/可查询组织]]**：整个公司对 AI 透明可查；AI notetaker 录会议、减少 DM、全公司仪表盘；给模型和给员工同样充分的上下文
+- **[[concepts/软件工厂]]**：人写 spec + 测试 → AI 生成代码迭代 → 通过；Strong DM 案例：仓库零手写代码，只有 specs 和 test harnesses
+- **[[concepts/Token最大化]]**：Token 用量替代人头数；1 人 + AI = 原来大型团队；主动承受高 API 账单
+- **[[concepts/三种员工原型]]**（Jack Dorsey 提出）：IC（构建者，开会带原型）/ DRRI（一人一结果，无模糊）/ AI Founder（亲身前线，不外包 AI 战略）
+- **多点收敛**：[[concepts/封闭循环公司]] ↔ [[concepts/智能体GC]]（GBrain）、[[concepts/可查询组织]] ↔ [[concepts/代码仓库即记录系统]]（Ryan Lopopolo）、[[concepts/软件工厂]] ↔ [[concepts/Loop机制]]（Boris Cherny）、[[concepts/三种员工原型]] ↔ [[concepts/创始人编排者角色]]（Anthropic Playbook）
+- **初创公司优势**：无遗留系统，从第一天围绕 AI 设计 → 比既有玩家快 1000 倍
+
+**DragonScale 计数器**：145（c-000139 至 c-000145 已分配）
+
+---
 
 2026-05-21。摄入 YouTube 访谈：Peter Yang × Alex Albert，"Inside How Anthropic Is Building the Next Claude"（~50 分钟）。
 
