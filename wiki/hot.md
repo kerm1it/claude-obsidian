@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-22
+updated: 2026-05-26
 tags:
   - meta
   - hot-cache
@@ -16,6 +16,21 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-05-26。摄入 Anthropic Engineering Blog：Demystifying Evals for AI Agents。
+
+**[[concepts/Agent评估体系]]**（Anthropic Engineering）：
+- **三类评分**：代码评分（快/客观/脆弱）→ 模型评分（灵活/非确定/需校准）→ 人工评分（黄金标准/贵/慢）；优先用确定性评分
+- **四类 agent 策略**：编码（单元测试通过/失败）/ 对话（终态验证 + rubric + LLM 模拟用户）/ 研究（接地性+覆盖率+来源质量）/ 计算机操作（沙盒状态检查）
+- **[[concepts/非确定性评测指标]]**：pass@k（k 次至少一次成功，能力上界）vs pass^k（k 次全部成功，可靠性下界）；面向客户 agent 用 pass^k
+- **[[concepts/Eval驱动开发]]**：先建 eval 定义成功标准，再迭代 agent；与软件工厂同方向（spec+test 驱动）
+- **瑞士奶酪模型**：自动化 eval + 生产监控 + A/B 测试 + 人工审查，多层组合
+- **设计陷阱实案**：Opus 4.5 在 CORE-Bench 初始 42% 因严格格式匹配；任务需无歧义，评分路径不评步骤
+- **收敛**：Eval 驱动开发 ↔ [[concepts/软件工厂]]（TDD 演进）；质量门 ↔ [[concepts/自我改进AI循环]] 第四层；eval 套件 ↔ [[concepts/模型即产品]]（Alex Albert 的 Research PM 工作）
+
+**DragonScale 计数器**：153（c-000150 至 c-000153 已分配）
+
+---
 
 2026-05-22。摄入两个 YC 视频：Diana + YC Root Access，AI 原生公司构建系列。
 

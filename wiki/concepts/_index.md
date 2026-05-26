@@ -55,6 +55,12 @@ status: active
 - [[concepts/软件即临时物|软件即临时物（Ephemeral Software）]] — 数据和上下文永久保存；软件随时可丢弃重生
 - [[concepts/公司大脑|公司大脑（Company Brain）]] — 数据+emails+skills+knowhow 的中心；人类在边缘与现实世界接触
 
+## Agent 评估工程
+
+- [[concepts/Agent评估体系|Agent 评估体系]] — 三类评分（代码/模型/人工）、四类 agent eval 策略、瑞士奶酪模型
+- [[concepts/非确定性评测指标|非确定性评测指标（pass@k / pass^k）]] — k 次尝试至少一次成功 vs 全部成功；能力上界 vs 可靠性下界
+- [[concepts/Eval驱动开发|Eval 驱动开发]] — 先建 eval 定义成功标准，再迭代 agent；TDD 在 agent 工程的演进
+
 ## Anthropic 模型开发与文化
 
 - [[concepts/模型即产品|模型即产品（Model as a Product）]] — 每个 Claude 模型都有完整规格文档；Research PM 从立项跟到发布

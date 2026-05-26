@@ -25,6 +25,8 @@ status: active
 
 ## 文章 / PDF
 
+- [[sources/anthropic-demystifying-evals-agents-2026-05-26|Demystifying Evals for AI Agents]] · Anthropic Engineering · 2026-05-26（Agent eval 完整体系）
+
 - [[sources/founders-playbook-2026-05-16|The Founder's Playbook]] · Anthropic · 2026-05-06（35 页 PDF，AI 原生创业完整指南）
 
 ## 视频

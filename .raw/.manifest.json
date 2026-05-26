@@ -402,6 +402,23 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/anthropic-demystifying-evals-agents-2026-05-26.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-05-26",
+      "pages_created": [
+        "wiki/sources/anthropic-demystifying-evals-agents-2026-05-26.md",
+        "wiki/concepts/Agent评估体系.md",
+        "wiki/concepts/非确定性评测指标.md",
+        "wiki/concepts/Eval驱动开发.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/yc-root-access-self-improving-company-2026-05-22.md": {
       "hash": "notebooklm-youtube-t-G67yKAHBQ",
       "ingested_at": "2026-05-22",
@@ -633,6 +650,10 @@
     "wiki/sources/yc-root-access-self-improving-company-2026-05-22.md": "c-000146",
     "wiki/concepts/自我改进AI循环.md": "c-000147",
     "wiki/concepts/软件即临时物.md": "c-000148",
-    "wiki/concepts/公司大脑.md": "c-000149"
+    "wiki/concepts/公司大脑.md": "c-000149",
+    "wiki/sources/anthropic-demystifying-evals-agents-2026-05-26.md": "c-000150",
+    "wiki/concepts/Agent评估体系.md": "c-000151",
+    "wiki/concepts/非确定性评测指标.md": "c-000152",
+    "wiki/concepts/Eval驱动开发.md": "c-000153"
   }
 }

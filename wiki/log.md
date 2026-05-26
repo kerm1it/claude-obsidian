@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-26 ingest | Demystifying Evals for AI Agents — Anthropic Engineering
+
+- Source: `.raw/articles/anthropic-demystifying-evals-agents-2026-05-26.md`（Anthropic Engineering Blog）
+- Summary: [[sources/anthropic-demystifying-evals-agents-2026-05-26]]（c-000150）
+- Pages created: [[sources/anthropic-demystifying-evals-agents-2026-05-26]]（c-000150）, [[concepts/Agent评估体系]]（c-000151）, [[concepts/非确定性评测指标]]（c-000152）, [[concepts/Eval驱动开发]]（c-000153）
+- Pages updated: [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: Agent eval 的三层评分（代码/模型/人工）+ 四类 agent 差异化策略；pass@k vs pass^k 区分能力上界与可靠性下界；Eval 驱动开发是软件工厂在 agent 工程的延伸；与 Alex Albert 的"模型即产品"和自我改进循环的质量门深度收敛。
+
 ## 2026-05-22 ingest | How to Build a Self-Improving Company with AI — YC Root Access
 
 - Source: `.raw/notebooklm/yc-root-access-self-improving-company-2026-05-22.md`（YouTube t-G67yKAHBQ，YC Root Access，14,669 字符）
