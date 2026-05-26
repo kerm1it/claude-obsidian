@@ -17,6 +17,22 @@ related:
 
 ## 最近更新
 
+2026-05-26。摄入 Anthropic Engineering Blog：Effective Context Engineering for AI Agents。
+
+**[[concepts/上下文工程]]**（Anthropic Engineering）：
+- **核心定义**：管理 Agent 推理期间**全部 token 信息**的技术体系；提示工程的超集（系统提示 + 工具 + 外部数据 + 消息历史）
+- **高信号 token 原则**："找到使期望结果概率最大化的最小高信号 token 集合"——上下文是有限稀缺资源
+- **系统提示"恰当海拔"**：太具体 = 脆弱；太抽象 = 失导；恰当 = 具体约束 + 灵活余地
+- **工具设计三要素**：自包含 / 容错 / 意图明确；工具集臃肿或重叠会制造 Agent 选择歧义
+- **[[concepts/上下文腐化]]**：Transformer n² 注意力复杂度 → 上下文越长性能越低；扩大窗口不能解决，需主动管理 token 质量
+- **四大长任务策略**：Compaction（历史压缩重启）/ 结构化笔记（外化到上下文窗口外）/ 子 Agent（专化 + 干净上下文）/ JIT 检索（轻量标识符 + 按需动态加载）
+- **JIT 检索 ↔ [[concepts/渐进式上下文注入]]**：Anthropic 的 JIT 与 claude-mem 三层结构独立收敛于同一原语（索引→按需拉取）；Anthropic 侧重 Agent 工具调用模式，claude-mem 侧重 3-layer API
+- **实践建议**：从最小 prompt 开始 → 按失败模式迭代 → 持续视上下文为稀缺资源
+
+**DragonScale 计数器**：157（c-000154 至 c-000156 已分配）
+
+---
+
 2026-05-26。摄入 Anthropic Engineering Blog：Demystifying Evals for AI Agents。
 
 **[[concepts/Agent评估体系]]**（Anthropic Engineering）：
@@ -28,7 +44,7 @@ related:
 - **设计陷阱实案**：Opus 4.5 在 CORE-Bench 初始 42% 因严格格式匹配；任务需无歧义，评分路径不评步骤
 - **收敛**：Eval 驱动开发 ↔ [[concepts/软件工厂]]（TDD 演进）；质量门 ↔ [[concepts/自我改进AI循环]] 第四层；eval 套件 ↔ [[concepts/模型即产品]]（Alex Albert 的 Research PM 工作）
 
-**DragonScale 计数器**：153（c-000150 至 c-000153 已分配）
+**DragonScale 计数器**：157（c-000150 至 c-000156 已分配）
 
 ---
 
@@ -346,4 +362,4 @@ related:
 
 ## DragonScale
 
-- 地址计数器：125（c-000001 至 c-000125 已分配）
+- 地址计数器：157（c-000001 至 c-000156 已分配）

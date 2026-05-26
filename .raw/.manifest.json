@@ -402,6 +402,23 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/anthropic-context-engineering-agents-2026-05-26.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-05-26",
+      "pages_created": [
+        "wiki/sources/anthropic-context-engineering-agents-2026-05-26.md",
+        "wiki/concepts/上下文工程.md",
+        "wiki/concepts/上下文腐化.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/渐进式上下文注入.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/anthropic-demystifying-evals-agents-2026-05-26.md": {
       "hash": "url-source",
       "ingested_at": "2026-05-26",
@@ -654,6 +671,9 @@
     "wiki/sources/anthropic-demystifying-evals-agents-2026-05-26.md": "c-000150",
     "wiki/concepts/Agent评估体系.md": "c-000151",
     "wiki/concepts/非确定性评测指标.md": "c-000152",
-    "wiki/concepts/Eval驱动开发.md": "c-000153"
+    "wiki/concepts/Eval驱动开发.md": "c-000153",
+    "wiki/sources/anthropic-context-engineering-agents-2026-05-26.md": "c-000154",
+    "wiki/concepts/上下文工程.md": "c-000155",
+    "wiki/concepts/上下文腐化.md": "c-000156"
   }
 }

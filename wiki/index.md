@@ -70,6 +70,7 @@ status: active
 - [[sources/scientific-agent-skills-2026-05-17|Scientific Agent Skills — 135 科学研究 Agent Skills（2026-05-17）]]
 - [[sources/ruview-2026-05-19|RuView — WiFi DensePose：用 WiFi 信号实现空间智能（ruvnet，2026-05-19）]]
 - [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环（2026-05-20）]]
+- [[sources/anthropic-context-engineering-agents-2026-05-26|Effective Context Engineering for AI Agents — Anthropic Engineering（2026-05-26）]]
 - [[sources/anthropic-demystifying-evals-agents-2026-05-26|Demystifying Evals for AI Agents — Anthropic Engineering（2026-05-26）]]
 - [[sources/yc-root-access-self-improving-company-2026-05-22|How to Build a Self-Improving Company with AI — YC Root Access（2026-05-22）]]
 - [[sources/yc-diana-ai-company-ground-up-2026-05-22|How To Build A Company With AI From The Ground Up — Diana（YC，2026-05-22）]]
@@ -115,6 +116,7 @@ status: active
 - [[concepts/模型即产品]]、[[concepts/Claude角色训练]]、[[concepts/Claude意识研究]]、[[concepts/单向门决策框架]]
 - [[concepts/封闭循环公司]]、[[concepts/可查询组织]]、[[concepts/软件工厂]]、[[concepts/Token最大化]]、[[concepts/三种员工原型]]
 - [[concepts/自我改进AI循环]]、[[concepts/软件即临时物]]、[[concepts/公司大脑]]
+- [[concepts/上下文工程]]、[[concepts/上下文腐化]]
 - [[concepts/Agent评估体系]]、[[concepts/非确定性评测指标]]、[[concepts/Eval驱动开发]]
 
 ## Skills 体系

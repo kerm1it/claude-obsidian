@@ -25,6 +25,7 @@ status: active
 
 ## 文章 / PDF
 
+- [[sources/anthropic-context-engineering-agents-2026-05-26|Effective Context Engineering for AI Agents]] · Anthropic Engineering · 2026-05-26（上下文工程完整框架：Context Rot、Compaction、JIT 检索）
 - [[sources/anthropic-demystifying-evals-agents-2026-05-26|Demystifying Evals for AI Agents]] · Anthropic Engineering · 2026-05-26（Agent eval 完整体系）
 
 - [[sources/founders-playbook-2026-05-16|The Founder's Playbook]] · Anthropic · 2026-05-06（35 页 PDF，AI 原生创业完整指南）

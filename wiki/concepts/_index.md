@@ -24,9 +24,14 @@ status: active
 - [[concepts/Claude-Code接入飞书]] — 用飞书替代 terminal，获得持久化、富文本和多 session 管理
 - [[concepts/聊天记录复盘与AI成长]] — 用公司聊天记录做时间分析、决策复盘和 PRD 工作流
 
+## 上下文工程（Anthropic）
+
+- [[concepts/上下文工程|上下文工程（Context Engineering）]] — 管理 Agent 推理全部 token 的技术体系；超越提示工程；高信号 token 原则 + 四大长任务策略
+- [[concepts/上下文腐化|上下文腐化（Context Rot）]] — 上下文越长性能越低；Transformer n² 注意力复杂度；扩大窗口无法解决，需主动管理 token 质量
+
 ## Agent 记忆取用策略
 
-- [[concepts/渐进式上下文注入|渐进式上下文注入（Progressive Disclosure）]] — 分层取用历史记忆（索引→时间线→详情），节省约 10x tokens；claude-mem 核心模式
+- [[concepts/渐进式上下文注入|渐进式上下文注入（Progressive Disclosure / JIT Retrieval）]] — 分层取用历史记忆（索引→时间线→详情），节省约 10x tokens；claude-mem 实现 + Anthropic JIT 检索表述
 
 ## Agent 记忆与系统设计
 

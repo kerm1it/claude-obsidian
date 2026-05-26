@@ -11,6 +11,14 @@ status: active
 
 # 知识库日志
 
+## 2026-05-26 ingest | Effective Context Engineering for AI Agents — Anthropic Engineering
+
+- Source: `.raw/articles/anthropic-context-engineering-agents-2026-05-26.md`（Anthropic Engineering Blog）
+- Summary: [[sources/anthropic-context-engineering-agents-2026-05-26]]（c-000154）
+- Pages created: [[sources/anthropic-context-engineering-agents-2026-05-26]]（c-000154）, [[concepts/上下文工程]]（c-000155）, [[concepts/上下文腐化]]（c-000156）
+- Pages updated: [[concepts/渐进式上下文注入]]（加入 Anthropic JIT 检索表述）, [[concepts/_index]], [[sources/_index]], [[index]], [[hot]], [[log]]
+- Key insight: 上下文工程是提示工程的超集——管理多轮推理中全部 token；Context Rot 是 Transformer n² 注意力的必然结果；Compaction + 结构化笔记 + 子 Agent + JIT 检索四策略构成长任务上下文管理完整体系；Anthropic JIT 检索与 claude-mem 三层渐进式注入独立收敛于同一原语。
+
 ## 2026-05-26 ingest | Demystifying Evals for AI Agents — Anthropic Engineering
 
 - Source: `.raw/articles/anthropic-demystifying-evals-agents-2026-05-26.md`（Anthropic Engineering Blog）
