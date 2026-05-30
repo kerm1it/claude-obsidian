@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-26
+updated: 2026-05-30
 tags:
   - meta
   - hot-cache
@@ -16,6 +16,32 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-05-30。摄入 YouTube 视频：Gemini 联合负责人谈项目起源与未来（Google for Developers，42 分钟）。
+
+**[[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来]]**：
+- **[[concepts/单模型统一策略]]**：Jeff Dean 半页备忘录推动 Brain+DeepMind 合并 → Gemini 诞生。碎片化是最大敌人，统一是力量乘数。
+- **[[concepts/蒸馏传承]]**：每代 Flash 打包上代 Pro 智能，模式甚至在加速。技术本质与 Hinton 原始论文一致——一个好 teacher + 一个好 student。
+- **[[concepts/Omni世界模型]]**：Gemini Omni 从多模态理解跃迁到物理世界模拟——理解动态、模拟前滚、基于未来模拟做决策。
+- **IO 2027 预测**（Koray）：模型自我学习——模型和 agent 将用于改进 Gemini 自身。
+- **"一个盒子"哲学**：Google 早期搜索愿景（一个搜索框做所有事）在 AI 层面通过 Gemini 实现——"终于为前端建好了后端。"
+- **5 位新人物**：[[Jeff Dean]]（Google 首席科学家）、[[Koray Kavukcuoglu]]（CTO）、[[Noam Shazeer]]（Transformer 作者）、[[Oriol Vinyals]]（Agent 方向）、[[Logan Kilpatrick]]（"模型即产品"）。
+- **收敛**：[[concepts/单模型统一策略]] ↔ [[concepts/封闭循环公司]]（YC）↔ [[concepts/代码仓库即记录系统]]（OpenAI）：AI 时代碎片化是最大敌人，统一是力量乘数。
+- **蒸馏传承 ↔ 已有框架**：蒸馏作为 Flash 产品策略 ↔ [[concepts/软件即临时物]]（数据永久/软件临时）↔ [[concepts/模型即产品]]（用户反馈驱动闭环）。
+
+**DragonScale 计数器**：168（c-000157 至 c-000167 已分配）
+
+---
+
+2026-05-27。新建 AI 学习计划。
+
+**[[learning/AI学习计划-2026]]**：
+- 6 个 GitHub/网页资源 + 2 条视频内容线（微信视频号 + Karpathy YouTube）
+- 三条主线：AI Agent 课程（微软/Datawhale/agentic-patterns）/ Claude Code 专项（London + shareAI-lab）/ AI 工程（from scratch）
+- 建议学习顺序：Datawhale Hello Agents → ai-agents-for-beginners → design-patterns → Claude Code 专项 → 持续视频 → ai-engineering
+- 全部资源状态：🔲 待开始
+
+---
 
 2026-05-26。摄入 Anthropic Engineering Blog：Effective Context Engineering for AI Agents。
 

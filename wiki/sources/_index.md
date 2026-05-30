@@ -2,7 +2,7 @@
 type: index
 title: "素材索引"
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-30
 tags:
   - wiki
   - sources
@@ -31,6 +31,8 @@ status: active
 - [[sources/founders-playbook-2026-05-16|The Founder's Playbook]] · Anthropic · 2026-05-06（35 页 PDF，AI 原生创业完整指南）
 
 ## 视频
+
+- [[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来]] · Google for Developers · 2026-05-29（YouTube，42 分钟，5 位联合负责人对谈）
 
 - [[sources/yc-root-access-self-improving-company-2026-05-22|How to Build a Self-Improving Company with AI]] · YC Root Access · 2026-05-22（YouTube，五层 AI 循环架构）
 - [[sources/yc-diana-ai-company-ground-up-2026-05-22|How To Build A Company With AI From The Ground Up]] · Y Combinator / Diana · 2026-05-22（YouTube，~10 分钟）

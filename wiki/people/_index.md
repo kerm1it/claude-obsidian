@@ -2,7 +2,7 @@
 type: index
 title: "人物索引"
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-30
 tags:
   - wiki
   - people
@@ -28,6 +28,11 @@ status: active
 - [[people/FionaFung|Fiona Fung]] — Anthropic Claude Code & Cowie 工程与产品负责人
 - [[people/Mahesh|Mahesh]] — Anthropic 平台 PM，Memory API & Dreaming 发布者
 - [[people/MattBleifer|Matt Bleifer]] — Anthropic Research PM，The Thinking Lever 演讲人
+- [[people/JeffDean|Jeff Dean]] — Google 首席科学家，Gemini 联合创始人，半页备忘录推动 Brain+DeepMind 合并
+- [[people/KorayKavukcuoglu|Koray Kavukcuoglu]] — Google DeepMind CTO，Gemini 联合负责人，Omni 世界模型推动者
+- [[people/NoamShazeer|Noam Shazeer]] — Google DeepMind，Gemini 联合负责人，Transformer 论文作者之一
+- [[people/OriolVinyals|Oriol Vinyals]] — Google DeepMind，Gemini 联合负责人，Agent 方向主责，原 DeepMind 深度学习负责人
+- [[people/LoganKilpatrick|Logan Kilpatrick]] — Google DeepMind，开发者关系，"模型即产品"信条提出者
 - [[people/RyanLopopolo|Ryan Lopopolo]] — OpenAI Staff Engineer，Codex CLI 工程实践分享
 - [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人
 - [[people/BorisCherny|Boris Cherny]] — Anthropic，Claude Code 创始人

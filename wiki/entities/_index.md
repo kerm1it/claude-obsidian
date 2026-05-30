@@ -2,7 +2,7 @@
 type: index
 title: "实体索引"
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-30
 tags:
   - wiki
   - entities
@@ -38,3 +38,5 @@ status: active
 - [[entities/CognitumSeed]] — RuView 硬件伴侣（$140 BOM），持久向量存储 + kNN + Ed25519 见证链 + MCP 代理
 - [[entities/RuVector]] — RuView AI 骨干库，Transformer+GNN 信号处理 + 对比学习嵌入
 - [[entities/Autoresearch]] — Karpathy 自主 ML 研究循环，82.2K ⭐，Python，agent 过夜改代码→5分钟训练→迭代
+- [[entities/Gemini]] — Google DeepMind 多模态 LLM 家族，2023 年 Brain+DeepMind 合并产物，3.5 代迭代
+- [[entities/GoogleDeepMind|Google DeepMind]] — Google AI 研究部门，2023 年 DeepMind + Google Brain 合并而成

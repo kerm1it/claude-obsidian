@@ -75,6 +75,7 @@ status: active
 - [[sources/yc-root-access-self-improving-company-2026-05-22|How to Build a Self-Improving Company with AI — YC Root Access（2026-05-22）]]
 - [[sources/yc-diana-ai-company-ground-up-2026-05-22|How To Build A Company With AI From The Ground Up — Diana（YC，2026-05-22）]]
 - [[sources/alex-albert-building-next-claude-2026-05-21|Inside How Anthropic Is Building the Next Claude — Alex Albert（2026-05-21）]]
+- [[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来 — Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals（2026-05-29）]]
 
 ## 实体
 
@@ -82,6 +83,7 @@ status: active
 - [[entities/GBrain]]、[[entities/YCombinator]]、[[entities/OpenClaw]]、[[entities/OpenAI]]、[[entities/SequoiaCapital]]、[[entities/Tiny]]、[[entities/ClaudeMem]]、[[entities/AgentMemory]]
 - [[entities/Microsoft]]、[[entities/VibeVoice]]、[[entities/ClaudeCowork]]
 - [[entities/OpenHuman]]、[[entities/TinyHumansAI]]
+- [[entities/Gemini]]、[[entities/GoogleDeepMind]]
 - [[entities/ScientificAgentSkills]]、[[entities/KDenseAI]]
 - [[entities/RuView]]、[[entities/CognitumSeed]]、[[entities/RuVector]]
 - [[entities/Autoresearch]]

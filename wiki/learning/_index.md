@@ -15,4 +15,4 @@ status: active
 
 ## 当前学习线索
 
-还没有学习线索。
+- [[learning/AI学习计划-2026]] — AI Agent 工程学习计划，涵盖入门课程、设计模式、Claude Code 专项和 Karpathy 视频

@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-05-30 ingest | Gemini 联合负责人谈项目起源与未来
+- Source: `.raw/notebooklm/gemini-coleads-origins-2026-05-30.md`
+- Summary: [[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来]]
+- Pages created: [[sources/gemini-coleads-origins-2026-05-30]]，[[Jeff Dean]]，[[Koray Kavukcuoglu]]，[[Noam Shazeer]]，[[Oriol Vinyals]]，[[Logan Kilpatrick]]，[[entities/Gemini]]，[[entities/GoogleDeepMind]]，[[concepts/蒸馏传承]]，[[concepts/单模型统一策略]]，[[concepts/Omni世界模型]]
+- Pages updated: [[people/_index]]，[[entities/_index]]，[[concepts/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Jeff Dean 半页备忘录推动 Brain+DeepMind 合并 → Gemini 诞生；蒸馏技术本质与 Hinton 原始论文一致（只需一个好 teacher+好 student）；Koray 预测 IO 2027 将展示模型自我学习改进 Gemini 自身。
+
 ## 2026-05-26 ingest | Effective Context Engineering for AI Agents — Anthropic Engineering
 
 - Source: `.raw/articles/anthropic-context-engineering-agents-2026-05-26.md`（Anthropic Engineering Blog）

@@ -2,7 +2,7 @@
 type: index
 title: "概念索引"
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-05-30
 tags:
   - wiki
   - concepts
@@ -48,6 +48,12 @@ status: active
 - [[concepts/瓶颈转移论|瓶颈转移论]] — 编码不再是瓶颈；验证/安全/跨职能协作成为新稀缺资源
 - [[concepts/JIT规划|JIT 规划（Just-In-Time Planning）]] — 高变化率 + 低原型成本环境下，只在需要时做足够的规划
 - [[concepts/单向门决策框架|单向门决策框架（One-Way Door Framework）]] — 规划聚焦不可逆决策；代码已近乎免费；Churchill 原则
+
+## Google Gemini 战略与架构
+
+- [[concepts/单模型统一策略|单模型统一策略]] — Brain+DeepMind 合并为一个团队一个模型；碎片化是最大敌人，统一是力量乘数
+- [[concepts/蒸馏传承|蒸馏传承（Flash→Pro 蒸馏）]] — 每代 Flash 打包上代 Pro 智能；技术本质与 Hinton 原始论文一致
+- [[concepts/Omni世界模型|Omni 世界模型]] — Gemini Omni 多模态理解+生成统一训练；理解物理动态、模拟前滚、3D 涌现
 
 ## AI 原生公司架构（YC / Diana）
 

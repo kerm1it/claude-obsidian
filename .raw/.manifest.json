@@ -497,6 +497,32 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/gemini-coleads-origins-2026-05-30.md": {
+      "hash": "notebooklm-youtube-8hfpLa5wPGo",
+      "ingested_at": "2026-05-30",
+      "pages_created": [
+        "wiki/sources/gemini-coleads-origins-2026-05-30.md",
+        "wiki/people/JeffDean.md",
+        "wiki/people/KorayKavukcuoglu.md",
+        "wiki/people/NoamShazeer.md",
+        "wiki/people/OriolVinyals.md",
+        "wiki/people/LoganKilpatrick.md",
+        "wiki/entities/Gemini.md",
+        "wiki/entities/GoogleDeepMind.md",
+        "wiki/concepts/蒸馏传承.md",
+        "wiki/concepts/单模型统一策略.md",
+        "wiki/concepts/Omni世界模型.md"
+      ],
+      "pages_updated": [
+        "wiki/people/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/autoresearch-2026-05-20.md": {
       "hash": "url-fetch",
       "ingested_at": "2026-05-20",
@@ -674,6 +700,17 @@
     "wiki/concepts/Eval驱动开发.md": "c-000153",
     "wiki/sources/anthropic-context-engineering-agents-2026-05-26.md": "c-000154",
     "wiki/concepts/上下文工程.md": "c-000155",
-    "wiki/concepts/上下文腐化.md": "c-000156"
+    "wiki/concepts/上下文腐化.md": "c-000156",
+    "wiki/sources/gemini-coleads-origins-2026-05-30.md": "c-000157",
+    "wiki/people/JeffDean.md": "c-000158",
+    "wiki/people/KorayKavukcuoglu.md": "c-000159",
+    "wiki/people/NoamShazeer.md": "c-000160",
+    "wiki/people/OriolVinyals.md": "c-000161",
+    "wiki/people/LoganKilpatrick.md": "c-000162",
+    "wiki/entities/Gemini.md": "c-000163",
+    "wiki/entities/GoogleDeepMind.md": "c-000164",
+    "wiki/concepts/蒸馏传承.md": "c-000165",
+    "wiki/concepts/单模型统一策略.md": "c-000166",
+    "wiki/concepts/Omni世界模型.md": "c-000167"
   }
 }
