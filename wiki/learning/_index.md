@@ -2,7 +2,7 @@
 type: index
 title: "学习索引"
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-30
 tags:
   - wiki
   - learning
@@ -15,4 +15,5 @@ status: active
 
 ## 当前学习线索
 
-- [[learning/AI学习计划-2026]] — AI Agent 工程学习计划，涵盖入门课程、设计模式、Claude Code 专项和 Karpathy 视频
+- [[learning/AI体系学习路线]] — 体系路线：从 [[domains/AI知识体系]] 派生，回答“按什么顺序学、概念属于哪一层”
+- [[learning/AI学习计划-2026]] — 执行计划：把课程、Claude Code、Karpathy 视频和练习映射到体系路线并追踪进度

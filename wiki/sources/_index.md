@@ -25,6 +25,315 @@ status: active
 
 ## 文章 / PDF
 
+- [[sources/stanford-ai-index-2026|The 2026 AI Index Report]] · Stanford HAI · 2026（AI 趋势总览）
+- [[sources/attention-is-all-you-need-2017|Attention Is All You Need]] · Vaswani et al. · 2017（Transformer 基础）
+- [[sources/scaling-laws-neural-language-models-2020|Scaling Laws for Neural Language Models]] · Kaplan et al. · 2020（规模律）
+- [[sources/instructgpt-rlhf-2022|Training language models to follow instructions with human feedback]] · Ouyang et al. · 2022（指令微调/RLHF）
+- [[sources/deep-rl-from-human-preferences-2017|Deep reinforcement learning from human preferences]] · Christiano et al. · 2017（pairwise preference / reward model）
+- [[sources/learning-to-summarize-human-feedback-2020|Learning to summarize from human feedback]] · Stiennon et al. · 2020（human comparison / reward model）
+- [[sources/anthropic-hh-rlhf-2022|Training a Helpful and Harmless Assistant with RLHF]] · Anthropic · 2022（helpfulness / harmlessness preference）
+- [[sources/rag-2020|Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks]] · Lewis et al. · 2020（RAG）
+- [[sources/react-2022|ReAct: Synergizing Reasoning and Acting in Language Models]] · Yao et al. · 2022（Agent reasoning/action）
+- [[sources/distilling-knowledge-neural-network-2015|Distilling the Knowledge in a Neural Network]] · Hinton / Vinyals / Dean · 2015（知识蒸馏）
+- [[sources/huggingface-peft-docs|PEFT — Hugging Face Documentation]] · Hugging Face（参数高效微调）
+- [[sources/openai-model-distillation-2024|Model Distillation in the API]] · OpenAI · 2024-10-01（蒸馏平台工作流）
+- [[sources/openai-agents-sdk-evolution-2026|The next evolution of the Agents SDK]] · OpenAI · 2026-04-15（Agent harness / sandbox）
+- [[sources/anthropic-building-effective-agents-2024|Building effective agents]] · Anthropic · 2024-12-19（workflow vs agent / tool design）
+- [[sources/openai-practical-guide-building-agents-2025|A practical guide to building agents]] · OpenAI · 2025（agent workflow automation / guardrails）
+- [[sources/openai-agents-sdk-docs-2026|Agents SDK]] · OpenAI Docs · 2026（orchestration / state / approvals / observability）
+- [[sources/openai-agents-sdk-tracing-2026|Tracing - OpenAI Agents SDK]] · OpenAI（trace/span/observability）
+- [[sources/openai-agents-sdk-running-2026|Running agents - OpenAI Agents SDK]] · OpenAI（runner loop / max turns / run result）
+- [[sources/openai-agent-evals-trace-grading-2026|Agent evals and trace grading]] · OpenAI（trace-based agent eval）
+- [[sources/microsoft-customizing-llms-2026|Getting started with customizing a large language model]] · Microsoft Learn（prompt/RAG/fine-tuning 互补框架）
+- [[sources/microsoft-fine-tuning-considerations-2026|Microsoft Foundry fine-tuning considerations]] · Microsoft Learn（fine-tuning 适用场景）
+- [[sources/openai-model-optimization-2026|Model optimization]] · OpenAI（eval + prompt + fine-tuning 反馈飞轮）
+- [[sources/openai-model-selection-2026|Model selection]] · OpenAI Docs（accuracy-first, cost/latency-second 的模型选择框架）
+- [[sources/openai-optimizing-llm-accuracy-2026|Optimizing LLM accuracy]] · OpenAI（fine-tuning 前先做 prompt/eval baseline）
+- [[sources/openai-fine-tuning-techniques-2025|Fine-Tuning Techniques - Choosing Between SFT, DPO, and RFT]] · OpenAI Cookbook · 2025-06-18
+- [[sources/google-cloud-rag-overview|What is Retrieval-Augmented Generation (RAG)?]] · Google Cloud（RAG 概念与评估）
+- [[sources/openai-fine-tuned-rag-qdrant-2023|Fine-Tuning for RAG with Qdrant]] · OpenAI Cookbook · 2023-09-04（RAG + fine-tuning 组合）
+- [[sources/anthropic-context-engineering-cookbook-2026|Context engineering tools cookbook]] · Anthropic · 2026（tool-use context engineering）
+- [[sources/openai-agent-memory-2026|Agent memory pattern]] · OpenAI Agents SDK · 2026（progressive disclosure memory）
+- [[sources/openai-retrieval-docs-2026|Retrieval and vector stores]] · OpenAI · 2026（file search / vector store）
+- [[sources/google-vertex-rag-engine-2026|Vertex AI RAG Engine]] · Google Cloud · 2026（RAG corpus / memory corpus）
+- [[sources/himem-2026|HiMem: Hierarchical Memory Management for Long-term Interactive Agents]] · arXiv · 2026（层级长期记忆）
+- [[sources/memir-typed-memory-2026|MemIR: Typed Memory for Interactive Agents]] · arXiv · 2026（typed memory / provenance）
+- [[sources/anthropic-managed-agents-2026|Scaling Managed Agents: Decoupling the brain from the hands]] · Anthropic · 2026-04-08（session / harness / sandbox 解耦）
+- [[sources/anthropic-effective-harnesses-long-running-agents-2026|Effective harnesses for long-running agents]] · Anthropic · 2025-11-26（跨 context window 长任务 harness）
+- [[sources/harness-bench-2026|Harness-Bench]] · arXiv · 2026-05-27（model-harness 配置级 benchmark）
+- [[sources/ai-harness-engineering-2026|AI Harness Engineering]] · arXiv · 2026-05-13（runtime substrate / trace-based eval）
+- [[sources/harness-audit-2026|Auditing Agent Harness Safety]] · arXiv · 2026-05-14（trajectory safety audit）
+- [[sources/anthropic-dreams-docs-2026|Dreams - Claude Managed Agents]] · Anthropic Docs（异步 memory consolidation job）
+- [[sources/claude-managed-agents-memory-2026|Built-in memory for Claude Managed Agents]] · Anthropic · 2026-04-23（filesystem memory / cross-session learning）
+- [[sources/claude-managed-agents-dreaming-outcomes-2026|New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration]] · Anthropic · 2026-05-07（dream + outcome + orchestration）
+- [[sources/reflexion-2023|Reflexion: Language Agents with Verbal Reinforcement Learning]] · arXiv · 2023-03-20（verbal reflection / episodic memory）
+- [[sources/seal-self-adapting-language-models-2025|Self-Adapting Language Models]] · arXiv · 2025-06-12（SEAL / self-edit / weight update）
+- [[sources/sia-self-improving-ai-2026|SIA: Self Improving AI with Harness & Weight Updates]] · arXiv · 2026-05-26（harness + weight updates）
+- [[sources/anthropic-skills-overview-2026|Skills overview]] · Anthropic Docs（skills / progressive disclosure）
+- [[sources/agent-skills-specification-2026|Agent Skills Specification]] · agentskills.io（SKILL.md / scripts / references / assets）
+- [[sources/openai-agents-sdk-tools-2026|Tools - OpenAI Agents SDK]] · OpenAI（tool / function tool / agents as tools）
+- [[sources/agent-skills-architecture-survey-2026|Agent Skills for Large Language Models]] · arXiv · 2026-02-17（agent skills survey）
+- [[sources/skillsbench-2026|SkillsBench]] · arXiv · 2026-03-13（agent skills benchmark）
+- [[sources/skill-text-to-structure-2026|From Skill Text to Skill Structure]] · arXiv · 2026-05-04（structured skill representation）
+- [[sources/agent-skills-wild-security-2026|Agent Skills in the Wild]] · arXiv · 2026-01-15（skill security vulnerabilities）
+- [[sources/malicious-agent-skills-wild-2026|Malicious Agent Skills in the Wild]] · arXiv · 2026-03-14（malicious skill dataset）
+- [[sources/openai-learning-to-reason-2024|Learning to reason with LLMs]] · OpenAI · 2024-09-12（o1 / test-time compute）
+- [[sources/anthropic-extended-thinking-docs-2026|Building with extended thinking]] · Anthropic Docs（extended/adaptive thinking）
+- [[sources/scaling-llm-test-time-compute-2024|Scaling LLM Test-Time Compute Optimally]] · arXiv · 2024-08-06（compute-optimal TTC）
+- [[sources/chain-of-thought-2022|Chain-of-Thought Prompting Elicits Reasoning in Large Language Models]] · arXiv · 2023-01-10（CoT）
+- [[sources/self-consistency-2022|Self-Consistency Improves Chain of Thought Reasoning]] · arXiv · 2023-03-07（multi-path reasoning）
+- [[sources/tree-of-thoughts-2023|Tree of Thoughts]] · arXiv · 2023-12-03（search / planning）
+- [[sources/openai-process-supervision-2023|Improving mathematical reasoning with process supervision]] · OpenAI · 2023-05-31（process supervision）
+- [[sources/openai-cot-monitorability-2025|Evaluating chain-of-thought monitorability]] · OpenAI · 2025-12-18（CoT monitorability）
+- [[sources/openai-math-verifiers-2021|Solving math word problems]] · OpenAI · 2021-10-29（math verifier / GSM8K）
+- [[sources/lets-verify-step-by-step-2023|Let's Verify Step by Step]] · arXiv · 2023-05-31（process supervision / PRM800K）
+- [[sources/openai-prover-verifier-games-2024|Prover-Verifier Games improve legibility]] · OpenAI · 2024-07-17（verifiability / legibility）
+- [[sources/openai-graders-docs-2026|Graders]] · OpenAI Docs · 2026（grader interface）
+- [[sources/g-eval-2023|G-Eval]] · Liu et al. · 2023（LLM-based NLG evaluation / human alignment）
+- [[sources/mt-bench-chatbot-arena-llm-as-judge-2023|Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena]] · Zheng et al. · 2023（LLM judge / human preference agreement）
+- [[sources/llm-judge-position-bias-2024|Judging the Judges: Position Bias]] · Shi et al. · 2024（position bias / consistency / fairness）
+- [[sources/llm-judges-alignment-vulnerabilities-2024|Judging the Judges: Alignment and Vulnerabilities]] · Thakur et al. · 2024/2025（human alignment / kappa / leniency）
+- [[sources/poll-panel-llm-evaluators-2024|Replacing Judges with Juries]] · Verga et al. · 2024（PoLL / multi-judge panel）
+- [[sources/llm-evaluators-self-preference-2024|LLM Evaluators Recognize and Favor Their Own Generations]] · Panickssery et al. · 2024（self-preference bias）
+- [[sources/alternative-annotator-test-2025|The Alternative Annotator Test for LLM-as-a-Judge]] · Calderon et al. · 2025（statistical replacement of human annotators）
+- [[sources/judge-verdict-human-agreement-2025|Judge's Verdict]] · Han et al. · 2025（LLM judge human agreement / kappa）
+- [[sources/closer-look-automatic-evaluation-llms-2023|A Closer Look into Automatic Evaluation Using Large Language Models]] · Chiang & Lee · 2023（LLM eval procedure sensitivity）
+- [[sources/empirical-finetuned-judge-not-general-substitute-2025|Can LLMs Substitute Human Labelers?]] · ACL Findings · 2025（fine-tuned judge limits）
+- [[sources/langsmith-llm-judge-human-feedback-online-evals-2026|LangSmith LLM-as-Judge evaluators, human feedback, and online evals]] · LangChain · 2026（judge feedback workflow）
+- [[sources/phoenix-llm-evaluators-observability-2026|Phoenix LLM Evaluators and Observability]] · Arize Phoenix · 2026（eval traces / observability）
+- [[sources/human-anchored-longitudinal-llm-judge-2026|A human-anchored longitudinal evaluation of LLM-based content analysis]] · PLOS ONE · 2026（longitudinal human-anchored judge calibration）
+- [[sources/galileo-continuous-llm-judge-calibration-2026|How to Calibrate Your LLM Judge for Accurate AI Evaluations]] · Galileo · 2026（continuous judge calibration checklist）
+- [[sources/rewardbench-2024|RewardBench]] · arXiv · 2024-03-20（reward model eval）
+- [[sources/openai-faulty-reward-functions-2016|Faulty reward functions in the wild]] · OpenAI · 2016-12-21（reward hacking 经典案例）
+- [[sources/deepmind-specification-gaming-2020|Specification gaming]] · Google DeepMind · 2020-04-21（specification gaming / reward tampering）
+- [[sources/anthropic-reward-tampering-2024|Sycophancy to subterfuge]] · Anthropic · 2024-06-17（reward tampering toy settings）
+- [[sources/openai-reward-model-overoptimization-2022|Scaling laws for reward model overoptimization]] · OpenAI · 2022-10-19（Goodhart / reward model proxy overoptimization）
+- [[sources/benchmarking-benchmark-leakage-2024|Benchmarking Benchmark Leakage]] · arXiv · 2024-04-29（benchmark contamination / transparency card）
+- [[sources/openai-evaluation-best-practices-2026|Evaluation best practices]] · OpenAI Docs · 2026（objective / dataset / metrics / continuous eval）
+- [[sources/openai-evals-framework-2026|OpenAI Evals]] · OpenAI GitHub · 2026（eval framework / registry / graders）
+- [[sources/openai-simple-evals-2026|OpenAI simple-evals]] · OpenAI GitHub · 2026（benchmark runner / capability probes）
+- [[sources/openai-evals-business-framework-2025|How evals drive the next chapter in AI for businesses]] · OpenAI · 2025（contextual eval / business workflow）
+- [[sources/google-ml-test-score-2016|What's your ML test score?]] · Google Research · 2016（data/model/infrastructure/monitoring tests）
+- [[sources/openai-trustworthy-third-party-evaluations-2026|A shared playbook for trustworthy third party evaluations]] · OpenAI · 2026-05-29（frontier eval claim / harness / validity checks）
+- [[sources/google-sre-service-level-objectives-2016|Service Level Objectives]] · Google SRE · 2016（SLI / SLO / error budget decision input）
+- [[sources/google-sre-error-budget-policy-2018|Error Budget Policy for Service Reliability]] · Google SRE · 2018（release halt / postmortem thresholds）
+- [[sources/google-sre-embracing-risk-2016|Google SRE: Embracing Risk]] · Google SRE · 2016（risk budget / reliability vs velocity）
+- [[sources/google-sre-canarying-releases-2018|Google SRE Workbook: Canarying Releases]] · Google SRE · 2018（canary / staged rollout / uncertainty）
+- [[sources/responsible-ai-tensions-tradeoffs-2023|Implementing Responsible AI: Tensions and Trade-Offs Between Ethics Aspects]] · Sanderson et al. · 2023（responsible AI trade-offs）
+- [[sources/kohavi-controlled-experiments-web-2009|Controlled experiments on the web]] · Kohavi et al. · 2009（online controlled experiments / A/B testing）
+- [[sources/chatbot-arena-human-preference-2024|Chatbot Arena]] · Chiang et al. · 2024（human preference ranking / confidence intervals）
+- [[sources/anytime-valid-confidence-sequences-ab-testing-2023|Anytime-Valid Confidence Sequences]] · Maharaj et al. · 2023（continuous monitoring / peeking-safe intervals）
+- [[sources/betterbench-benchmark-quality-2024|BetterBench]] · Reuel et al. · 2024（benchmark quality / variance / statistical significance）
+- [[sources/nist-ai-evaluation-statistical-models-2026|Expanding the AI Evaluation Toolbox with Statistical Models]] · NIST · 2026-02-17（benchmark uncertainty / generalized accuracy）
+- [[sources/adding-error-bars-evals-2024|Adding Error Bars to Evals]] · Evan Miller · 2024-11-01（eval uncertainty / confidence intervals）
+- [[sources/model-cards-for-model-reporting-2019|Model Cards for Model Reporting]] · Mitchell et al. · 2019（model reporting / intended use / eval limits）
+- [[sources/riskcards-language-model-deployment-2023|Assessing Language Model Deployment with Risk Cards]] · Derczynski et al. · 2023（risk card / deployment context）
+- [[sources/sphere-evaluation-card-2025|SPHERE: An Evaluation Card for Human-AI Systems]] · Ma et al. · 2025（evaluation card / human-AI system eval）
+- [[sources/google-model-card-toolkit-2026|Model Card Toolkit]] · TensorFlow / Google · 2026（model card generation / metadata pipeline）
+- [[sources/offline-metrics-predict-online-recsys-2020|Do Offline Metrics Predict Online Performance in Recommender Systems?]] · Krauth et al. · 2020（offline/online metric correlation）
+- [[sources/offline-ab-testing-recommender-systems-2018|Offline A/B testing for Recommender Systems]] · Gilotte et al. · 2018（off-policy estimator / online business metric correlation）
+- [[sources/amazon-offline-online-product-ranking-2023|How well do offline metrics predict online performance of product ranking models?]] · Amazon Science · 2023（directional agreement with business metrics）
+- [[sources/langsmith-evaluation-types-2026|LangSmith Evaluation Types]] · LangChain Docs · 2026（offline / online eval / backtesting）
+- [[sources/langchain-production-monitoring-regression-tests-2026|LLM Evals: Production Monitoring to Regression Tests]] · LangChain · 2026（production traces to regression tests）
+- [[sources/evaluation-driven-development-operations-llm-agents-2025|Evaluation-Driven Development and Operations of LLM Agents]] · Xia et al. · 2025（offline/online eval closed loop）
+- [[sources/nist-deployed-ai-monitoring-challenges-2026|Challenges to the Monitoring of Deployed AI Systems]] · NIST · 2026（post-deployment monitoring / drift / monitoring categories）
+- [[sources/safety-case-maintenance-slr-2021|Safety Case Maintenance: A Systematic Literature Review]] · Cârlan et al. · 2021（safety case maintenance / change impact）
+- [[sources/dynamic-safety-cases-changing-world-2025|Safe autonomous systems in a changing world]] · Buysse et al. · 2025（dynamic safety case / runtime assurance）
+- [[sources/runtime-confidence-safety-arguments-2026|Runtime confidence updates in safety arguments]] · Herd et al. · 2026（runtime confidence / SPI evidence）
+- [[sources/cmu-sei-drift-monitoring-ml-systems-2026|Expecting the Unexpected: Monitoring for Drift in ML Systems]] · CMU SEI · 2026（data drift / concept drift / label drift）
+- [[sources/nist-ai-rmf-playbook-monitoring-responsibility-2026|NIST AI RMF Playbook monitoring responsibility prompts]] · NIST AI Resource Center · 2026（monitoring owner / roles / authority）
+- [[sources/nist-sp800-61r3-incident-response-2025|NIST SP 800-61r3 Incident Response Recommendations]] · NIST · 2025（escalation / elevation / incident response）
+- [[sources/google-sre-being-on-call-2016|Google SRE: Being On-Call]] · Google SRE · 2016（on-call / primary-secondary / clear escalation paths）
+- [[sources/google-sre-managing-incidents-2016|Google SRE: Managing Incidents]] · Google SRE · 2016（incident command / ops / comms / handoff）
+- [[sources/google-sre-incident-management-guide-2026|Google SRE: Incident Management Guide]] · Google SRE · 2026（incident roles / training / state docs）
+- [[sources/nist-sp800-84-tte-program-2006|NIST SP 800-84]] · NIST · 2006（test training exercise program / tabletop exercises）
+- [[sources/ncsc-effective-steps-cyber-exercise-creation-2026|NCSC Effective steps to cyber exercise creation]] · UK NCSC · 2026（exercise objective / scenario / injects / evaluation）
+- [[sources/aws-security-ir-simulations-2026|AWS Security Incident Response simulation types]] · AWS · 2026（tabletop / functional / full-scale simulation）
+- [[sources/cisa-ai-cyber-tabletop-exercise-series-2025|CISA AI Cybersecurity Collaboration Playbook Tabletop Exercise Series]] · CISA · 2025（AI cybersecurity tabletop / cross-organization coordination）
+- [[sources/fema-hseep-exercise-evaluation-2020|FEMA HSEEP]] · FEMA · 2020（exercise evaluation / after-action improvement plan）
+- [[sources/microsoft-ai-incident-response-readiness-2026|Incident response readiness for AI systems]] · Microsoft Learn · 2026（AI-specific observability / staged remediation）
+- [[sources/openai-frontier-governance-framework-2026|OpenAI Frontier Governance Framework]] · OpenAI · 2026（frontier governance / incident response / external input）
+- [[sources/ai-incident-escalation-criteria-2026|Designing escalation criteria for international AI incident response]] · Gomez et al. · 2026（AI incident escalation criteria）
+- [[sources/aws-prescriptive-genai-production-monitoring-2026|Performance monitoring and continuous improvement for generative AI applications]] · AWS · 2026（GenAIOps / production monitoring / feedback loops）
+- [[sources/aws-prescriptive-genai-drift-detection-2026|Detecting drift in production applications]] · AWS · 2026（LLM drift / embedding distance / semantic diagnosis）
+- [[sources/google-cloud-genai-monitoring-2024|Deploy and operate generative AI applications]] · Google Cloud · 2024（GenAI monitoring / drift / continuous evaluation / lineage）
+- [[sources/safety-cases-advanced-ai-systems-2024|Safety Cases: How to Justify the Safety of Advanced AI Systems]] · Clymer et al. · 2024（advanced AI safety case）
+- [[sources/aisi-frontier-ai-safety-case-cyber-2024|Safety case template for frontier AI: A cyber inability argument]] · UK AISI · 2024（CAE safety case / cyber inability）
+- [[sources/big-argument-ai-safety-cases-2025|The BIG Argument for AI Safety Cases]] · Habli et al. · 2025（whole-system AI safety case）
+- [[sources/structured-safety-case-ai-systems-2026|A Structured Approach to Safety Case Construction for AI Systems]] · Lee et al. · 2026（AI-specific claim / argument / evidence taxonomies）
+- [[sources/helm-holistic-evaluation-2022|Holistic Evaluation of Language Models]] · Stanford CRFM · 2022（scenario / metric / transparency）
+- [[sources/dynabench-2021|Dynabench]] · Kiela et al. · 2021（dynamic benchmark / human-model-in-the-loop）
+- [[sources/livebench-2024|LiveBench]] · arXiv · 2024（contamination-limited / monthly updated benchmark）
+- [[sources/openai-chain-of-thought-monitoring-2025|Detecting misbehavior in frontier reasoning models]] · OpenAI · 2025-03-10（CoT monitoring / reward hacking detection）
+- [[sources/nvidia-ai-data-flywheel-2026|What Is an AI Data Flywheel?]] · NVIDIA Glossary · 2026（AI data flywheel / telemetry feedback）
+- [[sources/aws-genai-production-feedback-loops-2026|Architecting the production feedback loops]] · AWS Prescriptive Guidance · 2026（production feedback schema / trace-linked feedback）
+- [[sources/langsmith-user-feedback-traces-2026|Log user feedback using the SDK]] · LangChain Docs · 2026（feedback attached to traces and child runs）
+- [[sources/adaptive-data-flywheel-mape-ai-agent-improvement-2025|Adaptive Data Flywheel]] · arXiv · 2025（MAPE control loop / enterprise agent improvement）
+- [[sources/nvidia-data-flywheel-blueprint-distillation-2025|NVIDIA Data Flywheel Blueprint Distillation]] · NVIDIA Technical Blog · 2025（production traffic to dataset/eval/fine-tune/promotion）
+- [[sources/openai-data-sharing-controls-2026|Data sharing settings for model improvement]] · OpenAI Help Center · 2026（data controls / consent）
+- [[sources/google-rules-of-ml-2026|Rules of Machine Learning]] · Google Developers · 2026（training-serving skew / serving logs）
+- [[sources/google-mlops-continuous-delivery-2026|MLOps continuous delivery]] · Google Cloud · 2026（continuous training / validation gates）
+- [[sources/hidden-technical-debt-ml-systems-2015|Hidden Technical Debt in Machine Learning Systems]] · NeurIPS · 2015（hidden feedback loops / data dependencies）
+- [[sources/agent-in-the-loop-data-flywheel-2025|Agent-in-the-Loop Data Flywheel]] · arXiv · 2025-07-18（production agent data flywheel）
+- [[sources/characterflywheel-2026|CharacterFlywheel]] · arXiv · 2026-03-03（production LLM user-feedback flywheel）
+- [[sources/openai-api-data-controls-2026|OpenAI API data controls]] · OpenAI Developers · 2026（API data retention / training / abuse monitoring）
+- [[sources/openai-model-improvement-data-policy-2026|How your data is used to improve model performance]] · OpenAI Policies · 2026（consumer/business model improvement controls）
+- [[sources/anthropic-privacy-policy-2026|Anthropic Privacy Policy]] · Anthropic · 2026（privacy rights / data processing）
+- [[sources/anthropic-consumer-model-training-controls-2026|Is my data used for model training?]] · Anthropic Privacy Center · 2026（consumer model training controls）
+- [[sources/anthropic-commercial-data-controls-2026|Is data from commercial services used for training?]] · Anthropic Privacy Center · 2026（commercial data controls）
+- [[sources/google-vertex-ai-data-governance-2026|Vertex AI generative AI data governance]] · Google Cloud · 2026（customer data governance / zero data retention）
+- [[sources/azure-foundry-models-data-privacy-2026|Data, privacy, and security for Foundry Models sold by Azure]] · Microsoft Learn · 2026（Azure provider data storage / feature-level data paths）
+- [[sources/aws-bedrock-data-protection-2026|Data protection in Amazon Bedrock]] · AWS Documentation · 2026（Bedrock provider isolation / IAM / logs）
+- [[sources/aws-bedrock-model-invocation-logging-2026|Monitor model invocation using CloudWatch Logs and Amazon S3]] · AWS Documentation · 2026（customer-owned invocation logging）
+- [[sources/anthropic-api-data-retention-2026|API and data retention]] · Anthropic Docs · 2026（API retention / ZDR / feature eligibility）
+- [[sources/anthropic-api-data-residency-2026|Data residency]] · Anthropic Docs · 2026（inference_geo / workspace geo / region controls）
+- [[sources/eu-ai-act-data-governance-2024|EU AI Act data governance requirements]] · European Union · 2024（high-risk AI data governance）
+- [[sources/gdpr-data-subject-rights-2016|GDPR data subject rights]] · European Union · 2016（access / deletion / portability / purpose limitation）
+- [[sources/nist-genai-profile-data-privacy-2024|NIST AI RMF Generative AI Profile]] · NIST · 2024（GenAI risk management / privacy）
+- [[sources/machine-unlearning-sisa-2019|Machine Unlearning]] · Bourtoule et al. · 2019/2021（SISA / sharded retraining for deletion）
+- [[sources/google-machine-unlearning-challenge-2023|Announcing the first Machine Unlearning Challenge]] · Google Research · 2023（forget set / retain utility / unlearning evaluation）
+- [[sources/machine-unlearning-comprehensive-survey-2024|Machine Unlearning: A Comprehensive Survey]] · arXiv · 2024（exact / approximate / verification survey）
+- [[sources/label-studio-annotation-quality-2026|Review annotations in Label Studio]] · HumanSignal / Label Studio · 2026（annotation review / consensus / annotator quality）
+- [[sources/labelbox-quality-analysis-2026|Quality analysis]] · Labelbox · 2026（gold standard / benchmark / consensus quality analysis）
+- [[sources/openai-agents-sdk-tool-guardrails-2026|Guardrails - OpenAI Agents SDK]] · OpenAI · 2026（tool guardrails / tripwires）
+- [[sources/anthropic-computer-use-security-2026|Computer use tool security considerations]] · Anthropic · 2026（computer use / sandbox / consent）
+- [[sources/mcp-authorization-2025|MCP Authorization]] · Model Context Protocol · 2025（OAuth / scopes / authorization）
+- [[sources/mcp-security-best-practices-2025|MCP Security Best Practices]] · Model Context Protocol · 2025（least privilege / scope minimization）
+- [[sources/owasp-llm-excessive-agency-2025|OWASP LLM06 Excessive Agency]] · OWASP · 2025（excessive agency / tool risk）
+- [[sources/nist-ai-agent-identity-authorization-2026|AI Agent Identity and Authorization Concept Paper]] · NIST NCCoE · 2026（agent identity / authorization）
+- [[sources/aws-secure-agent-access-mcp-2026|Secure AI agent access patterns to AWS resources using MCP]] · AWS Security Blog · 2026（agent IAM / MCP access path）
+- [[sources/nsa-mcp-security-design-2026|MCP Security Design Considerations for AI-Driven Automation]] · NSA AISC · 2026（MCP security / trust boundaries）
+- [[sources/ietf-agent-identity-protocol-draft-2026|Agent Identity Protocol Internet-Draft]] · IETF Internet-Draft · 2026（agent identity / signed actions / enforcement proxy）
+- [[sources/nist-ai-rmf-core-incident-response-2023|NIST AI RMF Core incident response and recovery]] · NIST AI Resource Center · 2023（post-deployment monitoring / incident response / recovery）
+- [[sources/oecd-defining-ai-incidents-2024|Defining AI incidents and related terms]] · OECD · 2024（AI incident / hazard definitions）
+- [[sources/oecd-ai-incidents-monitor-methodology-2026|Overview and methodology of the AI Incidents and Hazards Monitor]] · OECD.AI · 2026（AI incidents monitor methodology）
+- [[sources/google-sre-emergency-response-2016|Emergency Response]] · Google SRE Book · 2016（incident response / rollback / communications）
+- [[sources/google-sre-postmortem-culture-2016|Postmortem Culture: Learning from Failure]] · Google SRE Book · 2016（blameless postmortem / learning from failure）
+- [[sources/model-collapse-nature-2024|AI models collapse when trained on recursively generated data]] · Nature · 2024（model collapse / recursive synthetic data）
+- [[sources/is-model-collapse-inevitable-2024|Is Model Collapse Inevitable?]] · arXiv · 2024（real + synthetic data accumulation）
+- [[sources/self-instruct-2022|Self-Instruct]] · arXiv · 2022（self-generated instruction data）
+- [[sources/anthropic-constitutional-ai-rlaif-2022|Constitutional AI: Harmlessness from AI Feedback]] · Anthropic · 2022（synthetic feedback / RLAIF）
+- [[sources/w3c-prov-overview-2013|PROV-Overview]] · W3C · 2013（provenance entity / activity / agent standard）
+- [[sources/tensorflow-ml-metadata-2026|ML Metadata]] · TensorFlow / Google · 2024/2026（ML artifact / execution / event lineage）
+- [[sources/openlineage-spec-2026|OpenLineage Spec]] · OpenLineage · 2026（run / job / dataset / facet data lineage standard）
+- [[sources/nist-ai-rmf-1-0-2023|Artificial Intelligence Risk Management Framework AI RMF 1.0]] · NIST · 2023（Govern / Map / Measure / Manage）
+- [[sources/nist-ai-rmf-risk-tolerance-2023|NIST AI RMF: Framing Risk and Risk Tolerance]] · NIST · 2023（risk tolerance / unacceptable risk stop）
+- [[sources/nist-sp800-37-risk-response-2018|NIST SP 800-37 Rev. 2 Risk Response]] · NIST · 2018（risk response / authorization / residual risk acceptance）
+- [[sources/nist-sp800-30-risk-assessment-2012|NIST SP 800-30 Rev. 1 Guide for Conducting Risk Assessments]] · NIST · 2012（risk assessment / likelihood / impact / uncertainty）
+- [[sources/eu-gdpr-article-5-data-minimization-storage-accountability-2016|GDPR Article 5: Data Minimization, Storage Limitation, and Accountability]] · European Union · 2016（data minimization / storage limitation / accountability）
+- [[sources/nist-privacy-framework-data-minimization-audit-log-2020|NIST Privacy Framework: Data Minimization and Audit Log Governance]] · NIST · 2020（privacy risk management / audit log minimization）
+- [[sources/nist-sp800-53-au3-pii-audit-record-minimization-2025|NIST SP 800-53 AU-3(3): Limit PII in Audit Records]] · NIST · 2025（audit record content / PII minimization）
+- [[sources/nist-sp800-53-au11-audit-record-retention-2025|NIST SP 800-53 AU-11 Audit Record Retention]] · NIST · 2025（audit record retention / long-term retrieval）
+- [[sources/nist-sp800-92r1-log-management-2023|NIST SP 800-92 Rev. 1 Cybersecurity Log Management Planning Guide]] · NIST · 2023（log lifecycle / storage / access / disposal）
+- [[sources/nist-sp800-55-measurement-guide-2024|NIST SP 800-55 Vol. 1 Measurement Guide for Information Security]] · NIST · 2024（security measures / governance metrics）
+- [[sources/nist-sp800-55-vol2-measurement-program-2024|NIST SP 800-55 Vol. 2 Developing an Information Security Measurement Program]] · NIST · 2024（measurement program / metric governance）
+- [[sources/nist-sp800-137-continuous-monitoring-2011|NIST SP 800-137 Information Security Continuous Monitoring]] · NIST · 2011（continuous monitoring / control effectiveness）
+- [[sources/google-sre-monitoring-distributed-systems-2016|Google SRE Monitoring Distributed Systems]] · Google SRE Book · 2016（monitoring / alert quality / golden signals）
+- [[sources/google-sre-alerting-on-slos-2018|Google SRE Alerting on SLOs]] · Google SRE Workbook · 2018（SLO alerting / burn rate / alert windows）
+- [[sources/dora-software-delivery-performance-metrics-2026|DORA Software Delivery Performance Metrics]] · DORA · 2026（throughput / instability / rework metrics）
+- [[sources/microsoft-responsible-ai-dashboard-2026|Microsoft Responsible AI Dashboard]] · Microsoft Learn · 2026（responsible AI dashboard / cohorts / error analysis）
+- [[sources/google-sre-good-housekeeping-error-budget-debt-2018|Google SRE Good Housekeeping for Error Budgets]] · Google Cloud · 2018（error budget debt / release freeze / debt paydown）
+- [[sources/nara-general-records-schedules-2025|NARA General Records Schedules]] · NARA · 2025（records disposition authority / retention / disposal）
+- [[sources/iso-15489-records-management-2016|ISO 15489-1:2016 Records Management]] · ISO · 2016（records metadata / responsibilities / controls）
+- [[sources/iso-iec-42001-ai-management-system-2023|ISO/IEC 42001 AI management system]] · ISO/IEC · 2023（AI management system）
+- [[sources/openai-preparedness-framework-2025|OpenAI updated Preparedness Framework]] · OpenAI · 2025（preparedness / safeguards / release governance）
+- [[sources/openai-sycophancy-gpt4o-rollback-2025|Expanding on what we missed with sycophancy]] · OpenAI · 2025（model behavior rollback / launch-blocking concerns）
+- [[sources/openai-model-deprecations-2026|Deprecations]] · OpenAI Docs · 2026（model lifecycle / shutdown / recommended replacement）
+- [[sources/openai-model-release-notes-2026|Model Release Notes]] · OpenAI Help Center · 2026（model updates / retirements / release communication）
+- [[sources/anthropic-model-deprecations-2026|Model deprecations]] · Anthropic Docs · 2026（Active / Legacy / Deprecated / Retired lifecycle）
+- [[sources/google-cloud-deploy-automation-2026|Automate your deployment]] · Google Cloud · 2026（canary / retry / rollback automation）
+- [[sources/github-actions-deployment-protection-rules-2026|GitHub Actions deployment protection rules]] · GitHub Docs · 2026（environment protection / required reviewers / wait timer / custom rules）
+- [[sources/github-actions-reviewing-deployments-admin-bypass-2026|GitHub Actions reviewing deployments and admin bypass]] · GitHub Docs · 2026（deployment approval / reject / bypass protected environment rules）
+- [[sources/gitlab-protected-environments-deployment-approvals-2026|GitLab protected environments and deployment approvals]] · GitLab Docs · 2026（protected environments / deployment approvals / self-approval controls）
+- [[sources/gitlab-deployment-safety-2026|GitLab deployment safety]] · GitLab Docs · 2026（production permissions / outdated deployment / freeze windows / deployment safety）
+- [[sources/google-cloud-deploy-approvals-policies-audit-2026|Google Cloud Deploy approvals, policies, audit logs, and Binary Authorization]] · Google Cloud · 2026（target approval / deploy policies / policy override / audit logs / Binary Authorization）
+- [[sources/nist-sp800-53-cm3-cm5-change-control-2025|NIST SP 800-53 CM-3/CM-5 Change Control]] · NIST · 2025（configuration change control / access restrictions / change monitoring）
+- [[sources/test-before-you-deploy-llm-supply-chain-2026|Test Before You Deploy]] · arXiv · 2026（production contracts / compatibility gates）
+- [[sources/attesting-llm-pipelines-release-claims-2026|Attesting LLM Pipelines]] · arXiv · 2026（artifact attestation / promotion gate）
+- [[sources/slsa-provenance-v1-2-2026|SLSA v1.2 Provenance]] · SLSA · 2026（artifact provenance / supply-chain attestation）
+- [[sources/slsa-verifying-artifacts-v1-2-2026|SLSA v1.2 Build: Verifying artifacts]] · SLSA · 2026（subject digest / builder identity / policy verification）
+- [[sources/slsa-verification-summary-attestation-v1-2-2026|SLSA v1.2 Verification Summary Attestation]] · SLSA · 2026（VSA / verifier policy / root of trust）
+- [[sources/slsa-source-requirements-evidence-expunging-2026|SLSA v1.2 Source Requirements: Evidence, Provenance, and Expunging]] · SLSA · 2026（source provenance / safe expunging / audit log）
+- [[sources/slsa-verifier-provenance-bundle-2026|SLSA Verifier: Provenance Bundle Verification]] · SLSA · 2026（provenance bundle / verified in-toto statement）
+- [[sources/in-toto-test-result-predicate-2026|in-toto Test Result predicate]] · in-toto Attestation Framework · 2026（test result attestation schema）
+- [[sources/in-toto-verify-2026|in-toto verify]] · in-toto · 2026（layout verification / expiry / threshold / authorized functionary）
+- [[sources/in-toto-archivista-2026|in-toto Archivista]] · in-toto · 2026（attestation object store / queryable metadata graph）
+- [[sources/sigstore-cosign-verifying-attestations-2026|Sigstore Cosign verifying signatures and attestations]] · Sigstore · 2026（signature / certificate / attestation verification）
+- [[sources/sigstore-cosign-attestation-policy-cue-rego-2026|Sigstore Cosign In-Toto Attestation Policy with CUE and Rego]] · Sigstore · 2026（attestation policy / CUE / Rego）
+- [[sources/sigstore-cosign-custom-components-trust-root-2026|Sigstore Cosign custom components and trusted roots]] · Sigstore · 2026（TUF / trusted root / custom components）
+- [[sources/sigstore-keyless-root-of-trust-2026|Sigstore keyless signing root of trust]] · Sigstore · 2026（OIDC identity / Fulcio / Rekor / TUF）
+- [[sources/sigstore-tuf-root-update-2024|Sigstore TUF trust root update and client compatibility]] · Sigstore TSC · 2024（trust root rotation / client compatibility）
+- [[sources/tuf-root-metadata-api-2021|The Update Framework Root metadata API]] · TUF · 2021（root metadata / keys / roles / expiry / key rotation）
+- [[sources/sigstore-policy-controller-2026|Sigstore policy-controller]] · Sigstore · 2026（admission policy / signature and attestation enforcement）
+- [[sources/open-policy-agent-policy-testing-2026|Open Policy Agent Policy Testing]] · OPA · 2026（Rego policy tests / CI）
+- [[sources/open-policy-agent-gatekeeper-gator-verify-2026|OPA Gatekeeper gator verify]] · OPA Gatekeeper · 2026（admission policy test suites）
+- [[sources/kyverno-policy-testing-ci-2026|Kyverno Testing Policies in CI]] · Kyverno · 2026（policy tests / CI enforcement）
+- [[sources/ietf-rfc9901-sd-jwt-selective-disclosure-2025|RFC 9901: Selective Disclosure for JWTs]] · IETF · 2025（selective disclosure / signed claims）
+- [[sources/w3c-vc-bbs-selective-disclosure-2026|W3C Verifiable Credential BBS Cryptosuite]] · W3C · 2026（BBS signatures / derived proofs / selective disclosure）
+- [[sources/openssf-model-signing-2026|OpenSSF Model Signing]] · OpenSSF · 2026（ML model signing / model supply-chain integrity）
+- [[sources/nist-ssdf-sp800-218-2022|NIST SP 800-218 Secure Software Development Framework]] · NIST · 2022（secure software supply-chain practices）
+- [[sources/together-ai-deprecations-2026|Deprecations]] · Together AI · 2026（provider lifecycle / redirects / scheduled deprecations）
+- [[sources/anthropic-responsible-scaling-policy-v3-2026|Anthropic Responsible Scaling Policy Version 3.0]] · Anthropic · 2026（AI Safety Levels / safeguards）
+- [[sources/deepmind-frontier-safety-framework-2025|Google DeepMind Frontier Safety Framework]] · Google DeepMind · 2025（critical capability levels / mitigations）
+- [[sources/microsoft-responsible-ai-standard-2022|Microsoft Responsible AI Standard v2]] · Microsoft · 2022（impact assessment / product requirements）
+- [[sources/eu-ai-act-prohibited-practices-2024|EU AI Act Article 5: Prohibited AI Practices]] · European Union · 2024（unacceptable risk / prohibited practices）
+- [[sources/eu-ai-act-risk-management-post-market-2024|EU AI Act risk management and post-market monitoring]] · European Union · 2024（risk management / post-market monitoring）
+- [[sources/google-saif-controls-2026|Google Secure AI Framework controls]] · Google · 2026（secure AI framework controls）
+- [[sources/tensorflow-data-validation-2026|TensorFlow Data Validation]] · TensorFlow / Google · 2026（schema / statistics / anomaly detection）
+- [[sources/datasheets-for-datasets-2021|Datasheets for Datasets]] · Gebru et al. · 2021（dataset documentation）
+- [[sources/data-cards-2022|Data Cards]] · Google Research · 2022（responsible dataset documentation）
+- [[sources/data-cascades-high-stakes-ai-2021|Data Cascades in High-Stakes AI]] · Google Research / CHI · 2021（data quality cascades）
+- [[sources/openai-fine-tuning-data-quality-2026|OpenAI fine-tuning data quality guidance]] · OpenAI · 2026（fine-tuning data quality）
+- [[sources/label-errors-benchmarks-2021|Pervasive Label Errors in Test Sets]] · Northcutt et al. · 2021（label errors / benchmark instability）
+- [[sources/huggingface-dataset-cards-2026|Hugging Face dataset cards]] · Hugging Face · 2026（dataset metadata / responsible use）
+- [[sources/rewarding-progress-process-verifiers-2024|Rewarding Progress]] · arXiv · 2024-10-10（process advantage verifier）
+- [[sources/processbench-2024|ProcessBench]] · arXiv · 2024-12-09（process error benchmark）
+- [[sources/process-reward-models-that-think-2025|Process Reward Models That Think]] · arXiv · 2025-04-23（generative PRM）
+- [[sources/gemini-1-5-multimodal-long-context-2024|Gemini 1.5]] · arXiv · 2024-12-16（multimodal long context）
+- [[sources/openai-gpt-4o-2024|Hello GPT-4o]] · OpenAI · 2024-05-13（native multimodal）
+- [[sources/openai-sora-world-simulators-2024|Video generation models as world simulators]] · OpenAI · 2024-02-15（Sora / world simulation）
+- [[sources/deepmind-genie-2-2024|Genie 2]] · Google DeepMind · 2024-12-04（foundation world model）
+- [[sources/world-models-2018|World Models]] · arXiv · 2018-05-09（world model foundation）
+- [[sources/rt-2-vla-2023|RT-2]] · arXiv · 2023-07-28（vision-language-action）
+- [[sources/mmmu-2023|MMMU]] · arXiv · 2023-11-27（expert multimodal reasoning benchmark）
+- [[sources/mathvista-2023|MathVista]] · arXiv · 2023-10-03（visual mathematical reasoning benchmark）
+- [[sources/video-mme-2024|Video-MME]] · arXiv · 2024-05-31（video multimodal eval）
+- [[sources/openai-gpt-4o-system-card-2024|GPT-4o System Card]] · OpenAI · 2024-08-08（multimodal safety eval）
+- [[sources/worldmodelbench-2025|WorldModelBench]] · arXiv · 2025-02-28（world model eval）
+- [[sources/worldsimbench-2024|WorldSimBench]] · arXiv · 2024-10-23（world simulator eval）
+- [[sources/deepmind-sima-2024|SIMA]] · Google DeepMind · 2024-03-13（embodied agent eval）
+- [[sources/embodiedbench-2025|EmbodiedBench]] · arXiv · 2025-02-13（vision-driven embodied agent benchmark）
+- [[sources/openai-latency-optimization-2026|Latency optimization]] · OpenAI Docs（LLM latency optimization）
+- [[sources/openai-cost-optimization-2026|Cost optimization]] · OpenAI Docs（LLM cost optimization）
+- [[sources/anthropic-prompt-caching-2026|Prompt caching]] · Anthropic Docs（cached prompt prefixes）
+- [[sources/pagedattention-vllm-2023|PagedAttention / vLLM]] · arXiv · 2023-09-12（KV cache memory management）
+- [[sources/distserve-2024|DistServe]] · arXiv · 2024-01-17（prefill/decode disaggregation）
+- [[sources/huggingface-tgi-2026|Text Generation Inference]] · Hugging Face Docs（production LLM serving）
+- [[sources/huggingface-continuous-batching-2026|Continuous batching]] · Hugging Face Docs（dynamic batching）
+- [[sources/nvidia-genai-perf-2026|GenAI-Perf]] · NVIDIA Docs（TTFT/TPOT serving metrics）
+- [[sources/nvidia-tensorrt-llm-2026|TensorRT-LLM]] · NVIDIA Docs（high-performance LLM inference）
+- [[sources/skillsvote-2026|SkillsVote]] · arXiv · 2026-05-18（skill lifecycle governance）
+- [[sources/under-the-hood-skill-md-2026|Under the Hood of SKILL.md]] · arXiv · 2026-05-12（semantic supply-chain attacks）
+- [[sources/secure-agent-skills-2026|Towards Secure Agent Skills]] · arXiv · 2026-04-03（skill lifecycle security）
+- [[sources/reusable-skill-md-files-2026|What Keeps Agent Skills from Being Reusable?]] · OpenReview · 2026-05-26（SKILL.md reusability）
+- [[sources/memmorph-tool-hijacking-memory-poisoning-2026|MemMorph]] · arXiv · 2026-05-24（memory poisoning / tool hijacking）
+- [[sources/poison-once-exploit-forever-memory-poisoning-2026|Poison Once, Exploit Forever]] · arXiv · 2026-04-03（environment-injected memory poisoning）
+- [[sources/hidden-in-memory-sleeper-poisoning-2026|Hidden in Memory]] · arXiv · 2026-05-14（sleeper memory poisoning）
+- [[sources/shadowmerge-graph-memory-poisoning-2026|ShadowMerge]] · arXiv · 2026-05-09（graph memory relation-channel conflict）
+- [[sources/memory-poisoning-attack-defense-llm-agents-2026|Memory Poisoning Attack and Defense]] · arXiv · 2026-01-09（trust-aware retrieval / memory sanitization）
+- [[sources/automated-self-testing-quality-gate-llm-applications-2026|Automated Self-Testing as a Quality Gate]] · arXiv · 2026-03/2026-05（PROMOTE / HOLD / ROLLBACK 质量门）
+- [[sources/moss-self-evolution-source-rewriting-2026|MOSS: Self-Evolution through Source-Level Rewriting]] · arXiv · 2026-05-21（source-level self-evolution / trial workers / rollback）
+- [[sources/autogenesis-self-evolving-agent-protocol-2026|Autogenesis: A Self-Evolving Agent Protocol]] · arXiv · 2026-04（versioned resources / lineage / rollback）
+- [[sources/darwin-godel-machine-self-improving-agents-2025|Darwin Godel Machine]] · arXiv · 2025-05-29（self-modifying coding agents / archive / benchmark validation）
+- [[sources/nist-ai-rmf-core-manage-change-management-2023|NIST AI RMF Core: Manage and Change Management]] · NIST · 2023/2026（post-deployment monitoring / change management）
+- [[sources/bvp-vertical-ai-playbook-2026|Building Vertical AI]] · Bessemer Venture Partners · 2026-01（vertical AI workflow fit / ROI / defensibility）
+- [[sources/routellm-2024|RouteLLM]] · arXiv · 2024-06-26（preference-data model router）
+- [[sources/routerbench-2024|RouterBench]] · arXiv · 2024-03-18（multi-LLM routing benchmark）
+- [[sources/frugalgpt-2023|FrugalGPT]] · arXiv · 2023-05-09（LLM cascade / cost optimization）
+- [[sources/optimizing-model-selection-compound-ai-systems-2025|Optimizing Model Selection for Compound AI Systems]] · arXiv · 2025-02-20（per-module model allocation）
+- [[sources/mixture-of-agents-2024|Mixture-of-Agents]] · arXiv · 2024-06-07（multi-agent LLM ensemble）
+- [[sources/switch-transformers-2021|Switch Transformers]] · arXiv / JMLR · 2021/2022（internal MoE / sparse expert routing）
+
 - [[sources/anthropic-context-engineering-agents-2026-05-26|Effective Context Engineering for AI Agents]] · Anthropic Engineering · 2026-05-26（上下文工程完整框架：Context Rot、Compaction、JIT 检索）
 - [[sources/anthropic-demystifying-evals-agents-2026-05-26|Demystifying Evals for AI Agents]] · Anthropic Engineering · 2026-05-26（Agent eval 完整体系）
 

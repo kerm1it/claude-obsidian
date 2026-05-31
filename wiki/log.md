@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-31
 tags:
   - wiki
   - log
@@ -10,6 +10,459 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-05-31 learning | AI体系学习路线与AI学习计划合并
+- Topic: 将新建的 AI 体系学习路线和原有 AI 学习计划结合，避免两套学习入口割裂。
+- Pages updated: [[learning/AI学习计划-2026]]，[[learning/AI体系学习路线]]，[[learning/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: [[learning/AI体系学习路线]] 负责 8 层顺序、概念归属和知识定位；[[learning/AI学习计划-2026]] 负责具体资源、任务、进度和学习产出。日常执行看计划，概念混乱回路线。
+
+## 2026-05-30 review | AI知识体系稳定 v1 结构验收
+- Topic: 验收 AI 知识体系是否已经从开放式 research loop 收口为 stable v1。
+- Review: [[Review: AI知识体系稳定 v1 结构验收]]
+- Pages created: [[Review: AI知识体系稳定 v1 结构验收]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[questions/_index]]，[[index]]，[[hot]]，[[log]]，`skills/autoresearch/references/program.md`
+- Key insight: 当前体系已能用 8 层固定结构承接新概念，并形成基础理论 → 模型构建 → 推理能力 → 上下文知识 → Agent 系统 → 评估可靠性 → 产品组织 → 自我改进 → 前面各层的闭环；后续不需要默认继续研究轮。
+- Address range: c-000587
+
+## 2026-05-30 research | Product feedback closure data flywheel actionability 边界
+- Topic: 第 7 层真实反馈如何证明已经被授权、归因、分流、行动、验证并关闭，而不是停在日志、dashboard 或 backlog。
+- Synthesis: [[Research: Product feedback closure data flywheel actionability 边界]]
+- Pages created: [[concepts/ProductFeedbackClosureActionability边界]]，[[Research: Product feedback closure data flywheel actionability 边界]]，[[sources/aws-genai-production-feedback-loops-2026]]，[[sources/langsmith-user-feedback-traces-2026]]，[[sources/adaptive-data-flywheel-mape-ai-agent-improvement-2025]]，[[sources/nvidia-data-flywheel-blueprint-distillation-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/DashboardCalibrationGovernanceMetricQuality边界]]，[[concepts/OfflineOnlineEvalCorrelation边界]]，[[concepts/SelfImprovementGateChangeRiskBudget边界]]，[[sources/openai-model-optimization-2026]]，[[sources/openai-evals-business-framework-2025]]，[[sources/langchain-production-monitoring-regression-tests-2026]]，[[sources/aws-prescriptive-genai-production-monitoring-2026]]，[[sources/nvidia-ai-data-flywheel-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Product feedback closure / actionability 主属第 7 层，是 data flywheel 的行动闭环证明：反馈必须绑定 trace、权限、owner、target layer、artifact、验证结果、关闭证据和 reopen 条件，才能真正反哺 eval、RAG/memory、skill/tool、router、training、product 或 incident/governance。
+- Address range: c-000581 至 c-000586
+
+## 2026-05-30 research | Memory skill governance drift 边界
+- Topic: 第 4 层长期 memory、skill、SKILL.md metadata、scripts 和 references 如何避免过时、投毒、权限漂移、路由漂移和不可解释更新。
+- Synthesis: [[Research: Memory skill governance drift 边界]]
+- Pages created: [[concepts/MemorySkillGovernanceDrift边界]]，[[Research: Memory skill governance drift 边界]]，[[sources/memmorph-tool-hijacking-memory-poisoning-2026]]，[[sources/poison-once-exploit-forever-memory-poisoning-2026]]，[[sources/hidden-in-memory-sleeper-poisoning-2026]]，[[sources/shadowmerge-graph-memory-poisoning-2026]]，[[sources/memory-poisoning-attack-defense-llm-agents-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/RAG与Memory边界]]，[[concepts/Skill与ToolMemory边界]]，[[concepts/SkillLibraryRouting生命周期]]，[[concepts/SelfImprovementGateChangeRiskBudget边界]]，[[sources/openai-agent-memory-2026]]，[[sources/skillsvote-2026]]，[[sources/under-the-hood-skill-md-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Memory / skill governance drift 主属第 4 层，是把 persistent memory、skill packages、SKILL.md metadata、scripts、references 和 routing hints 当作会影响未来 agent 行为的 operational artifacts 来治理；它要求 owner、scope、permission、provenance、freshness、eval、quarantine、rollback 和 retirement。
+- Address range: c-000574 至 c-000580
+
+## 2026-05-30 research | Self-improvement gate change-risk budget 边界
+- Topic: 第 8 层 self-improvement proposed diff 如何按 target layer、risk budget、evidence、rollback 和 owner 准入到 memory、skill、tool、harness、eval、policy 或 weights。
+- Synthesis: [[Research: Self-improvement gate change-risk budget 边界]]
+- Pages created: [[concepts/SelfImprovementGateChangeRiskBudget边界]]，[[Research: Self-improvement gate change-risk budget 边界]]，[[sources/automated-self-testing-quality-gate-llm-applications-2026]]，[[sources/moss-self-evolution-source-rewriting-2026]]，[[sources/autogenesis-self-evolving-agent-protocol-2026]]，[[sources/darwin-godel-machine-self-improving-agents-2025]]，[[sources/nist-ai-rmf-core-manage-change-management-2023]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/Dream与SelfImprovement工程原语]]，[[concepts/自我改进AI循环]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/SyntheticDataGovernance边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Self-improvement gate / change-risk budget 主属第 8 层，是把 dream、agent self-edit、feedback loop、source rewrite 或 weight update 生成的 proposed diff，按目标层级、影响面、可逆性、证据质量和预算消耗转成 auto-apply、sandbox、canary、human review、hold、rollback 或 reject 的准入边界。
+- Address range: c-000567 至 c-000573
+
+## 2026-05-30 research | Dashboard calibration governance metric quality 边界
+- Topic: 第 7 层如何校准治理 dashboard 指标，避免指标剧场、低质量 signal、误行动和漏报。
+- Synthesis: [[Research: Dashboard calibration governance metric quality 边界]]
+- Pages created: [[concepts/DashboardCalibrationGovernanceMetricQuality边界]]，[[Research: Dashboard calibration governance metric quality 边界]]，[[sources/nist-sp800-55-vol2-measurement-program-2024]]，[[sources/google-sre-monitoring-distributed-systems-2016]]，[[sources/google-sre-alerting-on-slos-2018]]，[[sources/dora-software-delivery-performance-metrics-2026]]，[[sources/microsoft-responsible-ai-dashboard-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/OverrideDebtExceptionAnalyticsDashboard边界]]，[[concepts/ReleaseGateDebtBypassDetection边界]]，[[concepts/EvalPortfolioMetricHierarchy边界]]，[[concepts/MetricConflictResolution边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[sources/nist-sp800-55-measurement-guide-2024]]，[[sources/nist-sp800-137-continuous-monitoring-2011]]，[[sources/nist-ai-rmf-playbook-monitoring-responsibility-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Dashboard calibration / governance metric quality 主属第 7 层，是治理看板指标进入 release、review、freeze、rollback、deny renewal 或 backlog 前的测量质量边界；它要求 decision inventory、metric definition sheet、lineage/freshness/coverage、outcome calibration、false/missed action review 和 retire/quarantine 规则。
+- Address range: c-000560 至 c-000566
+
+## 2026-05-30 research | Release gate debt gate bypass detection 边界
+- Topic: 第 7 层如何发现 release gate 被 admin bypass、shadow approval、direct-to-prod、stale exception、unprotected environment 或 gate config drift 稀释。
+- Synthesis: [[Research: Release gate debt gate bypass detection 边界]]
+- Pages created: [[concepts/ReleaseGateDebtBypassDetection边界]]，[[Research: Release gate debt gate bypass detection 边界]]，[[sources/github-actions-deployment-protection-rules-2026]]，[[sources/github-actions-reviewing-deployments-admin-bypass-2026]]，[[sources/gitlab-protected-environments-deployment-approvals-2026]]，[[sources/gitlab-deployment-safety-2026]]，[[sources/google-cloud-deploy-approvals-policies-audit-2026]]，[[sources/nist-sp800-53-cm3-cm5-change-control-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]，[[concepts/OverrideDebtExceptionAnalyticsDashboard边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/CrossVerifierPolicyDriftConformanceTest边界]]，[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]，[[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Release gate debt / gate bypass detection 主属第 7 层，是证明真实生产变更经过 release gate、protected environment、approval、attestation 或 structured exception 的治理健康边界；它把隐藏绕过转成 gate debt ledger 和可关闭行动。
+- Address range: c-000552 至 c-000559
+
+## 2026-05-30 research | Evidence minimization privacy preserving audit packet 边界
+- Topic: 第 7 层如何在 release/eval/safety/incident/override audit packet 中同时满足可审计、可重验和少留少披露敏感数据。
+- Synthesis: [[Research: Evidence minimization privacy preserving audit packet 边界]]
+- Pages created: [[concepts/EvidenceMinimizationPrivacyPreservingAuditPacket边界]]，[[Research: Evidence minimization privacy preserving audit packet 边界]]，[[sources/eu-gdpr-article-5-data-minimization-storage-accountability-2016]]，[[sources/nist-privacy-framework-data-minimization-audit-log-2020]]，[[sources/nist-sp800-53-au3-pii-audit-record-minimization-2025]]，[[sources/ietf-rfc9901-sd-jwt-selective-disclosure-2025]]，[[sources/w3c-vc-bbs-selective-disclosure-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/DataDeletionUnlearningImpact边界]]，[[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[concepts/CrossVerifierPolicyDriftConformanceTest边界]]，[[sources/gdpr-data-subject-rights-2016]]，[[sources/nist-sp800-53-au11-audit-record-retention-2025]]，[[sources/nist-sp800-92r1-log-management-2023]]，[[sources/slsa-source-requirements-evidence-expunging-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Evidence minimization / privacy-preserving audit packet 主属第 7 层，是把 audit claim、最小充分证据、字段级 minimization matrix、private annex、selective-disclosure proof 和 tombstone/disposition record 组合成隐私化证据治理边界。
+- Address range: c-000545 至 c-000551
+
+## 2026-05-30 research | Cross-verifier policy drift conformance test 边界
+- Topic: 第 6 层如何检测 CI、release gate、admission controller、本地 verifier、runtime guard 和第三方 verifier 是否执行同一 policy/root 语义。
+- Synthesis: [[Research: Cross-verifier policy drift conformance test 边界]]
+- Pages created: [[concepts/CrossVerifierPolicyDriftConformanceTest边界]]，[[Research: Cross-verifier policy drift conformance test 边界]]，[[sources/sigstore-cosign-attestation-policy-cue-rego-2026]]，[[sources/open-policy-agent-policy-testing-2026]]，[[sources/open-policy-agent-gatekeeper-gator-verify-2026]]，[[sources/kyverno-policy-testing-ci-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/VerifierPolicyTrustRootRotation边界]]，[[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[concepts/ProductionContractCompatibilityTest边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/MultiProviderGovernance边界]]，[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[sources/sigstore-policy-controller-2026]]，[[sources/slsa-verification-summary-attestation-v1-2-2026]]，[[sources/in-toto-verify-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Cross-verifier policy drift / conformance test 主属第 6 层，是用 canonical policy、trust root 和 golden corpus 比较 local CLI、CI、release gate、admission controller、runtime guard 和 delegated verifier 是否产生一致 allow/deny/reason 的策略一致性边界。
+- Address range: c-000539 至 c-000544
+
+## 2026-05-30 research | Override debt exception analytics dashboard 边界
+- Topic: 第 7 层如何把 override rate、expired exception、renewal、repeat owner、risk exposure、monitor coverage 和 residual-risk incident conversion 变成治理反馈。
+- Synthesis: [[Research: Override debt exception analytics dashboard 边界]]
+- Pages created: [[concepts/OverrideDebtExceptionAnalyticsDashboard边界]]，[[Research: Override debt exception analytics dashboard 边界]]，[[sources/nist-sp800-55-measurement-guide-2024]]，[[sources/nist-sp800-137-continuous-monitoring-2011]]，[[sources/google-sre-good-housekeeping-error-budget-debt-2018]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]，[[concepts/MetricConflictResolution边界]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]，[[sources/google-sre-error-budget-policy-2018]]，[[sources/nist-sp800-37-risk-response-2018]]，[[sources/nist-ai-rmf-playbook-monitoring-responsibility-2026]]，[[sources/openai-preparedness-framework-2025]]，[[sources/microsoft-responsible-ai-standard-2022]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Override debt / exception analytics dashboard 主属第 7 层，是把单条例外和 residual risk acceptance 聚合成治理健康信号的边界；它要求 normalized override record、risk-weighted exposure、过期/续期/重复 owner、monitor coverage、hard-stop near miss、incident conversion 和 action backlog。
+- Address range: c-000534 至 c-000538
+
+## 2026-05-30 research | Evidence retention audit packet lifecycle 边界
+- Topic: 第 6/7 层如何保留、压缩、检索、重验、legal hold 和销毁 release/eval/safety/incident/override evidence 包。
+- Synthesis: [[Research: Evidence retention audit packet lifecycle 边界]]
+- Pages created: [[concepts/EvidenceRetentionAuditPacketLifecycle边界]]，[[Research: Evidence retention audit packet lifecycle 边界]]，[[sources/nist-sp800-53-au11-audit-record-retention-2025]]，[[sources/nist-sp800-92r1-log-management-2023]]，[[sources/nara-general-records-schedules-2025]]，[[sources/iso-15489-records-management-2016]]，[[sources/in-toto-archivista-2026]]，[[sources/slsa-source-requirements-evidence-expunging-2026]]，[[sources/slsa-verifier-provenance-bundle-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[concepts/EvidenceFreshnessStaleProof边界]]，[[concepts/VerifierPolicyTrustRootRotation边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/SafetyCaseAssuranceCase边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[concepts/DataDeletionUnlearningImpact边界]]，[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/MultiProviderGovernance边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Evidence retention / audit packet lifecycle 主属第 7 层，是第 6 层可信证据进入组织审计、事故、监管、复盘和长期学习前的记录治理边界；它要求 evidence manifest、retention class、storage tier、retrieval index、reverification hook、legal hold 和 disposition record。
+- Address range: c-000525 至 c-000533
+
+## 2026-05-30 research | Verifier policy trust root rotation 边界
+- Topic: 第 6/7 层如何维护 attestation verifier policy、trust root、签名身份轮换、client compatibility、revocation 和 re-verification。
+- Synthesis: [[Research: Verifier policy trust root rotation 边界]]
+- Pages created: [[concepts/VerifierPolicyTrustRootRotation边界]]，[[Research: Verifier policy trust root rotation 边界]]，[[sources/slsa-verification-summary-attestation-v1-2-2026]]，[[sources/sigstore-cosign-custom-components-trust-root-2026]]，[[sources/sigstore-keyless-root-of-trust-2026]]，[[sources/sigstore-tuf-root-update-2024]]，[[sources/tuf-root-metadata-api-2021]]，[[sources/in-toto-verify-2026]]，[[sources/sigstore-policy-controller-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[concepts/EvidenceFreshnessStaleProof边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/MultiProviderGovernance边界]]，[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]，[[sources/slsa-verifying-artifacts-v1-2-2026]]，[[sources/sigstore-cosign-verifying-attestations-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Verifier policy / trust root rotation 主属第 6 层，是 signed evidence 进入第 7 层 release gate、release card、safety case 和 provider governance 前的证据验收策略边界；它要求 expected identity、predicate、policy version、trust root、rotation、revocation 和 re-verification。
+- Address range: c-000516 至 c-000524
+
+## 2026-05-30 research | Override governance residual risk acceptance 边界
+- Topic: 第 7 层如何防止 exception、override 和 residual risk acceptance 变成绕过 eval、release card、stop rule、safety case 和 release gate 的常态。
+- Synthesis: [[Research: Override governance residual risk acceptance 边界]]
+- Pages created: [[concepts/OverrideGovernanceResidualRiskAcceptance边界]]，[[Research: Override governance residual risk acceptance 边界]]，[[sources/nist-sp800-37-risk-response-2018]]，[[sources/nist-sp800-30-risk-assessment-2012]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[concepts/MetricConflictResolution边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/SafetyCaseAssuranceCase边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[sources/nist-ai-rmf-risk-tolerance-2023]]，[[sources/openai-preparedness-framework-2025]]，[[sources/microsoft-responsible-ai-standard-2022]]，[[sources/google-sre-error-budget-policy-2018]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Override governance / residual risk acceptance 主属第 7 层，是第 6 层证据不足、冲突、灰区或 stale 时进入组织决策的受控例外边界；它要求 hard-stop check、残余风险记录、approval authority、expiry、monitor、rollback 和复审，防止 exception 吞掉质量门。
+- Address range: c-000512 至 c-000515
+
+## 2026-05-30 research | Monitor tabletop runbook drill 边界
+- Topic: 第 7 层如何演练 monitor owner、on-call、incident command、release gate、risk owner、provider POC 和 comms/legal/support 的交接，避免监控和 runbook 停在文档里。
+- Synthesis: [[Research: Monitor tabletop runbook drill 边界]]
+- Pages created: [[concepts/MonitorTabletopRunbookDrill边界]]，[[Research: Monitor tabletop runbook drill 边界]]，[[sources/google-sre-incident-management-guide-2026]]，[[sources/nist-sp800-84-tte-program-2006]]，[[sources/ncsc-effective-steps-cyber-exercise-creation-2026]]，[[sources/aws-security-ir-simulations-2026]]，[[sources/cisa-ai-cyber-tabletop-exercise-series-2025]]，[[sources/fema-hseep-exercise-evaluation-2020]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/EvidenceFreshnessStaleProof边界]]，[[concepts/MetricConflictResolution边界]]，[[sources/microsoft-ai-incident-response-readiness-2026]]，[[sources/google-sre-managing-incidents-2016]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Monitor tabletop / runbook drill 主属第 7 层，是把第 6 层 monitor/eval/freshness/release-card/provider 信号转成场景、injects、role handoff、decision/action、after-action report 和 improvement plan 的组织演练验证边界。
+- Address range: c-000504 至 c-000511
+
+## 2026-05-30 research | Evidence attestation signed eval artifact 边界
+- Topic: 第 6/7 层如何证明 eval artifact、模型版本、prompt、judge、dataset、container、release card 和来源声明没有被替换、篡改或错误绑定。
+- Synthesis: [[Research: Evidence attestation signed eval artifact 边界]]
+- Pages created: [[concepts/EvidenceAttestationSignedEvalArtifact边界]]，[[Research: Evidence attestation signed eval artifact 边界]]，[[sources/slsa-provenance-v1-2-2026]]，[[sources/slsa-verifying-artifacts-v1-2-2026]]，[[sources/in-toto-test-result-predicate-2026]]，[[sources/sigstore-cosign-verifying-attestations-2026]]，[[sources/openssf-model-signing-2026]]，[[sources/nist-ssdf-sp800-218-2022]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DatasetLineageProvenanceGraph边界]]，[[concepts/EvidenceFreshnessStaleProof边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ProductionContractCompatibilityTest边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/SafetyCaseAssuranceCase边界]]，[[concepts/MultiProviderGovernance边界]]，[[sources/attesting-llm-pipelines-release-claims-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Evidence attestation / signed eval artifact 主属第 6 层，是 eval、model、prompt、judge、dataset、container 和 release evidence 进入第 7 层 release gate、release card 和 safety case 前的证据完整性边界；它要求 subject digest、signed bundle、producer identity、trust root、verifier policy 和 verification summary。
+- Address range: c-000496 至 c-000503
+
+## 2026-05-30 research | Metric conflict resolution 边界
+- Topic: 第 6/7 层如何在 hard stop、guardrail、primary、slice、online、SLO、business metric 和 cost/latency 冲突时形成优先级、升级和行动。
+- Synthesis: [[Research: Metric conflict resolution 边界]]
+- Pages created: [[concepts/MetricConflictResolution边界]]，[[Research: Metric conflict resolution 边界]]，[[sources/google-sre-embracing-risk-2016]]，[[sources/google-sre-canarying-releases-2018]]，[[sources/responsible-ai-tensions-tradeoffs-2023]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvalPortfolioMetricHierarchy边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[concepts/OfflineOnlineEvalCorrelation边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/MonitorOwnershipEscalationLadder边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[sources/google-sre-error-budget-policy-2018]]，[[sources/nist-ai-rmf-risk-tolerance-2023]]，[[sources/openai-evals-business-framework-2025]]，[[sources/openai-preparedness-framework-2025]]，[[sources/microsoft-responsible-ai-standard-2022]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Metric conflict resolution 主属第 6 层，是 hard stop、guardrail、primary、slice、online、SLO 和 business metric 冲突时的证据优先级与升级规则；它防止一个总分掩盖风险和关键 slice 退化。
+- Address range: c-000491 至 c-000495
+
+## 2026-05-30 research | Monitor ownership escalation ladder 边界
+- Topic: 第 6/7 层如何把 monitor、eval breach、stale evidence、release-card watch item 和 user report 分派给 owner、SLA、incident、release gate 或 risk elevation。
+- Synthesis: [[Research: Monitor ownership escalation ladder 边界]]
+- Pages created: [[concepts/MonitorOwnershipEscalationLadder边界]]，[[Research: Monitor ownership escalation ladder 边界]]，[[sources/nist-ai-rmf-playbook-monitoring-responsibility-2026]]，[[sources/nist-sp800-61r3-incident-response-2025]]，[[sources/google-sre-being-on-call-2016]]，[[sources/google-sre-managing-incidents-2016]]，[[sources/microsoft-ai-incident-response-readiness-2026]]，[[sources/openai-frontier-governance-framework-2026]]，[[sources/ai-incident-escalation-criteria-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvidenceFreshnessStaleProof边界]]，[[concepts/PostReleaseEvalDrift边界]]，[[concepts/EvalPortfolioMetricHierarchy边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Monitor ownership / escalation ladder 主属第 7 层，是把第 6 层 monitor、eval breach、stale evidence 和 user report 接到 owner、SLA、incident、release gate 或 risk elevation 的责任链边界。
+- Address range: c-000482 至 c-000490
+
+## 2026-05-30 research | Evidence freshness stale proof 边界
+- Topic: 第 6/7 层如何判断 eval、release card、safety case、monitor、judge、benchmark 和 production outcome 证据是否仍 fresh，什么时候 stale、expired、superseded、invalidated 或 unknown。
+- Synthesis: [[Research: Evidence freshness stale proof 边界]]
+- Pages created: [[concepts/EvidenceFreshnessStaleProof边界]]，[[Research: Evidence freshness stale proof 边界]]，[[sources/safety-case-maintenance-slr-2021]]，[[sources/dynamic-safety-cases-changing-world-2025]]，[[sources/runtime-confidence-safety-arguments-2026]]，[[sources/cmu-sei-drift-monitoring-ml-systems-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/PostReleaseEvalDrift边界]]，[[concepts/EvalPortfolioMetricHierarchy边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/SafetyCaseAssuranceCase边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/DatasetLineageProvenanceGraph边界]]，[[sources/nist-deployed-ai-monitoring-challenges-2026]]，[[sources/openai-evaluation-best-practices-2026]]，[[sources/google-ml-test-score-2016]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Evidence freshness / stale proof 主属第 6 层，是 eval、release card、safety case、monitor、judge 和 benchmark 证据进入第 7 层决策前的有效期边界；它要求每份证据带 claim、scope、依赖、失效触发器和 refresh action。
+- Address range: c-000476 至 c-000481
+
+## 2026-05-30 research | Eval portfolio metric hierarchy 边界
+- Topic: 第 6 层如何把 benchmark、private hold-out、regression、production contract、red-team、LLM judge、人类评审、online eval、business metric 和 SLO 组织成分层证据组合。
+- Synthesis: [[Research: Eval portfolio metric hierarchy 边界]]
+- Pages created: [[concepts/EvalPortfolioMetricHierarchy边界]]，[[Research: Eval portfolio metric hierarchy 边界]]，[[sources/openai-simple-evals-2026]]，[[sources/google-ml-test-score-2016]]，[[sources/openai-evals-business-framework-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/PostReleaseEvalDrift边界]]，[[sources/openai-evaluation-best-practices-2026]]，[[sources/openai-evals-framework-2026]]，[[sources/helm-holistic-evaluation-2022]]，[[sources/openai-trustworthy-third-party-evaluations-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Eval portfolio / metric hierarchy 主属第 6 层，是把多种 eval 和指标组织成 hard stop、guardrail、primary、slice、online、diagnostic 的分层证据组合；它避免用一个总分掩盖风险。
+- Address range: c-000471 至 c-000475
+
+## 2026-05-30 research | Post-release eval drift 边界
+- Topic: 第 6/7 层如何在发布后监控 release card、threshold、offline/online correlation、judge、RAG/tool/provider 和 safety evidence 是否因生产变化而 stale。
+- Synthesis: [[Research: Post-release eval drift 边界]]
+- Pages created: [[concepts/PostReleaseEvalDrift边界]]，[[Research: Post-release eval drift 边界]]，[[sources/nist-deployed-ai-monitoring-challenges-2026]]，[[sources/aws-prescriptive-genai-production-monitoring-2026]]，[[sources/aws-prescriptive-genai-drift-detection-2026]]，[[sources/google-cloud-genai-monitoring-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/OfflineOnlineEvalCorrelation边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/SafetyCaseAssuranceCase边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/JudgeDriftGraderObservability边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Post-release eval drift 主属第 6 层，是 release card、offline/online correlation、production monitoring 和 safety case 之间的发布后证据保鲜边界；它不新增运维顶层。
+- Address range: c-000465 至 c-000470
+
+## 2026-05-30 research | Safety case assurance case 边界
+- Topic: 第 6/7 层如何把 eval、red-team、release card、online monitor、safeguard evidence 和 residual risk 组织成高风险 AI 系统的 claims-arguments-evidence 发布论证。
+- Synthesis: [[Research: Safety case assurance case 边界]]
+- Pages created: [[concepts/SafetyCaseAssuranceCase边界]]，[[Research: Safety case assurance case 边界]]，[[sources/safety-cases-advanced-ai-systems-2024]]，[[sources/aisi-frontier-ai-safety-case-cyber-2024]]，[[sources/big-argument-ai-safety-cases-2025]]，[[sources/structured-safety-case-ai-systems-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Safety case / assurance case 主属第 7 层，是高风险 AI 系统把第 6 层多源证据组织成可审查发布论证和残余风险接受包的治理边界；它不新增安全顶层。
+- Address range: c-000459 至 c-000464
+
+## 2026-05-30 research | Offline online eval correlation 边界
+- Topic: 第 6/7 层如何验证离线 eval、LLM judge、release card 和真实生产 outcome 是否同向，并用线上结果校准 eval trust tier、threshold、dataset 和 release gate。
+- Synthesis: [[Research: Offline online eval correlation 边界]]
+- Pages created: [[concepts/OfflineOnlineEvalCorrelation边界]]，[[Research: Offline online eval correlation 边界]]，[[sources/offline-metrics-predict-online-recsys-2020]]，[[sources/offline-ab-testing-recommender-systems-2018]]，[[sources/amazon-offline-online-product-ranking-2023]]，[[sources/langsmith-evaluation-types-2026]]，[[sources/langchain-production-monitoring-regression-tests-2026]]，[[sources/evaluation-driven-development-operations-llm-agents-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[sources/openai-evaluation-best-practices-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Offline / online eval correlation 主属第 6 层，是离线 eval、release card 和线上 production outcome 之间的预测有效性边界；它决定哪类离线证据仍能被第 7 层 release gate 信任。
+- Address range: c-000451 至 c-000458
+
+## 2026-05-30 research | Eval uncertainty communication release card 边界
+- Topic: 第 6/7 层如何把 eval 分数、置信区间、方差、slice 风险、judge health、coverage gap、hard stop、例外和后续监控，整理成决策者能消费的 release / eval card。
+- Synthesis: [[Research: Eval uncertainty communication release card 边界]]
+- Pages created: [[concepts/EvalUncertaintyCommunicationReleaseCard边界]]，[[Research: Eval uncertainty communication release card 边界]]，[[sources/nist-ai-evaluation-statistical-models-2026]]，[[sources/adding-error-bars-evals-2024]]，[[sources/model-cards-for-model-reporting-2019]]，[[sources/riskcards-language-model-deployment-2023]]，[[sources/sphere-evaluation-card-2025]]，[[sources/google-model-card-toolkit-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/JudgeDriftGraderObservability边界]]，[[concepts/IntolerableRiskThresholdStopRule边界]]，[[sources/openai-gpt-4o-system-card-2024]]，[[sources/openai-trustworthy-third-party-evaluations-2026]]，[[sources/betterbench-benchmark-quality-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Eval uncertainty communication / release card 主属第 6 层，是 eval evidence 进入第 7 层 release、rollback、safety governance 和组织 owner 前的证据表达边界；它把不确定性、灰区、局限、hard stop 和 post-release monitor 转成可审查的决策材料。
+- Address range: c-000443 至 c-000450
+
+## 2026-05-30 research | Intolerable risk threshold stop rule 边界
+- Topic: 第 6/7 层如何把高风险能力阈值、法律禁止、safeguard 不足、severe incident 和 residual risk 证据转成 no-go、pause、restrict、rollback、external review 或 required safeguards。
+- Synthesis: [[Research: Intolerable risk threshold stop rule 边界]]
+- Pages created: [[concepts/IntolerableRiskThresholdStopRule边界]]，[[Research: Intolerable risk threshold stop rule 边界]]，[[sources/nist-ai-rmf-risk-tolerance-2023]]，[[sources/eu-ai-act-prohibited-practices-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[sources/nist-ai-rmf-1-0-2023]]，[[sources/openai-preparedness-framework-2025]]，[[sources/anthropic-responsible-scaling-policy-v3-2026]]，[[sources/deepmind-frontier-safety-framework-2025]]，[[sources/iso-iec-42001-ai-management-system-2023]]，[[sources/microsoft-responsible-ai-standard-2022]]，[[sources/eu-ai-act-risk-management-post-market-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Intolerable risk threshold / stop rule 主属第 7 层，是第 6 层风险证据进入组织 no-go、pause、restrict、rollback 和 external review 的 hard stop 边界；它保证某些风险不能被平均分、商业收益或灰区例外稀释。
+- Address range: c-000439 至 c-000442
+
+## 2026-05-30 research | Judge drift grader observability 边界
+- Topic: 第 6 层如何持续监控 LLM judge、rubric grader、AI annotator 和 judge panel 的 human agreement、score distribution、bias、prompt sensitivity 与 production correlation，防止评分器漂移污染 release、training 和 self-improvement 决策。
+- Synthesis: [[Research: Judge drift grader observability 边界]]
+- Pages created: [[concepts/JudgeDriftGraderObservability边界]]，[[Research: Judge drift grader observability 边界]]，[[sources/judge-verdict-human-agreement-2025]]，[[sources/closer-look-automatic-evaluation-llms-2023]]，[[sources/empirical-finetuned-judge-not-general-substitute-2025]]，[[sources/langsmith-llm-judge-human-feedback-online-evals-2026]]，[[sources/phoenix-llm-evaluators-observability-2026]]，[[sources/human-anchored-longitudinal-llm-judge-2026]]，[[sources/galileo-continuous-llm-judge-calibration-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/LLMJudgeAIFeedbackCalibration边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/ProductionContractCompatibilityTest边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[sources/openai-graders-docs-2026]]，[[sources/mt-bench-chatbot-arena-llm-as-judge-2023]]，[[sources/llm-judge-position-bias-2024]]，[[sources/llm-judges-alignment-vulnerabilities-2024]]，[[sources/poll-panel-llm-evaluators-2024]]，[[sources/llm-evaluators-self-preference-2024]]，[[sources/alternative-annotator-test-2025]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Judge drift / grader observability 主属第 6 层，是 LLM judge 和 grader stack 的持续健康监控边界；它位于 judge calibration 之后、decision threshold 之前，先判断“评分器是否还可信”，再允许分数进入 release gate、training feedback 或 self-improvement。
+- Address range: c-000430 至 c-000438
+
+## 2026-05-30 research | Production contract compatibility test 边界
+- Topic: 第 6/7 层如何把产品行为、schema、工具、安全、数据处理、SLO 和供应链声明写成模型/provider 更新前的 compatibility suite 和 release gate 证据。
+- Synthesis: [[Research: Production contract compatibility test 边界]]
+- Pages created: [[concepts/ProductionContractCompatibilityTest边界]]，[[Research: Production contract compatibility test 边界]]，[[sources/attesting-llm-pipelines-release-claims-2026]]，[[sources/together-ai-deprecations-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ModelReleaseRollbackGate边界]]，[[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/MultiProviderGovernance边界]]，[[sources/test-before-you-deploy-llm-supply-chain-2026]]，[[sources/openai-model-deprecations-2026]]，[[sources/openai-model-release-notes-2026]]，[[sources/anthropic-model-deprecations-2026]]，[[sources/google-cloud-deploy-automation-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Production contract / compatibility test 主属第 6 层，是模型和供应链更新进入第 7 层 release/rollback gate 前的可测试产品契约；它防止“新模型总体更强”掩盖产品关键行为不兼容。
+- Address range: c-000426 至 c-000429
+
+## 2026-05-30 research | Eval result interpretation decision threshold 边界
+- Topic: 第 6/7 层如何把 eval score、置信区间、方差、guardrail、slice、SLO 和风险容忍度转成发布、回滚、灰区调查、canary 或人工复核决策。
+- Synthesis: [[Research: Eval result interpretation decision threshold 边界]]
+- Pages created: [[concepts/EvalResultInterpretationDecisionThreshold边界]]，[[Research: Eval result interpretation decision threshold 边界]]，[[sources/openai-trustworthy-third-party-evaluations-2026]]，[[sources/google-sre-service-level-objectives-2016]]，[[sources/google-sre-error-budget-policy-2018]]，[[sources/kohavi-controlled-experiments-web-2009]]，[[sources/chatbot-arena-human-preference-2024]]，[[sources/anytime-valid-confidence-sequences-ab-testing-2023]]，[[sources/betterbench-benchmark-quality-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/LLMJudgeAIFeedbackCalibration边界]]，[[concepts/ModelReleaseRollbackGate边界]]，[[sources/openai-evaluation-best-practices-2026]]，[[sources/anthropic-demystifying-evals-agents-2026-05-26]]，[[sources/nist-ai-rmf-1-0-2023]]，[[sources/google-mlops-continuous-delivery-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Eval result interpretation / decision threshold 主属第 6 层，是 eval 分数进入 release gate、routing、training、rollback 和 self-improvement 前的证据解释边界；它把“模型得了多少分”变成“现在该做什么”。
+- Address range: c-000417 至 c-000425
+
+## 2026-05-30 research | LLM-as-judge AI feedback calibration 边界
+- Topic: 第 6/2/7/8 层如何校准 LLM judge、AI 标注、RLAIF teacher、rubric grader 和 multi-judge panel，使其能作为 eval、training、release 或 self-improvement 证据。
+- Synthesis: [[Research: LLM-as-judge AI feedback calibration 边界]]
+- Pages created: [[concepts/LLMJudgeAIFeedbackCalibration边界]]，[[Research: LLM-as-judge AI feedback calibration 边界]]，[[sources/g-eval-2023]]，[[sources/mt-bench-chatbot-arena-llm-as-judge-2023]]，[[sources/llm-judge-position-bias-2024]]，[[sources/llm-judges-alignment-vulnerabilities-2024]]，[[sources/poll-panel-llm-evaluators-2024]]，[[sources/llm-evaluators-self-preference-2024]]，[[sources/alternative-annotator-test-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ReasoningEvalVerifier边界]]，[[concepts/HumanFeedbackAnnotationOps边界]]，[[concepts/SyntheticDataGovernance边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[sources/openai-graders-docs-2026]]，[[sources/anthropic-demystifying-evals-agents-2026-05-26]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: LLM-as-judge / AI feedback calibration 主属第 6 层，是自动评分和 AI 标注进入 eval、RLAIF、reward、release gate 与 self-improvement 前的校准边界；AI 评 AI 必须有 human gold、bias suite、lineage、hold-out 和 downstream validation。
+- Address range: c-000408 至 c-000416
+
+## 2026-05-30 research | Model release rollback gate 边界
+- Topic: 第 6/7 层如何把模型、prompt、router、skill、tool、provider 和 policy 变更纳入发布、灰度、回滚、迁移和 audit gate。
+- Synthesis: [[Research: Model release rollback gate 边界]]
+- Pages created: [[concepts/ModelReleaseRollbackGate边界]]，[[Research: Model release rollback gate 边界]]，[[sources/openai-sycophancy-gpt4o-rollback-2025]]，[[sources/openai-model-deprecations-2026]]，[[sources/openai-model-release-notes-2026]]，[[sources/anthropic-model-deprecations-2026]]，[[sources/google-cloud-deploy-automation-2026]]，[[sources/test-before-you-deploy-llm-supply-chain-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[concepts/MultiProviderGovernance边界]]，[[concepts/ModelRoutingMixture边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Model release / rollback gate 主属第 7 层，是 AI 变更进入真实产品流量的组织执行边界；它消费第 6 层 eval 和 monitoring，约束第 2/3/4/5 层 artifact 的上线、灰度、回滚和迁移。
+- Address range: c-000400 至 c-000407
+
+## 2026-05-30 research | Evaluation dataset lifecycle benchmark governance 边界
+- Topic: 第 6/7 层如何治理 eval set、private hold-out、public benchmark、regression suite、red-team set 的 split、版本、泄漏、饱和、刷新、退役和 release gate 绑定。
+- Synthesis: [[Research: Evaluation dataset lifecycle benchmark governance 边界]]
+- Pages created: [[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]，[[Research: Evaluation dataset lifecycle benchmark governance 边界]]，[[sources/openai-evaluation-best-practices-2026]]，[[sources/openai-evals-framework-2026]]，[[sources/helm-holistic-evaluation-2022]]，[[sources/dynabench-2021]]，[[sources/livebench-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/DataQualityLabelQuality边界]]，[[concepts/DatasetLineageProvenanceGraph边界]]，[[concepts/HumanFeedbackAnnotationOps边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[sources/benchmarking-benchmark-leakage-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Evaluation dataset lifecycle / benchmark governance 主属第 6 层，是 eval 数据集作为质量门资产的生命周期治理；它防止 eval 泄漏、饱和、漂移和被反复优化后失真。
+- Address range: c-000393 至 c-000399
+
+## 2026-05-30 research | Human feedback annotation ops 边界
+- Topic: 第 6/7/2 层如何把人类示范、偏好、纠错、gold label 和 expert review 变成 eval、reward model、SFT/RLHF、RAG/memory/skill 或产品证据。
+- Synthesis: [[Research: Human feedback annotation ops 边界]]
+- Pages created: [[concepts/HumanFeedbackAnnotationOps边界]]，[[Research: Human feedback annotation ops 边界]]，[[sources/deep-rl-from-human-preferences-2017]]，[[sources/learning-to-summarize-human-feedback-2020]]，[[sources/anthropic-hh-rlhf-2022]]，[[sources/label-studio-annotation-quality-2026]]，[[sources/labelbox-quality-analysis-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataQualityLabelQuality边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/DatasetLineageProvenanceGraph边界]]，[[concepts/SyntheticDataGovernance边界]]，[[sources/instructgpt-rlhf-2022]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Human feedback / annotation ops 主属第 6 层，是把人类判断变成可靠 eval、preference、reward、training 和产品证据的质量系统；人类反馈需要 spec、pilot、rubric、calibration、QA、adjudication、lineage 和 downstream validation。
+- Address range: c-000386 至 c-000392
+
+## 2026-05-30 research | Data deletion unlearning impact 边界
+- Topic: 第 7/6/2 层如何把删除/撤回/保留到期/事故请求落实到 logs、RAG、memory、eval、training、model weights、provider 和 audit。
+- Synthesis: [[Research: Data deletion unlearning impact 边界]]
+- Pages created: [[concepts/DataDeletionUnlearningImpact边界]]，[[Research: Data deletion unlearning impact 边界]]，[[sources/machine-unlearning-sisa-2019]]，[[sources/google-machine-unlearning-challenge-2023]]，[[sources/machine-unlearning-comprehensive-survey-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/DatasetLineageProvenanceGraph边界]]，[[concepts/DataQualityLabelQuality边界]]，[[concepts/SyntheticDataGovernance边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[sources/gdpr-data-subject-rights-2016]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Data deletion / unlearning impact 主属第 7 层，是 data rights 请求进入真实 AI 系统后的执行闭环；它依赖第 6 层 lineage/eval 定位和验证影响，在必要时调用第 2 层 retraining、model replacement 或 machine unlearning。
+- Address range: c-000381 至 c-000385
+
+## 2026-05-30 research | Dataset lineage provenance graph 边界
+- Topic: 第 6 层如何追踪样本、trace、eval、training、RAG、memory、skill、synthetic data 和模型版本之间的来源、转换、污染、删除和回滚影响。
+- Synthesis: [[Research: Dataset lineage provenance graph 边界]]
+- Pages created: [[concepts/DatasetLineageProvenanceGraph边界]]，[[Research: Dataset lineage provenance graph 边界]]，[[sources/w3c-prov-overview-2013]]，[[sources/tensorflow-ml-metadata-2026]]，[[sources/openlineage-spec-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataQualityLabelQuality边界]]，[[concepts/SyntheticDataGovernance边界]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/AIIncidentResponsePostmortem边界]]，[[sources/eu-ai-act-data-governance-2024]]，[[sources/nist-genai-profile-data-privacy-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Dataset lineage / provenance graph 主属第 6 层，是训练、eval、RAG、memory、skill、synthetic data、incident response 和 self-improvement 之间的证据血缘底座；它让污染检测、删除影响、事故取证、rollback 和审计成为可查询系统能力。
+- Address range: c-000376 至 c-000380
+
+## 2026-05-30 research | Synthetic data governance 边界
+- Topic: 第 2/6/7/8 层如何判断合成数据能否进入训练、eval、RAG、memory、skill、router 或自我改进。
+- Synthesis: [[Research: Synthetic data governance 边界]]
+- Pages created: [[concepts/SyntheticDataGovernance边界]]，[[Research: Synthetic data governance 边界]]，[[sources/model-collapse-nature-2024]]，[[sources/is-model-collapse-inevitable-2024]]，[[sources/self-instruct-2022]]，[[sources/anthropic-constitutional-ai-rlaif-2022]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataQualityLabelQuality边界]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/Dream与SelfImprovement工程原语]]，[[sources/openai-model-distillation-2024]]，[[sources/openai-fine-tuning-data-quality-2026]]，[[sources/data-cards-2022]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Synthetic data governance 主属第 6 层，是合成样本进入训练、eval、RAG、memory、skill、router 或 self-improvement 前的质量、权利、污染和下游验证门；合成数据可用，但不能替代真实 hold-out 和真实分布锚点。
+- Address range: c-000370 至 c-000375
+
+## 2026-05-30 research | AI incident response postmortem 边界
+- Topic: 第 6/7 层如何把 AI 事故转成分级、止血、取证、沟通、复盘、action item 和 regression eval。
+- Synthesis: [[Research: AI incident response postmortem 边界]]
+- Pages created: [[concepts/AIIncidentResponsePostmortem边界]]，[[Research: AI incident response postmortem 边界]]，[[sources/nist-ai-rmf-core-incident-response-2023]]，[[sources/oecd-defining-ai-incidents-2024]]，[[sources/oecd-ai-incidents-monitor-methodology-2026]]，[[sources/google-sre-emergency-response-2016]]，[[sources/google-sre-postmortem-culture-2016]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/ToolRiskPermissioning边界]]，[[concepts/MultiProviderGovernance边界]]，[[concepts/AgentIdentityDelegation边界]]，[[concepts/DataQualityLabelQuality边界]]，[[sources/nist-genai-profile-data-privacy-2024]]，[[sources/eu-ai-act-risk-management-post-market-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: AI incident response / postmortem 主属第 7 层，是第 6 层监控/eval 信号进入止血、取证、沟通、复盘、action item 和 regression eval 的事故闭环；postmortem 的价值在于把事故转成可验证改进。
+- Address range: c-000363 至 c-000369
+
+## 2026-05-30 research | Agent identity delegation 边界
+- Topic: 第 5/7 层如何表示 agent 身份、委托链、责任主体、scope、审计和撤销路径。
+- Synthesis: [[Research: Agent identity delegation 边界]]
+- Pages created: [[concepts/AgentIdentityDelegation边界]]，[[Research: Agent identity delegation 边界]]，[[sources/ietf-agent-identity-protocol-draft-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ToolRiskPermissioning边界]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/MultiProviderGovernance边界]]，[[sources/nist-ai-agent-identity-authorization-2026]]，[[sources/mcp-authorization-2025]]，[[sources/mcp-security-best-practices-2025]]，[[sources/aws-secure-agent-access-mcp-2026]]，[[sources/nsa-mcp-security-design-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Agent identity / delegation 主属第 5 层，是 agent 动作携带 actor、principal、grant、scope、credential、audit 和 revocation 的身份委托边界；第 7 层定义责任，第 5 层把责任带入 runtime。
+- Address range: c-000360 至 c-000362
+
+## 2026-05-30 research | Multi-provider governance 边界
+- Topic: 第 7 层如何在多 provider/model/tool 进入 routing 前统一数据、地域、retention、training use、SLA、audit 和 fallback。
+- Synthesis: [[Research: Multi-provider governance 边界]]
+- Pages created: [[concepts/MultiProviderGovernance边界]]，[[Research: Multi-provider governance 边界]]，[[sources/azure-foundry-models-data-privacy-2026]]，[[sources/aws-bedrock-data-protection-2026]]，[[sources/aws-bedrock-model-invocation-logging-2026]]，[[sources/anthropic-api-data-retention-2026]]，[[sources/anthropic-api-data-residency-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Multi-provider governance 主属第 7 层，是 provider/vendor 控制面；它先按 data rights、region、retention、training use、SLA 和风险过滤 provider，再让第 3 层 routing 或第 5 层 tool use 执行。
+- Address range: c-000353 至 c-000359
+
+## 2026-05-30 research | Data quality label quality 边界
+- Topic: 第 6 层如何判断反馈、label、trace、RAG 文档和训练候选是否可进入 eval、training、RAG、memory 或 skill。
+- Synthesis: [[Research: Data quality label quality 边界]]
+- Pages created: [[concepts/DataQualityLabelQuality边界]]，[[Research: Data quality label quality 边界]]，[[sources/tensorflow-data-validation-2026]]，[[sources/datasheets-for-datasets-2021]]，[[sources/data-cards-2022]]，[[sources/data-cascades-high-stakes-ai-2021]]，[[sources/openai-fine-tuning-data-quality-2026]]，[[sources/label-errors-benchmarks-2021]]，[[sources/huggingface-dataset-cards-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/AISafetyOpsGovernance边界]]，[[concepts/RAG与Memory边界]]，[[concepts/Skill与ToolMemory边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Data quality / label quality 主属第 6 层，是 data flywheel 产生的反馈、label、trace、RAG 文档和训练候选成为 eval、training、memory、skill 或 router 证据前的质量门。
+- Address range: c-000344 至 c-000352
+
+## 2026-05-30 research | AI safety ops governance 边界
+- Topic: 第 6/7 层如何把 AI 风险管理从 eval、red-team 和 incident 证据变成可执行组织流程。
+- Synthesis: [[Research: AI safety ops governance 边界]]
+- Pages created: [[concepts/AISafetyOpsGovernance边界]]，[[Research: AI safety ops governance 边界]]，[[sources/nist-ai-rmf-1-0-2023]]，[[sources/iso-iec-42001-ai-management-system-2023]]，[[sources/openai-preparedness-framework-2025]]，[[sources/anthropic-responsible-scaling-policy-v3-2026]]，[[sources/deepmind-frontier-safety-framework-2025]]，[[sources/microsoft-responsible-ai-standard-2022]]，[[sources/eu-ai-act-risk-management-post-market-2024]]，[[sources/google-saif-controls-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/ToolRiskPermissioning边界]]，[[concepts/AgentHarness与TraceEval]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: AI Safety Ops / Governance 主属第 7 层，是第 6 层 eval/red-team/incident 证据进入 risk register、release gate、owner、monitoring、incident response 和 audit trail 的风险运行系统。
+- Address range: c-000334 至 c-000343
+
+## 2026-05-30 research | Tool risk permissioning 边界
+- Topic: 第 5 层 agent 工具动作如何按风险等级进入权限、沙箱、审批、审计和回滚边界。
+- Synthesis: [[Research: Tool risk permissioning 边界]]
+- Pages created: [[concepts/ToolRiskPermissioning边界]]，[[Research: Tool risk permissioning 边界]]，[[sources/openai-agents-sdk-tool-guardrails-2026]]，[[sources/anthropic-computer-use-security-2026]]，[[sources/mcp-authorization-2025]]，[[sources/mcp-security-best-practices-2025]]，[[sources/owasp-llm-excessive-agency-2025]]，[[sources/nist-ai-agent-identity-authorization-2026]]，[[sources/aws-secure-agent-access-mcp-2026]]，[[sources/nsa-mcp-security-design-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/AgentHarness与TraceEval]]，[[concepts/DataRightsPrivacyConsent边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/Skill与ToolMemory边界]]，[[concepts/ModelRoutingMixture边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Tool risk / permissioning 主属第 5 层，是 agent 从 reasoning 进入 action 前的动作准入层；prompt 不是权限边界，高风险工具必须通过 scope、sandbox、approval、audit 和 rollback 控制。
+- Address range: c-000324 至 c-000333
+
+## 2026-05-30 research | Data rights privacy consent 边界
+- Topic: 第 7 层 data rights / privacy / consent 如何约束 service、memory、eval、training、vendor sharing 和数据飞轮。
+- Synthesis: [[Research: Data rights privacy consent 边界]]
+- Pages created: [[concepts/DataRightsPrivacyConsent边界]]，[[Research: Data rights privacy consent 边界]]，[[sources/openai-api-data-controls-2026]]，[[sources/openai-model-improvement-data-policy-2026]]，[[sources/anthropic-privacy-policy-2026]]，[[sources/anthropic-consumer-model-training-controls-2026]]，[[sources/anthropic-commercial-data-controls-2026]]，[[sources/google-vertex-ai-data-governance-2026]]，[[sources/eu-ai-act-data-governance-2024]]，[[sources/gdpr-data-subject-rights-2016]]，[[sources/nist-genai-profile-data-privacy-2024]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/DataFlywheelFeedbackLoop边界]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/RAG与Memory边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/Skill与ToolMemory边界]]，[[sources/openai-data-sharing-controls-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Data rights / privacy / consent 主属第 7 层，是产品数据进入 service、memory、eval、training 或供应商共享前的用途闸门；“可用于本次请求”不等于“可长期保存、记忆、评估或训练”。
+- Address range: c-000313 至 c-000323
+
+## 2026-05-30 research | Data flywheel feedback loop 边界
+- Topic: 第 7 层真实使用反馈如何安全反哺 eval、RAG、memory、skill、router、training 和 self-improvement。
+- Synthesis: [[Research: Data flywheel feedback loop 边界]]
+- Pages created: [[concepts/DataFlywheelFeedbackLoop边界]]，[[Research: Data flywheel feedback loop 边界]]，[[sources/nvidia-ai-data-flywheel-2026]]，[[sources/openai-data-sharing-controls-2026]]，[[sources/google-rules-of-ml-2026]]，[[sources/google-mlops-continuous-delivery-2026]]，[[sources/hidden-technical-debt-ml-systems-2015]]，[[sources/agent-in-the-loop-data-flywheel-2025]]，[[sources/characterflywheel-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/数据飞轮复利]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/RewardHackingEvalOverfitting边界]]，[[concepts/Dream与SelfImprovement工程原语]]，[[concepts/RAG与Memory边界]]，[[concepts/Skill与ToolMemory边界]]，[[sources/openai-model-optimization-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Data flywheel / feedback loop 主属第 7 层，不是自动训练通道；真实使用信号必须按证据类型分流，失败进 eval，事实缺口进 RAG，偏好进 memory，重复流程进 skill，成本/延迟进 routing/serving，稳定授权行为才进入训练候选。
+- Address range: c-000304 至 c-000312
+
+## 2026-05-30 research | Reward hacking eval overfitting 边界
+- Topic: reward hacking、specification gaming、eval overfitting、benchmark leakage、reward tampering 和 KPI gaming 的稳定边界。
+- Synthesis: [[Research: Reward hacking eval overfitting 边界]]
+- Pages created: [[concepts/RewardHackingEvalOverfitting边界]]，[[Research: Reward hacking eval overfitting 边界]]，[[sources/openai-faulty-reward-functions-2016]]，[[sources/deepmind-specification-gaming-2020]]，[[sources/anthropic-reward-tampering-2024]]，[[sources/openai-reward-model-overoptimization-2022]]，[[sources/benchmarking-benchmark-leakage-2024]]，[[sources/openai-chain-of-thought-monitoring-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/ReasoningEvalVerifier边界]]，[[concepts/Agent评估体系]]，[[concepts/Dream与SelfImprovement工程原语]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/ModelRoutingMixture边界]]，[[sources/openai-cot-monitorability-2025]]，[[sources/rewardbench-2024]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Reward hacking / eval overfitting 主属第 6 层，是 reward、grader、benchmark、KPI 或反馈闭环在优化压力下的失效模式；它会污染第 2 层训练、第 3 层 routing、第 5 层 agent、第 7 层产品指标和第 8 层自我改进。
+- Address range: c-000296 至 c-000303
+
+## 2026-05-30 research | Model routing mixture 边界
+- Topic: model selection、model routing、cascade、MoE、Mixture-of-Agents 和 compound system model allocation 的稳定边界。
+- Synthesis: [[Research: Model routing mixture 边界]]
+- Pages created: [[concepts/ModelRoutingMixture边界]]，[[Research: Model routing mixture 边界]]，[[sources/openai-model-selection-2026]]，[[sources/routellm-2024]]，[[sources/routerbench-2024]]，[[sources/frugalgpt-2023]]，[[sources/optimizing-model-selection-compound-ai-systems-2025]]，[[sources/mixture-of-agents-2024]]，[[sources/switch-transformers-2021]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/Serving成本延迟边界]]，[[concepts/TestTimeCompute]]，[[concepts/ReasoningEvalVerifier边界]]，[[concepts/ProductOrganizationLayer边界]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: 外部 model routing 主属第 3 层 inference control；内部 MoE 主属第 2 层模型构建；Mixture-of-Agents 和 compound system model allocation 跨到第 5 层，但都必须由第 6 层 eval 和第 7 层产品 SLO/单位经济约束。
+- Address range: c-000287 至 c-000295
+
+## 2026-05-30 research | Product organization layer 边界
+- Topic: 第 7 层如何把可靠 AI 能力变成产品表面、工作流、组织角色、单位经济和反馈飞轮。
+- Synthesis: [[Research: Product organization layer 边界]]
+- Pages created: [[concepts/ProductOrganizationLayer边界]]，[[Research: Product organization layer 边界]]，[[sources/anthropic-building-effective-agents-2024]]，[[sources/openai-practical-guide-building-agents-2025]]，[[sources/openai-agents-sdk-docs-2026]]，[[sources/bvp-vertical-ai-playbook-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/模型即产品]]，[[concepts/软件工厂]]，[[concepts/公司大脑]]，[[concepts/数据飞轮复利]]，[[concepts/工作流锁定]]，[[sources/openai-model-optimization-2026]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Product / organization layer 主属第 7 层，是第 6 层可靠能力进入真实产品、工作流、组织角色、审批边界、单位经济和 telemetry/data flywheel 的接口；它不是商业杂项，也不是 UI 层。
+- Address range: c-000281 至 c-000286
+
+## 2026-05-30 research | Multimodal eval simulation eval 边界
+- Topic: 第 6 层如何评估静态多模态、视频/音频、生成安全、world-model、simulation 和 embodied agent。
+- Synthesis: [[Research: Multimodal eval simulation eval 边界]]
+- Pages created: [[concepts/MultimodalEvalSimulationEval边界]]，[[Research: Multimodal eval simulation eval 边界]]，[[sources/mmmu-2023]]，[[sources/mathvista-2023]]，[[sources/video-mme-2024]]，[[sources/openai-gpt-4o-system-card-2024]]，[[sources/worldmodelbench-2025]]，[[sources/worldsimbench-2024]]，[[sources/deepmind-sima-2024]]，[[sources/embodiedbench-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/多模态与世界模型边界]]，[[concepts/AgentHarness与TraceEval]]，[[concepts/Omni世界模型]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Multimodal eval / simulation eval 主属第 6 层，是第 3 层多模态/世界模型、第 5 层 embodied agent、第 7 层实时产品和第 8 层仿真反馈之间的质量门；视觉质量不能替代物理一致性、行动后果和环境状态检查。
+- Address range: c-000271 至 c-000280
+
+## 2026-05-30 research | Reasoning eval verifier 边界
+- Topic: 第 6 层如何评估 reasoning trace、过程监督、trace grading、reward model 和 verifier。
+- Synthesis: [[Research: Reasoning eval verifier 边界]]
+- Pages created: [[concepts/ReasoningEvalVerifier边界]]，[[Research: Reasoning eval verifier 边界]]，[[sources/openai-math-verifiers-2021]]，[[sources/lets-verify-step-by-step-2023]]，[[sources/openai-prover-verifier-games-2024]]，[[sources/openai-graders-docs-2026]]，[[sources/rewardbench-2024]]，[[sources/rewarding-progress-process-verifiers-2024]]，[[sources/processbench-2024]]，[[sources/process-reward-models-that-think-2025]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/TestTimeCompute]]，[[concepts/AgentHarness与TraceEval]]，[[concepts/Agent评估体系]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Reasoning eval / verifier 主属第 6 层，是第 3 层 reasoning、第 5 层 agent trace、第 2 层训练和第 8 层 self-improvement 的质量接口；稳定边界是 outcome verifier、process verifier、trace grader、CoT monitor、reward model 和 eval harness。
+- Address range: c-000261 至 c-000270
+
+## 2026-05-30 research | Skill library routing lifecycle
+- Topic: skill library 规模化后如何路由、归因、更新、退役和安全治理。
+- Synthesis: [[Research: Skill library routing lifecycle]]
+- Pages created: [[concepts/SkillLibraryRouting生命周期]]，[[Research: Skill library routing lifecycle]]，[[sources/skillsvote-2026]]，[[sources/under-the-hood-skill-md-2026]]，[[sources/secure-agent-skills-2026]]，[[sources/reusable-skill-md-files-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[concepts/Skill与ToolMemory边界]]，`skills/autoresearch/references/program.md`
+- Key insight: Skill library routing / lifecycle 仍归入第 4 层程序性知识库治理；大型库必须管理 collection/provenance、metadata routing、selection/loading、execution sandbox、outcome attribution、update/merge/deprecation/retirement，并由第 6 层 eval/security gate 和第 8 层 evidence-gated evolution 约束。
+- Address range: c-000255 至 c-000260
+
+## 2026-05-30 research | Serving 成本 延迟 边界
+- Topic: serving、成本和延迟如何把第 3 层推理能力接到第 7 层产品部署约束。
+- Synthesis: [[Research: Serving 成本 延迟 边界]]
+- Pages created: [[concepts/Serving成本延迟边界]]，[[Research: Serving 成本 延迟 边界]]，[[sources/openai-latency-optimization-2026]]，[[sources/openai-cost-optimization-2026]]，[[sources/anthropic-prompt-caching-2026]]，[[sources/pagedattention-vllm-2023]]，[[sources/distserve-2024]]，[[sources/huggingface-tgi-2026]]，[[sources/huggingface-continuous-batching-2026]]，[[sources/nvidia-genai-perf-2026]]，[[sources/nvidia-tensorrt-llm-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Serving 是第 3 层 inference runtime，不是独立顶层；它通过 prefill/decode、KV cache、batching、prompt caching、TTFT/TPOT、goodput 和 cost/success 把模型能力约束到第 7 层产品 SLO 与 unit economics。
+- Address range: c-000244 至 c-000254
+
+## 2026-05-30 research | 多模态与世界模型边界
+- Topic: 区分多模态、世界模型、VLA、embodied agent 和 simulation eval，并归入 AI 系统生成链。
+- Synthesis: [[Research: 多模态与世界模型边界]]
+- Pages created: [[concepts/多模态与世界模型边界]]，[[Research: 多模态与世界模型边界]]，[[sources/gemini-1-5-multimodal-long-context-2024]]，[[sources/openai-gpt-4o-2024]]，[[sources/openai-sora-world-simulators-2024]]，[[sources/deepmind-genie-2-2024]]，[[sources/world-models-2018]]，[[sources/rt-2-vla-2023]]
+- Pages updated: [[concepts/Omni世界模型]]，[[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: 多模态是多信号输入/输出和融合能力，世界模型是状态、时间动态和行动后果的模拟能力；二者主归属第 3 层，不新增顶层。进入机器人或仿真时才跨到第 5 层 embodied agent，并由第 6 层 simulation eval 约束。
+- Address range: c-000236 至 c-000243
+
+## 2026-05-30 research | 推理时计算与 reasoning
+- Topic: 推理时计算如何把第 3 层能力连接到第 5 层 agent loop 和第 6 层 eval。
+- Synthesis: [[Research: 推理时计算与 reasoning]]
+- Pages created: [[Research: 推理时计算与 reasoning]]，[[sources/openai-learning-to-reason-2024]]，[[sources/anthropic-extended-thinking-docs-2026]]，[[sources/scaling-llm-test-time-compute-2024]]，[[sources/chain-of-thought-2022]]，[[sources/self-consistency-2022]]，[[sources/tree-of-thoughts-2023]]，[[sources/openai-process-supervision-2023]]，[[sources/openai-cot-monitorability-2025]]
+- Pages updated: [[concepts/TestTimeCompute]]，[[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: 推理时计算是第 3 层运行时能力机制，不是 prompt 或 harness；它通过 thinking、采样、搜索、verifier/reranker 和 tool-interleaved reasoning 增强能力，再由第 5 层 harness 变成 agent trace，由第 6 层 eval 衡量成功率、成本、延迟和可监控性。
+- Address range: c-000227 至 c-000235
+
+## 2026-05-30 research | Skill 与 tool memory workflow 边界
+- Topic: 区分 skill、tool、memory、workflow、RAG 和 prompt，并把 skill 放回 AI 系统生成链。
+- Synthesis: [[Research: Skill 与 tool memory workflow 边界]]
+- Pages created: [[concepts/Skill与ToolMemory边界]]，[[Research: Skill 与 tool memory workflow 边界]]，[[sources/anthropic-skills-overview-2026]]，[[sources/agent-skills-specification-2026]]，[[sources/openai-agents-sdk-tools-2026]]，[[sources/agent-skills-architecture-survey-2026]]，[[sources/skillsbench-2026]]，[[sources/skill-text-to-structure-2026]]，[[sources/agent-skills-wild-security-2026]]，[[sources/malicious-agent-skills-wild-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Skill 是第 4 层可版本化程序性知识包，不是 tool 本身；它由第 5 层 harness 路由和执行，由第 6 层 eval/security gate 验证，也可以由第 8 层从 trace、memory 和失败模式中生成或修订。
+- Address range: c-000217 至 c-000226
+
+## 2026-05-30 research | Dream 与 self-improvement 工程原语
+- Topic: 哪些 self-improvement 是可落地工程原语，哪些仍属于高风险前沿研究。
+- Synthesis: [[Research: Dream 与 self-improvement 工程原语]]
+- Pages created: [[concepts/Dream与SelfImprovement工程原语]]，[[Research: Dream 与 self-improvement 工程原语]]，[[sources/anthropic-dreams-docs-2026]]，[[sources/claude-managed-agents-memory-2026]]，[[sources/claude-managed-agents-dreaming-outcomes-2026]]，[[sources/reflexion-2023]]，[[sources/seal-self-adapting-language-models-2025]]，[[sources/sia-self-improving-ai-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[concepts/DreamCycle]]，[[concepts/AnthropicDreaming]]，[[concepts/自我改进AI循环]]，`skills/autoresearch/references/program.md`
+- Key insight: Dream/self-improvement 的稳定工程链路是 trace → eval/outcome → dream/reflection → proposed diff → gate → apply。生产级先改 memory/context/tool/harness/eval；weight-level self-adaptation 是前沿层，必须加 hold-out eval、审计和人工门。
+- Address range: c-000209 至 c-000216
+
+## 2026-05-30 research | Agent harness 与 trace eval
+- Topic: 为什么 harness 是 agent 的运行时层，以及 trace/eval 如何把运行时接到可靠性层。
+- Synthesis: [[Research: Agent harness 与 trace eval]]
+- Pages created: [[concepts/AgentHarness与TraceEval]]，[[Research: Agent harness 与 trace eval]]，[[sources/openai-agents-sdk-tracing-2026]]，[[sources/openai-agents-sdk-running-2026]]，[[sources/openai-agent-evals-trace-grading-2026]]，[[sources/anthropic-managed-agents-2026]]，[[sources/anthropic-effective-harnesses-long-running-agents-2026]]，[[sources/harness-bench-2026]]，[[sources/ai-harness-engineering-2026]]，[[sources/harness-audit-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: Harness 不是脚手架，而是 agent runtime：runner loop、tools、state/session、workspace/sandbox、permissions、guardrails 和 trace。Trace 是第 5 层进入第 6 层 eval 的接口；eval 消费 trace、最终状态和成本，再反哺 context、tools、memory 和 model。
+- Address range: c-000199 至 c-000208
+
+## 2026-05-30 research | RAG 与 Memory 边界
+- Topic: 区分外部知识检索、长期主体连续性、短期上下文和可复用 skill。
+- Synthesis: [[Research: RAG 与 Memory 边界]]
+- Pages created: [[concepts/RAG与Memory边界]]，[[Research: RAG 与 Memory 边界]]，[[sources/anthropic-context-engineering-cookbook-2026]]，[[sources/openai-agent-memory-2026]]，[[sources/openai-retrieval-docs-2026]]，[[sources/google-vertex-rag-engine-2026]]，[[sources/himem-2026]]，[[sources/memir-typed-memory-2026]]
+- Pages updated: [[domains/AI知识体系]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: RAG 负责把外部知识按出处和检索质量送进上下文；Memory 负责跨任务维护 agent/用户/组织的连续性，并要处理写入、巩固、遗忘、冲突、权限和 stale 风险。
+- Address range: c-000191 至 c-000198
+
+## 2026-05-30 research | 微调 vs RAG vs 上下文工程
+- Topic: 什么时候改 prompt/context，什么时候加 RAG，什么时候微调或蒸馏。
+- Synthesis: [[Research: 微调 vs RAG vs 上下文工程]]
+- Pages created: [[concepts/微调RAG上下文工程选择框架]]，[[Research: 微调 vs RAG vs 上下文工程]]，[[sources/microsoft-customizing-llms-2026]]，[[sources/microsoft-fine-tuning-considerations-2026]]，[[sources/openai-model-optimization-2026]]，[[sources/openai-optimizing-llm-accuracy-2026]]，[[sources/openai-fine-tuning-techniques-2025]]，[[sources/google-cloud-rag-overview]]，[[sources/openai-fine-tuned-rag-qdrant-2023]]
+- Pages updated: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/_index]]，[[questions/_index]]，[[sources/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: 三者不是互斥选项；稳定顺序是 eval 基线 → 上下文工程 → RAG 补外部知识 → 微调/PEFT 稳行为 → 蒸馏降成本。RAG 和上下文工程主归属第 4 层，微调主归属第 2 层，三者都由第 6 层 eval 约束。
+- Address range: c-000182 至 c-000190
+
+## 2026-05-30 research | AI 知识体系总览
+- Objective: 建立稳定、分层、可串联的 AI 工程知识体系，作为后续单点 research loop 的总地图。
+- Synthesis: [[Research: AI知识体系总览]]
+- Pages created: [[domains/AI知识体系]]，[[learning/AI体系学习路线]]，[[concepts/AI系统生成链]]，[[Research: AI知识体系总览]]，[[sources/stanford-ai-index-2026]]，[[sources/attention-is-all-you-need-2017]]，[[sources/scaling-laws-neural-language-models-2020]]，[[sources/instructgpt-rlhf-2022]]，[[sources/rag-2020]]，[[sources/react-2022]]，[[sources/distilling-knowledge-neural-network-2015]]，[[sources/huggingface-peft-docs]]，[[sources/openai-model-distillation-2024]]，[[sources/openai-agents-sdk-evolution-2026]]
+- Pages updated: [[domains/_index]]，[[learning/_index]]，[[questions/_index]]，[[sources/_index]]，[[concepts/_index]]，[[index]]，[[hot]]，`skills/autoresearch/references/program.md`
+- Key insight: AI 知识体系按“基础理论 → 模型构建 → 推理能力 → 上下文知识 → Agent 系统 → 评估可靠性 → 产品组织 → 自我改进”组织；自我改进不是孤立层，而是反哺数据、上下文、工具、eval 和模型构建的反馈环。
+- Address range: c-000168 至 c-000181
 
 ## 2026-05-30 ingest | Gemini 联合负责人谈项目起源与未来
 - Source: `.raw/notebooklm/gemini-coleads-origins-2026-05-30.md`

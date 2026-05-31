@@ -4,6 +4,7 @@ name: Omni世界模型
 domain: ai-model
 address: c-000167
 created: 2026-05-30
+updated: 2026-05-30
 tags:
   - gemini
   - world-model
@@ -14,11 +15,17 @@ related:
   - "[[entities/Gemini]]"
   - "[[concepts/单模型统一策略]]"
   - "[[concepts/蒸馏传承]]"
+  - "[[concepts/多模态与世界模型边界]]"
+  - "[[concepts/MultimodalEvalSimulationEval边界]]"
 ---
 
 # Omni 世界模型
 
 Gemini Omni 是 Google DeepMind 将多模态理解与生成统一训练的新一代模型，被定位为"真正的世界模型"——从理解文本/图像/音频/视频跃迁到理解物理世界动态。
+
+通用边界见 [[concepts/多模态与世界模型边界]]：多模态强调输入/输出与融合，世界模型强调动态预测、行动后果、对象持久性和反事实轨迹。Omni 是 Gemini 语境中的世界模型路线，不应把所有多模态模型都直接称为世界模型。
+
+评估边界见 [[concepts/MultimodalEvalSimulationEval边界]]：世界模型 claim 需要通过物理一致性、对象持久性、action-conditioned rollout、controllability 和 embodied task success，而不只看生成视频是否逼真。
 
 ## 核心定义（Koray Kavukcuoglu）
 
@@ -59,6 +66,7 @@ Koray 观察到通过大规模训练和数据混合，以下能力开始**自然
 
 - [[concepts/单模型统一策略]] — 统一模型是 Omni 的组织前提
 - [[concepts/模型即产品]] — Omni 是模型即产品的最新范例
+- [[concepts/多模态与世界模型边界]] — 多模态 / 世界模型的稳定归类
 - [[entities/Gemini]] — Omni 是 Gemini 家族的多模态生成分支
 
 ## 来源

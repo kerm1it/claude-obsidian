@@ -3,7 +3,7 @@ type: concept
 address: c-000035
 title: "Skillify"
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-30
 tags:
   - agent-design
   - skill
@@ -12,11 +12,12 @@ status: active
 related:
   - "[[entities/GBrain]]"
   - "[[sources/gbrain-2026-05-11]]"
+  - "[[concepts/Skill与ToolMemory边界]]"
 ---
 
 # Skillify
 
-**来源**：[[entities/GBrain]] by [[people/GarryTan]]  
+**来源**：[[entities/GBrain]] by [[people/GarryTan]]
 **类型**：Agent Skill 固化模式
 
 ---
@@ -47,7 +48,10 @@ GBrain 共有 **34 个专用 Skill**，覆盖：
 
 本 vault 使用的 `skills/` 目录（`wiki-ingest`、`wiki-query` 等）与 GBrain 的 Skill 模式高度相似，均是 fat-markdown 驱动的 Agent 工作流编码。
 
+在 [[domains/AI知识体系]] 中，Skillify 是第 8 层 self-improvement 反哺第 4 层的典型路径：反复失败或一回成功经验先进入 memory / trace，再被整理成可测试、可路由、可版本化的 skill。
+
 ## 关联
 
 - [[entities/GBrain]] — Skillify 的实现系统
 - [[concepts/CompiledTruth时间线模式]] — Skill 摄入结果存储的结构
+- [[concepts/Skill与ToolMemory边界]] — skill / tool / memory / workflow 稳定边界

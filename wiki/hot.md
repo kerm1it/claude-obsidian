@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - meta
   - hot-cache
@@ -11,381 +11,310 @@ related:
   - "[[index]]"
   - "[[log]]"
   - "[[overview]]"
+  - "[[domains/AI知识体系]]"
+  - "[[concepts/微调RAG上下文工程选择框架]]"
+  - "[[concepts/RAG与Memory边界]]"
+  - "[[concepts/AgentHarness与TraceEval]]"
+  - "[[concepts/Dream与SelfImprovement工程原语]]"
+  - "[[concepts/Skill与ToolMemory边界]]"
+  - "[[concepts/TestTimeCompute]]"
+  - "[[concepts/多模态与世界模型边界]]"
+  - "[[concepts/Serving成本延迟边界]]"
+  - "[[concepts/SkillLibraryRouting生命周期]]"
+  - "[[concepts/ReasoningEvalVerifier边界]]"
+  - "[[concepts/MultimodalEvalSimulationEval边界]]"
+  - "[[concepts/ProductOrganizationLayer边界]]"
+  - "[[concepts/ModelRoutingMixture边界]]"
+  - "[[concepts/RewardHackingEvalOverfitting边界]]"
+  - "[[concepts/DataFlywheelFeedbackLoop边界]]"
+  - "[[concepts/DataRightsPrivacyConsent边界]]"
+  - "[[concepts/ToolRiskPermissioning边界]]"
+  - "[[concepts/AISafetyOpsGovernance边界]]"
+  - "[[concepts/DataQualityLabelQuality边界]]"
+  - "[[concepts/MultiProviderGovernance边界]]"
+  - "[[concepts/AgentIdentityDelegation边界]]"
+  - "[[concepts/AIIncidentResponsePostmortem边界]]"
+  - "[[concepts/SyntheticDataGovernance边界]]"
+  - "[[concepts/DatasetLineageProvenanceGraph边界]]"
+  - "[[concepts/DataDeletionUnlearningImpact边界]]"
+  - "[[concepts/HumanFeedbackAnnotationOps边界]]"
+  - "[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]"
+  - "[[concepts/ModelReleaseRollbackGate边界]]"
+  - "[[concepts/LLMJudgeAIFeedbackCalibration边界]]"
+  - "[[concepts/EvalResultInterpretationDecisionThreshold边界]]"
+  - "[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]"
+  - "[[concepts/OfflineOnlineEvalCorrelation边界]]"
+  - "[[concepts/SafetyCaseAssuranceCase边界]]"
+  - "[[concepts/PostReleaseEvalDrift边界]]"
+  - "[[concepts/EvalPortfolioMetricHierarchy边界]]"
+  - "[[concepts/MetricConflictResolution边界]]"
+  - "[[concepts/EvidenceFreshnessStaleProof边界]]"
+  - "[[concepts/EvidenceAttestationSignedEvalArtifact边界]]"
+  - "[[concepts/VerifierPolicyTrustRootRotation边界]]"
+  - "[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]"
+  - "[[concepts/OverrideDebtExceptionAnalyticsDashboard边界]]"
+  - "[[concepts/CrossVerifierPolicyDriftConformanceTest边界]]"
+  - "[[concepts/EvidenceMinimizationPrivacyPreservingAuditPacket边界]]"
+  - "[[concepts/ReleaseGateDebtBypassDetection边界]]"
+  - "[[concepts/DashboardCalibrationGovernanceMetricQuality边界]]"
+  - "[[concepts/SelfImprovementGateChangeRiskBudget边界]]"
+  - "[[concepts/MemorySkillGovernanceDrift边界]]"
+  - "[[concepts/ProductFeedbackClosureActionability边界]]"
+  - "[[concepts/MonitorOwnershipEscalationLadder边界]]"
+  - "[[concepts/MonitorTabletopRunbookDrill边界]]"
+  - "[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]"
+  - "[[concepts/ProductionContractCompatibilityTest边界]]"
+  - "[[concepts/JudgeDriftGraderObservability边界]]"
+  - "[[concepts/IntolerableRiskThresholdStopRule边界]]"
+  - "[[Review: AI知识体系稳定 v1 结构验收]]"
+  - "[[learning/AI体系学习路线]]"
+  - "[[learning/AI学习计划-2026]]"
 ---
 
 # 最近上下文
 
 ## 最近更新
 
-2026-05-30。摄入 YouTube 视频：Gemini 联合负责人谈项目起源与未来（Google for Developers，42 分钟）。
-
-**[[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来]]**：
-- **[[concepts/单模型统一策略]]**：Jeff Dean 半页备忘录推动 Brain+DeepMind 合并 → Gemini 诞生。碎片化是最大敌人，统一是力量乘数。
-- **[[concepts/蒸馏传承]]**：每代 Flash 打包上代 Pro 智能，模式甚至在加速。技术本质与 Hinton 原始论文一致——一个好 teacher + 一个好 student。
-- **[[concepts/Omni世界模型]]**：Gemini Omni 从多模态理解跃迁到物理世界模拟——理解动态、模拟前滚、基于未来模拟做决策。
-- **IO 2027 预测**（Koray）：模型自我学习——模型和 agent 将用于改进 Gemini 自身。
-- **"一个盒子"哲学**：Google 早期搜索愿景（一个搜索框做所有事）在 AI 层面通过 Gemini 实现——"终于为前端建好了后端。"
-- **5 位新人物**：[[Jeff Dean]]（Google 首席科学家）、[[Koray Kavukcuoglu]]（CTO）、[[Noam Shazeer]]（Transformer 作者）、[[Oriol Vinyals]]（Agent 方向）、[[Logan Kilpatrick]]（"模型即产品"）。
-- **收敛**：[[concepts/单模型统一策略]] ↔ [[concepts/封闭循环公司]]（YC）↔ [[concepts/代码仓库即记录系统]]（OpenAI）：AI 时代碎片化是最大敌人，统一是力量乘数。
-- **蒸馏传承 ↔ 已有框架**：蒸馏作为 Flash 产品策略 ↔ [[concepts/软件即临时物]]（数据永久/软件临时）↔ [[concepts/模型即产品]]（用户反馈驱动闭环）。
-
-**DragonScale 计数器**：168（c-000157 至 c-000167 已分配）
-
----
-
-2026-05-27。新建 AI 学习计划。
-
-**[[learning/AI学习计划-2026]]**：
-- 6 个 GitHub/网页资源 + 2 条视频内容线（微信视频号 + Karpathy YouTube）
-- 三条主线：AI Agent 课程（微软/Datawhale/agentic-patterns）/ Claude Code 专项（London + shareAI-lab）/ AI 工程（from scratch）
-- 建议学习顺序：Datawhale Hello Agents → ai-agents-for-beginners → design-patterns → Claude Code 专项 → 持续视频 → ai-engineering
-- 全部资源状态：🔲 待开始
-
----
-
-2026-05-26。摄入 Anthropic Engineering Blog：Effective Context Engineering for AI Agents。
-
-**[[concepts/上下文工程]]**（Anthropic Engineering）：
-- **核心定义**：管理 Agent 推理期间**全部 token 信息**的技术体系；提示工程的超集（系统提示 + 工具 + 外部数据 + 消息历史）
-- **高信号 token 原则**："找到使期望结果概率最大化的最小高信号 token 集合"——上下文是有限稀缺资源
-- **系统提示"恰当海拔"**：太具体 = 脆弱；太抽象 = 失导；恰当 = 具体约束 + 灵活余地
-- **工具设计三要素**：自包含 / 容错 / 意图明确；工具集臃肿或重叠会制造 Agent 选择歧义
-- **[[concepts/上下文腐化]]**：Transformer n² 注意力复杂度 → 上下文越长性能越低；扩大窗口不能解决，需主动管理 token 质量
-- **四大长任务策略**：Compaction（历史压缩重启）/ 结构化笔记（外化到上下文窗口外）/ 子 Agent（专化 + 干净上下文）/ JIT 检索（轻量标识符 + 按需动态加载）
-- **JIT 检索 ↔ [[concepts/渐进式上下文注入]]**：Anthropic 的 JIT 与 claude-mem 三层结构独立收敛于同一原语（索引→按需拉取）；Anthropic 侧重 Agent 工具调用模式，claude-mem 侧重 3-layer API
-- **实践建议**：从最小 prompt 开始 → 按失败模式迭代 → 持续视上下文为稀缺资源
-
-**DragonScale 计数器**：157（c-000154 至 c-000156 已分配）
-
----
-
-2026-05-26。摄入 Anthropic Engineering Blog：Demystifying Evals for AI Agents。
-
-**[[concepts/Agent评估体系]]**（Anthropic Engineering）：
-- **三类评分**：代码评分（快/客观/脆弱）→ 模型评分（灵活/非确定/需校准）→ 人工评分（黄金标准/贵/慢）；优先用确定性评分
-- **四类 agent 策略**：编码（单元测试通过/失败）/ 对话（终态验证 + rubric + LLM 模拟用户）/ 研究（接地性+覆盖率+来源质量）/ 计算机操作（沙盒状态检查）
-- **[[concepts/非确定性评测指标]]**：pass@k（k 次至少一次成功，能力上界）vs pass^k（k 次全部成功，可靠性下界）；面向客户 agent 用 pass^k
-- **[[concepts/Eval驱动开发]]**：先建 eval 定义成功标准，再迭代 agent；与软件工厂同方向（spec+test 驱动）
-- **瑞士奶酪模型**：自动化 eval + 生产监控 + A/B 测试 + 人工审查，多层组合
-- **设计陷阱实案**：Opus 4.5 在 CORE-Bench 初始 42% 因严格格式匹配；任务需无歧义，评分路径不评步骤
-- **收敛**：Eval 驱动开发 ↔ [[concepts/软件工厂]]（TDD 演进）；质量门 ↔ [[concepts/自我改进AI循环]] 第四层；eval 套件 ↔ [[concepts/模型即产品]]（Alex Albert 的 Research PM 工作）
-
-**DragonScale 计数器**：157（c-000150 至 c-000156 已分配）
-
----
-
-2026-05-22。摄入两个 YC 视频：Diana + YC Root Access，AI 原生公司构建系列。
-
-**YC Root Access — How to Build a Self-Improving Company with AI**（配套 Diana 演讲）：
-- **[[concepts/自我改进AI循环]]**：公司 = 递归自我改进 AI 循环集合；五层架构：感知层（客户邮件/遥测）→ 策略层（规则）→ 工具层（确定性 API）→ 质量门（验证/人工审核）→ 学习机制（发现失败→改进→部署）→ 循环
-- **YC 内部案例**：监控 Agent 观察所有员工查询 → 发现失败 → 隔夜写代码 → agent review → 合并 → 部署；第二天同样查询成功 → 系统在睡觉时自我改进
-- **Haj 用户手册再生**：2,000 小时 office hours 录音 → 一个周末生成 150 页 YC 用户手册（比原版好得多）→ 每月自动更新；16 位 YC 合伙人的综合智慧接入 Agent
-- **[[concepts/软件即临时物]]**：数据/上下文/skills 永久保存；软件一次性可丢弃 → 模型更强时重新生成
-- **[[concepts/公司大脑]]**：中心 = 数据+emails+DMs+skills+knowhow；人类在边缘与现实接触（高风险/高情绪/新颖情境/销售）
-- **Token 最大化补充**：YC 实证数据 — Demo Day 公司收入/人效 18 个月内提升 5x
-- **四方收敛**：YC 自我改进循环 ↔ [[concepts/AnthropicDreaming]] ↔ [[concepts/DreamCycle]]（GBrain）↔ [[concepts/智能体GC]]（OpenAI）→ 异步离线自我改进是 AI 系统通用原语
-
-**DragonScale 计数器**：149（c-000146 至 c-000149 已分配）
-
----
-
-2026-05-22。摄入 YC YouTube：Diana，"How To Build A Company With AI From The Ground Up"（~10 分钟）。
-
-**Diana（YC 合伙人）**：
-- **[[concepts/封闭循环公司]]**：开环（旧）→ 闭环（AI 时代）；工程管理示例：Agent 接入 Linear+Slack+GitHub+客户反馈+站会录音 → 自动分析 sprint + 提出下一 sprint；sprint 时间减半、产出 ~10x
-- **[[concepts/可查询组织]]**：整个公司对 AI 透明可查；AI notetaker 录会议、减少 DM、全公司仪表盘；给模型和给员工同样充分的上下文
-- **[[concepts/软件工厂]]**：人写 spec + 测试 → AI 生成代码迭代 → 通过；Strong DM 案例：仓库零手写代码，只有 specs 和 test harnesses
-- **[[concepts/Token最大化]]**：Token 用量替代人头数；1 人 + AI = 原来大型团队；主动承受高 API 账单
-- **[[concepts/三种员工原型]]**（Jack Dorsey 提出）：IC（构建者，开会带原型）/ DRRI（一人一结果，无模糊）/ AI Founder（亲身前线，不外包 AI 战略）
-- **多点收敛**：[[concepts/封闭循环公司]] ↔ [[concepts/智能体GC]]（GBrain）、[[concepts/可查询组织]] ↔ [[concepts/代码仓库即记录系统]]（Ryan Lopopolo）、[[concepts/软件工厂]] ↔ [[concepts/Loop机制]]（Boris Cherny）、[[concepts/三种员工原型]] ↔ [[concepts/创始人编排者角色]]（Anthropic Playbook）
-- **初创公司优势**：无遗留系统，从第一天围绕 AI 设计 → 比既有玩家快 1000 倍
-
-**DragonScale 计数器**：145（c-000139 至 c-000145 已分配）
-
----
-
-2026-05-21。摄入 YouTube 访谈：Peter Yang × Alex Albert，"Inside How Anthropic Is Building the Next Claude"（~50 分钟）。
-
-**Alex Albert**（Anthropic Research PM，第一位 prompt engineer）：
-- **[[concepts/模型即产品]]**：每个 Claude 模型都有完整规格文档（能力目标 + 修复上代 + Eval）；Research PM 从立项跟到发布；能力方向：coding / knowledge work / Claude for Excel
-- **[[concepts/单向门决策框架]]**：规划聚焦不可逆决策；代码双向门已近乎免费；架构选择 / 用户体验影响 = 真正的单向门；Churchill："Planning is indispensable, but the plan itself is useless."
-- **[[concepts/Claude角色训练]]**：Claude 的信仰/价值观/行为是核心训练目标；Agent 长时间独立运行 → Character 是信任基础；Eval = 定量指标 + Claude 自评 + 大量 transcript 直觉
-- **[[concepts/Claude意识研究]]**：Anthropic 已有专职人员研究意识问题；官方无是/否定论；实用价值：研究 Claude 思考方式 → 改善产品体验
-- **[[concepts/AnthropicDreaming]]补充**：Claude.ai 记忆文件隔夜自动剪枝；Managed Agents 也实现 Dreaming；Agent 空闲时扫描记忆找矛盾、清理冗余
-- **[[concepts/AdaptiveThinking]]补充**：思考决策依赖用户上下文——无记忆时快速回答；有心智模型才认真推理
-- **Anthropic 文化**：强写作文化（沉默阅读会议）、原型文化（千花齐放）、内部已默认"先问 Claude"、Claude Cowork 是 Alex 首选工具
-- **并行 Agent 管理**：未来机会——如何管理多个并行 Agent 的上下文切换？Anthropic 内部大量实验，尚无标准答案
-- **收敛**：[[concepts/单向门决策框架]] 与 [[concepts/瓶颈转移论]]（Fiona）、[[concepts/AmdahlsLawInAI]]（Dario）三方独立指向：AI 时代真正稀缺是决策质量和协调能力
-
-**DragonScale 计数器**：138（c-000132 至 c-000138 已分配）
-
----
-
-2026-05-20。摄入 karpathy/autoresearch GitHub 仓库（82.2K ⭐）。
-
-**autoresearch（Andrej Karpathy）**（82.2K ⭐，Python+Jupyter，MIT）：
-- **核心主张**：AI agent 过夜自主跑 ML 实验——改 `train.py` → 5 分钟固定时间窗训练 → 读 val_bpb → 决策下一步，循环约 100 次
-- **三文件架构**：`prepare.py`（人类写，只读）/ `train.py`（agent 编辑：GPT 模型 + Muon/AdamW 优化器）/ `program.md`（人类写指令，"超轻量 skill"）
-- **[[concepts/固定时间窗实验]]**：5 分钟 wall clock，约 12 次/小时；val_bpb（bits-per-byte）与词表大小无关，跨架构可比
-- **[[concepts/程序驱动研究]]**：研究员不写 Python，写 `program.md`；与 Agent Skills skill 文件（包括本 vault 的 skills/）在结构上完全同构
-- **[[concepts/自主ML研究循环]]**：闭环：指令 → 代码修改 → 训练 → 评估 → 迭代；是 [[concepts/Loop机制]] 在 ML 研究场景的具体实例
-- **[[people/AndrejKarpathy]]**：前 OpenAI/特斯拉，nanoGPT / micrograd / llm.c 系列；本 vault 灵感来源（LLM Wiki pattern）
-- **设计哲学**："One GPU, one file, one metric." 极简，无分布式，单 H100
-- 社区 fork 已支持 MacOS / Windows / AMD
-
----
-
-2026-05-19。摄入 RuView GitHub README（ruvnet/RuView，59,973 ⭐）。
-
-**RuView（WiFi DensePose）**（ruvnet/RuView，Rust，MIT）：
-- **核心主张**：普通 WiFi + $9 ESP32-S3 → 穿墙存在检测 + 呼吸/心率监测 + 17 关键点姿态估计，全程无摄像头
-- **[[concepts/CSI感知]]**：56 子载波 CSI（幅度+相位）是比 RSSI 高得多的信号；0.1-0.5 Hz 提取呼吸，0.8-2.0 Hz 提取心率
-- **[[concepts/WiFiDensePose]]**：WiFlow 架构（Transformer + GNN），双头输出姿态 + 128 维环境指纹；无摄像头 PCK@20 ≈ 2.5%（代理标签），摄像头监督版目标 35%+（ADR-079 待完成）
-- **[[concepts/WASM边缘模块]]**：65 个 no_std Rust 模块编译为 WASM32，通过 WASM3 在 ESP32 上运行；覆盖医疗/安防/零售/工业/实验 13 类场景，1,463 测试通过
-- **[[concepts/自监督WiFi学习]]**：对比学习无需标签，~55KB 模型在 ESP32 上运行；MicroLoRA 适配器（1,792 参数/房间），30 秒适应新环境；84 秒无摄像头训练（M4 Pro）
-- **[[entities/CognitumSeed]]**：$140 硬件伴侣，持久向量存储（RVF）+ kNN 搜索 + Ed25519 见证链 + MCP 代理
-- **[[entities/RuVector]]**：AI 骨干库，Transformer+GNN 信号处理；crates.io `wifi-densepose-ruvector`
-- **Claude Code 插件**：`plugins/ruview/`，9 skills，7 条 `/ruview-*` 命令，3 个 Agent；含 Codex 镜像
-- **创作者**：[[people/ruvnet]]（@rUv），GitHub 开源项目系列
-
----
-
-2026-05-17。摄入 Scientific Agent Skills GitHub README。135 个科学研究 Agent Skills，23,247 ⭐，K-Dense AI 出品。
-
-**Scientific Agent Skills**（K-Dense-AI/scientific-agent-skills）：
-- **规模**：135 skills，100+ 科学数据库，70+ 优化 Python 包，17 科学领域分类
-- **标准**：遵循开放 [[concepts/AgentSkillsStandard|Agent Skills 标准]]（agentskills.io），兼容 Claude Code / Cursor / Codex / Gemini CLI
-- **亮点 skills**：BGPT Paper Search（25+ 结构化字段，来自全文）、Open Notebook（NotebookLM 替代品）、GeoMaster（500+ 遥感示例）、Hugging Science（17 科学领域 HF 目录）、What-If Oracle / Consciousness Council / DHDNA Profiler
-- **伴侣产品**：K-Dense BYOK（免费开源桌面，40+ 模型，自带密钥）、K-Dense Web（云端，200+ skills，零配置）
-- **安全**：每周 Cisco AI Defense 扫描；各 skill 有独立 license
-
----
-
-2026-05-16。摄入 OpenHuman GitHub README。开源桌面 AI 助理，10,137 ⭐，Rust + Tauri，GPL-3.0，Early Beta。
-
-**OpenHuman**（tinyhumansai/openhuman）：
-- **核心主张**：让 agent 在几分钟内了解你，而不是几周。灵感：Karpathy obsidian-wiki workflow
-- **[[concepts/MemoryTree]]**：连接数据 → ≤3k-token MD 块 → 层级摘要树 → SQLite + Obsidian vault（本机加密）
-- **[[concepts/记忆自动拉取]]（Auto-fetch）**：每 20 分钟遍历 118+ OAuth 连接，被动积累上下文，无需用户触发
-- **[[concepts/TokenJuice]]**：Token 预处理压缩层，HTML→MD、URL 缩短、非 ASCII 移除，成本/延迟最多 -80%
-- **桌面 Mascot**：有脸的 AI，ElevenLabs TTS，可加入 Google Meet 作为真实参与者
-- **[[entities/AgentMemory]] 后端**：可选接入，`memory.backend = "agentmemory"`，与 Claude Code/Cursor/Codex 共享记忆
-- **竞品定位**：Claude Cowork（运营平台）、OpenClaw（工具链）、Hermes Agent（自学习），OpenHuman 主打本地记忆 + 自动同步
-- **创作者**：[[people/Senamakel]]（@senamakel），[[entities/TinyHumansAI]] 出品
-
----
-
-2026-05-16。完成摄入 Anthropic《The Founder's Playbook》（35 页 PDF），建立 AI 原生创业完整知识框架。
-
-**The Founder's Playbook**（Anthropic，2026-05-06）：
-- **四阶段框架**：[[concepts/AI原生创业生命周期]]（Idea→MVP→Launch→Scale），AI 把季度压缩成周
-- **Claude Cowork**：[[entities/ClaudeCowork]] — Anthropic 新产品，AI 智能体团队，运营自动化层（补充 Claude + Claude Code）
-- **[[concepts/智能体技术债]]**：AI 生成速度掩盖代码质量问题；CLAUDE.md 是核心防线；每 PR 补测试
-- **[[concepts/创始人编排者角色]]**：从构建者→编排者；把领域知识编码化为 AI 可执行上下文；保留清单（产品叙事/董事会/大客户）
-- **[[concepts/数据飞轮复利]]**：行为信号→产品改进循环，时间锁定不可复制，"测试套件即护城河地图"
-- **[[concepts/工作流锁定]]**：深度集成让切换从产品决策变为运营项目；API/Webhook/SDK 让客户在产品上构建
-- **核心结论**："The bottlenecks are no longer what you can build, but what you choose to build."
-- **Scale 退出条件**：可持续盈利 OR IPO 就绪 OR 被收购（+系统性增长+可审计性+运营成熟度）
-
----
-
-2026-05-15。摄入了 Matt Pocock 在 AI Engineer 会议的演讲，并建立了跨来源 Skills 分类体系。
-
-**Software Fundamentals Matter More Than Ever**（Matt Pocock，AI Engineer 会议，18:26）：
-
-- **核心论点**："代码不便宜。坏代码是有史以来最贵的。" AI 在好代码库里表现优秀 → 软件基本功比以前更重要
-- **[[concepts/设计概念]]**：Frederick P. Brooks——设计者之间的"不可见共同理论"；你与 AI 缺乏设计概念是对齐失败的根本原因；比 Claude Code Plan Mode 更好的方式是先建立设计概念
-- **[[concepts/深模块架构]]**：Ousterhout——AI 天然产生浅模块代码库（难以导航和测试）；深模块（简单接口+隐藏复杂度）让 AI=战术、你=战略的分工成为可能
-- **Specs-to-code 批判**：GSD/BMAD/Spec-Kit 每次迭代代码变更差——本质是"另一个名字的 vibe coding"；不投资设计 = 软件熵加速
-- **跨来源收敛**：设计概念（Brooks）+ 瓶颈转移论（Fiona/Dario）+ Amdahl 定律在 AI 中的应用，三者独立指向：AI 时代对齐/理解是真正稀缺资源
-- **参考书目**：Ousterhout / Pragmatic Programmer / Frederick P. Brooks / DDD / Kent Beck——Matt 的 skills 每一个都有经典出处
-
----
-
-2026-05-15。建立了跨来源 Skills 分类体系，并完整摄入 mattpocock/skills 所有 skill 内容。
-
-**Skills 体系**（[[skills/_index]]）：
-- 7 个分类：对齐与规划 / 代码质量与架构 / 知识管理 / 内容与可视化 / Agent 通信 / 项目设置 / 元工具
-- 来源：[[skills/mattpocock-collection]]（18 skills + 4 deprecated）、[[skills/claude-obsidian-collection]]（11 skills）
-- 关键发现：Matt 也用 Obsidian（personal/obsidian-vault skill，扁平结构）；deprecated `ubiquitous-language` 比现在的 CONTEXT.md 更形式化，包含**示例对话**（领域专家对话格式）
-- 跨来源收敛：对齐问题 / 上下文显式化 / 异步维护——三个独立角度指向同一结论
-- 体系可扩展：下次摄入新 skill 来源，直接加到 `skills/_index.md` 对应分类
-
----
-
-2026-05-15。消化了一条素材：
-
-**mattpocock/skills**（GitHub，⭐ 82,759）：Matt Pocock（Total TypeScript）的 Claude Code skills 合集，定位"反 vibe coding"，为真正的工程师设计。
-
-- **[[people/MattPocock]]**：TypeScript 教育者，AI Hero newsletter ~60K 订阅
-- **AI 辅助开发四大失败模式框架**：①对齐失败 → [[concepts/Grilling模式]]；②术语鸿沟 → [[concepts/共享领域语言]]；③缺反馈 → TDD；④软件熵 → 架构意识
-- **[[concepts/共享领域语言]]**（CONTEXT.md）：为 agent 建立项目统一术语；Before/After 示例令人信服；命名一致 + Token 效率；由 `/grill-with-docs` 构建
-- **[[concepts/Grilling模式]]**：任务前"审讯"会话，穷举决策分支；每次变更必用；与 JIT 规划、瓶颈转移论收敛于同一认知——AI 时代瓶颈在对齐，不在代码生成
-- **收敛**：Grilling + CONTEXT.md + 代码仓库即记录系统，三者共同指向"agent 需要显式上下文才能做好工作"
-
----
-
-2026-05-14。消化了两条素材：
-
-**VibeVoice**（microsoft/VibeVoice，GitHub，⭐ 47,087）：Microsoft Research 开源语音 AI 模型族。
-
-- **[[entities/VibeVoice]]**：三款模型——ASR-7B（60分钟）、TTS-1.5B（90分钟，代码已下架）、Realtime-0.5B（~300ms）
-- **[[concepts/下一令牌扩散]]**：LLM（Qwen2.5）理解上下文 + 扩散头生成声学细节；arxiv.org/abs/2412.08635
-- **[[concepts/长音频单遍处理]]**：7.5 Hz 超低帧率令牌化 → 64K context → 60 分钟单遍；Who+When+What 联合输出
-- **值得关注**：ASR 已集成 HuggingFace Transformers，可替代 NotebookLM 做有说话人分离的长会议转录
-- **伦理警示**：TTS 代码因 deepfake 滥用主动下架——高质量语音合成的开源风险典型案例
-
----
-
-**agentmemory**（rohitg00/agentmemory，GitHub，⭐ 7,121）：自称 "#1 Persistent memory for AI coding agents"，基于 iii engine，与 LLM Wiki pattern 同源。
-
-- **[[entities/AgentMemory]]**：`npx @agentmemory/agentmemory`；TypeScript；Apache 2.0；0 外部 DB
-- **性能**：R@5 95.2%（LongMemEval-S），92% token 节省，51 MCP tools，12 hooks，827 tests
-- **[[concepts/四层记忆整合]]**：Working → Episodic → Semantic → Procedural，Ebbinghaus 衰减 + 矛盾检测 + 自动驱逐
-- **三流检索**：BM25 + Vector + Graph，RRF 融合——与 [[concepts/混合检索RRF]]（GBrain）独立收敛
-- **与 claude-mem 对比**：agentmemory 更工程化（4 层架构、知识图谱、团队记忆），claude-mem 更轻量（75K ⭐，1 条命令）
-- **三方独立收敛**：agentmemory 4 层整合 ≈ GBrain Dream Cycle ≈ Anthropic Dreaming——异步离线记忆巩固是 Agent 系统通用原语
-- **与 Karpathy 关系**：作者的设计文档（Gist，⭐ 1200）显式扩展了 Karpathy LLM Wiki pattern，agentmemory 是实现
-- **更新**：GBrain、ClaudeMem wiki 页面已补充与 agentmemory 的对比
-
----
-
-2026-05-13。消化了一条素材：
-
-**claude-mem**（thedotmack/claude-mem，GitHub，⭐ 75,423）：目前最流行的 Claude Code 跨会话记忆插件。
-
-- **[[entities/ClaudeMem]]**：一条命令安装（`npx claude-mem install`）；TypeScript；Apache 2.0
-- **架构**：5 种生命周期钩子 + SQLite（observations）+ Chroma（向量）+ Worker（port 37777）
-- **[[concepts/渐进式上下文注入]]**：3 层 MCP 工作流（search → timeline → get_observations），节省约 10x tokens
-- **与 GBrain 对比**：claude-mem 更轻量（实时捕获会话），GBrain 更完整（Compiled Truth + Dream Cycle）
-- **与 AgentMemoryAPI 对比**：本地插件 vs 云端 API，互补
-- **OpenClaw 集成**：一条 curl 命令接入 OpenClaw Gateway
-- **Endless Mode（Beta）**：仿生记忆架构，超长会话专用
-- **更新**：GBrain 和 AgentMemoryAPI wiki 页面已补充与 claude-mem 的对比
-
----
-
-2026-05-12。消化了三条素材：
-
-**Andrew Wilkinson — AI Agents Run My Business and Life**（Greg Isenberg，YouTube，录制于 2026-04-29）：Tiny 创始人分享 AI Agent 完整运营业务实践。
-
-- **[[concepts/自主商业运营]]**：Deep Personality（SaaS）完全由 Agent 运营（Support/Dev/Marketing），营收 $2 万；Harbor 是工具
-- **Family Office 替换 Addepar**：CFO 零代码背景，两周替换 $5-10 万/年 SaaS；月 Claude 账单 $4 万
-- **个人 AI 栈**：OpenClaw Agent（邮件→Telegram 多选题）+ GBrain（会议/邮件/生活录音）+ Hearsay（全天录音）+ 个性化播客（Gemini Voice）+ 健康 Agent（Apple Watch + 8 专家子 Agent）
-- **[[concepts/软件护城河侵蚀]]**："软件现在是个更差的生意"；殡仪馆类比；投 TSMC/数据中心
-- **与 Boris Cherny 收敛**：两人独立得出"纯功能性 SaaS 护城河瓦解"
-- **提示技巧**：让 Claude 采访你来构建 prompt；总是用 8 个子 Agent 团队
-- **新人物**：[[people/AndrewWilkinson]]；新实体：[[entities/Tiny]]
-- **GBrain/OpenClaw 更新**：Andrew 是 Garry Tan 朋友，实际生产用户，补充了两个 wiki 页面
-
----
-
-**Boris Cherny — Why Coding Is Solved, and What Comes Next**（Sequoia Capital，YouTube）：Claude Code 创始人的访谈。
-
-- **[[concepts/ProductOverhang]]**：Claude Code 诞生逻辑——模型能力已存在，产品尚未捕捉；提前建造等待模型赶上；头六个月不好用是预期中的
-- **指数增长始于 Opus 4**（2026 年 5 月），此后每个模型版本都有新拐点
-- **个人工作流**：从手机工作；5-10 session，几百 Agent 并行，每晚几千 Agent 深度工作
-- **[[concepts/Loop机制]]**：`/loop` = cron 调度重复任务（PR 保姆、CI 健康、Twitter 反馈聚类）；Routines 是服务端版本；Boris 称"Loop 是最重要功能"；4.7 会主动提议启动 Loop
-- **SaaS 护城河**：削弱——切换成本、流程力量；保留——网络效应、规模经济、稀缺资源；创业最佳时机
-- **[[concepts/软件民主化]]**：印刷机类比；领域专家 > 通用工程师；所有人都会编程但专业工程师仍存在
-- **Anthropic 内部**：零手写代码，SQL 也由模型生成；Claude 实例通过 Slack 互相通信；领先之处是组织流程，不是模型
-- **新人物**：[[people/BorisCherny]]；新实体：[[entities/SequoiaCapital]]
-
----
-
-**Lucas — The Expanding Toolkit**（Anthropic，YouTube，Code with Claude 2026-05-06）：模型能力扩展工具箱框架。
-
-- **核心论点**：去年要自己搭的脚手架今天已随模型出货 → [[concepts/ExpandingToolkit]]
-- **Tool Use**：模型自主选工具 + 自动重试；路由器/预过滤通常反而更差。Tip：在工具 description 里声明**输出 schema** → 省一次 harness 往返
-- **Context Management**：1M context + server-side compaction + context editing；Tip：每 N 轮清除 stale tool results
-- **Code Execution**：服务端托管沙箱，整个 write-run-fix 在**单个 API turn** 完成 → [[concepts/CodeExecution]]；Claude Code `/schedule` 可定时触发自主循环
-- **Computer Use**：Opus 4.7 原生 1440p 坐标，缩放数学消失 → [[concepts/NativeResolutionComputerUse]]；OSWorld 78%；Claude in Chrome（`claude.ai/chrome`）可操控真实浏览器
-- **指导原则**：补偿模型不可靠性的代码 → 交给 Anthropic（半衰期几个月）；连接模型与你的世界的代码 → 专注投入（持续增值）
-- **新人物**：[[people/Lucas]]
-
----
-
-2026-05-11。消化了五条素材：
-
-1. **Matt Bleifer — The Thinking Lever**（Anthropic，YouTube）：Test-time compute 设计哲学。三类 token（thinking/tool/text）；Adaptive Thinking 自 Opus 4.6 为默认；Effort 优于思考开关；extra high 是 coding 最佳默认；低 effort ≠ 低智能（Pokémon 速通实验）；Task Budgets 新功能。
-
-2. **Ryan Lopopolo — 工程技术：在智能体优先的世界中利用 Codex**（OpenAI，2026-02-11）：3 名工程师，5 个月，100 万行代码，零人工编码，效率 10×。AGENTS.md 是目录；仓库即记录系统；黄金原则 + 后台 GC 对抗代码熵；智能体 GC ≈ GBrain DreamCycle ≈ Anthropic Dreaming，三者独立收敛。
-
-2. **GBrain**（garrytan/gbrain，14.6K ⭐）：Garry Tan（YC 总裁）开源的 AI Agent 记忆管理系统，核心创新是 Compiled Truth+Timeline 双区结构 + 混合检索 RRF（P@5 +31.4 pts vs baseline）+ Skillify（fat-markdown skill）+ Dream Cycle（夜间自动维护）。与本 vault 的 skills/ 高度同构。
-
-2. **Fiona Fung — Running an AI-native engineering org**（Code with Claude 2026-05-06，YouTube ~30 分钟）：Claude Code 工程负责人 Fiona Fung 分享 AI 原生工程组织的五大主题。
-
-3. **Mahesh — Memory and Dreaming for Self-Learning Agents**（Anthropic 官方，2026-05-11）：Anthropic 平台 PM 发布 Memory API（公测）和 Dreaming（研究预览），Agent 记忆体系进入正式产品化阶段。
-
----
-
-2026-05-10。消化了三条素材：
-
-1. **@trq212 X Article**：Claude Code 团队 Thariq 主张用 HTML 替代 Markdown 作为 AI 输出格式
-2. **AI Agent 实践分享会**（2026-05-05 录像，NotebookLM 转录）：5 位嘉宾分享内部 AI Agent 工作流
-3. **Dario & Daniela Amodei 对谈**（Code with Claude 开发者大会，2026-05-06，YouTube 33分10秒）
-
-## 关键事实
-
-### 来自 Mahesh — Anthropic Memory + Dreaming（最新，2026-05-11 摄入）
-
-- **[[concepts/AgentMemoryAPI]]**：文件系统式记忆（Claude 自主用 Bash/Grep 管理），Claude Opus 4.7 SOTA
-- **[[concepts/AnthropicDreaming]]**：离线批处理，跨多 Agent transcript，提取共同错误/成功策略，生成 memory diff；Harvey 任务完成率 ↑ 6×；Rockutin 首次犯错率 ↓ 90%
-- **关键收敛**：[[concepts/DreamCycle]]（GBrain）与 Dreaming（Anthropic）独立实现同一模式 → 异步记忆维护是 Agent 系统的通用过程层原语
-- **[[concepts/乐观并发]]**：content hash 校验，多 Agent 并发写保护
-- **[[people/Mahesh]]**：新增人物页
-
-### 来自 Fiona Fung（2026-05-11 摄入）
-
-- **瓶颈已转移**：编码吞吐量不再稀缺 → 验证/安全/跨职能协作成为新瓶颈 → [[concepts/瓶颈转移论]]
-- **JIT 规划**：六个月路线图三个月就过时；改为即时规划，idea → prototype → PR → [[concepts/JIT规划]]
-- **技术争论新范式**：生成三个 PR 对比，代码赢，不去白板
-- **Claude Code 审查策略**：Claude 负责 style/lint/bug；人类保留法务/安全/产品品位
-- **管理者先做 IC**：重狗粮，建立团队信任；org 尽量扁平
-- **三大核心原则**：全员用 Claude Code；Claudify 一切；明确许可干掉旧流程
-- **效果信号**：onboarding 上手时间 ↓；PR 周期 ↓；Claude 辅助提交率趋近 100%
-- **[[people/FionaFung]]**：新增人物页
-
-### 来自 Dario & Daniela 对谈
-
-- **Q1 2026 年化增长 80x**（预期 10x）→ SpaceX 算力合作公告
-- **Dario**：预测 **2026 年出现单人十亿美金公司**，目前已有 2 人团队 10 亿、单人数亿
-- **多 Agent 愿景**："数据中心里的天才国家"——从个人工具 → 团队 → 组织级 AI
-- **Amdahl 定律**：代码写快了，但安全/验证/架构成为新瓶颈
-- **Daniela**：开发者是最重要用户；**Hold Light and Shade** 是 Anthropic 核心价值观
-- Claude Code 2022 年试验失败（模型太弱），2024 年成功 → 能力台阶突然点亮
-- Claude 被用于加速 Claude 自身训练，内部 PR 数量明显提升
-
-### 来自 AI Agent 实践分享会
-
-- **[[people/Zara]]**：Claude Code 接入飞书 → 替代 terminal
-- **[[people/Sparks]]**（[[entities/Midas]]）：双层 Agent 量化交易
-- **[[people/Brandon]]**（[[entities/Instant]]）：70% 决策与 AI 一致；"宁可浪费 Token，不浪费时间"
-- **[[people/Siqi]]**（[[entities/Pika]]）：AI 数字分身"47"，有手机号、加入会议
-- **[[people/Haoran]]**（[[entities/MX]]）：AI 原生团队工作空间，50 个 agent
-
-### 来自 @trq212
-
-- HTML > Markdown：信息密度、交互性、分享便利；代价是生成慢 2-4 倍
-
-## 当前线索
-
-- [[concepts/智能体优先工程]] — OpenAI 实战验证框架，与 Fiona Fung 框架高度同构，可合并为统一视角
-- [[concepts/代码仓库即记录系统]] — 直接适用于本 vault 和自己的项目：仓库/vault 即记忆
-- [[concepts/智能体GC]] — 三方独立收敛（OpenAI / GBrain / Anthropic），异步离线维护是 Agent 系统通用原语
-- [[concepts/AnthropicDreaming]] — Anthropic 官方 Dreaming，研究预览，值得深入跟踪应用效果
-- [[concepts/AgentMemoryAPI]] — 尝试在自己的 Agent 项目中接入 Memory API
-- [[concepts/AI原生工程组织]] — Fiona 的整体框架，自己团队可对照检视哪些规范值得借鉴
-- [[concepts/瓶颈转移论]] — 与 [[concepts/AmdahlsLawInAI]] 互相印证，值得深入思考
-- [[concepts/JIT规划]] — 在自己的项目中实践即时规划
-- [[entities/GBrain]] — 开源 Agent 记忆系统，架构可深入研究（Compiled Truth、Minions、Dream Cycle）
-- [[concepts/Skillify]] — fat-markdown skill 模式与本 vault skills/ 同构，可互相借鉴
-- [[concepts/混合检索RRF]] — RRF 融合检索，可应用于本 vault 的 wiki-query 改进
-- [[concepts/单人十亿美金公司]] — 2026 年底截止，值得持续关注
-- [[concepts/国家级天才数据中心]] — 多 Agent 架构演进方向
-- [[concepts/Claude-Code接入飞书]] — 可以深入研究实现方案
-- [[entities/MX]] — 产品值得关注
+2026-05-31。已把 [[learning/AI体系学习路线]] 和 [[learning/AI学习计划-2026]] 合并成“体系路线 + 执行计划”的主从关系：路线负责 8 层顺序和概念定位，计划负责具体资源、任务、进度和学习产出模板。
+
+## Key Recent Facts
+
+- 总地图已建立：[[domains/AI知识体系]]，核心链路为基础理论 → 模型构建 → 推理能力 → 上下文与知识 → Agent 系统 → 评估与可靠性 → 产品与组织 → 自我改进。
+- Stable v1 已通过：[[Review: AI知识体系稳定 v1 结构验收]] 判定顶层仍固定为 8 层，当前“待归类 / 边界概念”为空，后续无需默认继续研究轮。
+- 学习页分工：[[learning/AI体系学习路线]] 是体系路线，回答“按什么顺序学、概念属于哪一层”；[[learning/AI学习计划-2026]] 是执行计划，回答“今天/本周看什么资源、做什么练习、如何记录进度”。
+- 第一轮研究页：[[Research: 微调 vs RAG vs 上下文工程]]；概念页：[[concepts/微调RAG上下文工程选择框架]]。
+- 核心结论：三者不是互斥选项；稳定顺序是 **eval 基线 → 上下文工程 → RAG 补外部知识 → 微调/PEFT 稳行为 → 蒸馏降成本**。
+- 归属：RAG 和上下文工程主归属第 4 层；微调/PEFT 主归属第 2 层；三者都必须由第 6 层 eval 约束，并最终服务第 7 层产品部署。
+- 第二轮研究页：[[Research: RAG 与 Memory 边界]]；概念页：[[concepts/RAG与Memory边界]]。
+- 新边界：**RAG 检索外部知识；Memory 维护主体连续性**。RAG 关注出处、更新和 groundedness；Memory 关注写入、巩固、遗忘、冲突、权限和 stale 风险。
+- 第 4 层与第 8 层的连接更清楚：dream/self-improvement 的工程入口之一，是把 trace 和失败案例巩固为 memory，再沉淀为 skill、eval 或知识库更新。
+- 第三轮研究页：[[Research: Agent harness 与 trace eval]]；概念页：[[concepts/AgentHarness与TraceEval]]。
+- 新边界：**Harness 让 agent 可运行且可观测；eval 让 agent 可判断且可改进**。Harness 主归属第 5 层，trace/eval 连接第 6 层。
+- Harness 的稳定组件：runner loop、tool registry、state/session、workspace/sandbox、permissions、guardrails、trace/span、failure recovery。
+- 第四轮研究页：[[Research: Dream 与 self-improvement 工程原语]]；概念页：[[concepts/Dream与SelfImprovement工程原语]]。
+- 新边界：**Dream/self-improvement 是反馈环，不是魔法层**。稳定链路是 trace → eval/outcome → dream/reflection → proposed diff → gate → apply。
+- 成熟度分三档：L1 改 memory/knowledge，L2 改 prompt/context/tool/harness/eval，L3 改 weights。生产优先 L1/L2，L3 属于前沿研究。
+- 第五轮研究页：[[Research: Skill 与 tool memory workflow 边界]]；概念页：[[concepts/Skill与ToolMemory边界]]。
+- 新边界：**Skill 是第 4 层可版本化程序性知识包，不是 tool 本身**。Tool 执行动作，memory 保存经验，workflow 编排步骤，skill 把一类任务的做法、约束、脚本和参考资料打包后按需加载。
+- Skill 稳定链路：trace / repeated workflow → reflection or curation → candidate skill → eval / security scan → install → harness route and execute。
+- Skill 必须由第 6 层验证：任务成功率、调用准确率、tool-call 正确性、回归测试、token overhead、供应链安全。
+- 第六轮研究页：[[Research: 推理时计算与 reasoning]]；更新概念页：[[concepts/TestTimeCompute]]。
+- 新边界：**推理时计算是第 3 层运行时能力机制，不是 prompt 或 harness**。Prompt/context 提供输入，TTC 分配 thinking、采样、搜索、verifier/reranker 和 tool-interleaved reasoning，harness 执行 loop，eval 衡量成功率、成本、延迟和 trace 可监控性。
+- 推理时计算稳定链路：模型权重 → reasoning policy / effort → search or thinking or sampling → tool/result feedback → verifier/eval → final answer/action。
+- 第七轮研究页：[[Research: 多模态与世界模型边界]]；概念页：[[concepts/多模态与世界模型边界]]；更新：[[concepts/Omni世界模型]]。
+- 新边界：**多模态是多信号输入/输出和融合能力；世界模型是状态、时间动态、对象持久性、行动后果和反事实轨迹的模拟能力**。
+- 稳定判断：能处理多种信号是多模态；能预测行动和时间导致的状态变化才是世界模型；能把 observation + instruction 转成 action 时进入 VLA / embodied agent。
+- 第八轮研究页：[[Research: Serving 成本 延迟 边界]]；概念页：[[concepts/Serving成本延迟边界]]。
+- 新边界：**Serving 是第 3 层 inference runtime 到第 7 层产品 SLO / unit economics 的接口，不是独立顶层**。
+- 稳定链路：产品 SLO → eval 基线 → 选模型/减 token → cache → batching/KV/prefill-decode 优化 → 蒸馏/量化/小模型 → cost/success 监控。
+- 关键指标：TTFT、TPOT/ITL、E2E latency、P95/P99、throughput、goodput、token/request、cost/request、cost/success。
+- 第九轮研究页：[[Research: Skill library routing lifecycle]]；概念页：[[concepts/SkillLibraryRouting生命周期]]。
+- 新边界：**单个 skill 是第 4 层程序性知识包；skill library 是第 4 层程序性知识库治理**。它关注 collection/provenance、metadata normalization、retrieval/routing、selection/loading、execution、outcome attribution、update/retire。
+- 稳定链路：trace / human skill → metadata normalization → retrieval → selection → harness execution → outcome attribution → evidence-gated update or retirement。
+- 第十轮研究页：[[Research: Reasoning eval verifier 边界]]；概念页：[[concepts/ReasoningEvalVerifier边界]]。
+- 新边界：**Reasoning eval / verifier 主属第 6 层，是第 3 层 reasoning、第 5 层 agent trace、第 2 层训练和第 8 层 self-improvement 的质量接口**。
+- 稳定类型：outcome verifier / ORM 评分最终答案或状态；process verifier / PRM 评分中间步骤或 progress；trace grader 评分完整 agent trajectory；CoT monitor 监控暴露 reasoning 的风险信号；reward model 是训练出的 scorer，也必须被独立 eval。
+- 稳定链路：reasoning candidates / trace → verifier / grader / monitor → score / label / failure reason → rerank / gate / train / improve。
+- 关键风险：reward hacking、grader drift、benchmark leakage、LLM judge 偏差、过程监督跨任务泛化不足。
+- 第十一轮研究页：[[Research: Multimodal eval simulation eval 边界]]；概念页：[[concepts/MultimodalEvalSimulationEval边界]]。
+- 新边界：**Multimodal eval / simulation eval 主属第 6 层，是第 3 层多模态/世界模型、第 5 层 embodied agent、第 7 层实时产品和第 8 层仿真反馈之间的质量门**。
+- 稳定类型：静态多模态 eval、视觉数学/科学推理 eval、视频/音频 eval、多模态生成安全 eval、world-model eval、simulation / embodied eval。
+- 稳定链路：modality inputs / generated media / action rollout → benchmark + human/judge + simulator state checks → score / violation / failure reason → product gate / training data / harness fix。
+- 关键风险：多模态 benchmark 饱和、VLM judge 偏差、视觉真实感掩盖物理错误、仿真到现实迁移失败、语音/图像/视频产品的隐私与安全风险。
+- 第十二轮研究页：[[Research: Product organization layer 边界]]；概念页：[[concepts/ProductOrganizationLayer边界]]。
+- 新边界：**Product / organization layer 主属第 7 层，是可靠 AI 能力进入产品表面、工作流、组织角色、单位经济和数据飞轮的接口**。
+- 稳定链路：validated capability + SLO + unit economics → product surface / workflow integration → human role / approval boundary → telemetry / data rights → eval and roadmap → self-improvement feed。
+- 第 7 层的核心组件：产品表面、工作流集成、人类审批边界、公司大脑、数据飞轮、工作流锁定、单位经济。
+- 关键判断：第 6 层说“它是否可靠”，第 7 层说“它是否在真实工作流里持续创造价值”，第 8 层把反馈转成可审查改动。
+- 第十三轮研究页：[[Research: Model routing mixture 边界]]；概念页：[[concepts/ModelRoutingMixture边界]]。
+- 新边界：**外部 model routing 主属第 3 层 inference control；内部 MoE 主属第 2 层模型构建；Mixture-of-Agents / compound allocation 跨到第 5 层**。
+- 稳定链路：request / task features / risk / SLO → routing policy or learned router → cheap-fast default or strong model → confidence / verifier / guardrail → escalate, parallelize, or stop → log quality + cost + latency。
+- 关键评估：cost-quality frontier、oracle regret、calibration、false downgrade、latency overhead、drift、trace attribution。
+- 第十四轮研究页：[[Research: Reward hacking eval overfitting 边界]]；概念页：[[concepts/RewardHackingEvalOverfitting边界]]。
+- 新边界：**Reward hacking / eval overfitting 主属第 6 层，是 reward、grader、benchmark、KPI 或 feedback loop 在优化压力下的失效模式**。
+- 稳定链路：proxy metric / reward / eval → optimization pressure → shortcut / exploit / leakage / tampering → score improves while true outcome degrades → holdout eval / adversarial eval / trace monitor / human audit。
+- 关键防线：私有 hold-out eval、grader 校准、benchmark leakage 检测、trace / CoT monitor、diff-only self-improvement gate、产品 KPI anti-gaming。
+- 第十五轮研究页：[[Research: Data flywheel feedback loop 边界]]；概念页：[[concepts/DataFlywheelFeedbackLoop边界]]。
+- 新边界：**Data flywheel / feedback loop 主属第 7 层，是真实使用反馈安全分流到 eval、RAG、memory、skill、router、training candidate 和 self-improvement 的接口**。
+- 稳定分流：失败案例 → eval；事实缺口 → RAG；用户/组织偏好 → memory/settings；重复流程 → skill/workflow；成本/延迟 → routing/serving；稳定授权行为 → fine-tuning/distillation 候选。
+- 关键防线：provenance、consent、quality gate、hold-out validation、anti-gaming、training-serving skew 检查。
+- 第十六轮研究页：[[Research: Data rights privacy consent 边界]]；概念页：[[concepts/DataRightsPrivacyConsent边界]]。
+- 新边界：**Data rights / privacy / consent 主属第 7 层，是产品数据进入 service、memory、eval、training 或供应商共享前的数据用途闸门**。
+- 稳定规则：“可用于本次请求”不等于“可长期保存、写入 memory、进入 eval 或训练未来模型”；每条数据要先做 purpose classification、consent/contract/policy check、minimization、retention/deletion/export 和 audit。
+- 数据用途矩阵：service operation、safety monitoring、product telemetry、memory/personalization、RAG/KB、eval/regression、model improvement/training、vendor/subprocessor sharing 必须分开治理。
+- 关键评估：consent coverage、deletion/export test、retention enforcement、tenant isolation、leakage test、data lineage、privacy impact review。
+- 第十七轮研究页：[[Research: Tool risk permissioning 边界]]；概念页：[[concepts/ToolRiskPermissioning边界]]。
+- 新边界：**Tool risk / permissioning 主属第 5 层，是 agent 从 reasoning 进入 action 前的动作准入层**。
+- 稳定规则：prompt 不是权限边界；每次 tool call 需要按风险层、数据范围、身份、凭证、沙箱、审批、审计和回滚路径判断。
+- 风险分层：R0 纯推理，R1 公开只读，R2 私有只读，R3 可逆写入，R4 外部副作用，R5 高影响动作，R6 通用执行。
+- 关键评估：tool-call precision、unauthorized-action rate、approval quality、sandbox escape、prompt-injection resistance、audit completeness、blast radius。
+- 第十八轮研究页：[[Research: AI safety ops governance 边界]]；概念页：[[concepts/AISafetyOpsGovernance边界]]。
+- 新边界：**AI Safety Ops / Governance 主属第 7 层，是第 6 层 eval/red-team/incident 证据进入组织发布、运营、事故响应和审计的风险运行系统**。
+- 稳定链路：AI system / use case / model capability → inventory and risk classification → eval / red-team / privacy-security review → risk register and thresholds → mitigation + owner → release gate or exception → production monitoring and incident response → periodic review。
+- 核心产物：AI system inventory、risk taxonomy、risk register、eval/red-team report、safeguards report、release gate、incident playbook、audit trail。
+- 关键评估：risk coverage、eval-to-mitigation closure、release gate effectiveness、incident metrics、audit completeness、residual risk review、external alignment。
+- 第十九轮研究页：[[Research: Data quality label quality 边界]]；概念页：[[concepts/DataQualityLabelQuality边界]]。
+- 新边界：**Data quality / label quality 主属第 6 层，是反馈、label、trace、RAG 文档和训练候选进入 eval/training/RAG/memory/skill 前的数据质量门**。
+- 稳定链路：raw data / label / feedback / trace → rights + provenance → schema / freshness / dedup → label rubric and ambiguity review → leakage / split check → route to eval / training / RAG / memory / skill / reject → downstream impact measurement。
+- 核心维度：provenance、validity、completeness、freshness、representativeness、dedup/leakage、label correctness、fit-for-purpose。
+- 关键评估：schema anomaly rate、label error estimate、inter-annotator agreement、leakage/contamination rate、drift/skew、dataset documentation completeness、downstream impact。
+- 第二十轮研究页：[[Research: Multi-provider governance 边界]]；概念页：[[concepts/MultiProviderGovernance边界]]。
+- 新边界：**Multi-provider governance 主属第 7 层，是多 provider/model/tool 进入 routing 前的供应商控制面**。
+- 稳定链路：request / task / data class / risk tier → provider policy matrix → allowed provider/model/tool set → model or tool routing → provider-specific retention/training-use/region/SLA controls → trace/audit/cost/quality monitoring → incident/fallback/vendor review。
+- 核心产物：provider registry、provider policy matrix、data egress rules、routing constraints、logging/retention policy、SLA/SLO dashboard、provider eval suite、fallback runbook。
+- 关键判断：model routing 选择执行路径；multi-provider governance 决定哪些路径有资格被选择。No-training 承诺不等于 no-retention、no-application-state、no-logging 或 no-third-party-processing。
+- 第二十一轮研究页：[[Research: Agent identity delegation 边界]]；概念页：[[concepts/AgentIdentityDelegation边界]]。
+- 新边界：**Agent identity / delegation 主属第 5 层，是 agent 动作携带 actor、principal、grant、scope、credential、audit 和 revocation 的身份委托边界**。
+- 稳定链路：human / org / service principal → delegation grant → agent or run identity → scoped short-lived credential → tool or provider request → allow / deny / step-up / approval → audit and non-repudiation → revoke / rotate / review / incident response。
+- 核心判断：identity 说明谁在行动；delegation 说明谁授权它行动；permissioning 决定这次动作能不能执行。
+- 第二十二轮研究页：[[Research: AI incident response postmortem 边界]]；概念页：[[concepts/AIIncidentResponsePostmortem边界]]。
+- 新边界：**AI incident response / postmortem 主属第 7 层，是第 6 层监控/eval 信号进入止血、取证、沟通、复盘、action item 和 regression eval 的事故闭环**。
+- 稳定链路：signal / alert / report → triage and severity → incident commander and owner → containment / rollback / disable / human override → evidence preservation and stakeholder communication → root and contributing cause analysis → blameless postmortem → action items and regression conversion。
+- 核心判断：incident response 负责让事故停止扩大；postmortem 负责让同类事故更难复发。AI postmortem 必须记录 model、prompt、context、memory、tool、identity、provider、policy 和用户影响。
+- 第二十三轮研究页：[[Research: Synthetic data governance 边界]]；概念页：[[concepts/SyntheticDataGovernance边界]]。
+- 新边界：**Synthetic data governance 主属第 6 层，是合成样本进入 training、eval、RAG、memory、skill、router 或 self-improvement 前的质量、权利、污染和下游验证门**。
+- 稳定链路：target gap / use case → seed data rights and provenance → generator model / prompt / version / sampling policy → synthetic sample generation → dedup / leakage / diversity / label / realism / safety filters → split isolation and hold-out contamination check → downstream validation on real and private evals → route to training / eval / RAG / memory / skill / simulation / reject → monitor drift, collapse, and downstream impact。
+- 核心判断：合成数据不是脏数据，也不是免费真相；它是候选证据，必须按用途过质量门。有效使用依赖真实数据锚点、独立 eval、lineage、去重和污染控制。
+- 第二十四轮研究页：[[Research: Dataset lineage provenance graph 边界]]；概念页：[[concepts/DatasetLineageProvenanceGraph边界]]。
+- 新边界：**Dataset lineage / provenance graph 主属第 6 层，是训练、eval、RAG、memory、skill、synthetic data、incident response 和 self-improvement 之间的证据血缘底座**。
+- 稳定链路：artifact / sample / trace / doc / label → source and rights capture → transformation activity → versioned dataset / manifest / graph edge → route to training / eval / RAG / memory / skill / router / reject → downstream impact query → deletion / rollback / audit / incident reconstruction。
+- 核心判断：data rights 判断能不能用，data quality 判断是否可信，lineage graph 证明来源、转换和影响面；没有 lineage，污染检测、删除影响、事故取证和自我改进 diff 都缺少证据链。
+- 第二十五轮研究页：[[Research: Data deletion unlearning impact 边界]]；概念页：[[concepts/DataDeletionUnlearningImpact边界]]。
+- 新边界：**Data deletion / unlearning impact 主属第 7 层，是删除/撤回/保留到期/事故请求进入真实 AI 系统后的数据生命周期执行闭环**。
+- 稳定链路：deletion trigger → requester identity / scope / basis / exceptions → lineage impact query across logs / RAG / memory / eval / training / models / providers / backups → delete / restrict / tombstone / anonymize / unlearn / retrain / replace / suppress / legal-hold → verification → audit / response / prevent re-ingestion。
+- 核心判断：删除数据不等于模型遗忘；output suppression 只能临时止血，不是 unlearning 证据。没有 lineage impact query 和 eval verification，删除/遗忘请求无法证明完成。
+- 第二十六轮研究页：[[Research: Human feedback annotation ops 边界]]；概念页：[[concepts/HumanFeedbackAnnotationOps边界]]。
+- 新边界：**Human feedback / annotation ops 主属第 6 层，是把人类示范、偏好、纠错、gold label 和 expert review 变成可训练、可评估、可审计证据的质量系统**。
+- 稳定链路：model/product/eval gap → task definition + purpose/risk/rights → sample selection + provenance → rubric + examples → annotator onboarding + calibration → labeling/ranking/critique/correction → QA + adjudication → dataset card + lineage + split → route to eval / reward model / SFT-RLHF / RAG / memory / skill / router / product / reject → downstream validation + rubric update。
+- 核心判断：人类反馈不是天然真相；没有 spec、pilot、rubric、calibration、gold tasks、consensus、adjudication、lineage 和 downstream validation，偏好数据会变成 reward hacking 或 eval overfitting 通道。
+- 第二十七轮研究页：[[Research: Evaluation dataset lifecycle benchmark governance 边界]]；概念页：[[concepts/EvaluationDatasetLifecycleBenchmarkGovernance边界]]。
+- 新边界：**Evaluation dataset lifecycle / benchmark governance 主属第 6 层，是 eval 数据集作为质量门资产的生命周期治理**。
+- 稳定链路：capability/product/risk gap → eval objective + owner + decision → sample sourcing + rights + provenance → split → rubric/grader/metric calibration → versioned dataset card + lineage + leakage controls → CI/release/post-market run → drift/saturation/contamination analysis → refresh/retire → context/tool/RAG/router/training/product fix。
+- 核心判断：eval 不是一次性表格；public benchmark 不能替代私有产品 eval、private hold-out、leakage control、production correlation 和 release gate。Eval harness 负责运行；benchmark governance 负责数据资产的来源、split、版本、泄漏、刷新、退役和决策用途。
+- 第二十八轮研究页：[[Research: Model release rollback gate 边界]]；概念页：[[concepts/ModelReleaseRollbackGate边界]]。
+- 新边界：**Model release / rollback gate 主属第 7 层，是 AI 变更进入真实产品流量的组织执行边界**。
+- 稳定链路：change proposal → artifact identity + owner + risk tier → required eval suite → release checkpoint + exception path → staged rollout → online monitoring → promote/hold/rollback/disable/migrate → release notes + audit + postmortem + regression update。
+- 核心判断：第 6 层证明候选是否可靠；第 7 层决定真实流量、owner、例外、回滚和迁移。模型、prompt、router、skill、tool、provider、RAG/memory 和 policy 变更都需要 release gate。
+- 第二十九轮研究页：[[Research: LLM-as-judge AI feedback calibration 边界]]；概念页：[[concepts/LLMJudgeAIFeedbackCalibration边界]]。
+- 新边界：**LLM-as-judge / AI feedback calibration 主属第 6 层，是自动评分和 AI 标注进入 eval、RLAIF、reward、release gate 与 self-improvement 前的校准边界**。
+- 稳定链路：task/product/eval objective → choose deterministic/model/human/hybrid grader → rubric + judge prompt + schema → human gold anchor → judge run with versioned model/prompt/order → agreement/calibration/bias/flakiness/product-correlation checks → mitigation + human escalation → route to eval/reward/RLAIF/router/release/self-improvement or reject → monitor judge drift。
+- 核心判断：LLM judge 不是裁判终点，而是一个便宜、灵活、会漂移和有偏的测量仪器；AI feedback 只能先进入候选池，不能直接变成训练或发布证据。
+- 第三十轮研究页：[[Research: Eval result interpretation decision threshold 边界]]；概念页：[[concepts/EvalResultInterpretationDecisionThreshold边界]]。
+- 新边界：**Eval result interpretation / decision threshold 主属第 6 层，是 eval 分数进入 release gate、routing、training、rollback 和 self-improvement 前的证据解释边界**。
+- 稳定链路：decision to control → metric family → baseline and minimum meaningful effect → sampling/repeated trials/slices → uncertainty and flakiness → practical + statistical + safety interpretation → pass/fail/gray-zone/canary/rollback → record owner, exception, production correlation, and threshold refresh rule。
+- 核心判断：eval 分数不是决策；threshold 把 score、置信区间、guardrail、slice、SLO 和风险容忍度翻译成现在该发布、回滚、继续调查、人工复核还是灰度。
+- 第三十一轮研究页：[[Research: Production contract compatibility test 边界]]；概念页：[[concepts/ProductionContractCompatibilityTest边界]]。
+- 新边界：**Production contract / compatibility test 主属第 6 层，是模型和供应链更新进入第 7 层 release/rollback gate 前的可测试产品契约**。
+- 稳定链路：product promise + risk tier + dependency inventory → production contract clauses → compatibility suite → current baseline vs candidate run → threshold/uncertainty interpretation → admit/limit/reject/canary/fallback/rollback → explicit contract update only through product/risk review。
+- 核心判断：prompt 是实现，contract 是验收标准；新模型总体更强不等于对你的产品兼容，必须用产品契约和风险类别测试验证。
+- 第三十二轮研究页：[[Research: Judge drift grader observability 边界]]；概念页：[[concepts/JudgeDriftGraderObservability边界]]。
+- 新边界：**Judge drift / grader observability 主属第 6 层，是 LLM judge、rubric grader、AI annotator 和 judge panel 的持续健康监控边界**。
+- 稳定链路：judge inventory → human anchor / canary rerun → score/agreement/bias/production-correlation monitoring → drift diagnosis → recalibrate / freeze / replace / human review / quarantine scores。
+- 核心判断：judge calibration 证明评分器当时能测；grader observability 证明评分器现在仍然能测。Judge health 异常时，分数不能直接进入 threshold、release gate、training feedback 或 self-improvement。
+- 第三十三轮研究页：[[Research: Intolerable risk threshold stop rule 边界]]；概念页：[[concepts/IntolerableRiskThresholdStopRule边界]]。
+- 新边界：**Intolerable risk threshold / stop rule 主属第 7 层，是第 6 层风险证据进入 no-go、pause、restrict、rollback 和 external review 的组织硬边界**。
+- 稳定链路：risk evidence → risk tolerance / capability threshold → required safeguards / prohibited use / no-go condition → residual risk review → stop, pause, restrict, rollback, external review, or accept with owner。
+- 核心判断：普通阈值决定能不能发布；不可容忍风险阈值决定什么时候不能用收益、平均分或商业压力抵消风险。
+- 第三十四轮研究页：[[Research: Eval uncertainty communication release card 边界]]；概念页：[[concepts/EvalUncertaintyCommunicationReleaseCard边界]]。
+- 新边界：**Eval uncertainty communication / release card 主属第 6 层，是 eval evidence 进入第 7 层 release、rollback、safety governance 和组织 owner 前的证据表达边界**。
+- 稳定链路：eval package → uncertainty + validity + limitation → decision band → release/eval card → owner / exception / rollback / monitor → post-release comparison。
+- 核心判断：eval 不确定性不能只藏在统计脚注里；它必须被翻译成 pass、fail、gray zone、canary、human review、no-go、rollback 或补证据。
+- 第三十五轮研究页：[[Research: Offline online eval correlation 边界]]；概念页：[[concepts/OfflineOnlineEvalCorrelation边界]]。
+- 新边界：**Offline / online eval correlation 主属第 6 层，是离线 eval、release card 和线上 production outcome 之间的预测有效性边界**。
+- 稳定链路：offline eval delta → release-card hypothesis → canary / A-B / online eval → production outcome → directional agreement / calibration → eval trust tier → dataset / threshold / gate update。
+- 核心判断：离线 eval 是候选筛选器，不是现实本身；上线后的 production outcome 必须反校准离线质量门。
+- 第三十六轮研究页：[[Research: Safety case assurance case 边界]]；概念页：[[concepts/SafetyCaseAssuranceCase边界]]。
+- 新边界：**Safety case / assurance case 主属第 7 层，是高风险 AI 系统把第 6 层多源证据组织成 claims-arguments-evidence 发布论证的治理边界**。
+- 稳定链路：top claim + context → risk model → subclaims → evidence map → uncertainty / defeaters → independent review → residual risk decision → deployment constraint + refresh trigger。
+- 核心判断：safety case 不是更多 eval，而是解释为什么这些证据足以支持部署、限制、暂停、回滚、外部审查或残余风险接受。
+- 第三十七轮研究页：[[Research: Post-release eval drift 边界]]；概念页：[[concepts/PostReleaseEvalDrift边界]]。
+- 新边界：**Post-release eval drift 主属第 6 层，是 release card、offline/online correlation、production monitoring 和 safety case 之间的发布后证据保鲜边界**。
+- 稳定链路：release evidence → production baseline → live prompt/response/trace/outcome signals → drift and stale-evidence detection → refresh, quarantine, canary, rollback, incident, or case update → regression/data flywheel。
+- 核心判断：普通 monitoring 看服务是否运行；post-release eval drift 看支持发布的证据、阈值、judge、RAG/tool/provider 和 safety case 是否还有效。
+- 第三十八轮研究页：[[Research: Eval portfolio metric hierarchy 边界]]；概念页：[[concepts/EvalPortfolioMetricHierarchy边界]]。
+- 新边界：**Eval portfolio / metric hierarchy 主属第 6 层，是把多种 eval 和指标组织成 hard stop、guardrail、primary、slice、online、diagnostic 的分层证据组合**。
+- 稳定链路：decision inventory → evidence inventory → metric roles → hierarchy / conflict rule / owner → portfolio run → threshold interpretation → release card / gate / safety case / refresh task。
+- 核心判断：public benchmark 只是能力探针；真实产品发布需要 private hold-out、regression、contract、red-team、online correlation、SLO 和 post-release drift 的组合证据。
+- 第三十九轮研究页：[[Research: Evidence freshness stale proof 边界]]；概念页：[[concepts/EvidenceFreshnessStaleProof边界]]。
+- 新边界：**Evidence freshness / stale proof 主属第 6 层，是 eval、release card、safety case、monitor、judge 和 benchmark 证据进入第 7 层决策前的有效期边界**。
+- 稳定链路：decision claim + evidence artifact → freshness metadata → dependency map → stale triggers → stale proof → use / downgrade / quarantine / refresh / restrict / rollback / case update。
+- 核心判断：timestamp 只说明何时产生；stale proof 说明为什么这份证据现在仍能支持当前 claim。
+- 第四十轮研究页：[[Research: Monitor ownership escalation ladder 边界]]；概念页：[[concepts/MonitorOwnershipEscalationLadder边界]]。
+- 新边界：**Monitor ownership / escalation ladder 主属第 7 层，是把第 6 层 monitor、eval breach、stale evidence 和 user report 接到 owner、SLA、incident、release gate 或 risk elevation 的责任链边界**。
+- 稳定链路：monitor/eval/user-report signal → signal contract → owner assignment → response SLA → escalation/elevation → action → closure evidence。
+- 核心判断：没有 owner、SLA、runbook 和行动权限的监控只是 dashboard；能升级到 on-call、incident command、release gate 和 risk owner 的监控才是可靠性系统。
+- 第四十一轮研究页：[[Research: Metric conflict resolution 边界]]；概念页：[[concepts/MetricConflictResolution边界]]。
+- 新边界：**Metric conflict resolution 主属第 6 层，是 hard stop、guardrail、primary、slice、online、SLO 和 business metric 冲突时的证据优先级与升级规则**。
+- 稳定链路：metric conflict → classify roles → check freshness/uncertainty/trust → precedence rule → action → owner escalation → release card / monitor / regression update。
+- 核心判断：指标冲突不能用总分平均掉；hard stop、guardrail 和关键 slice regression 必须先于平均质量、ROI、成本节省和业务指标。
+- 第四十二轮研究页：[[Research: Evidence attestation signed eval artifact 边界]]；概念页：[[concepts/EvidenceAttestationSignedEvalArtifact边界]]。
+- 新边界：**Evidence attestation / signed eval artifact 主属第 6 层，是 eval、model、prompt、judge、dataset、container 和 release evidence 进入第 7 层决策前的证据完整性边界**。
+- 稳定链路：artifact digest → attestation statement → signed bundle → policy verification → release card / safety case / release gate。
+- 核心判断：lineage 说明证据从哪来，freshness 说明证据现在是否仍适用，attestation 说明这份具体证据和声明是否能被验证且未被替换。
+- 第四十三轮研究页：[[Research: Monitor tabletop runbook drill 边界]]；概念页：[[concepts/MonitorTabletopRunbookDrill边界]]。
+- 新边界：**Monitor tabletop / runbook drill 主属第 7 层，是验证 monitor owner、on-call、incident command、release gate、risk owner 和 provider handoff 是否可执行的组织演练边界**。
+- 稳定链路：scenario seed → exercise objective → inject timeline → role handoff → decision/action → after-action report → improvement plan → re-drill。
+- 核心判断：monitor ownership 写责任链，tabletop/runbook drill 验证责任链会不会动；没有 AAR/IP owner、due date 和 re-drill，演练会退化成合规仪式。
+- 第四十四轮研究页：[[Research: Override governance residual risk acceptance 边界]]；概念页：[[concepts/OverrideGovernanceResidualRiskAcceptance边界]]。
+- 新边界：**Override governance / residual risk acceptance 主属第 7 层，是 exception、gray-zone evidence 和 residual risk acceptance 的受控例外边界**。
+- 稳定链路：exception request → hard-stop check → residual-risk record → approval authority → expiry + monitor → review/revoke/close。
+- 核心判断：override 不是绕过质量门；它必须先证明没有触发 hard stop，再记录 evidence gap、owner、authority、expiry、mitigation、monitor、rollback 和审计。
+- 第四十五轮研究页：[[Research: Verifier policy trust root rotation 边界]]；概念页：[[concepts/VerifierPolicyTrustRootRotation边界]]。
+- 新边界：**Verifier policy / trust root rotation 主属第 6 层，是 signed evidence 进入 release gate 前的证据验收策略边界**。
+- 稳定链路：evidence bundle → verifier policy → trust material → policy evaluation → gate decision → rotation/revocation/reverification。
+- 核心判断：attestation 让证据可验证；verifier policy 决定什么才算验证通过；trust root rotation 保证“谁可信”不会变成永不过期的隐性常量。
+- 第四十六轮研究页：[[Research: Evidence retention audit packet lifecycle 边界]]；概念页：[[concepts/EvidenceRetentionAuditPacketLifecycle边界]]。
+- 新边界：**Evidence retention / audit packet lifecycle 主属第 7 层，是 release、eval、safety、incident 和 override evidence 的记录治理边界**。
+- 稳定链路：decision → evidence manifest → packet assembly → storage tier → retrieval/reverify → legal hold/disposition → destruction/preservation record。
+- 核心判断：第 6 层产出可信证据；第 7 层要保证这些证据几年后仍能找回、读懂、重验、解释和按政策处置。
+- 第四十七轮研究页：[[Research: Override debt exception analytics dashboard 边界]]；概念页：[[concepts/OverrideDebtExceptionAnalyticsDashboard边界]]。
+- 新边界：**Override debt / exception analytics dashboard 主属第 7 层，是把单条例外记录聚合成治理健康信号的边界**。
+- 稳定链路：override / exception / residual-risk records → normalized ledger → risk-weighted analytics → threshold action → gate/eval/policy backlog → closure evidence。
+- 核心判断：override governance 管单条例外能不能批准；override debt dashboard 管这些例外是否正在变成组织习惯。
+- 关键指标：override rate、active debt、expired active exception、renewal count、repeat owner、risk-weighted exposure、incident conversion、monitor coverage、hard-stop near miss。
+- 第四十八轮研究页：[[Research: Cross-verifier policy drift conformance test 边界]]；概念页：[[concepts/CrossVerifierPolicyDriftConformanceTest边界]]。
+- 新边界：**Cross-verifier policy drift / conformance test 主属第 6 层，是验证不同执行点是否按同一证据验收策略做出一致决策的边界**。
+- 稳定链路：canonical verifier policy + trust root → golden corpus → local CLI / CI / release gate / admission controller / runtime guard / third-party verifier → decision matrix → drift classification → block / warn / resync / pin / rotate / rollback / override review → conformance report。
+- 核心判断：verifier policy 定义“什么算通过”；cross-verifier conformance test 证明所有执行点真的按同一个规则通过。
+- 关键漂移类型：policy version drift、trust-root drift、engine semantic drift、input normalization drift、mode drift、scope drift、cache/freshness drift、delegated verifier drift。
+- 第四十九轮研究页：[[Research: Evidence minimization privacy preserving audit packet 边界]]；概念页：[[concepts/EvidenceMinimizationPrivacyPreservingAuditPacket边界]]。
+- 新边界：**Evidence minimization / privacy-preserving audit packet 主属第 7 层，是把 audit claim、最小充分证据、private annex、选择性披露和处置记录组合起来的隐私化证据治理边界**。
+- 稳定链路：audit claim → purpose/evidence need → sensitivity classification → minimum proof set → redaction/digest/encryption/selective disclosure/private annex → scoped access → retention/legal hold/deletion/disposition。
+- 核心判断：audit packet 要能证明决策，不应该默认保存和暴露完整现场。
+- 关键组件：evidence need statement、field minimization matrix、private annex、withheld-field manifest、selective-disclosure proof、tombstone/disposition record。
+- 第五十轮研究页：[[Research: Release gate debt gate bypass detection 边界]]；概念页：[[concepts/ReleaseGateDebtBypassDetection边界]]。
+- 新边界：**Release gate debt / gate bypass detection 主属第 7 层，是检测真实生产变更是否绕过 release gate、protected environment、approval、attestation 或 structured exception 的治理健康边界**。
+- 稳定链路：required release path → production change inventory → evidence join → bypass classification → block/rollback/revoke/fix/freeze → gate debt ledger。
+- 核心判断：release gate 决定一次变更能不能上；gate bypass detection 证明真实生产变更没有绕开这道门，或把 admin bypass、shadow approval、direct-to-prod、stale exception、gate config drift 转成可关闭债务。
+- 关键绕过类型：admin bypass、shadow approval、direct-to-prod write、ungated artifact、stale exception、gate config drift、concurrency/stale deploy、provider silent path。
+- 第五十一轮研究页：[[Research: Dashboard calibration governance metric quality 边界]]；概念页：[[concepts/DashboardCalibrationGovernanceMetricQuality边界]]。
+- 新边界：**Dashboard calibration / governance metric quality 主属第 7 层，是治理 dashboard 指标进入 release、review、freeze、rollback、deny renewal 或 backlog 前的测量质量边界**。
+- 稳定链路：decision inventory → metric claim → metric definition + lineage → data quality check → outcome calibration → dashboard trust tier → threshold/action ladder → post-action review → refresh/quarantine/retire。
+- 核心判断：dashboard 展示信号；dashboard calibration 证明这些信号足以支持组织行动，而不是制造指标剧场。
+- 关键质量维度：decision relevance、definition stability、data lineage、freshness、coverage、calibration、actionability、anti-gaming。
+- 第五十二轮研究页：[[Research: Self-improvement gate change-risk budget 边界]]；概念页：[[concepts/SelfImprovementGateChangeRiskBudget边界]]。
+- 新边界：**Self-improvement gate / change-risk budget 主属第 8 层，是 self-improvement proposed diff 反哺 memory、skill、tool、harness、eval、policy 或 weights 前的准入、预算和回滚边界**。
+- 稳定链路：trace / outcome / failure → improvement proposal → target layer classification → risk score → change-risk budget → gate package → auto-apply / sandbox / canary / human review / reject → monitor → rollback or promote。
+- 核心判断：self-improvement 可以提出改动；能不能应用要由 gate 决定。尤其 eval、reward、log、permission、release gate 这类控制面改动默认高风险，因为它们会改变“谁来判断改动好不好”。
+- 关键风险维度：target layer、blast radius、reversibility、evidence quality、rights、security、control-plane touch、user impact、rollback readiness。
+- 第五十三轮研究页：[[Research: Memory skill governance drift 边界]]；概念页：[[concepts/MemorySkillGovernanceDrift边界]]。
+- 新边界：**Memory / skill governance drift 主属第 4 层，是长期 memory、skill、SKILL.md metadata、scripts 和 references 的过时、投毒、权限、路由与退役治理边界**。
+- 稳定链路：memory / skill artifact inventory → owner/scope/permission/source/version labels → write/update proposal → provenance/rights/freshness/conflict/security/routing checks → drift classification → admit/quarantine/rewrite/split/merge/deprecate/delete/retire → retrieval/routing regression eval → self-improvement gate → audit and periodic review。
+- 核心判断：memory 和 skill 不是普通笔记；它们是会改变未来 agent 行为的 operational context。只治理新增不够，还必须治理检索、使用、更新、共享、过期、删除和退役。
+- 关键漂移类型：stale memory、sleeper poisoning、tool-selection hijack、graph relation conflict、permission drift、semantic routing drift、dependency/API drift、orphan/overbroad skill。
+- 第五十四轮研究页：[[Research: Product feedback closure data flywheel actionability 边界]]；概念页：[[concepts/ProductFeedbackClosureActionability边界]]。
+- 新边界：**Product feedback closure / actionability 主属第 7 层，是证明真实反馈、trace、业务信号或事故报告已经被授权、归因、分流、行动、验证并关闭的反馈闭环边界**。
+- 稳定链路：product event / feedback / trace / incident / business outcome → rights and purpose check → triage and attribution → closure ticket and target route → downstream artifact update → validation → closure evidence or no-action rationale → dashboard calibration or reopen → self-improvement gate if automated。
+- 核心判断：收集 feedback 不是闭环；只有 feedback 绑定 owner、target layer、artifact、验证结果、关闭证据和 reopen 条件，才算 data flywheel 真的完成一次循环。
+- 关键 actionability 分类：ignore/duplicate、observe、eval/regression、RAG/memory、skill/tool/workflow、router/serving、training/distillation、product/UX、governance/incident。
+- 新 research 规则已补充到 `skills/autoresearch/references/program.md`：比较 AI 技术时优先产出“操作顺序 + 组合关系”的决策框架，并明确 skill/tool/memory/workflow、memory/skill governance drift、product feedback closure/actionability、TTC/context/harness/eval、多模态/world model/VLA、serving/cost/latency、skill library lifecycle、reasoning verifier/eval、multimodal/simulation eval、product/org layer、model routing/mixture、reward hacking/eval overfitting、data flywheel/feedback loop、data rights/privacy/consent、tool risk/permissioning、AI safety ops/governance、data quality/label quality、multi-provider governance、agent identity/delegation、AI incident response/postmortem、synthetic data governance、dataset lineage/provenance graph、data deletion/unlearning impact、human feedback/annotation ops、evaluation dataset lifecycle/benchmark governance、model release/rollback gate、release-gate debt/gate bypass detection、dashboard calibration/governance metric quality、self-improvement gate/change-risk budget、LLM-as-judge/AI feedback calibration、eval result interpretation/decision threshold、production contract/compatibility test、judge drift/grader observability、intolerable risk threshold/stop rule、eval uncertainty communication/release card、offline/online eval correlation、safety case/assurance case、post-release eval drift、eval portfolio/metric hierarchy、evidence freshness/stale proof、monitor ownership/escalation ladder、metric conflict resolution、evidence attestation/signed eval artifact、monitor tabletop/runbook drill、override governance/residual risk acceptance、verifier policy/trust root rotation、evidence retention/audit packet lifecycle、override debt/exception analytics dashboard、cross-verifier policy drift/conformance test、evidence minimization/privacy-preserving audit packet 边界。
+
+## Active Threads
+
+- 当前阶段验收：微调/RAG/context、RAG/Memory、Agent harness/trace eval、Dream/self-improvement、Skill/tool/memory/workflow、memory/skill governance drift、product feedback closure/actionability、推理时计算/reasoning、多模态/world model、serving/cost/latency、skill library lifecycle、reasoning eval/verifier、multimodal/simulation eval、product/org layer、model routing/mixture、reward hacking/eval overfitting、data flywheel/feedback loop、data rights/privacy/consent、tool risk/permissioning、AI safety ops/governance、data quality/label quality、multi-provider governance、agent identity/delegation、AI incident response/postmortem、synthetic data governance、dataset lineage/provenance graph、data deletion/unlearning impact、human feedback/annotation ops、evaluation dataset lifecycle/benchmark governance、model release/rollback gate、release-gate debt/gate bypass detection、dashboard calibration/governance metric quality、self-improvement gate/change-risk budget、LLM-as-judge/AI feedback calibration、eval result interpretation/decision threshold、production contract/compatibility test、judge drift/grader observability、intolerable risk threshold/stop rule、eval uncertainty communication/release card、offline/online eval correlation、safety case/assurance case、post-release eval drift、eval portfolio/metric hierarchy、evidence freshness/stale proof、monitor ownership/escalation ladder、metric conflict resolution、evidence attestation/signed eval artifact、monitor tabletop/runbook drill、override governance/residual risk acceptance、verifier policy/trust root rotation、evidence retention/audit packet lifecycle、override debt/exception analytics dashboard、cross-verifier policy drift/conformance test、evidence minimization/privacy-preserving audit packet，加上 stable v1 结构验收，已经串成稳定系统链。
+- 后续触发：当前无必做下一轮；只有新概念、真实学习任务或工程问题触发单点 research。
+- 稳定 v1 状态：已通过 [[Review: AI知识体系稳定 v1 结构验收]]。
 
 ## DragonScale
 
-- 地址计数器：157（c-000001 至 c-000156 已分配）
+地址计数器：588（本轮分配 c-000587）。

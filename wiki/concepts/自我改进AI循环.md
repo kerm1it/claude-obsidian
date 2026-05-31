@@ -14,13 +14,15 @@ related:
   - "[[concepts/封闭循环公司]]"
   - "[[concepts/AnthropicDreaming]]"
   - "[[concepts/DreamCycle]]"
+  - "[[concepts/Dream与SelfImprovement工程原语]]"
+  - "[[concepts/SelfImprovementGateChangeRiskBudget边界]]"
   - "[[concepts/智能体GC]]"
   - "[[sources/yc-root-access-self-improving-company-2026-05-22]]"
 ---
 
 # 自我改进 AI 循环（Self-Improving AI Loop）
 
-**来源**：[[sources/yc-root-access-self-improving-company-2026-05-22]]  
+**来源**：[[sources/yc-root-access-self-improving-company-2026-05-22]]
 **提出者**：YC 合伙人（YC Root Access）
 
 ---
@@ -98,10 +100,16 @@ related:
 
 **结论**：异步离线自我改进是 AI 系统的通用原语，四方独立收敛。
 
+## 与 Change Gate 的接口
+
+自我改进循环不能把“发现失败 -> 写代码 -> 部署”当作无条件自动路径。[[concepts/SelfImprovementGateChangeRiskBudget边界]] 要求每个改动先形成 proposed diff，并标明 target layer、证据、风险、owner 和 rollback path；低风险 memory/context 可自动应用，高风险 tool/harness/eval/policy/weights 需要 sandbox、回归、灰度、人工审查或 release gate。
+
 ---
 
 ## 关联概念
 
 - [[concepts/封闭循环公司]] — 本概念是其五层技术架构
+- [[concepts/Dream与SelfImprovement工程原语]] — 将自我改进拆成记忆巩固、系统改造和权重更新
+- [[concepts/SelfImprovementGateChangeRiskBudget边界]] — 将自我改进 diff 接入风险预算、准入、灰度和回滚
 - [[concepts/公司大脑]] — 自我改进循环的知识积累产物
 - [[concepts/软件即临时物]] — 循环生成的软件可丢弃，学到的知识永久

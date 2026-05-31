@@ -12,12 +12,13 @@ status: active
 related:
   - "[[entities/GBrain]]"
   - "[[concepts/CompiledTruth时间线模式]]"
+  - "[[concepts/Dream与SelfImprovement工程原语]]"
   - "[[sources/gbrain-2026-05-11]]"
 ---
 
 # Dream Cycle（梦境循环）
 
-**来源**：[[entities/GBrain]] by [[people/GarryTan]]  
+**来源**：[[entities/GBrain]] by [[people/GarryTan]]
 **类型**：自动化夜间维护机制
 
 ---
@@ -53,6 +54,7 @@ Dream Cycle 通过 [[concepts/Minions任务队列|Minions 任务队列]] 的 cro
 ## 关联概念
 
 - [[concepts/CompiledTruth时间线模式]] — 蒸馏的目标结构
+- [[concepts/Dream与SelfImprovement工程原语]] — 将 Dream 放回第 8 层反馈环
 - [[concepts/Minions任务队列]] — 执行载体
 - [[entities/GBrain]] — 实现系统
 - [[concepts/AnthropicDreaming]] — Anthropic 官方同构实现（2026-05-11 发布）
