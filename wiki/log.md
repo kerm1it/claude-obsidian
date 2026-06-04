@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-05 ingest | Dynamic Workflows in Claude Code — Anthropic
+- Source: `.raw/articles/claude-code-dynamic-workflows-2026-06-05.md`
+- Summary: [[sources/claude-code-dynamic-workflows-2026-06-05|A harness for every task: Dynamic Workflows in Claude Code]]
+- Pages created: [[sources/claude-code-dynamic-workflows-2026-06-05]]，[[Sid Bidasaria]]，[[concepts/DynamicWorkflows]]
+- Pages updated: [[Thariq]]，[[people/_index]]，[[concepts/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Claude Code Opus 4.8 动态编写多 Agent harness；六种模式对抗三种单上下文失败模式。
+
 ## 2026-05-31 learning | AI体系学习路线与AI学习计划合并
 - Topic: 将新建的 AI 体系学习路线和原有 AI 学习计划结合，避免两套学习入口割裂。
 - Pages updated: [[learning/AI学习计划-2026]]，[[learning/AI体系学习路线]]，[[learning/_index]]，[[index]]，[[hot]]，[[log]]

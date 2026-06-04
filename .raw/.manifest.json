@@ -523,6 +523,24 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/claude-code-dynamic-workflows-2026-06-05.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-05",
+      "pages_created": [
+        "wiki/sources/claude-code-dynamic-workflows-2026-06-05.md",
+        "wiki/people/SidBidasaria.md",
+        "wiki/concepts/DynamicWorkflows.md"
+      ],
+      "pages_updated": [
+        "wiki/people/Thariq.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/autoresearch-2026-05-20.md": {
       "hash": "url-fetch",
       "ingested_at": "2026-05-20",
@@ -711,6 +729,9 @@
     "wiki/entities/GoogleDeepMind.md": "c-000164",
     "wiki/concepts/蒸馏传承.md": "c-000165",
     "wiki/concepts/单模型统一策略.md": "c-000166",
-    "wiki/concepts/Omni世界模型.md": "c-000167"
+    "wiki/concepts/Omni世界模型.md": "c-000167",
+    "wiki/sources/claude-code-dynamic-workflows-2026-06-05.md": "c-000588",
+    "wiki/people/SidBidasaria.md": "c-000589",
+    "wiki/concepts/DynamicWorkflows.md": "c-000590"
   }
 }

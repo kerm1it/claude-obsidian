@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - meta
   - hot-cache
@@ -74,6 +74,8 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-06-05。摄入 Anthropic 博客：Dynamic Workflows in Claude Code（Thariq + Sid，2026-06-02）。Claude Code 动态编排多 Agent harness。[[concepts/DynamicWorkflows]]（六种模式+三种失败模式）。新人物 [[Sid Bidasaria]]。DragonScale 591（c-000588-590）。
 
 2026-05-31。已把 [[learning/AI体系学习路线]] 和 [[learning/AI学习计划-2026]] 合并成“体系路线 + 执行计划”的主从关系：路线负责 8 层顺序和概念定位，计划负责具体资源、任务、进度和学习产出模板。
 

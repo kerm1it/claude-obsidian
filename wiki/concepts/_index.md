@@ -107,6 +107,10 @@ status: active
 - [[concepts/蒸馏传承|蒸馏传承（Flash→Pro 蒸馏）]] — 每代 Flash 打包上代 Pro 智能；技术本质与 Hinton 原始论文一致
 - [[concepts/Omni世界模型|Omni 世界模型]] — Gemini Omni 多模态理解+生成统一训练；连接多模态信号与世界动态模拟
 - [[concepts/多模态与世界模型边界|多模态与世界模型边界]] — 区分多信号输入/输出、长程多模态上下文、动态模拟、行动条件预测和 VLA/embodied agent
+
+## Claude Code 编排与多 Agent
+
+- [[concepts/DynamicWorkflows|Dynamic Workflows]] — Claude Code 动态编写多 Agent harness；六种模式 + 三种单上下文失败模式；Opus 4.8 核心能力
 - [[concepts/MultimodalEvalSimulationEval边界|Multimodal Eval / Simulation Eval 边界]] — 多模态和世界模型的可靠性评估：MMMU、Video-MME、WorldModelBench、WorldSimBench、SIMA/EmbodiedBench
 
 ## AI 原生公司架构（YC / Diana）
