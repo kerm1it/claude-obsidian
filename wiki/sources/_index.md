@@ -21,6 +21,7 @@ status: active
 
 ## 推文 / X Article
 
+- [[sources/twitter-2061907337154367865-2026-06-05|@trq212: Dynamic Workflows 发布推文]] · Thariq · 2026-06-02（9.2K 赞，2.6M 查看）
 - [[sources/twitter-2052809885763747935|HTML 的非凡效能 —— Claude Code 最佳输出格式]] · @trq212 · 2026-05-08
 
 [[sources/claude-code-dynamic-workflows-2026-06-05|A harness for every task: Dynamic Workflows in Claude Code]] · Anthropic / Thariq + Sid · 2026-06-02（博客，六种 workflow 模式 + 三种失败模式）

@@ -13,6 +13,9 @@ status: active
 
 ## 2026-06-05 ingest | Dynamic Workflows in Claude Code — Anthropic
 - Source: `.raw/articles/claude-code-dynamic-workflows-2026-06-05.md`
+
+## 2026-06-05 ingest | @trq212: Dynamic Workflows 发布推文
+- Source: `.raw/articles/twitter-2061907337154367865-2026-06-05.md`
 - Summary: [[sources/claude-code-dynamic-workflows-2026-06-05|A harness for every task: Dynamic Workflows in Claude Code]]
 - Pages created: [[sources/claude-code-dynamic-workflows-2026-06-05]]，[[Sid Bidasaria]]，[[concepts/DynamicWorkflows]]
 - Pages updated: [[Thariq]]，[[people/_index]]，[[concepts/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]

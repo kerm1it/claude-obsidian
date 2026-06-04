@@ -523,6 +523,18 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/twitter-2061907337154367865-2026-06-05.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-05",
+      "pages_created": [
+        "wiki/sources/twitter-2061907337154367865-2026-06-05.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/claude-code-dynamic-workflows-2026-06-05.md": {
       "hash": "url-source",
       "ingested_at": "2026-06-05",
@@ -732,6 +744,7 @@
     "wiki/concepts/Omni世界模型.md": "c-000167",
     "wiki/sources/claude-code-dynamic-workflows-2026-06-05.md": "c-000588",
     "wiki/people/SidBidasaria.md": "c-000589",
-    "wiki/concepts/DynamicWorkflows.md": "c-000590"
+    "wiki/concepts/DynamicWorkflows.md": "c-000590",
+    "wiki/sources/twitter-2061907337154367865-2026-06-05.md": "c-000591"
   }
 }
