@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"title-ai-system-chain","type":"text","text":"# AI 系统生成链\n\n自底而上看：地基是理论，顶层是可自我改进的真实 AI 系统。","x":-520,"y":-1780,"width":780,"height":115,"color":"6"},
+		{"id":"read-map-tip","type":"text","text":"## 读法\n\n从底部第 1 层往上读主链。右侧紫色区是第 8 层回流：真实运行反馈只能在证据和质量门通过后，反哺模型、上下文和 eval。","x":420,"y":-1780,"width":560,"height":115,"color":"5"},
+		{"id":"group-main-chain","type":"group","label":"主链：从能力地基到可改进系统","x":-560,"y":-1580,"width":840,"height":1760,"color":"5"},
+		{"id":"group-feedback-loop","type":"group","label":"反馈回流：第 8 层反哺前面关键层","x":380,"y":-1580,"width":620,"height":1760,"color":"6"},
+		{"id":"layer-8-improvement","type":"text","text":"# 8 自我改进与前沿层\n\n**用运行结果提出可审查改动**\n\n输入：eval、trace、用户反馈、失败案例\n输出：新数据、新工具、新模型、新流程","x":-500,"y":-1500,"width":760,"height":150,"color":"6"},
+		{"id":"layer-7-product","type":"text","text":"# 7 产品与组织层\n\n**把可靠能力变成真实价值**\n\n输入：可靠能力、业务流程、用户反馈\n输出：产品、组织流程、数据飞轮","x":-500,"y":-1280,"width":760,"height":150,"color":"2"},
+		{"id":"layer-6-eval","type":"text","text":"# 6 评估与可靠性层\n\n**判断系统是否真的可用**\n\n输入：任务、trace、用户反馈、环境状态\n输出：eval、质量门、监控、风险约束","x":-500,"y":-1060,"width":760,"height":150,"color":"2"},
+		{"id":"layer-5-agent","type":"text","text":"# 5 Agent 系统层\n\n**让模型持续行动并改变环境**\n\n输入：模型能力、上下文、工具、状态\n输出：agent loop、workflow、tool use、trace","x":-500,"y":-840,"width":760,"height":150,"color":"4"},
+		{"id":"layer-4-context","type":"text","text":"# 4 上下文与知识层\n\n**把任务现场喂给模型**\n\n输入：用户目标、外部知识、历史、工具描述\n输出：高信号上下文、RAG、memory、skills","x":-500,"y":-620,"width":760,"height":150,"color":"4"},
+		{"id":"layer-3-runtime","type":"text","text":"# 3 推理与能力层\n\n**模型运行时如何表现能力**\n\n输入：模型权重、推理预算、部署约束\n输出：reasoning、多模态、serving、model routing","x":-500,"y":-400,"width":760,"height":150,"color":"5"},
+		{"id":"layer-2-building","type":"text","text":"# 2 模型构建层\n\n**把数据和反馈写进参数**\n\n输入：数据、算力、架构、目标函数\n输出：基础模型、专用模型、微调/蒸馏模型","x":-500,"y":-180,"width":760,"height":150,"color":"5"},
+		{"id":"layer-1-theory","type":"text","text":"# 1 基础理论层\n\n**解释模型为什么能学**\n\n输入：数学、数据、算力假设\n输出：架构原则、训练原则、优化直觉","x":-500,"y":40,"width":760,"height":150,"color":"5"},
+		{"id":"feedback-hub","type":"text","text":"# 第 8 层回流\n\n第 8 层不是新增顶层，而是把真实运行结果变成 **proposed diff**。\n\n每个 diff 先问：改哪一层？证据够不够？谁负责？能不能回滚？","x":430,"y":-1500,"width":530,"height":230,"color":"6"},
+		{"id":"feedback-to-eval","type":"text","text":"## 回到第 6 层\n\n新增 eval、benchmark、quality gate、monitor、trace grader。","x":430,"y":-1060,"width":530,"height":120,"color":"6"},
+		{"id":"feedback-to-context","type":"text","text":"## 回到第 4 层\n\n修正 prompt/context，更新 RAG、memory、skill、知识库。","x":430,"y":-620,"width":530,"height":120,"color":"6"},
+		{"id":"feedback-to-model","type":"text","text":"## 回到第 2 层\n\n证据充分时，进入新训练数据、微调、蒸馏或模型优化候选。","x":430,"y":-180,"width":530,"height":120,"color":"6"},
+		{"id":"classification-rule","type":"text","text":"## 新概念分类口诀\n\n`概念名 -> 主层级 -> 上游输入 -> 下游输出 -> 评估方式 -> 可能反哺`\n\n如果写不出来，先别扩顶层。","x":430,"y":40,"width":530,"height":150,"color":"3"}
+	],
+	"edges":[
+		{"id":"edge-1-2","fromNode":"layer-1-theory","fromSide":"top","toNode":"layer-2-building","toSide":"bottom","toEnd":"arrow","color":"5"},
+		{"id":"edge-2-3","fromNode":"layer-2-building","fromSide":"top","toNode":"layer-3-runtime","toSide":"bottom","toEnd":"arrow","color":"5"},
+		{"id":"edge-3-4","fromNode":"layer-3-runtime","fromSide":"top","toNode":"layer-4-context","toSide":"bottom","toEnd":"arrow","color":"4"},
+		{"id":"edge-4-5","fromNode":"layer-4-context","fromSide":"top","toNode":"layer-5-agent","toSide":"bottom","toEnd":"arrow","color":"4"},
+		{"id":"edge-5-6","fromNode":"layer-5-agent","fromSide":"top","toNode":"layer-6-eval","toSide":"bottom","toEnd":"arrow","color":"2"},
+		{"id":"edge-6-7","fromNode":"layer-6-eval","fromSide":"top","toNode":"layer-7-product","toSide":"bottom","toEnd":"arrow","color":"2"},
+		{"id":"edge-7-8","fromNode":"layer-7-product","fromSide":"top","toNode":"layer-8-improvement","toSide":"bottom","toEnd":"arrow","color":"6"},
+		{"id":"edge-8-hub","fromNode":"layer-8-improvement","fromSide":"right","toNode":"feedback-hub","toSide":"left","toEnd":"arrow","label":"真实反馈 -> proposed diff","color":"6"},
+		{"id":"edge-hub-eval","fromNode":"feedback-hub","fromSide":"bottom","toNode":"feedback-to-eval","toSide":"top","toEnd":"arrow","label":"先补质量门","color":"6"},
+		{"id":"edge-eval-layer-6","fromNode":"feedback-to-eval","fromSide":"left","toNode":"layer-6-eval","toSide":"right","toEnd":"arrow","color":"6"},
+		{"id":"edge-eval-context","fromNode":"feedback-to-eval","fromSide":"bottom","toNode":"feedback-to-context","toSide":"top","toEnd":"arrow","color":"6"},
+		{"id":"edge-context-layer-4","fromNode":"feedback-to-context","fromSide":"left","toNode":"layer-4-context","toSide":"right","toEnd":"arrow","color":"6"},
+		{"id":"edge-context-model","fromNode":"feedback-to-context","fromSide":"bottom","toNode":"feedback-to-model","toSide":"top","toEnd":"arrow","color":"6"},
+		{"id":"edge-model-layer-2","fromNode":"feedback-to-model","fromSide":"left","toNode":"layer-2-building","toSide":"right","toEnd":"arrow","color":"6"}
+	]
+}

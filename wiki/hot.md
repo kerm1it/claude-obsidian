@@ -69,11 +69,14 @@ related:
   - "[[Review: AI知识体系稳定 v1 结构验收]]"
   - "[[learning/AI体系学习路线]]"
   - "[[learning/AI学习计划-2026]]"
+  - "[[canvases/ai-knowledge-system.canvas]]"
 ---
 
 # 最近上下文
 
 ## 最近更新
+
+2026-06-05。新增 [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]，并将 [[domains/AI知识体系]] 开头 Mermaid 图替换为可视化 canvas embed；总图已改为自底而上的竖向 ladder：主链展示 1-8 层递进，右侧紫色回流展示第 8 层反哺第 6、4、2 层。
 
 2026-06-05。摄入 Thariq 推文：Dynamic Workflows 发布公告（9.2K 赞，2.6M 查看）。内容与同日摄入的博客文章重叠，推文作为社交分发渠道记录。c-000591。
 

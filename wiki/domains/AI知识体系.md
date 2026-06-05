@@ -3,7 +3,7 @@ address: c-000168
 type: domain
 title: "AI 知识体系"
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-05
 tags:
   - ai
   - knowledge-system
@@ -434,19 +434,7 @@ sources:
 
 核心链路：
 
-```mermaid
-flowchart LR
-    A["1 基础理论层"] --> B["2 模型构建层"]
-    B --> C["3 推理与能力层"]
-    C --> D["4 上下文与知识层"]
-    D --> E["5 Agent 系统层"]
-    E --> F["6 评估与可靠性层"]
-    F --> G["7 产品与组织层"]
-    G --> H["8 自我改进与前沿层"]
-    H --> B
-    H --> D
-    H --> F
-```
+![[canvases/ai-knowledge-system.canvas]]
 
 > [!tip] 读法
 > 每个新概念先问四个问题：它消费什么输入？产出什么能力或约束？它服务哪一层？它会反哺哪一层？如果答不出来，先放入“待归类/边界概念”，不要扩顶层。

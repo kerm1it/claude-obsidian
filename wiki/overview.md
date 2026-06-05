@@ -2,7 +2,7 @@
 type: overview
 title: "总览"
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-06-05
 tags:
   - wiki
   - overview
@@ -29,3 +29,7 @@ status: active
 ## 消化方式
 
 原始素材留在 `.raw/`。消化后的知识进入 `wiki/`。agent 应保留来源，把长期有价值的内容放进最相关的个人区域，并保持 [[index]]、[[log]] 和 [[hot]] 更新。
+
+## Canvases
+
+- [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]：8 层 AI 系统生成链视觉总图，嵌入 [[domains/AI知识体系]] 开头。

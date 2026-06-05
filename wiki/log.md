@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - wiki
   - log
@@ -10,6 +10,11 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-06-05 canvas | AI知识体系总图
+- Canvas: [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]
+- Pages updated: [[domains/AI知识体系]]，[[overview]]，[[hot]]，[[log]]
+- Key insight: 将 [[domains/AI知识体系]] 开头的 Mermaid 主链替换为 Obsidian Canvas 嵌入；总图改为自底而上的竖向 ladder，主链展示 1-8 层递进，右侧紫色回流展示第 8 层反哺第 6、4、2 层。
 
 ## 2026-06-05 ingest | Dynamic Workflows in Claude Code — Anthropic
 - Source: `.raw/articles/claude-code-dynamic-workflows-2026-06-05.md`
