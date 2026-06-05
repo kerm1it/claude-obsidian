@@ -14,6 +14,13 @@ status: active
 ## 2026-06-05 ingest | Dynamic Workflows in Claude Code — Anthropic
 - Source: `.raw/articles/claude-code-dynamic-workflows-2026-06-05.md`
 
+## 2026-06-05 ingest | Every Agentic Engineering Hack I Know — Matt Van Horn
+- Source: `.raw/articles/matt-vanhorn-agentic-hacks-2026-06-05.md`
+- Summary: [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know (June 2026)]]
+- Pages created: [[sources/matt-vanhorn-agentic-hacks-2026-06-05]]，[[MattVanHorn]]，[[concepts/PlanExecute循环]]
+- Pages updated: [[people/_index]]，[[concepts/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Plan-Execute 循环：有想法→ce-plan→ce-work；计划给 Agent，人类提供信号（taste/direction/redirect）。
+
 ## 2026-06-05 ingest | @trq212: Dynamic Workflows 发布推文
 - Source: `.raw/articles/twitter-2061907337154367865-2026-06-05.md`
 - Summary: [[sources/claude-code-dynamic-workflows-2026-06-05|A harness for every task: Dynamic Workflows in Claude Code]]

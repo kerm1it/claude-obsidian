@@ -34,6 +34,7 @@ status: active
 - [[people/OriolVinyals|Oriol Vinyals]] — Google DeepMind，Gemini 联合负责人，Agent 方向主责，原 DeepMind 深度学习负责人
 - [[people/LoganKilpatrick|Logan Kilpatrick]] — Google DeepMind，开发者关系，"模型即产品"信条提出者
 - [[people/SidBidasaria|Sid Bidasaria]] — Anthropic Claude Code 团队成员，Dynamic Workflows 联合作者
+- [[people/MattVanHorn|Matt Van Horn]] — June/Lyft 前身联合创始人，Agentic Engineering 实践者，last30days/Printing Press 作者
 - [[people/RyanLopopolo|Ryan Lopopolo]] — OpenAI Staff Engineer，Codex CLI 工程实践分享
 - [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人
 - [[people/BorisCherny|Boris Cherny]] — Anthropic，Claude Code 创始人

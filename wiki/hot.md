@@ -77,6 +77,8 @@ related:
 
 2026-06-05。摄入 Thariq 推文：Dynamic Workflows 发布公告（9.2K 赞，2.6M 查看）。内容与同日摄入的博客文章重叠，推文作为社交分发渠道记录。c-000591。
 
+2026-06-05。摄入 Matt Van Horn 推文长文：Every Agentic Engineering Hack I Know（2.5K 赞，669K 查看）。22 条 Agentic Engineering 技巧。[[concepts/PlanExecute循环]]。新人物 [[MattVanHorn]]。DragonScale 595（c-000592-594）。
+
 2026-05-31。已把 [[learning/AI体系学习路线]] 和 [[learning/AI学习计划-2026]] 合并成“体系路线 + 执行计划”的主从关系：路线负责 8 层顺序和概念定位，计划负责具体资源、任务、进度和学习产出模板。
 
 ## Key Recent Facts

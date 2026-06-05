@@ -111,6 +111,7 @@ status: active
 ## Claude Code 编排与多 Agent
 
 - [[concepts/DynamicWorkflows|Dynamic Workflows]] — Claude Code 动态编写多 Agent harness；六种模式 + 三种单上下文失败模式；Opus 4.8 核心能力
+- [[concepts/PlanExecute循环|Plan-Execute 循环]] — Matt Van Horn 推广的 Agentic Engineering 核心工作流；/ce-plan→/ce-work；计划给 Agent，人类提供信号
 - [[concepts/MultimodalEvalSimulationEval边界|Multimodal Eval / Simulation Eval 边界]] — 多模态和世界模型的可靠性评估：MMMU、Video-MME、WorldModelBench、WorldSimBench、SIMA/EmbodiedBench
 
 ## AI 原生公司架构（YC / Diana）
