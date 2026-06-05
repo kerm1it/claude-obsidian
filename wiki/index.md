@@ -345,6 +345,7 @@ status: active
 - [[sources/alex-albert-building-next-claude-2026-05-21|Inside How Anthropic Is Building the Next Claude — Alex Albert（2026-05-21）]]
 - [[sources/gemini-coleads-origins-2026-05-30|Gemini 联合负责人谈项目起源与未来 — Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals（2026-05-29）]]
 - [[sources/claude-code-dynamic-workflows-2026-06-05|Dynamic Workflows in Claude Code — Thariq Shihipar, Sid Bidasaria（2026-06-02）]]
+- [[sources/headroom-2026-06-05|Headroom — Agent 上下文压缩层 — Tejas Chopra（2026-06-05）]]
 - [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know — Matt Van Horn（2026-06-02）]]
 
 ## 实体

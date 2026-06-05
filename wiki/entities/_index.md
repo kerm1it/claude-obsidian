@@ -40,3 +40,4 @@ status: active
 - [[entities/Autoresearch]] — Karpathy 自主 ML 研究循环，82.2K ⭐，Python，agent 过夜改代码→5分钟训练→迭代
 - [[entities/Gemini]] — Google DeepMind 多模态 LLM 家族，2023 年 Brain+DeepMind 合并产物，3.5 代迭代
 - [[entities/GoogleDeepMind|Google DeepMind]] — Google AI 研究部门，2023 年 DeepMind + Google Brain 合并而成
+- [[entities/Headroom]] — AI Agent 上下文压缩层，14.1K ⭐，Python，6 种算法+6 种接入，可逆压缩

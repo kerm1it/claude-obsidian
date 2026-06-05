@@ -523,6 +523,25 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/headroom-2026-06-05.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-05",
+      "pages_created": [
+        "wiki/sources/headroom-2026-06-05.md",
+        "wiki/entities/Headroom.md",
+        "wiki/people/TejasChopra.md",
+        "wiki/concepts/上下文压缩.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/matt-vanhorn-agentic-hacks-2026-06-05.md": {
       "hash": "url-source",
       "ingested_at": "2026-06-05",
@@ -765,6 +784,10 @@
     "wiki/sources/twitter-2061907337154367865-2026-06-05.md": "c-000591",
     "wiki/sources/matt-vanhorn-agentic-hacks-2026-06-05.md": "c-000592",
     "wiki/people/MattVanHorn.md": "c-000593",
-    "wiki/concepts/PlanExecute循环.md": "c-000594"
+    "wiki/concepts/PlanExecute循环.md": "c-000594",
+    "wiki/sources/headroom-2026-06-05.md": "c-000595",
+    "wiki/entities/Headroom.md": "c-000596",
+    "wiki/people/TejasChopra.md": "c-000597",
+    "wiki/concepts/上下文压缩.md": "c-000598"
   }
 }

@@ -81,6 +81,10 @@ status: active
 - [[concepts/上下文工程|上下文工程（Context Engineering）]] — 管理 Agent 推理全部 token 的技术体系；超越提示工程；高信号 token 原则 + 四大长任务策略
 - [[concepts/上下文腐化|上下文腐化（Context Rot）]] — 上下文越长性能越低；Transformer n² 注意力复杂度；扩大窗口无法解决，需主动管理 token 质量
 
+## 上下文压缩
+
+- [[concepts/上下文压缩|上下文压缩]] — Headroom 驱动的 Agent 上下文 token 优化；6 种算法+可逆压缩；与上下文工程/腐化/JIT 四层体系
+
 ## Agent 记忆取用策略
 
 - [[concepts/渐进式上下文注入|渐进式上下文注入（Progressive Disclosure / JIT Retrieval）]] — 分层取用历史记忆（索引→时间线→详情），节省约 10x tokens；claude-mem 实现 + Anthropic JIT 检索表述

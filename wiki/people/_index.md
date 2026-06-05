@@ -35,6 +35,7 @@ status: active
 - [[people/LoganKilpatrick|Logan Kilpatrick]] — Google DeepMind，开发者关系，"模型即产品"信条提出者
 - [[people/SidBidasaria|Sid Bidasaria]] — Anthropic Claude Code 团队成员，Dynamic Workflows 联合作者
 - [[people/MattVanHorn|Matt Van Horn]] — June/Lyft 前身联合创始人，Agentic Engineering 实践者，last30days/Printing Press 作者
+- [[people/TejasChopra|Tejas Chopra]] — Headroom 作者，14.1K ⭐，AI Agent 上下文压缩层
 - [[people/RyanLopopolo|Ryan Lopopolo]] — OpenAI Staff Engineer，Codex CLI 工程实践分享
 - [[people/Lucas|Lucas]] — Anthropic Research PM，The Expanding Toolkit 演讲人
 - [[people/BorisCherny|Boris Cherny]] — Anthropic，Claude Code 创始人

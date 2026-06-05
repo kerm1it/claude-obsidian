@@ -19,6 +19,13 @@ status: active
 ## 2026-06-05 ingest | Dynamic Workflows in Claude Code — Anthropic
 - Source: `.raw/articles/claude-code-dynamic-workflows-2026-06-05.md`
 
+## 2026-06-05 ingest | Headroom — Tejas Chopra（14.1K ⭐）
+- Source: `.raw/articles/headroom-2026-06-05.md`
+- Summary: [[sources/headroom-2026-06-05|Headroom — The context compression layer for AI agents]]
+- Pages created: [[sources/headroom-2026-06-05]]，[[entities/Headroom]]，[[TejasChopra]]，[[concepts/上下文压缩]]
+- Pages updated: [[entities/_index]]，[[people/_index]]，[[concepts/_index]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: 上下文压缩作为上下文工程第四层（工程/腐化/JIT/压缩），可逆压缩+跨 Agent 记忆。
+
 ## 2026-06-05 ingest | Every Agentic Engineering Hack I Know — Matt Van Horn
 - Source: `.raw/articles/matt-vanhorn-agentic-hacks-2026-06-05.md`
 - Summary: [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know (June 2026)]]
