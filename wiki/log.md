@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-06-05
+updated: 2026-06-09
 tags:
   - wiki
   - log
@@ -10,6 +10,13 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-06-09 save | AI知识体系学习记录
+- Type: learning-note
+- Location: [[learning/2026-06-09 AI知识体系学习记录]]
+- From: 今日围绕 [[domains/AI知识体系]] 的提问和澄清
+- Pages updated: [[learning/_index]]，[[learning/AI学习计划-2026]]，[[index]]，[[hot]]，[[log]]
+- Key insight: 今日学习把 8 层从分类表串成系统生命周期：第 3 层是运行时能力，第 4 层是任务信息供应，第 5 层承接 agent/subagent/multi-agent，第 8 层通过证据化 diff 反哺第 6、4、2 层。
 
 ## 2026-06-05 canvas | AI知识体系总图
 - Canvas: [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]

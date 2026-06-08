@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-06-05
+updated: 2026-06-09
 tags:
   - meta
   - hot-cache
@@ -70,11 +70,14 @@ related:
   - "[[learning/AI体系学习路线]]"
   - "[[learning/AI学习计划-2026]]"
   - "[[canvases/ai-knowledge-system.canvas]]"
+  - "[[learning/2026-06-09 AI知识体系学习记录]]"
 ---
 
 # 最近上下文
 
 ## 最近更新
+
+2026-06-09。保存 [[learning/2026-06-09 AI知识体系学习记录]]：今日学习重点是把 [[domains/AI知识体系]] 从 8 层分类表理解成系统生命周期；明确 subagent 是 delegation，multi-agent 是 orchestration；第 3 层是运行时能力，第 4 层是任务信息供应；第 8 层是反馈环，主要反哺第 6、4、2 层。
 
 2026-06-05。新增 [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]，并将 [[domains/AI知识体系]] 开头 Mermaid 图替换为可视化 canvas embed；总图已改为自底而上的竖向 ladder：主链展示 1-8 层递进，右侧紫色回流展示第 8 层反哺第 6、4、2 层。
 
