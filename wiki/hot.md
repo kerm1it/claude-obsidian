@@ -77,7 +77,7 @@ related:
 
 ## 最近更新
 
-2026-06-09。保存 [[learning/2026-06-09 AI知识体系学习记录]]：今日学习重点是把 [[domains/AI知识体系]] 从 8 层分类表理解成系统生命周期；明确 subagent 是 delegation，multi-agent 是 orchestration；第 3 层是运行时能力，第 4 层是任务信息供应；第 8 层是反馈环，主要反哺第 6、4、2 层。
+2026-06-09。保存 [[learning/2026-06-09 AI知识体系学习记录]]：今日学习重点是把 [[domains/AI知识体系]] 从 8 层分类表理解成系统生命周期；明确 subagent 是 delegation，multi-agent 是 orchestration；第 3 层是运行时能力，第 4 层是任务信息供应；第 8 层是反馈环，主要反哺第 6、4、2 层。补充 serving 学习：serving 是用户请求 / 产品系统与模型推理之间、靠近模型侧的运行时中间层；prefill 是生成前处理输入并建立 KV cache；模型蒸馏是把 teacher model 的稳定行为压缩进更小更便宜的 student model。
 
 2026-06-05。新增 [[canvases/ai-knowledge-system.canvas|AI 知识体系 Canvas]]，并将 [[domains/AI知识体系]] 开头 Mermaid 图替换为可视化 canvas embed；总图已改为自底而上的竖向 ladder：主链展示 1-8 层递进，右侧紫色回流展示第 8 层反哺第 6、4、2 层。
 
