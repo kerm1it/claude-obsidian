@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-06-09
+updated: 2026-06-10
 tags:
   - wiki
   - log
@@ -10,6 +10,13 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-06-10 save | AI知识体系学习记录
+- Type: learning-note
+- Location: [[learning/2026-06-10 AI知识体系学习记录]]
+- From: 今日围绕 eval 基线、上下文工程、RAG 与 Memory 边界的提问和澄清
+- Pages updated: [[learning/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Eval 基线是上下文工程的起点；上下文工程是把模型完成任务所需的高信号信息组织进推理现场；RAG 提供外部知识，Memory 维持用户、agent 或组织在时间中的主体连续性。
 
 ## 2026-06-09 save | AI知识体系学习记录
 - Type: learning-note
