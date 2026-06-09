@@ -66,28 +66,28 @@ Serving 的核心不是“部署一个模型”，而是把 request 变成满足
 
 ## 工程旋钮
 
-| 旋钮 | 改什么 | 代价 |
-|---|---|---|
-| 换模型 | 速度、价格、质量 | 可能降能力 |
-| 减 token | 输入/输出成本、延迟 | 可能丢上下文 |
-| prompt caching | 重复前缀成本和 TTFT | 需要稳定 prompt 前缀 |
-| streaming | 感知延迟 | 不一定降低总耗时 |
-| batching / continuous batching | 吞吐和 GPU 利用率 | 可能增加单请求等待 |
-| KV cache / paged attention | 显存效率、并发 | 系统复杂度 |
-| prefill/decode 分离 | 混合负载下的 goodput | 部署复杂度 |
-| quantization / distillation | 成本、延迟、显存 | 质量回归风险 |
-| speculative decoding | decode latency | 需要 draft model 或系统支持 |
+| 旋钮                             | 改什么            | 代价                   |
+| ------------------------------ | -------------- | -------------------- |
+| 换模型                            | 速度、价格、质量       | 可能降能力                |
+| 减 token                        | 输入/输出成本、延迟     | 可能丢上下文               |
+| prompt caching                 | 重复前缀成本和 TTFT   | 需要稳定 prompt 前缀       |
+| streaming                      | 感知延迟           | 不一定降低总耗时             |
+| batching / continuous batching | 吞吐和 GPU 利用率    | 可能增加单请求等待            |
+| KV cache / paged attention     | 显存效率、并发        | 系统复杂度                |
+| prefill/decode 分离              | 混合负载下的 goodput | 部署复杂度                |
+| quantization / distillation    | 成本、延迟、显存       | 质量回归风险               |
+| speculative decoding           | decode latency | 需要 draft model 或系统支持 |
 
 ## 与相邻概念的区别
 
-| 概念 | 区别 |
-|---|---|
-| Test-time compute | TTC 多花运行时计算换质量；serving 决定这些计算是否可承受 |
-| Model routing / mixture | routing 选择模型、effort、cascade 或 ensemble；serving 执行并记录成本、延迟和吞吐 |
-| Fine-tuning / distillation | 把稳定模式压进权重以降成本；serving 负责运行时效率 |
-| Context engineering | 减少低价值 token；serving 衡量 token 对成本和延迟的影响 |
-| Agent harness | tool loop 会放大 serving 成本；serving 需要按 trace 计算 cost/success |
-| Product pricing | pricing 是商业策略；serving 提供真实 unit economics |
+| 概念                         | 区别                                                           |
+| -------------------------- | ------------------------------------------------------------ |
+| Test-time compute          | TTC 多花运行时计算换质量；serving 决定这些计算是否可承受                           |
+| Model routing / mixture    | routing 选择模型、effort、cascade 或 ensemble；serving 执行并记录成本、延迟和吞吐 |
+| Fine-tuning / distillation | 把稳定模式压进权重以降成本；serving 负责运行时效率                                |
+| Context engineering        | 减少低价值 token；serving 衡量 token 对成本和延迟的影响                       |
+| Agent harness              | tool loop 会放大 serving 成本；serving 需要按 trace 计算 cost/success   |
+| Product pricing            | pricing 是商业策略；serving 提供真实 unit economics                    |
 
 ## 判断顺序
 
