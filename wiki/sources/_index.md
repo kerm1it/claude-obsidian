@@ -14,6 +14,7 @@ status: active
 ## GitHub 仓库
 
 - [[sources/activeloopai-hivemind-2026-06-12|Hivemind — Agent 共享记忆与技能传播系统]]
+- [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5]]
 
 - [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环]] · Andrej Karpathy · 82.2K ⭐ · 2026-05-20
 - [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]] · Garry Tan · 14.6K ⭐ · 2026-05-11

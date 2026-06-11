@@ -18,7 +18,7 @@ AI 安全公司，Claude 系列大语言模型的开发者。
 
 ## 产品
 
-- **Claude**：主力大语言模型系列（Opus、Sonnet、Haiku）
+- **Claude**：主力大语言模型系列（Opus、Sonnet、Haiku）。Mythos 级模型包括 [[entities/ClaudeMythos]]（未发布）和 [[entities/ClaudeFable5]]（2026-06-12 发布）
 - **[[domains/Claude-Code]]**：Claude 的命令行 + IDE 编程助手
 
 ## 关联人物

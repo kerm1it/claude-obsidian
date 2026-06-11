@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-12 ingest | Introducing Claude Fable 5
+- Source: `.raw/notebooklm/claude-fable-5-2026-06-12.md`
+- Summary: [[sources/claude-fable-5-2026-06-12]]
+- Pages created: [[entities/ClaudeFable5]], [[entities/ClaudeMythos]], [[concepts/安全重定向]], [[concepts/负责任发布]]
+- Pages updated: [[entities/Anthropic]]
+- Key insight: Mythos→Fable 5 的发布范式——训练→发现过度危险能力→内部安全团队修复→发布安全版——是 Anthropic 负责任扩缩策略（RSP）的具体实例。安全重定向（高风险请求→Opus 4.8）是技术实现。
+
 ## 2026-06-12 ingest | Hivemind — Agent 共享记忆与技能传播系统
 - Source: `.raw/articles/activeloopai-hivemind-2026-06-12.md`
 - Summary: [[sources/activeloopai-hivemind-2026-06-12]]

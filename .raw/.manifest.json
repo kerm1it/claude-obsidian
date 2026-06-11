@@ -610,6 +610,26 @@
         "wiki/log.md"
       ]
     },
+    ".raw/notebooklm/claude-fable-5-2026-06-12.md": {
+      "hash": "notebooklm-youtube-Y9Wz2PV404E",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/claude-fable-5-2026-06-12.md",
+        "wiki/entities/ClaudeFable5.md",
+        "wiki/entities/ClaudeMythos.md",
+        "wiki/concepts/安全重定向.md",
+        "wiki/concepts/负责任发布.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Anthropic.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/activeloopai-hivemind-2026-06-12.md": {
       "hash": "url-source",
       "ingested_at": "2026-06-12",
@@ -816,6 +836,11 @@
     "wiki/entities/Hivemind.md": "c-000601",
     "wiki/concepts/Agent共享记忆.md": "c-000602",
     "wiki/concepts/代码库图谱.md": "c-000603",
-    "wiki/concepts/跨Agent规则系统.md": "c-000604"
+    "wiki/concepts/跨Agent规则系统.md": "c-000604",
+    "wiki/sources/claude-fable-5-2026-06-12.md": "c-000605",
+    "wiki/entities/ClaudeFable5.md": "c-000606",
+    "wiki/entities/ClaudeMythos.md": "c-000607",
+    "wiki/concepts/安全重定向.md": "c-000608",
+    "wiki/concepts/负责任发布.md": "c-000609"
   }
 }

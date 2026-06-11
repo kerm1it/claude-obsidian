@@ -350,6 +350,7 @@ status: active
 - [[sources/headroom-2026-06-05|Headroom — Agent 上下文压缩层 — Tejas Chopra（2026-06-05）]]
 - [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know — Matt Van Horn（2026-06-02）]]
 - [[sources/activeloopai-hivemind-2026-06-12|Hivemind — Agent 共享记忆与技能传播系统（Activeloop，2026）]]
+- [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5（Anthropic，2026-06-12）]]
 
 ## 实体
 
@@ -362,6 +363,7 @@ status: active
 - [[entities/RuView]]、[[entities/CognitumSeed]]、[[entities/RuVector]]
 - [[entities/Autoresearch]]
 - [[entities/Activeloop]]、[[entities/Hivemind]]
+- [[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]
 
 ## 人物
 
@@ -453,6 +455,7 @@ status: active
 ## Agent 基础设施
 
 - [[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]
+- [[concepts/安全重定向]]、[[concepts/负责任发布]]
 
 ## Skills 体系
 
