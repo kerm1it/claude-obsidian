@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-12 ingest | Hivemind — Agent 共享记忆与技能传播系统
+- Source: `.raw/articles/activeloopai-hivemind-2026-06-12.md`
+- Summary: [[sources/activeloopai-hivemind-2026-06-12]]
+- Pages created: [[entities/Activeloop]], [[entities/Hivemind]], [[concepts/Agent共享记忆]], [[concepts/代码库图谱]], [[concepts/跨Agent规则系统]]
+- Pages updated: [[concepts/Skillify]], [[entities/GBrain]]
+- Key insight: Hivemind 的核心理念——"共享能力必须有共享数据基础"（shared capability intentionally requires shared substrate）——团队所有 Agent 的 traces 进入共享存储，自动挖掘为 SKILL.md，再传播回全团队。这是第 5 层（Agent trace）+ 第 8 层（self-improvement）的工程化组合。
+
 ## 2026-06-10 save | AI知识体系学习记录
 - Type: learning-note
 - Location: [[learning/2026-06-10 AI知识体系学习记录]]

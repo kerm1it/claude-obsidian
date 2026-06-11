@@ -28,6 +28,9 @@ status: active
 - [[concepts/RewardHackingEvalOverfitting边界|Reward Hacking / Eval Overfitting 边界]] — 第 6 层质量门失效模式：reward、grader、benchmark、KPI 或反馈闭环被优化压力污染
 - [[concepts/DataFlywheelFeedbackLoop边界|Data Flywheel / Feedback Loop 边界]] — 第 7 层反馈接口：把真实使用信号分流到 eval、RAG、memory、skill、router、training candidate 和 self-improvement
 - [[concepts/ProductFeedbackClosureActionability边界|Product Feedback Closure / Actionability 边界]] — 第 7 层反馈闭环边界：证明真实反馈已进入有 owner、artifact、验证、关闭证据和 reopen 条件的行动，而不只是被收集或展示
+- [[concepts/Agent共享记忆|Agent 共享记忆]] — 团队级共享记忆架构：Capture→Codify→Propagate→Compound，自动 trace→skill 传播
+- [[concepts/代码库图谱|代码库图谱]] — 从 Agent trace 构建的实时代码结构图，非静态 AST 分析
+- [[concepts/跨Agent规则系统|跨 Agent 规则系统]] — 组织级 Agent 行为约束，SessionStart 注入，版本化管理
 - [[concepts/DataRightsPrivacyConsent边界|Data Rights / Privacy / Consent 边界]] — 第 7 层数据用途闸门：决定数据能否进入 service、memory、eval、training 或 vendor sharing，并约束保留、删除、导出和审计
 - [[concepts/DataDeletionUnlearningImpact边界|Data Deletion / Unlearning Impact 边界]] — 第 7 层数据生命周期执行闭环：把删除/撤回/保留到期/事故请求落实到 logs、RAG、memory、eval、training、model weights、provider 和 audit
 - [[concepts/ToolRiskPermissioning边界|Tool Risk / Permissioning 边界]] — 第 5 层动作准入：给 tool call 加风险层、scope、sandbox、approval、audit 和 rollback 边界

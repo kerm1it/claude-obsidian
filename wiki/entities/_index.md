@@ -28,6 +28,8 @@ status: active
 - [[entities/ClaudeMem]] — 开源 Agent 跨会话记忆插件，75K ⭐，TypeScript，渐进式上下文注入
 - [[entities/AgentMemory]] — 持久记忆引擎，7.1K ⭐，R@5 95.2%，四层记忆整合，0 外部 DB
 - [[entities/Microsoft]] — 科技巨头，AI 研究和产品双线布局
+- [[entities/Activeloop]] — AI 数据基础设施公司，Deeplake + Hivemind 开发者
+- [[entities/Hivemind]] — Agent 共享记忆与技能传播系统，~1K ⭐，TypeScript
 - [[entities/VibeVoice]] — Microsoft 开源语音 AI 模型族，47K ⭐，TTS + ASR
 - [[entities/ClaudeCowork]] — Anthropic 运营自动化产品，AI 智能体团队，与 Claude + Claude Code 互补
 - [[entities/OpenHuman]] — 开源桌面 AI 超级智能，10K+ ⭐，Rust+Tauri，Memory Tree + 118+ OAuth，GPL-3.0

@@ -75,6 +75,7 @@ GBrain 为 AI Agent 提供持久的、可搜索的结构化记忆。它不是向
 
 - [[entities/ClaudeMem]]（75K ⭐）：更轻量，一条命令安装；捕获工具调用级 observations；Chroma 向量检索；侧重实时会话注入。GBrain 更完整（Compiled Truth + Dream Cycle + RRF），适合重型知识库。
 - [[entities/AgentMemory]]（7.1K ⭐，rohitg00）：4 层记忆整合（Working/Episodic/Semantic/Procedural）+ BM25+Vector+Graph RRF；R@5 95.2%；agentmemory 更工程化（827 tests，51 MCP tools，0 外部 DB）；GBrain 侧重知识库管理，agentmemory 侧重自动捕获和高精度检索。两者的 RRF 检索和异步记忆巩固独立收敛。
+- [[entities/Hivemind]]（~1K ⭐，Activeloop，2026）：团队级 Agent 共享记忆。GBrain 是个人知识库，Hivemind 是全团队 Capture→Codify→Propagate→Compound 循环。Hivemind 的 Skillify 为全自动 trace→skill 挖掘（每 20 turns），GBrain 的 Skillify 偏人工审查固化。Hivemind 额外提供代码库图谱和跨 Agent 规则系统。
 
 ## 已知使用者
 

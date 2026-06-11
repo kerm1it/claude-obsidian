@@ -349,6 +349,7 @@ status: active
 - [[sources/claude-code-dynamic-workflows-2026-06-05|Dynamic Workflows in Claude Code — Thariq Shihipar, Sid Bidasaria（2026-06-02）]]
 - [[sources/headroom-2026-06-05|Headroom — Agent 上下文压缩层 — Tejas Chopra（2026-06-05）]]
 - [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know — Matt Van Horn（2026-06-02）]]
+- [[sources/activeloopai-hivemind-2026-06-12|Hivemind — Agent 共享记忆与技能传播系统（Activeloop，2026）]]
 
 ## 实体
 
@@ -360,6 +361,7 @@ status: active
 - [[entities/ScientificAgentSkills]]、[[entities/KDenseAI]]
 - [[entities/RuView]]、[[entities/CognitumSeed]]、[[entities/RuVector]]
 - [[entities/Autoresearch]]
+- [[entities/Activeloop]]、[[entities/Hivemind]]
 
 ## 人物
 
@@ -447,6 +449,10 @@ status: active
 - [[concepts/上下文工程]]、[[concepts/上下文腐化]]
 - [[concepts/Agent评估体系]]、[[concepts/非确定性评测指标]]、[[concepts/Eval驱动开发]]
 - [[concepts/ReasoningEvalVerifier边界]]
+
+## Agent 基础设施
+
+- [[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]
 
 ## Skills 体系
 

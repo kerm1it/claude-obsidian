@@ -609,6 +609,28 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/activeloopai-hivemind-2026-06-12.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/activeloopai-hivemind-2026-06-12.md",
+        "wiki/entities/Activeloop.md",
+        "wiki/entities/Hivemind.md",
+        "wiki/concepts/Agent共享记忆.md",
+        "wiki/concepts/代码库图谱.md",
+        "wiki/concepts/跨Agent规则系统.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Skillify.md",
+        "wiki/entities/GBrain.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -788,6 +810,12 @@
     "wiki/sources/headroom-2026-06-05.md": "c-000595",
     "wiki/entities/Headroom.md": "c-000596",
     "wiki/people/TejasChopra.md": "c-000597",
-    "wiki/concepts/上下文压缩.md": "c-000598"
+    "wiki/concepts/上下文压缩.md": "c-000598",
+    "wiki/sources/activeloopai-hivemind-2026-06-12.md": "c-000599",
+    "wiki/entities/Activeloop.md": "c-000600",
+    "wiki/entities/Hivemind.md": "c-000601",
+    "wiki/concepts/Agent共享记忆.md": "c-000602",
+    "wiki/concepts/代码库图谱.md": "c-000603",
+    "wiki/concepts/跨Agent规则系统.md": "c-000604"
   }
 }

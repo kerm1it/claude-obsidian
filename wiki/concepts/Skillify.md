@@ -50,8 +50,21 @@ GBrain 共有 **34 个专用 Skill**，覆盖：
 
 在 [[domains/AI知识体系]] 中，Skillify 是第 8 层 self-improvement 反哺第 4 层的典型路径：反复失败或一回成功经验先进入 memory / trace，再被整理成可测试、可路由、可版本化的 skill。
 
+## Hivemind 的自动 Skillify
+
+[[entities/Hivemind]]（Activeloop，2026）实现了全自动版本的 Skillify：
+
+- 每 20 turns 自动从 agent traces 挖掘重复模式
+- 无需人工 10 项合规清单审查
+- 挖掘结果直接注入团队所有 Agent（`skillify pull`）
+- 属于 Capture→Codify→Propagate 循环的 Codify 阶段
+
+GBrain Skillify 偏向"人工审查固化"，Hivemind Skillify 偏向"全自动传播"。两者是同一模式在不同信任级别上的实现。
+
 ## 关联
 
 - [[entities/GBrain]] — Skillify 的实现系统
+- [[entities/Hivemind]] — 全自动 Skillify 实现
 - [[concepts/CompiledTruth时间线模式]] — Skill 摄入结果存储的结构
 - [[concepts/Skill与ToolMemory边界]] — skill / tool / memory / workflow 稳定边界
+- [[concepts/Agent共享记忆]] — Hivemind 共享记忆概念

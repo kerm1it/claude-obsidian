@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-06-10
+updated: 2026-06-12
 tags:
   - meta
   - hot-cache
@@ -66,7 +66,12 @@ related:
   - "[[concepts/ProductionContractCompatibilityTest边界]]"
   - "[[concepts/JudgeDriftGraderObservability边界]]"
   - "[[concepts/IntolerableRiskThresholdStopRule边界]]"
-  - "[[Review: AI知识体系稳定 v1 结构验收]]"
+  - "[[concepts/Agent共享记忆]]"
+  - "[[concepts/代码库图谱]]"
+  - "[[concepts/跨Agent规则系统]]"
+  - "[[entities/Activeloop]]"
+  - "[[entities/Hivemind]]"
+  - "[[sources/activeloopai-hivemind-2026-06-12]]"
   - "[[learning/AI体系学习路线]]"
   - "[[learning/AI学习计划-2026]]"
   - "[[canvases/ai-knowledge-system.canvas]]"
@@ -77,6 +82,8 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-06-12。摄入 [[sources/activeloopai-hivemind-2026-06-12|Hivemind]]（Activeloop，~1K ⭐）：Agent 共享记忆与技能传播系统。核心循环 Capture→Codify→Propagate→Compound。全自动 Skillify（每 20 turns trace→skill 挖掘），代码库图谱，跨 Agent 规则系统。与 GBrain（个人知识库）、AgentMemory（4 层记忆）、ClaudeMem（轻薄单机）差异化：Hivemind 是团队级共享记忆 + 自动能力传播。新增概念：[[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]。
 
 2026-06-10。保存 [[learning/2026-06-10 AI知识体系学习记录]]：今日学习重点是澄清 eval 基线、上下文工程、RAG 与 Memory 的边界。核心判断：eval 基线是上下文工程的起点；上下文工程负责把模型完成任务所需的高信号信息组织进推理现场；RAG 提供外部知识；Memory 维护用户、agent 或组织在时间中的主体连续性。
 
@@ -331,4 +338,4 @@ related:
 
 ## DragonScale
 
-地址计数器：588（本轮分配 c-000587）。
+地址计数器：605（本轮分配 c-000599 至 c-000604）。
