@@ -610,6 +610,25 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/pm-skills-2026-06-12.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/pm-skills-2026-06-12.md",
+        "wiki/entities/PMSkills.md",
+        "wiki/entities/PMBrain.md",
+        "wiki/concepts/技能市场.md",
+        "wiki/concepts/PM意图文档化.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/notebooklm/claude-fable-5-2026-06-12.md": {
       "hash": "notebooklm-youtube-Y9Wz2PV404E",
       "ingested_at": "2026-06-12",
@@ -841,6 +860,11 @@
     "wiki/entities/ClaudeFable5.md": "c-000606",
     "wiki/entities/ClaudeMythos.md": "c-000607",
     "wiki/concepts/安全重定向.md": "c-000608",
-    "wiki/concepts/负责任发布.md": "c-000609"
+    "wiki/concepts/负责任发布.md": "c-000609",
+    "wiki/sources/pm-skills-2026-06-12.md": "c-000610",
+    "wiki/entities/PMSkills.md": "c-000611",
+    "wiki/entities/PMBrain.md": "c-000612",
+    "wiki/concepts/技能市场.md": "c-000613",
+    "wiki/concepts/PM意图文档化.md": "c-000614"
   }
 }

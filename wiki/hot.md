@@ -88,6 +88,8 @@ related:
 
 ## 最近更新
 
+2026-06-12。摄入 [[sources/pm-skills-2026-06-12|PM Skills Marketplace]]（phuryn，16K ⭐）：面向 PM 的 Agent Skills 市场——68 skills / 42 commands / 9 plugins。三层架构 Skills→Commands→Plugins，按领域选装（marketplace 模式）vs 全量安装（repository 模式）。配套 [[entities/PMBrain]]（纯 Markdown 第二大脑）。新增概念：[[concepts/技能市场]]、[[concepts/PM意图文档化]]。
+
 2026-06-12。摄入 [[sources/claude-fable-5-2026-06-12|Claude Fable 5 发布]]：Anthropic 发布 Mythos 级模型 Fable 5——"有史以来向公众发布的最强模型"。前身 Mythos preview 因能发现数千网络安全漏洞而未公开发布。Fable 5 引入安全重定向：高风险请求（网络/生物）自动路由到 Opus 4.8。新增概念：[[concepts/安全重定向]]、[[concepts/负责任发布]]；实体：[[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]。
 
 2026-06-12。摄入 [[sources/activeloopai-hivemind-2026-06-12|Hivemind]]（Activeloop，~1K ⭐）：Agent 共享记忆与技能传播系统。核心循环 Capture→Codify→Propagate→Compound。全自动 Skillify（每 20 turns trace→skill 挖掘），代码库图谱，跨 Agent 规则系统。与 GBrain（个人知识库）、AgentMemory（4 层记忆）、ClaudeMem（轻薄单机）差异化：Hivemind 是团队级共享记忆 + 自动能力传播。新增概念：[[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]。
@@ -345,4 +347,4 @@ related:
 
 ## DragonScale
 
-地址计数器：610（本轮分配 c-000605 至 c-000609）。
+地址计数器：615（本轮分配 c-000610 至 c-000614）。

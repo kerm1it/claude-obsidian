@@ -32,6 +32,8 @@ status: active
 - [[entities/Hivemind]] — Agent 共享记忆与技能传播系统，~1K ⭐，TypeScript
 - [[entities/ClaudeFable5]] — Anthropic Mythos 级公开发布模型（2026-06-12）
 - [[entities/ClaudeMythos]] — Anthropic Mythos 级未发布模型（内部安全使用）
+- [[entities/PMSkills]] — PM Agent Skills 市场，68 skills / 42 commands / 9 plugins，16K ⭐
+- [[entities/PMBrain]] — PM 第二大脑，纯 Markdown 知识库
 - [[entities/VibeVoice]] — Microsoft 开源语音 AI 模型族，47K ⭐，TTS + ASR
 - [[entities/ClaudeCowork]] — Anthropic 运营自动化产品，AI 智能体团队，与 Claude + Claude Code 互补
 - [[entities/OpenHuman]] — 开源桌面 AI 超级智能，10K+ ⭐，Rust+Tauri，Memory Tree + 118+ OAuth，GPL-3.0

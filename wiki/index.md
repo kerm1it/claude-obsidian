@@ -351,6 +351,7 @@ status: active
 - [[sources/matt-vanhorn-agentic-hacks-2026-06-05|Every Agentic Engineering Hack I Know — Matt Van Horn（2026-06-02）]]
 - [[sources/activeloopai-hivemind-2026-06-12|Hivemind — Agent 共享记忆与技能传播系统（Activeloop，2026）]]
 - [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5（Anthropic，2026-06-12）]]
+- [[sources/pm-skills-2026-06-12|PM Skills Marketplace — PM Agent Skills 市场（phuryn，2026）]]
 
 ## 实体
 
@@ -364,6 +365,7 @@ status: active
 - [[entities/Autoresearch]]
 - [[entities/Activeloop]]、[[entities/Hivemind]]
 - [[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]
+- [[entities/PMSkills]]、[[entities/PMBrain]]
 
 ## 人物
 
@@ -456,6 +458,7 @@ status: active
 
 - [[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]
 - [[concepts/安全重定向]]、[[concepts/负责任发布]]
+- [[concepts/技能市场]]、[[concepts/PM意图文档化]]
 
 ## Skills 体系
 

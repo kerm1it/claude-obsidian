@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-12 ingest | PM Skills Marketplace
+- Source: `.raw/articles/pm-skills-2026-06-12.md`
+- Summary: [[sources/pm-skills-2026-06-12]]
+- Pages created: [[entities/PMSkills]], [[entities/PMBrain]], [[concepts/技能市场]], [[concepts/PM意图文档化]]
+- Pages updated: [[concepts/AgentSkillsStandard]]
+- Key insight: Skills/Commands/Plugins 三层架构定义了 Agent Skills 的"市场"分发模式——按领域选装 vs 全量安装。16K ⭐ 说明 PM 垂直对结构化 AI 引导有强需求。
+
 ## 2026-06-12 ingest | Introducing Claude Fable 5
 - Source: `.raw/notebooklm/claude-fable-5-2026-06-12.md`
 - Summary: [[sources/claude-fable-5-2026-06-12]]
