@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-06-10
+updated: 2026-06-13
 tags:
   - wiki
   - log
@@ -10,6 +10,12 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-06-13 learning | Anthropic Academy 官方课程加入学习计划
+- Source: [[sources/anthropic-academy-courses-2026-06-13]]
+- Pages created: [[sources/anthropic-academy-courses-2026-06-13]]
+- Pages updated: [[learning/AI学习计划-2026]]，[[sources/_index]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Anthropic Academy 当前可见课程覆盖 Claude 基础、Claude Code、Claude Platform、Claude API、MCP、agent skills、subagents、AI Fluency、Bedrock 和 Vertex AI；它应作为官方 Claude/Agent 工程学习主线，主覆盖第 3、4、5、6、7 层。
 
 ## 2026-06-12 ingest | PM Skills Marketplace
 - Source: `.raw/articles/pm-skills-2026-06-12.md`

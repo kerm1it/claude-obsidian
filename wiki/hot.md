@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-06-12
+updated: 2026-06-13
 tags:
   - meta
   - hot-cache
@@ -82,11 +82,14 @@ related:
   - "[[canvases/ai-knowledge-system.canvas]]"
   - "[[learning/2026-06-09 AI知识体系学习记录]]"
   - "[[learning/2026-06-10 AI知识体系学习记录]]"
+  - "[[sources/anthropic-academy-courses-2026-06-13]]"
 ---
 
 # 最近上下文
 
 ## 最近更新
+
+2026-06-13。新增 [[sources/anthropic-academy-courses-2026-06-13]]，并把 Anthropic Academy 官方课程加入 [[learning/AI学习计划-2026]]。当前目录覆盖 Claude 101、Claude Code、Claude Platform、Claude API、MCP、agent skills、subagents、AI Fluency、Bedrock 和 Vertex AI，主覆盖第 3、4、5、6、7 层。
 
 2026-06-12。摄入 [[sources/pm-skills-2026-06-12|PM Skills Marketplace]]（phuryn，16K ⭐）：面向 PM 的 Agent Skills 市场——68 skills / 42 commands / 9 plugins。三层架构 Skills→Commands→Plugins，按领域选装（marketplace 模式）vs 全量安装（repository 模式）。配套 [[entities/PMBrain]]（纯 Markdown 第二大脑）。新增概念：[[concepts/技能市场]]、[[concepts/PM意图文档化]]。
 

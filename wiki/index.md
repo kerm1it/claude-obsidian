@@ -2,7 +2,7 @@
 type: index
 title: "知识库索引"
 created: 2026-05-05
-updated: 2026-06-10
+updated: 2026-06-13
 tags:
   - wiki
   - index
@@ -58,6 +58,7 @@ status: active
 
 ## 素材
 
+- [[sources/anthropic-academy-courses-2026-06-13|Anthropic Academy Courses]] · Anthropic · 2026-06-13 扫描（官方 Claude / Claude Code / MCP / skills / subagents 课程目录）
 - [[sources/stanford-ai-index-2026|The 2026 AI Index Report]]
 - [[sources/attention-is-all-you-need-2017|Attention Is All You Need]]
 - [[sources/scaling-laws-neural-language-models-2020|Scaling Laws for Neural Language Models]]

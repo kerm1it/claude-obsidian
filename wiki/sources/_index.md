@@ -2,7 +2,7 @@
 type: index
 title: "素材索引"
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-06-13
 tags:
   - wiki
   - sources
@@ -10,6 +10,10 @@ status: active
 ---
 
 # 素材
+
+## 官方课程 / 学习资源
+
+- [[sources/anthropic-academy-courses-2026-06-13|Anthropic Academy Courses]] · Anthropic · 2026-06-13 扫描（Claude、Claude Code、API、MCP、skills、subagents、AI Fluency）
 
 ## GitHub 仓库
 
