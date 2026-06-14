@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-06-13
+updated: 2026-06-14
 tags:
   - meta
   - hot-cache
@@ -82,12 +82,15 @@ related:
   - "[[canvases/ai-knowledge-system.canvas]]"
   - "[[learning/2026-06-09 AI知识体系学习记录]]"
   - "[[learning/2026-06-10 AI知识体系学习记录]]"
+  - "[[learning/2026-06-14 AI知识体系学习记录]]"
   - "[[sources/anthropic-academy-courses-2026-06-13]]"
 ---
 
 # 最近上下文
 
 ## 最近更新
+
+2026-06-14。保存 [[learning/2026-06-14 AI知识体系学习记录]]：今日学习重点是 scratchpad、agent trace、Codex / Claude Code hooks、session transcript 和 grader。核心判断：scratchpad 是当前任务临时工作台；trace 是 harness 在运行时边界生成的结构化证据；Codex / Claude Code 中 session transcript 适合复盘，hooks 适合 eval 级 trace；grader 是把输出或 trace 变成分数、标签和失败原因的评分逻辑。
 
 2026-06-13。新增 [[sources/anthropic-academy-courses-2026-06-13]]，并把 Anthropic Academy 官方课程加入 [[learning/AI学习计划-2026]]。当前目录覆盖 Claude 101、Claude Code、Claude Platform、Claude API、MCP、agent skills、subagents、AI Fluency、Bedrock 和 Vertex AI，主覆盖第 3、4、5、6、7 层。
 
@@ -114,7 +117,8 @@ related:
 - 总地图已建立：[[domains/AI知识体系]]，核心链路为基础理论 → 模型构建 → 推理能力 → 上下文与知识 → Agent 系统 → 评估与可靠性 → 产品与组织 → 自我改进。
 - Stable v1 已通过：[[Review: AI知识体系稳定 v1 结构验收]] 判定顶层仍固定为 8 层，当前“待归类 / 边界概念”为空，后续无需默认继续研究轮。
 - 学习页分工：[[learning/AI体系学习路线]] 是体系路线，回答“按什么顺序学、概念属于哪一层”；[[learning/AI学习计划-2026]] 是执行计划，回答“今天/本周看什么资源、做什么练习、如何记录进度”。
-- 最新学习记录：[[learning/2026-06-10 AI知识体系学习记录]]。关键理解：eval 基线先于上下文工程系统优化；上下文工程包含任务目标、系统规则、输入整理、外部知识、示例模板、工具上下文、记忆历史和上下文管理策略；RAG 检索外部知识，Memory 维护主体连续性。
+- 最新学习记录：[[learning/2026-06-14 AI知识体系学习记录]]。关键理解：scratchpad 是当前任务临时工作台；trace 是 harness 在运行时边界生成的结构化证据；Codex / Claude Code 中 session transcript 适合复盘，hooks 适合 eval 级 trace；grader 是把输出或 trace 变成分数、标签和失败原因的评分逻辑。
+- 上一条学习记录：[[learning/2026-06-10 AI知识体系学习记录]]。关键理解：eval 基线先于上下文工程系统优化；上下文工程包含任务目标、系统规则、输入整理、外部知识、示例模板、工具上下文、记忆历史和上下文管理策略；RAG 检索外部知识，Memory 维护主体连续性。
 - 第一轮研究页：[[Research: 微调 vs RAG vs 上下文工程]]；概念页：[[concepts/微调RAG上下文工程选择框架]]。
 - 核心结论：三者不是互斥选项；稳定顺序是 **eval 基线 → 上下文工程 → RAG 补外部知识 → 微调/PEFT 稳行为 → 蒸馏降成本**。
 - 归属：RAG 和上下文工程主归属第 4 层；微调/PEFT 主归属第 2 层；三者都必须由第 6 层 eval 约束，并最终服务第 7 层产品部署。

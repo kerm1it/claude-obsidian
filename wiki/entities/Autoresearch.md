@@ -4,6 +4,7 @@ address: c-000127
 title: "Autoresearch"
 entity_type: open-source-repo
 created: 2026-05-20
+updated: 2026-06-12
 tags:
   - github
   - ml-training

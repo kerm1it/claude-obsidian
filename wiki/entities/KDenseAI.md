@@ -7,6 +7,7 @@ title: "K-Dense AI"
 aka: ["K-Dense", "K-Dense Inc.", "KDenseAI"]
 url: https://k-dense.ai
 created: 2026-05-17
+updated: 2026-06-12
 tags:
   - organization
   - ai-scientist

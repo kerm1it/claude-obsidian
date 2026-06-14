@@ -6,6 +6,7 @@ title: "Scientific Agent Skills — GitHub README（2026-05-17）"
 source_url: https://github.com/K-Dense-AI/scientific-agent-skills
 fetched: 2026-05-17
 created: 2026-05-17
+updated: 2026-06-12
 tags:
   - agent-skills
   - science

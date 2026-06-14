@@ -5,6 +5,7 @@ type: concept
 title: "TokenJuice"
 aliases: ["Token Juice", "智能Token压缩", "token compression"]
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - token-compression
   - llm

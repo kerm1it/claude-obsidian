@@ -8,6 +8,7 @@ author: "OpenAI Cookbook"
 published: 2023-09-04
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - rag

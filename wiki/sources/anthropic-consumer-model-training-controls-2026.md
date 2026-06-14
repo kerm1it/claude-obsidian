@@ -7,6 +7,7 @@ source_type: documentation
 author: "Anthropic Privacy Center"
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: high
 tags:
   - ai

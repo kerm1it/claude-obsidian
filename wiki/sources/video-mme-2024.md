@@ -8,6 +8,7 @@ author: "Chaoyou Fu et al."
 published: 2024-05-31
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - video

@@ -4,6 +4,7 @@ type: concept
 title: "AI 原生创业生命周期"
 aliases: ["AI-native startup lifecycle", "四阶段创业框架"]
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - startup
   - framework

@@ -8,6 +8,7 @@ author: "W3C Provenance Working Group"
 date_published: 2013-04-30
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: high
 tags:
   - provenance

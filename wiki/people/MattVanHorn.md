@@ -5,6 +5,7 @@ handle: mvanhorn
 role: 连续创业者，Agentic Engineering 实践者
 address: c-000593
 created: 2026-06-05
+updated: 2026-06-12
 tags:
   - agentic-engineering
   - claude-code

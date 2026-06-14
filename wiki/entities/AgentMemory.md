@@ -5,6 +5,8 @@ title: "AgentMemory"
 entity_type: open-source-tool
 url: https://github.com/rohitg00/agentmemory
 created: 2026-05-14
+updated: 2026-06-12
+status: active
 tags:
   - agent-memory
   - mcp

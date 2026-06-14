@@ -7,6 +7,7 @@ source_type: github-repo
 author: "[[people/AndrejKarpathy]]"
 fetched: 2026-05-20
 created: 2026-05-20
+updated: 2026-06-12
 tags:
   - ai-research
   - autonomous-agents

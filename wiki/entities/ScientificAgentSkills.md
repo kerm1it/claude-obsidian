@@ -8,6 +8,7 @@ aka: ["Claude Scientific Skills", "scientific-agent-skills"]
 parent: "[[entities/KDenseAI]]"
 url: https://github.com/K-Dense-AI/scientific-agent-skills
 created: 2026-05-17
+updated: 2026-06-12
 tags:
   - agent-skills
   - science

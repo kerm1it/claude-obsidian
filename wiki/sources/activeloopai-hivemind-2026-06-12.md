@@ -4,6 +4,7 @@ address: c-000599
 title: "Hivemind — Agent 共享记忆与技能传播系统"
 source_url: https://github.com/activeloopai/hivemind
 created: 2026-06-12
+updated: 2026-06-12
 source_date: 2026-06-11
 tags:
   - agent-memory

@@ -8,6 +8,7 @@ author: "Buysse, Habli, Vanoost, Pissoort"
 date_published: 2025
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: high
 tags:
   - dynamic-safety-case

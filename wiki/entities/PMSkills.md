@@ -3,6 +3,7 @@ type: entity
 address: c-000611
 title: "PM Skills Marketplace"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - agent-skills
   - product-management

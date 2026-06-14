@@ -7,6 +7,7 @@ source_type: paper
 author: "Jenny Zhang, Shengran Hu, Cong Lu, Robert Lange, Jeff Clune"
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - self-improvement

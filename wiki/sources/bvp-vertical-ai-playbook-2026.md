@@ -8,6 +8,7 @@ author: "Bessemer Venture Partners"
 published: "2026-01"
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - vertical-ai

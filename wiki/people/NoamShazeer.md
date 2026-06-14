@@ -5,6 +5,7 @@ role: Google DeepMind，Gemini 联合负责人
 org: "[[entities/GoogleDeepMind|Google DeepMind]]"
 address: c-000160
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - deepmind

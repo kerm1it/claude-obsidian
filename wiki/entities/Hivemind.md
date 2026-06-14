@@ -3,6 +3,7 @@ type: entity
 address: c-000601
 title: "Hivemind"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - agent-memory
   - skill

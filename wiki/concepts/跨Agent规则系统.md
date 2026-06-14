@@ -3,6 +3,7 @@ type: concept
 address: c-000604
 title: "跨 Agent 规则系统"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - agent-governance
   - team

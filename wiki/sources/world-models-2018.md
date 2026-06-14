@@ -8,6 +8,7 @@ author: "David Ha, Jürgen Schmidhuber"
 published: 2018-05-09
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - world-model

@@ -8,6 +8,7 @@ aka: ["OpenHuman"]
 parent: "[[entities/TinyHumansAI]]"
 url: https://github.com/tinyhumansai/openhuman
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - ai-agent
   - open-source

@@ -3,6 +3,7 @@ type: entity
 address: c-000612
 title: "PM Brain"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - product-management
   - knowledge-base

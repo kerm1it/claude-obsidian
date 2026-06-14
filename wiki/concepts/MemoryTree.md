@@ -5,6 +5,7 @@ type: concept
 title: "Memory Tree"
 aliases: ["MemoryTree", "记忆树", "层级摘要树"]
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - memory
   - knowledge-graph

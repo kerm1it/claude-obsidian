@@ -3,6 +3,7 @@ type: entity
 address: c-000607
 title: "Claude Mythos"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - model
   - anthropic

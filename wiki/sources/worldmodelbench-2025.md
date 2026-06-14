@@ -8,6 +8,7 @@ author: "Dacheng Li et al."
 published: 2025-02-28
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - world-models

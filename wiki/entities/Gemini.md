@@ -5,6 +5,7 @@ kind: ai-model-family
 org: "[[entities/GoogleDeepMind|Google DeepMind]]"
 address: c-000163
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - deepmind

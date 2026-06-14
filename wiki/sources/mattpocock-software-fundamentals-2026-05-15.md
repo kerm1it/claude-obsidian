@@ -8,6 +8,7 @@ speaker: "[[people/MattPocock]]"
 channel: AI Engineer
 duration: 18:26
 ingested_at: 2026-05-15
+status: active
 tags:
   - software-engineering
   - ai-coding

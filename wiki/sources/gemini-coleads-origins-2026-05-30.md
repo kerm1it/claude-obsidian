@@ -15,6 +15,7 @@ speakers:
   - Oriol Vinyals
 address: c-000157
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - gemini

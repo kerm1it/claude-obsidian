@@ -8,6 +8,7 @@ author: "OpenAI"
 published: 2024-09-12
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - reasoning

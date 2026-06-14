@@ -6,6 +6,8 @@ source: https://github.com/mattpocock/skills
 author: "[[people/MattPocock]]"
 stars: 82759
 created: 2026-05-15
+updated: 2026-06-12
+status: active
 tags:
   - skills
   - engineering

@@ -5,6 +5,8 @@ title: "VibeVoice"
 entity_type: open-source-model
 url: https://github.com/microsoft/VibeVoice
 created: 2026-05-14
+updated: 2026-06-12
+status: active
 tags:
   - voice-ai
   - tts

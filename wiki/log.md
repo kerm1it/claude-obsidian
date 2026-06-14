@@ -2,7 +2,7 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-06-13
+updated: 2026-06-14
 tags:
   - wiki
   - log
@@ -10,6 +10,13 @@ status: active
 ---
 
 # 知识库日志
+
+## 2026-06-14 save | AI知识体系学习记录
+- Type: learning-note
+- Location: [[learning/2026-06-14 AI知识体系学习记录]]
+- From: 今日围绕 scratchpad、agent trace、Codex/Claude Code hooks、session transcript 和 grader 的提问和澄清
+- Pages updated: [[learning/_index]]，[[learning/AI学习计划-2026]]，[[index]]，[[hot]]，[[log]]
+- Key insight: Scratchpad 是当前任务临时工作台；trace 是 harness 在运行时边界生成的结构化证据；Codex / Claude Code 中 session transcript 适合复盘，hooks 适合 eval 级 trace；grader 是把输出或 trace 变成分数、标签和失败原因的评分逻辑。
 
 ## 2026-06-13 learning | Anthropic Academy 官方课程加入学习计划
 - Source: [[sources/anthropic-academy-courses-2026-06-13]]

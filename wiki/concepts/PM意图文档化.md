@@ -3,6 +3,7 @@ type: concept
 address: c-000614
 title: "PM 意图文档化"
 created: 2026-06-12
+updated: 2026-06-12
 tags:
   - ai-shipping
   - documentation

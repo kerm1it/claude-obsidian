@@ -7,6 +7,7 @@ source_type: documentation
 author: "Amazon Web Services"
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: high
 tags:
   - incident-response

@@ -4,6 +4,8 @@ address: c-000092
 title: "claude-obsidian — 知识管理技能集"
 source: https://github.com/AgriciDaniel/claude-obsidian
 created: 2026-05-15
+updated: 2026-06-12
+status: active
 tags:
   - skills
   - knowledge-management

@@ -5,6 +5,7 @@ role: Google DeepMind，开发者关系
 org: "[[entities/GoogleDeepMind|Google DeepMind]]"
 address: c-000162
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - deepmind

@@ -9,6 +9,7 @@ stars: 82759
 language: Shell
 license: MIT
 ingested_at: 2026-05-15
+status: active
 tags:
   - claude-code
   - skills

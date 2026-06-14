@@ -8,6 +8,7 @@ author: "Charlie Snell, Jaehoon Lee, Kelvin Xu, Aviral Kumar"
 published: 2024-08-06
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - ai
   - test-time-compute

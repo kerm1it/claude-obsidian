@@ -4,6 +4,7 @@ name: Dynamic Workflows
 domain: claude-code
 address: c-000590
 created: 2026-06-05
+updated: 2026-06-12
 tags:
   - claude-code
   - workflows

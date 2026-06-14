@@ -5,6 +5,7 @@ role: Google DeepMind CTO
 org: "[[entities/GoogleDeepMind|Google DeepMind]]"
 address: c-000159
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - deepmind

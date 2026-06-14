@@ -8,6 +8,7 @@ author: "Herd, Kelly, Heinemann, Zacchi"
 date_published: 2026-05-21
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: medium
 tags:
   - assurance-case

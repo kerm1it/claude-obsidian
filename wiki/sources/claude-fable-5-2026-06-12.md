@@ -4,6 +4,7 @@ address: c-000605
 title: "Introducing Claude Fable 5"
 source_url: https://youtu.be/Y9Wz2PV404E
 created: 2026-06-12
+updated: 2026-06-12
 source_date: 2026-06-12
 tags:
   - anthropic

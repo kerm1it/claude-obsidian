@@ -3,6 +3,7 @@ type: person
 address: c-000128
 title: "Andrej Karpathy"
 created: 2026-05-20
+updated: 2026-06-12
 tags:
   - ml-researcher
   - openai

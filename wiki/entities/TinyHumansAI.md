@@ -7,6 +7,7 @@ title: "TinyHumans AI"
 aka: ["TinyHumans AI", "tinyhumansai"]
 url: https://tinyhumans.ai
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - organization
   - ai-startup

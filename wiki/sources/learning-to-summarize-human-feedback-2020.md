@@ -8,6 +8,7 @@ author: "Nisan Stiennon et al."
 date_published: 2020-09-02
 fetched: 2026-05-30
 created: 2026-05-30
+updated: 2026-06-12
 confidence: high
 tags:
   - human-feedback

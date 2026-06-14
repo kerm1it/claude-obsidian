@@ -5,6 +5,7 @@ role: Google 首席科学家
 org: "[[entities/GoogleDeepMind|Google DeepMind]]"
 address: c-000158
 created: 2026-05-30
+updated: 2026-06-12
 tags:
   - google
   - deepmind

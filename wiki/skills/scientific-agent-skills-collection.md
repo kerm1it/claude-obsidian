@@ -7,6 +7,8 @@ source: https://github.com/K-Dense-AI/scientific-agent-skills
 author: "[[entities/KDenseAI]]"
 stars: 23247
 created: 2026-05-17
+updated: 2026-06-12
+status: active
 tags:
   - skills
   - science

@@ -3,6 +3,8 @@ type: concept
 address: c-000089
 title: "Grilling 模式（任务前对齐审讯）"
 created: 2026-05-15
+updated: 2026-06-12
+status: active
 tags:
   - agent-workflow
   - alignment

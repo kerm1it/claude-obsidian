@@ -3,6 +3,8 @@ type: person
 address: c-000087
 title: "Matt Pocock"
 created: 2026-05-15
+updated: 2026-06-12
+status: active
 tags:
   - typescript
   - educator

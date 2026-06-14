@@ -5,6 +5,7 @@ role: Anthropic Technical Staff，Claude Code 团队成员
 org: "[[entities/Anthropic]]"
 address: c-000589
 created: 2026-06-05
+updated: 2026-06-12
 tags:
   - anthropic
   - claude-code

@@ -7,6 +7,7 @@ title: "Senamakel"
 aka: ["@senamakel"]
 url: https://x.com/senamakel
 created: 2026-05-16
+updated: 2026-06-12
 tags:
   - founder
   - open-source
