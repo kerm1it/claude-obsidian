@@ -354,6 +354,7 @@ status: active
 - [[sources/activeloopai-hivemind-2026-06-12|Hivemind — Agent 共享记忆与技能传播系统（Activeloop，2026）]]
 - [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5（Anthropic，2026-06-12）]]
 - [[sources/pm-skills-2026-06-12|PM Skills Marketplace — PM Agent Skills 市场（phuryn，2026）]]
+- [[sources/ponytail-2026-06-12|Ponytail — Agent 行为工具包（Dietrich Gebert，2026）]]
 
 ## 实体
 
@@ -368,10 +369,11 @@ status: active
 - [[entities/Activeloop]]、[[entities/Hivemind]]
 - [[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]
 - [[entities/PMSkills]]、[[entities/PMBrain]]
+- [[entities/Ponytail]]
 
 ## 人物
 
-- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]、[[people/AndrejKarpathy]]、[[people/AlexAlbert]]、[[people/PeterYang]]、[[people/Diana]]
+- [[people/Thariq]]、[[people/Zara]]、[[people/Sparks]]、[[people/Brandon]]、[[people/Siqi]]、[[people/Haoran]]、[[people/DarioAmodei]]、[[people/DanielaAmodei]]、[[people/AmiVora]]、[[people/GarryTan]]、[[people/FionaFung]]、[[people/Mahesh]]、[[people/RyanLopopolo]]、[[people/MattBleifer]]、[[people/Lucas]]、[[people/BorisCherny]]、[[people/AndrewWilkinson]]、[[people/MattPocock]]、[[people/Senamakel]]、[[people/ruvnet]]、[[people/AndrejKarpathy]]、[[people/AlexAlbert]]、[[people/PeterYang]]、[[people/Diana]]、[[people/DietrichGebert]]
 
 ## 概念
 
@@ -461,6 +463,7 @@ status: active
 - [[concepts/Agent共享记忆]]、[[concepts/代码库图谱]]、[[concepts/跨Agent规则系统]]
 - [[concepts/安全重定向]]、[[concepts/负责任发布]]
 - [[concepts/技能市场]]、[[concepts/PM意图文档化]]
+- [[concepts/决策阶梯]]、[[concepts/代码最小化]]
 
 ## Skills 体系
 

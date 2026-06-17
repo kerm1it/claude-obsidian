@@ -610,6 +610,26 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/ponytail-2026-06-12.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ponytail-2026-06-12.md",
+        "wiki/entities/Ponytail.md",
+        "wiki/people/DietrichGebert.md",
+        "wiki/concepts/决策阶梯.md",
+        "wiki/concepts/代码最小化.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/pm-skills-2026-06-12.md": {
       "hash": "url-source",
       "ingested_at": "2026-06-12",
@@ -865,6 +885,11 @@
     "wiki/entities/PMSkills.md": "c-000611",
     "wiki/entities/PMBrain.md": "c-000612",
     "wiki/concepts/技能市场.md": "c-000613",
-    "wiki/concepts/PM意图文档化.md": "c-000614"
+    "wiki/concepts/PM意图文档化.md": "c-000614",
+    "wiki/sources/ponytail-2026-06-12.md": "c-000615",
+    "wiki/entities/Ponytail.md": "c-000616",
+    "wiki/people/DietrichGebert.md": "c-000617",
+    "wiki/concepts/决策阶梯.md": "c-000618",
+    "wiki/concepts/代码最小化.md": "c-000619"
   }
 }

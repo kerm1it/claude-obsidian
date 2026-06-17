@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-12 ingest | Ponytail — Agent 行为工具包
+- Source: `.raw/articles/ponytail-2026-06-12.md`
+- Summary: [[sources/ponytail-2026-06-12]]
+- Pages created: [[entities/Ponytail]], [[people/DietrichGebert]], [[concepts/决策阶梯]], [[concepts/代码最小化]]
+- Pages updated: none (new contributions)
+- Key insight: 代码最小化是 Agent 行为模式，不是代码分析工具。决策阶梯将"有经验开发者不写不必要代码"的隐性直觉编码为显式 prompt behavior constraint。
+
 ## 2026-06-14 save | AI知识体系学习记录
 - Type: learning-note
 - Location: [[learning/2026-06-14 AI知识体系学习记录]]

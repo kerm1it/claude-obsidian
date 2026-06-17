@@ -35,6 +35,8 @@ status: active
 - [[concepts/负责任发布|负责任发布]] — 评估危险能力→内部修复→发布安全版 的模型发布范式
 - [[concepts/技能市场|技能市场]] — Skills/Commands/Plugins 三层架构，按领域选装的 Agent Skills 分发模式
 - [[concepts/PM意图文档化|PM 意图文档化]] — AI 生成代码的意图记录与 intended-vs-implemented 审计
+- [[concepts/决策阶梯|决策阶梯]] — 6 级 Agent prompt behavior constraint：YAGNI→stdlib→native→dep→one-liner→minimal
+- [[concepts/代码最小化|代码最小化]] — Agent 行为模式：系统性地优先已有方案而非生成新代码
 - [[concepts/DataRightsPrivacyConsent边界|Data Rights / Privacy / Consent 边界]] — 第 7 层数据用途闸门：决定数据能否进入 service、memory、eval、training 或 vendor sharing，并约束保留、删除、导出和审计
 - [[concepts/DataDeletionUnlearningImpact边界|Data Deletion / Unlearning Impact 边界]] — 第 7 层数据生命周期执行闭环：把删除/撤回/保留到期/事故请求落实到 logs、RAG、memory、eval、training、model weights、provider 和 audit
 - [[concepts/ToolRiskPermissioning边界|Tool Risk / Permissioning 边界]] — 第 5 层动作准入：给 tool call 加风险层、scope、sandbox、approval、audit 和 rollback 边界

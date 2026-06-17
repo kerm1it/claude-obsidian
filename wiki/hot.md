@@ -94,6 +94,8 @@ related:
 
 2026-06-13。新增 [[sources/anthropic-academy-courses-2026-06-13]]，并把 Anthropic Academy 官方课程加入 [[learning/AI学习计划-2026]]。当前目录覆盖 Claude 101、Claude Code、Claude Platform、Claude API、MCP、agent skills、subagents、AI Fluency、Bedrock 和 Vertex AI，主覆盖第 3、4、5、6、7 层。
 
+2026-06-12。摄入 [[sources/ponytail-2026-06-12|Ponytail]]（Dietrich Gebert，26.2K ⭐）：Agent 行为工具包——让 AI 编码助手像"最懒的资深开发者"一样思考。核心机制是决策阶梯（6 级）：YAGNI→stdlib→native→dep→one-liner→minimal。不削减验证/错误/安全/可访问性。新增概念：[[concepts/决策阶梯]]、[[concepts/代码最小化]]；人物：[[people/DietrichGebert]]。
+
 2026-06-12。摄入 [[sources/pm-skills-2026-06-12|PM Skills Marketplace]]（phuryn，16K ⭐）：面向 PM 的 Agent Skills 市场——68 skills / 42 commands / 9 plugins。三层架构 Skills→Commands→Plugins，按领域选装（marketplace 模式）vs 全量安装（repository 模式）。配套 [[entities/PMBrain]]（纯 Markdown 第二大脑）。新增概念：[[concepts/技能市场]]、[[concepts/PM意图文档化]]。
 
 2026-06-12。摄入 [[sources/claude-fable-5-2026-06-12|Claude Fable 5 发布]]：Anthropic 发布 Mythos 级模型 Fable 5——"有史以来向公众发布的最强模型"。前身 Mythos preview 因能发现数千网络安全漏洞而未公开发布。Fable 5 引入安全重定向：高风险请求（网络/生物）自动路由到 Opus 4.8。新增概念：[[concepts/安全重定向]]、[[concepts/负责任发布]]；实体：[[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]。
@@ -354,4 +356,4 @@ related:
 
 ## DragonScale
 
-地址计数器：615（本轮分配 c-000610 至 c-000614）。
+地址计数器：620（本轮分配 c-000615 至 c-000619）。
