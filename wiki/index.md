@@ -52,6 +52,7 @@ status: active
 - [[domains/AI知识体系|AI 知识体系]]：稳定 8 层总地图
 - [[learning/AI体系学习路线|AI 体系学习路线]]：按链路学习和实践
 - [[learning/AI学习计划-2026|AI 学习计划 2026]]：具体资源、任务和进度
+- [[learning/Agent个人项目-2026-06-17|Agent 个人项目]]：金融持仓分析 Agent、个人 Agent Plugin
 - [[learning/2026-06-14 AI知识体系学习记录|2026-06-14 AI 知识体系学习记录]]：scratchpad、agent trace、Codex/Claude Code hooks、session transcript、grader
 - [[learning/2026-06-10 AI知识体系学习记录|2026-06-10 AI 知识体系学习记录]]：eval 基线、上下文工程 8 部分、RAG 与 Memory 边界、Memory 维护主体连续性
 - [[learning/2026-06-09 AI知识体系学习记录|2026-06-09 AI 知识体系学习记录]]：multi-agent/subagent、第 3/4 层关系、1-8 层生成链和 canvas 可视化理解

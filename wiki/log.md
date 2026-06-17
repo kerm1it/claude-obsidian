@@ -18,6 +18,12 @@ status: active
 - Pages updated: none (new contributions)
 - Key insight: 代码最小化是 Agent 行为模式，不是代码分析工具。决策阶梯将"有经验开发者不写不必要代码"的隐性直觉编码为显式 prompt behavior constraint。
 
+## 2026-06-17 todo | Agent 个人项目
+- Type: project-todo
+- Location: [[learning/Agent个人项目-2026-06-17]]
+- Projects: 1) 金融持仓分析 Agent；2) 个人 Agent plugin（Skill 集合）
+- Pages created: [[learning/Agent个人项目-2026-06-17]]
+
 ## 2026-06-14 save | AI知识体系学习记录
 - Type: learning-note
 - Location: [[learning/2026-06-14 AI知识体系学习记录]]

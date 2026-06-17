@@ -83,12 +83,15 @@ related:
   - "[[learning/2026-06-09 AI知识体系学习记录]]"
   - "[[learning/2026-06-10 AI知识体系学习记录]]"
   - "[[learning/2026-06-14 AI知识体系学习记录]]"
-  - "[[sources/anthropic-academy-courses-2026-06-13]]"
+  - "[[learning/Agent个人项目-2026-06-17]]"
+
 ---
 
 # 最近上下文
 
 ## 最近更新
+
+2026-06-17。记录两个 Agent 个人项目 TODO：1）创建金融持仓分析 Agent；2）创建个人 Agent plugin（Skill 集合）。详见 [[learning/Agent个人项目-2026-06-17]]。
 
 2026-06-14。保存 [[learning/2026-06-14 AI知识体系学习记录]]：今日学习重点是 scratchpad、agent trace、Codex / Claude Code hooks、session transcript 和 grader。核心判断：scratchpad 是当前任务临时工作台；trace 是 harness 在运行时边界生成的结构化证据；Codex / Claude Code 中 session transcript 适合复盘，hooks 适合 eval 级 trace；grader 是把输出或 trace 变成分数、标签和失败原因的评分逻辑。
 
