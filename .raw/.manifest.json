@@ -610,6 +610,25 @@
         "wiki/log.md"
       ]
     },
+    ".raw/articles/codebase-memory-mcp-2026-06-19.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-19",
+      "pages_created": [
+        "wiki/sources/codebase-memory-mcp-2026-06-19.md",
+        "wiki/entities/CodebaseMemoryMCP.md",
+        "wiki/entities/DeusData.md",
+        "wiki/concepts/MCP代码智能.md",
+        "wiki/concepts/混合LSP.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     ".raw/articles/ponytail-2026-06-12.md": {
       "hash": "url-source",
       "ingested_at": "2026-06-12",
@@ -890,6 +909,11 @@
     "wiki/entities/Ponytail.md": "c-000616",
     "wiki/people/DietrichGebert.md": "c-000617",
     "wiki/concepts/决策阶梯.md": "c-000618",
-    "wiki/concepts/代码最小化.md": "c-000619"
+    "wiki/concepts/代码最小化.md": "c-000619",
+    "wiki/sources/codebase-memory-mcp-2026-06-19.md": "c-000620",
+    "wiki/entities/CodebaseMemoryMCP.md": "c-000621",
+    "wiki/entities/DeusData.md": "c-000622",
+    "wiki/concepts/MCP代码智能.md": "c-000623",
+    "wiki/concepts/混合LSP.md": "c-000624"
   }
 }

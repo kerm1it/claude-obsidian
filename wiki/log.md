@@ -11,6 +11,13 @@ status: active
 
 # 知识库日志
 
+## 2026-06-19 ingest | codebase-memory-mcp
+- Source: `.raw/articles/codebase-memory-mcp-2026-06-19.md`
+- Summary: [[sources/codebase-memory-mcp-2026-06-19]]
+- Pages created: [[entities/CodebaseMemoryMCP]], [[entities/DeusData]], [[concepts/MCP代码智能]], [[concepts/混合LSP]]
+- Pages updated: [[concepts/代码库图谱]]
+- Key insight: MCP 封装结构化代码图谱替代逐文件搜索——不嵌入 LLM，Agent 通过图查询获取结构化代码知识。与 Hivemind trace 图谱互补：静态 AST 图谱回答"结构是什么"，trace 图谱回答"Agent 实际怎么用"。
+
 ## 2026-06-12 ingest | Ponytail — Agent 行为工具包
 - Source: `.raw/articles/ponytail-2026-06-12.md`
 - Summary: [[sources/ponytail-2026-06-12]]

@@ -2,7 +2,7 @@
 type: meta
 title: "热缓存"
 created: 2026-05-05
-updated: 2026-06-14
+updated: 2026-06-19
 tags:
   - meta
   - hot-cache
@@ -90,6 +90,8 @@ related:
 # 最近上下文
 
 ## 最近更新
+
+2026-06-19。摄入 [[sources/codebase-memory-mcp-2026-06-19|codebase-memory-mcp]]（DeusData，7.2K ⭐）：C 编写的单二进制 MCP 代码智能服务器。158 种语言 tree-sitter + 10 种语言 Hybrid LSP 语义分析，将代码库索引为持久知识图谱，~99% token 节省。与 [[concepts/代码库图谱|Hivemind trace 图谱]] 互补：静态 AST 图谱 vs 运行时 trace 图谱。新增概念：[[concepts/MCP代码智能]]、[[concepts/混合LSP]]。
 
 2026-06-17。记录两个 Agent 个人项目 TODO：1）创建金融持仓分析 Agent；2）创建个人 Agent plugin（Skill 集合）。详见 [[learning/Agent个人项目-2026-06-17]]。
 
@@ -359,4 +361,4 @@ related:
 
 ## DragonScale
 
-地址计数器：620（本轮分配 c-000615 至 c-000619）。
+地址计数器：625（本轮分配 c-000620 至 c-000624）。

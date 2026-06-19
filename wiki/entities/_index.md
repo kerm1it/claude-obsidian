@@ -35,6 +35,8 @@ status: active
 - [[entities/PMSkills]] — PM Agent Skills 市场，68 skills / 42 commands / 9 plugins，16K ⭐
 - [[entities/PMBrain]] — PM 第二大脑，纯 Markdown 知识库
 - [[entities/Ponytail]] — Agent 行为工具包，决策阶梯机制，26.2K ⭐
+- [[entities/CodebaseMemoryMCP]] — 高性能代码智能 MCP 服务器，7.2K ⭐
+- [[entities/DeusData]] — 开发者工具公司，codebase-memory-mcp 作者
 - [[entities/VibeVoice]] — Microsoft 开源语音 AI 模型族，47K ⭐，TTS + ASR
 - [[entities/ClaudeCowork]] — Anthropic 运营自动化产品，AI 智能体团队，与 Claude + Claude Code 互补
 - [[entities/OpenHuman]] — 开源桌面 AI 超级智能，10K+ ⭐，Rust+Tauri，Memory Tree + 118+ OAuth，GPL-3.0

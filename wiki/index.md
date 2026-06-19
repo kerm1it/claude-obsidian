@@ -356,6 +356,7 @@ status: active
 - [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5（Anthropic，2026-06-12）]]
 - [[sources/pm-skills-2026-06-12|PM Skills Marketplace — PM Agent Skills 市场（phuryn，2026）]]
 - [[sources/ponytail-2026-06-12|Ponytail — Agent 行为工具包（Dietrich Gebert，2026）]]
+- [[sources/codebase-memory-mcp-2026-06-19|codebase-memory-mcp — 高性能代码智能 MCP 服务器（DeusData，2026）]]
 
 ## 实体
 
@@ -371,6 +372,7 @@ status: active
 - [[entities/ClaudeFable5]]、[[entities/ClaudeMythos]]
 - [[entities/PMSkills]]、[[entities/PMBrain]]
 - [[entities/Ponytail]]
+- [[entities/CodebaseMemoryMCP]]、[[entities/DeusData]]
 
 ## 人物
 
@@ -465,6 +467,7 @@ status: active
 - [[concepts/安全重定向]]、[[concepts/负责任发布]]
 - [[concepts/技能市场]]、[[concepts/PM意图文档化]]
 - [[concepts/决策阶梯]]、[[concepts/代码最小化]]
+- [[concepts/MCP代码智能]]、[[concepts/混合LSP]]
 
 ## Skills 体系
 

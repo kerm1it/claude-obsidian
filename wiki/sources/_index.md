@@ -21,6 +21,7 @@ status: active
 - [[sources/claude-fable-5-2026-06-12|Introducing Claude Fable 5]]
 - [[sources/pm-skills-2026-06-12|PM Skills Marketplace — PM Agent Skills 市场]]
 - [[sources/ponytail-2026-06-12|Ponytail — Agent 行为工具包]]
+- [[sources/codebase-memory-mcp-2026-06-19|codebase-memory-mcp — 高性能代码智能 MCP 服务器]]
 
 - [[sources/autoresearch-2026-05-20|autoresearch — Karpathy 自主 ML 研究循环]] · Andrej Karpathy · 82.2K ⭐ · 2026-05-20
 - [[sources/gbrain-2026-05-11|GBrain — AI Agent 记忆与知识管理系统]] · Garry Tan · 14.6K ⭐ · 2026-05-11
