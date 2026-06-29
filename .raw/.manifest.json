@@ -709,6 +709,25 @@
         "wiki/hot.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/codegraph-2026-06-29.md": {
+      "hash": "url-source",
+      "ingested_at": "2026-06-29",
+      "pages_created": [
+        "wiki/sources/codegraph-2026-06-29.md",
+        "wiki/entities/CodeGraph.md",
+        "wiki/people/ColbyMcHenry.md",
+        "wiki/concepts/预索引代码知识图谱.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/people/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {
@@ -914,6 +933,10 @@
     "wiki/entities/CodebaseMemoryMCP.md": "c-000621",
     "wiki/entities/DeusData.md": "c-000622",
     "wiki/concepts/MCP代码智能.md": "c-000623",
-    "wiki/concepts/混合LSP.md": "c-000624"
+    "wiki/concepts/混合LSP.md": "c-000624",
+    "wiki/sources/codegraph-2026-06-29.md": "c-000625",
+    "wiki/entities/CodeGraph.md": "c-000626",
+    "wiki/people/ColbyMcHenry.md": "c-000627",
+    "wiki/concepts/预索引代码知识图谱.md": "c-000628"
   }
 }

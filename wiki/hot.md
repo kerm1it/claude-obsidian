@@ -91,6 +91,8 @@ related:
 
 ## 最近更新
 
+2026-06-29。摄入 [[sources/codegraph-2026-06-29|CodeGraph]]（Colby McHenry，55.8K ⭐）：预索引代码知识图谱。tree-sitter AST → SQLite 图数据库（节点=符号，边=调用/导入/继承），20+ 语言，8 种 Agent 集成。Benchmark: 58% 更少工具调用、47% 更少 token。与 [[concepts/代码库图谱|Hivemind trace 图谱]] 和 [[concepts/MCP代码智能|codebase-memory-mcp]] 形成三种代码图谱模式对比。新增实体：[[entities/CodeGraph]]；人物：[[people/ColbyMcHenry]]；概念：[[concepts/预索引代码知识图谱]]。
+
 2026-06-19。摄入 [[sources/codebase-memory-mcp-2026-06-19|codebase-memory-mcp]]（DeusData，7.2K ⭐）：C 编写的单二进制 MCP 代码智能服务器。158 种语言 tree-sitter + 10 种语言 Hybrid LSP 语义分析，将代码库索引为持久知识图谱，~99% token 节省。与 [[concepts/代码库图谱|Hivemind trace 图谱]] 互补：静态 AST 图谱 vs 运行时 trace 图谱。新增概念：[[concepts/MCP代码智能]]、[[concepts/混合LSP]]。
 
 2026-06-17。记录两个 Agent 个人项目 TODO：1）创建金融持仓分析 Agent；2）创建个人 Agent plugin（Skill 集合）。详见 [[learning/Agent个人项目-2026-06-17]]。
@@ -361,4 +363,4 @@ related:
 
 ## DragonScale
 
-地址计数器：625（本轮分配 c-000620 至 c-000624）。
+地址计数器：629（本轮分配 c-000625 至 c-000628）。

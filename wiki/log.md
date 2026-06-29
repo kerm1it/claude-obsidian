@@ -2,12 +2,19 @@
 type: log
 title: "知识库日志"
 created: 2026-05-05
-updated: 2026-06-14
+updated: 2026-06-29
 tags:
   - wiki
   - log
 status: active
 ---
+
+## 2026-06-29 ingest | CodeGraph — 预索引代码知识图谱
+- Source: `.raw/articles/codegraph-2026-06-29.md`
+- Summary: [[sources/codegraph-2026-06-29|CodeGraph]]
+- Pages created: [[sources/codegraph-2026-06-29|CodeGraph 素材]], [[entities/CodeGraph]], [[people/ColbyMcHenry]], [[concepts/预索引代码知识图谱]]
+- Pages updated: [[index]], [[hot]], [[log]], [[sources/_index]], [[entities/_index]], [[people/_index]], [[concepts/_index]]
+- Key insight: CodeGraph 补全了三种代码图谱模式的最后一块拼图——预索引静态 AST 图谱（CodeGraph）、Hybrid LSP 代码智能（codebase-memory-mcp）、运行时 trace 图谱（Hivemind）。三者互补而非互斥。
 
 # 知识库日志
 

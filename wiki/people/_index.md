@@ -43,6 +43,7 @@ status: active
 - [[people/MattPocock|Matt Pocock]] — TypeScript 教育者，Total TypeScript；AI 辅助工程四大失败模式提出者
 - [[people/Senamakel|Senamakel（@senamakel）]] — TinyHumans AI 创始人，OpenHuman 创作者
 - [[people/ruvnet|ruvnet（@rUv）]] — 开源开发者，RuView / RuVector / Cognitum Seed 作者
+- [[people/ColbyMcHenry]] — CodeGraph 创建者，预索引代码知识图谱
 - [[people/DietrichGebert]] — Ponytail 作者，Agent 行为工具包（决策阶梯）
 - [[people/AndrejKarpathy|Andrej Karpathy]] — ML 研究员，前 OpenAI/特斯拉，nanoGPT / autoresearch / LLM Wiki 模式作者
 - [[people/AlexAlbert|Alex Albert]] — Anthropic Research PM，前 Head of Developer Relations，第一位 prompt engineer
